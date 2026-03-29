@@ -1,4 +1,5 @@
 import { aboutMike } from '../data/mockData';
+import { editableContent } from '../content/editableContent';
 
 export interface AboutMikeProps {
   readonly className?: string;
@@ -20,7 +21,7 @@ export const AboutMike: React.FC<AboutMikeProps> = ({ className = '' }) => {
               />
             </div>
             <div className="absolute bottom-10 right-10 bg-surface-container-lowest p-6 rounded-xl shadow-xl max-w-[200px]">
-              <div className="text-3xl font-extrabold text-primary mb-1">{aboutMike.salesTotal}</div>
+              <div className="text-3xl font-extrabold text-primary mb-1">{editableContent.aboutMike.salesTotal}</div>
               <div className="text-[10px] font-bold text-tertiary uppercase tracking-widest">EN VENTAS TOTALES</div>
             </div>
           </div>

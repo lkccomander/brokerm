@@ -122,8 +122,7 @@ export const catalogProperties: Property[] = [
 export const aboutMike = {
   image: '/images/image-5.jpg',
   yearsExperience: '20+',
-  clientsTotal: '1500+',
-  salesTotal: '$1B+'
+  clientsTotal: '1500+'
 };
 
 export const testimonials: Testimonial[] = [

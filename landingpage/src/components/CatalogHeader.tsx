@@ -14,7 +14,7 @@ export const CatalogHeader: React.FC<CatalogHeaderProps> = ({
         <div className="flex flex-col md:flex-row justify-between items-end gap-8">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-extrabold tracking-tighter text-on-surface mb-6 font-headline">Catálogo Privado de Propiedades</h1>
-            <p className="text-tertiary font-body text-lg md:text-xl leading-relaxed">Explora nuestra colección curada de propiedades de alto estándar en Escazú, Santa Ana y las zonas más exclusivas de la capital.</p>
+            <p className="text-tertiary font-body text-lg md:text-xl leading-relaxed">Explora nuestra colección de propiedades de alto estándar en las zonas más exclusivas de la capital.</p>
           </div>
           
           <div className="flex gap-4">
