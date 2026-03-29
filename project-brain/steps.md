@@ -1,6 +1,18 @@
 # Deploy a Railway
 
-Para este proyecto, la forma más simple es desplegar solo la app de `landingpage` como un servicio estático en Railway.
+Para este proyecto, la forma actual recomendada es desplegar solo la app de `landingpage` en Railway usando la configuración contenida en esa misma carpeta.
+
+## Estado del deploy al 2026-03-28
+
+- El deploy productivo ya está funcionando en `https://www.brokermikecr.com`.
+- La carpeta correcta del servicio sigue siendo `landingpage`.
+- Actualmente existe configuración de deploy en:
+  - `landingpage/Dockerfile`
+  - `landingpage/Caddyfile`
+  - `landingpage/.dockerignore`
+  - `landingpage/public/.well-known/security.txt`
+
+Esta configuración se añadió para controlar headers HTTP de seguridad y evitar el fallo de `npm ci` que Railway estaba teniendo con el lockfile anterior.
 
 ## Pasos
 
@@ -18,13 +30,13 @@ Para este proyecto, la forma más simple es desplegar solo la app de `landingpag
 Esto es importante porque tu app Vite vive dentro de esa subcarpeta, no en la raíz del repo.
 
 7. Guarda los cambios y lanza el deploy.
-8. Railway debería detectar el proyecto Node/Vite y correr el build automáticamente. Si te pide comandos manuales, usa:
-   - Build command: `npm run build`
-   - Start command: si Railway lo trata como static hosting, no necesitas uno; si te lo exige en un servicio web normal, mejor ajustarlo antes de seguir.
-9. Cuando termine, abre el dominio generado por Railway y prueba:
+8. Si Railway detecta el `Dockerfile` de `landingpage`, deja que construya desde ahí. Esa es la ruta preferida actual.
+9. Si Railway te intenta forzar el flujo automático Node/Vite en vez del Dockerfile, revisa primero la configuración del servicio antes de continuar.
+10. Cuando termine, abre el dominio generado por Railway y prueba:
    - `/`
    - `/catalogo`
    - `/mapa-del-sitio`
+   - `/.well-known/security.txt`
 
 ## Para dominio propio
 
@@ -45,6 +57,12 @@ npm run build
 ```
 
 Si eso falla local, también va a fallar en Railway.
+
+## Incidencia conocida
+
+- Railway falló inicialmente con `npm ci` por un conflicto entre `eslint@^10.1.0` y `eslint-plugin-react-hooks@7.0.1`.
+- Se cambió `eslint` a `^9.39.4` en `landingpage/package.json`.
+- Todavía hace falta regenerar `landingpage/package-lock.json` desde una terminal local compatible y subirlo al repo.
 
 ## Path importante
 

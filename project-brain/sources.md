@@ -29,6 +29,22 @@
 - Fuente central de contenido mock.
 - Sigue una estructura útil para separar datos del UI.
 
+### `landingpage/src/content/editableContent.ts`
+- Archivo de contenido editable introducido para datos que deben poder cambiarse sin tocar componentes.
+- Actualmente contiene `aboutMike.salesTotal`.
+
+### `landingpage/Dockerfile`
+- Configuración actual de deploy para Railway.
+- Construye la app y sirve `dist` con Caddy.
+
+### `landingpage/Caddyfile`
+- Fuente de verdad actual para headers HTTP de seguridad en producción.
+- También controla el fallback SPA y la respuesta de `/health`.
+
+### `landingpage/public/.well-known/security.txt`
+- Archivo destinado a publicar datos de contacto para seguridad.
+- Está implementado en el repo, pero aún debe confirmarse su disponibilidad efectiva en producción.
+
 ## 3. Skills locales y para qué sirven
 
 ### `skills/stitch-design/SKILL.md`
@@ -78,6 +94,8 @@
 
 - Fuente de verdad visual actual: `project-brain/design.md`.
 - Producto activo implementado: `landingpage`.
+- Fuente de verdad operativa para incidencias recientes: `project-brain/error.md`.
+- Guía de deploy vigente: `project-brain/steps.md`.
 - Skills más útiles para seguir construyendo este proyecto: `stitch-design`, `design-md`, `react-components`, `enhance-prompt`.
 - Skills auxiliares, no prioritarios hoy: `stitch-loop`, `shadcn-ui`, `remotion`.
 
@@ -86,3 +104,5 @@
 - Si vamos a diseñar nuevas páginas: usar `enhance-prompt` y luego `stitch-design`.
 - Si vamos a convertir diseños a código: usar `react-components`.
 - Si vamos a mantener consistencia visual: seguir `project-brain/design.md` y actualizarlo cuando cambie la dirección de marca.
+- Si vamos a tocar contenido editable de negocio: revisar `landingpage/src/content/editableContent.ts` antes de cambiar componentes.
+- Si vamos a tocar deploy o headers de seguridad: revisar `landingpage/Dockerfile`, `landingpage/Caddyfile` y `project-brain/error.md`.
