@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary-fixed": "#d5e3fc",
+              "tertiary-fixed-dim": "#b9c7df",
+              "outline": "#707882",
+              "tertiary-container": "#657388",
+              "primary": "#005e97",
+              "on-surface": "#191c1e",
+              "on-primary-fixed-variant": "#004a79",
+              "inverse-primary": "#9acbff",
+              "on-secondary-fixed-variant": "#005232",
+              "surface-dim": "#d8dadc",
+              "on-background": "#191c1e",
+              "on-error": "#ffffff",
+              "inverse-surface": "#2d3133",
+              "primary-container": "#0077be",
+              "on-secondary-fixed": "#002111",
+              "on-primary-container": "#f7f9ff",
+              "surface-tint": "#00629e",
+              "surface-bright": "#f7f9fb",
+              "on-tertiary": "#ffffff",
+              "outline-variant": "#c0c7d2",
+              "surface-container": "#eceef0",
+              "primary-fixed-dim": "#9acbff",
+              "on-surface-variant": "#404751",
+              "surface-container-highest": "#e0e3e5",
+              "on-tertiary-fixed-variant": "#3a485b",
+              "inverse-on-surface": "#eff1f3",
+              "surface-variant": "#e0e3e5",
+              "on-primary": "#ffffff",
+              "error-container": "#ffdad6",
+              "error": "#ba1a1a",
+              "surface": "#f7f9fb",
+              "secondary-container": "#75f8b3",
+              "secondary-fixed-dim": "#59de9b",
+              "primary-fixed": "#cfe5ff",
+              "secondary": "#006d43",
+              "surface-container-high": "#e6e8ea",
+              "on-tertiary-container": "#f7f8ff",
+              "surface-container-low": "#f2f4f6",
+              "secondary-fixed": "#78fbb6",
+              "on-secondary": "#ffffff",
+              "on-error-container": "#93000a",
+              "on-secondary-container": "#007147",
+              "surface-container-lowest": "#ffffff",
+              "background": "#f7f9fb",
+              "on-primary-fixed": "#001d34",
+              "on-tertiary-fixed": "#0d1c2e",
+              "tertiary": "#4c5b6f"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-secondary-container">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 glass-nav">
+<div class="flex items-center justify-between px-8 py-4 max-w-[1440px] mx-auto">
+<div class="text-xl font-bold tracking-tighter text-sky-800 dark:text-sky-200 font-headline">
+                Broker Mike
+            </div>
+<div class="hidden md:flex items-center gap-8 font-headline text-sm font-medium tracking-tight">
+<a class="text-slate-600 hover:text-sky-600 transition-all duration-300" href="#">Listings</a>
+<a class="text-slate-600 hover:text-sky-600 transition-all duration-300" href="#">Markets</a>
+<a class="text-slate-600 hover:text-sky-600 transition-all duration-300" href="#">Insights</a>
+<a class="text-slate-600 hover:text-sky-600 transition-all duration-300" href="#">Invest</a>
+<a class="text-sky-700 border-b-2 border-sky-600 pb-1" href="#">Sitemap</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="flex items-center gap-2 text-xs font-bold font-label text-slate-500">
+<span class="text-primary cursor-pointer">ES</span>
+<span class="text-outline-variant">|</span>
+<span class="hover:text-primary cursor-pointer transition-colors">EN</span>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-5 py-2 rounded-md font-medium text-sm transition-transform scale-95 active:opacity-80">
+                    Get Started
+                </button>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-24 px-8 max-w-[1440px] mx-auto">
+<!-- Header Section -->
+<header class="mb-20">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-container/30 text-secondary text-xs font-bold mb-4 tracking-wider uppercase">
+<span class="material-symbols-outlined text-sm">account_tree</span>
+                Arquitectura de Navegación
+            </div>
+<h1 class="text-5xl md:text-6xl font-extrabold font-headline tracking-tighter text-on-surface mb-6">
+                Mapa del Sitio <span class="text-primary">Estratégico.</span>
+</h1>
+<p class="max-w-2xl text-lg text-on-surface-variant leading-relaxed">
+                Una visualización técnica de la infraestructura digital de Broker Mike Real Estate, diseñada para la máxima eficiencia operativa y experiencia del inversor.
+            </p>
+</header>
+<!-- Bento Grid Sitemap -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Section 1: Home / Landing -->
+<div class="md:col-span-4 bg-surface-container-lowest p-8 rounded-xl flex flex-col justify-between group hover:shadow-[0px_24px_48px_rgba(25,28,30,0.06)] transition-all duration-500">
+<div>
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+</div>
+<h2 class="text-2xl font-bold font-headline mb-6">1. Inicio y Aterrizaje</h2>
+<ul class="space-y-4 text-on-surface-variant">
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span>Página Principal (Hero Experience)</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span>Buscador Inteligente de Propiedades</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span>Propiedades Destacadas</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+<span>Testimonios de Inversores</span>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-6 border-t border-outline-variant/15">
+<span class="text-xs font-bold text-secondary uppercase tracking-widest">Estado: Activo</span>
+</div>
+</div>
+<!-- Section 2: Property Catalog -->
+<div class="md:col-span-8 bg-surface-container-low p-8 rounded-xl flex flex-col md:flex-row gap-8">
+<div class="flex-1">
+<div class="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">domain</span>
+</div>
+<h2 class="text-2xl font-bold font-headline mb-6">2. Catálogo de Propiedades</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-4 bg-surface-container-lowest rounded-lg border border-outline-variant/10">
+<h3 class="font-bold text-sm mb-2">Listados Residenciales</h3>
+<p class="text-xs text-on-surface-variant">Villas de lujo, condominios y propiedades familiares.</p>
+</div>
+<div class="p-4 bg-surface-container-lowest rounded-lg border border-outline-variant/10">
+<h3 class="font-bold text-sm mb-2">Cartera Comercial</h3>
+<p class="text-xs text-on-surface-variant">Oficinas clase A, naves industriales y retail.</p>
+</div>
+<div class="p-4 bg-surface-container-lowest rounded-lg border border-outline-variant/10">
+<h3 class="font-bold text-sm mb-2">Inversiones Off-Market</h3>
+<p class="text-xs text-on-surface-variant">Oportunidades exclusivas para miembros VIP.</p>
+</div>
+<div class="p-4 bg-surface-container-lowest rounded-lg border border-outline-variant/10">
+<h3 class="font-bold text-sm mb-2">Mapa Interactivo</h3>
+<p class="text-xs text-on-surface-variant">Visualización geoespacial de activos.</p>
+</div>
+</div>
+</div>
+<div class="md:w-1/3 bg-surface-container-highest rounded-lg overflow-hidden relative min-h-[200px]">
+<img class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" data-alt="high-end luxury modern villa with swimming pool and sunset sky, architectural photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjG8bXJq224zco00RSXvmQ3E_bAyIJ2WS3M-2NTyntp1NSAuRl5ZaxZJ9jOHBc4WYo_rzfoh83TNTGqnXCK1DjEUeFzkuqtfm-ce7qTT5KXZA1o5_yFaKEAnaqGie-bPepxsUd_ZlGigkEe6Q6bx4DWNR28pkFv8VlZheevtolszktRLdvKA-tko35FCr7DhgamV7aRZ3y5mESh4cI3aPYt1pF0pYIhfxN4o068SAu3Sx19wYTQCKUwjyGyht4C-vRzYX66Ps7bTE"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
+</div>
+</div>
+<!-- Section 3: Market Reports & Bio -->
+<div class="md:col-span-7 bg-surface-container p-8 rounded-xl relative overflow-hidden">
+<div class="relative z-10">
+<div class="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center text-tertiary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">analytics</span>
+</div>
+<h2 class="text-2xl font-bold font-headline mb-6">3. Reportes y Biografía</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div>
+<h3 class="font-bold text-primary mb-3">Informes de Mercado</h3>
+<ul class="space-y-3 text-sm text-on-surface-variant">
+<li>• Análisis trimestral de ROI</li>
+<li>• Tendencias de Urbanismo</li>
+<li>• Insights de Inversión Extranjera</li>
+<li>• Descargables en PDF</li>
+</ul>
+</div>
+<div class="bg-surface-container-lowest/80 backdrop-blur-sm p-6 rounded-lg">
+<div class="flex items-center gap-4 mb-4">
+<img class="w-14 h-14 rounded-full object-cover grayscale" data-alt="professional portrait of an experienced real estate broker with a confident smile, wearing a modern blue suit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaU3_BMFIqeLFQhwWn9NauieoEYk1lK9u5nyP0d0JU2eaBtJ7VxV3G4PBJRMVoGPVze9Q03xSrr2aYBwk4-GujWGuOkepav45SPbW3L9qAIRI-VqrzlTR-FU7XWrilJgZtm_d8grvtQeWqeODOAuq18i-wK1rdQ93SUJROzadcOwzpAiNrrDHuXbXTs39A7ZeLMTFGFISKbwUkgINXX7f1BRY98M7gu0bpjxlRGHfsWivVm829DBGI9-dehoPSj1woQ_i2lmcNbhE"/>
+<div>
+<h4 class="font-bold text-sm">Sobre Mike</h4>
+<p class="text-[10px] text-secondary font-bold uppercase tracking-tighter">Principal Broker</p>
+</div>
+</div>
+<p class="text-xs text-on-surface-variant italic">"Precisión arquitectónica en cada transacción. Mi enfoque es el dato y la confianza."</p>
+</div>
+</div>
+</div>
+<!-- Decorative background chart element -->
+<div class="absolute bottom-[-20px] right-[-20px] opacity-10 pointer-events-none">
+<span class="material-symbols-outlined text-[200px]">monitoring</span>
+</div>
+</div>
+<!-- Section 4: Legal & Contact -->
+<div class="md:col-span-5 bg-surface-container-high p-8 rounded-xl border border-outline-variant/5">
+<div class="w-12 h-12 rounded-lg bg-on-surface/5 flex items-center justify-center text-on-surface mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</div>
+<h2 class="text-2xl font-bold font-headline mb-6">4. Legal y Contacto</h2>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container">contact_support</span>
+<div>
+<h4 class="font-bold text-sm">Canales de Contacto</h4>
+<p class="text-xs text-on-surface-variant">Agendar consultoría, WhatsApp Business, Soporte.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container">gavel</span>
+<div>
+<h4 class="font-bold text-sm">Marco Normativo</h4>
+<p class="text-xs text-on-surface-variant">Privacidad, Términos de Servicio, Accesibilidad.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary-container">location_on</span>
+<div>
+<h4 class="font-bold text-sm">Oficinas Centrales</h4>
+<p class="text-xs text-on-surface-variant">Mapa de ubicaciones físicas y zonas de operación.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Infrastructure Summary -->
+<section class="mt-20 p-10 bg-on-surface rounded-xl text-surface">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="space-y-2">
+<div class="text-secondary-fixed text-3xl font-bold font-headline">128+</div>
+<div class="text-surface-variant text-sm font-medium">Páginas Indexadas</div>
+</div>
+<div class="space-y-2">
+<div class="text-secondary-fixed text-3xl font-bold font-headline">0.8s</div>
+<div class="text-surface-variant text-sm font-medium">Tiempo de Carga Promedio</div>
+</div>
+<div class="space-y-2">
+<div class="text-secondary-fixed text-3xl font-bold font-headline">SSL v3</div>
+<div class="text-surface-variant text-sm font-medium">Seguridad de Datos Bancaria</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-950 border-t border-slate-200/15 dark:border-slate-800/15 py-12 px-8">
+<div class="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="md:col-span-1">
+<div class="text-lg font-bold text-slate-800 dark:text-slate-200 mb-4 font-headline tracking-tighter">
+                    Broker Mike
+                </div>
+<p class="font-inter text-xs text-slate-500 leading-relaxed">
+                    © 2024 Broker Mike Real Estate. Architectural precision in every transaction.
+                </p>
+</div>
+<div>
+<h4 class="text-sky-700 dark:text-sky-400 font-bold text-sm mb-4">Explorar</h4>
+<ul class="space-y-2">
+<li><a class="font-inter text-xs text-slate-500 hover:text-sky-500 transition-all underline decoration-sky-500/30 underline-offset-4" href="#">Listados</a></li>
+<li><a class="font-inter text-xs text-slate-500 hover:text-sky-500 transition-all underline decoration-sky-500/30 underline-offset-4" href="#">Mercados</a></li>
+<li><a class="font-inter text-xs text-slate-500 hover:text-sky-500 transition-all underline decoration-sky-500/30 underline-offset-4" href="#">Inversiones</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-sky-700 dark:text-sky-400 font-bold text-sm mb-4">Legal</h4>
+<ul class="space-y-2">
+<li><a class="font-inter text-xs text-slate-500 hover:text-sky-500 transition-all underline decoration-sky-500/30 underline-offset-4" href="#">Privacy Policy</a></li>
+<li><a class="font-inter text-xs text-slate-500 hover:text-sky-500 transition-all underline decoration-sky-500/30 underline-offset-4" href="#">Terms of Service</a></li>
+<li><a class="font-inter text-xs text-slate-500 hover:text-sky-500 transition-all underline decoration-sky-500/30 underline-offset-4" href="#">Cookie Settings</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-sky-700 dark:text-sky-400 font-bold text-sm mb-4">Soporte</h4>
+<ul class="space-y-2">
+<li><a class="font-inter text-xs text-slate-500 hover:text-sky-500 transition-all underline decoration-sky-500/30 underline-offset-4" href="#">Accessibility</a></li>
+<li><a class="text-sky-600 font-semibold font-inter text-xs" href="#">Sitemap</a></li>
+</ul>
+</div>
+</div>
+</footer>
+</body></html>

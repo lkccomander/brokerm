@@ -1,0 +1,57 @@
+import type { Property } from '../types';
+
+export interface PropertyCardProps {
+  readonly property: Property;
+  readonly className?: string;
+}
+
+export const PropertyCard: React.FC<PropertyCardProps> = ({ 
+  property, 
+  className = '' 
+}) => {
+  const badgeClasses = {
+    primary: 'bg-primary text-white',
+    secondary: 'bg-secondary text-white',
+    tertiary: 'bg-tertiary text-white',
+  } as const;
+
+  return (
+    <div className={`group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 ${className}`}>
+      <div className="relative h-72 overflow-hidden">
+        <img 
+          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+          alt={property.title} 
+          src={property.image}
+        />
+        {property.badge && (
+          <div className="absolute top-4 left-4">
+            <span className={`${badgeClasses[property.badge.variant]} text-[10px] font-bold px-3 py-1 rounded-full tracking-tighter uppercase`}>
+              {property.badge.text}
+            </span>
+          </div>
+        )}
+      </div>
+      <div className="p-8">
+        <h3 className="font-headline text-xl font-bold text-on-surface mb-2">{property.title}</h3>
+        <p className="text-tertiary text-sm mb-6 flex items-center gap-1">
+          <span className="material-symbols-outlined text-base">location_on</span> {property.location}
+        </p>
+        <div className="flex justify-between items-center py-4 border-t border-surface-container">
+          <div className="text-2xl font-extrabold text-primary">
+            ${property.price.toLocaleString()}
+          </div>
+          <div className="flex gap-4 text-tertiary">
+            <div className="flex items-center gap-1 text-xs font-medium">
+              <span className="material-symbols-outlined text-sm">bed</span> {property.beds}
+            </div>
+            <div className="flex items-center gap-1 text-xs font-medium">
+              <span className="material-symbols-outlined text-sm">shower</span> {property.baths}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PropertyCard;

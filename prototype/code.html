@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Broker Mike | Real Estate Intelligence</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary": "#006d43",
+              "on-secondary-container": "#007147",
+              "inverse-on-surface": "#eff1f3",
+              "primary-fixed": "#cfe5ff",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed": "#78fbb6",
+              "on-primary-fixed-variant": "#004a79",
+              "on-secondary-fixed": "#002111",
+              "error": "#ba1a1a",
+              "on-tertiary-fixed-variant": "#3a485b",
+              "on-secondary-fixed-variant": "#005232",
+              "on-primary-fixed": "#001d34",
+              "surface-variant": "#e0e3e5",
+              "on-tertiary-fixed": "#0d1c2e",
+              "error-container": "#ffdad6",
+              "surface-container-high": "#e6e8ea",
+              "on-surface-variant": "#404751",
+              "secondary-container": "#75f8b3",
+              "tertiary": "#4c5b6f",
+              "primary-fixed-dim": "#9acbff",
+              "inverse-surface": "#2d3133",
+              "on-tertiary-container": "#f7f8ff",
+              "inverse-primary": "#9acbff",
+              "on-primary-container": "#f7f9ff",
+              "on-error": "#ffffff",
+              "surface-tint": "#00629e",
+              "outline-variant": "#c0c7d2",
+              "surface": "#f7f9fb",
+              "surface-container": "#eceef0",
+              "on-error-container": "#93000a",
+              "on-background": "#191c1e",
+              "on-secondary": "#ffffff",
+              "tertiary-container": "#657388",
+              "surface-container-highest": "#e0e3e5",
+              "surface-bright": "#f7f9fb",
+              "on-tertiary": "#ffffff",
+              "on-surface": "#191c1e",
+              "tertiary-fixed-dim": "#b9c7df",
+              "primary": "#005e97",
+              "on-primary": "#ffffff",
+              "outline": "#707882",
+              "tertiary-fixed": "#d5e3fc",
+              "surface-container-low": "#f2f4f6",
+              "primary-container": "#0077be",
+              "secondary-fixed-dim": "#59de9b",
+              "surface-dim": "#d8dadc",
+              "background": "#f7f9fb"
+            },
+            fontFamily: {
+              "headline": ["Plus Jakarta Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .glass-effect {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(0, 94, 151, 0.1) 0%, rgba(0, 119, 190, 0.05) 100%);
+        }
+        .cta-gradient {
+            background: linear-gradient(135deg, #005e97 0%, #0077be 100%);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-lg dark:bg-slate-900/70 shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center h-20 px-8 max-w-7xl mx-auto">
+<div class="text-xl font-extrabold tracking-tighter text-slate-900 dark:text-white font-headline">Broker Mike</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium tracking-tight text-sky-700 dark:text-sky-400 border-b-2 border-sky-600 pb-1" href="#">Buscar Propiedades</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium tracking-tight text-slate-600 dark:text-slate-400 hover:text-sky-600 transition-colors" href="#">Informes de Mercado</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium tracking-tight text-slate-600 dark:text-slate-400 hover:text-sky-600 transition-colors" href="#">Sobre Mike</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-sm font-medium text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-800 px-3 py-2 rounded-lg transition-all">EN/ES</button>
+<button class="cta-gradient text-on-primary px-6 py-2.5 rounded-xl font-semibold text-sm scale-95 active:scale-100 transition-transform shadow-lg shadow-primary/20">Contactar</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="ultra-modern luxury villa with glowing infinity pool at purple dusk, sleek concrete lines and large glass walls reflecting the twilight sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUww6Ok0lMDMwIfwp1pwjmeQrbYD_r_luLpYkWyHaTW9XcwfGY8gMH7rf7oX6cMWv6a_MXkNhJz_p66EwNLLyxQAxoyu09lgeGdcpzBTDEDMBP018eNsNhkSh98GHCcMtHdjcMccZK9IjLs44NVO3avHlYUagB9UhyWEdDQzdEZsLDiRKlikJ1HkL4IKjbE_RpSY-2beiBJHt_1lVu68LGYwf9ZhG0b6vhuzr-6wlOvnoPymB2GnELr-1i9uhaSjOuaMAnr006GOQ"/>
+<div class="absolute inset-0 bg-gradient-to-r from-on-background/80 via-on-background/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-2xl">
+<h1 class="font-headline text-5xl md:text-7xl font-extrabold text-white leading-[1.1] tracking-tight mb-8">
+                    Navega Bienes Raíces Urbanos con <span class="text-primary-fixed">Datos y Estilo</span>
+</h1>
+<!-- Search Bar Glassmorphism -->
+<div class="bg-surface-container-lowest/10 glass-effect p-2 rounded-2xl border border-white/20 shadow-2xl">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+<div class="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors cursor-pointer group">
+<label class="block text-[10px] font-bold text-white/60 uppercase tracking-widest mb-1">Tipo de Propiedad</label>
+<div class="flex items-center justify-between">
+<span class="text-white font-medium">Residencial</span>
+<span class="material-symbols-outlined text-white text-sm">expand_more</span>
+</div>
+</div>
+<div class="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors cursor-pointer group">
+<label class="block text-[10px] font-bold text-white/60 uppercase tracking-widest mb-1">Ubicación</label>
+<div class="flex items-center justify-between">
+<span class="text-white font-medium">Escazú</span>
+<span class="material-symbols-outlined text-white text-sm">location_on</span>
+</div>
+</div>
+<div class="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors cursor-pointer group">
+<label class="block text-[10px] font-bold text-white/60 uppercase tracking-widest mb-1">Presupuesto</label>
+<div class="flex items-center justify-between">
+<span class="text-white font-medium">$300k - $800k</span>
+<span class="material-symbols-outlined text-white text-sm">payments</span>
+</div>
+</div>
+<button class="cta-gradient text-on-primary rounded-xl font-bold flex items-center justify-center gap-2 hover:brightness-110 transition-all">
+<span class="material-symbols-outlined">search</span>
+                            Explorar Ahora
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- Market Intelligence Section -->
+<section class="py-24 bg-surface">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="max-w-xl">
+<h2 class="font-headline text-4xl font-extrabold text-on-surface mb-4">Inteligencia de Mercado</h2>
+<p class="text-tertiary text-lg leading-relaxed">Analizamos miles de puntos de datos para ofrecerle una visión clara del panorama inmobiliario metropolitano.</p>
+</div>
+<div class="flex gap-2 text-secondary font-bold text-sm tracking-widest items-center">
+                    ACTUALIZADO: HOY <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Stat Card 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all border border-transparent hover:border-primary/10">
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary mb-6">
+<span class="material-symbols-outlined">trending_up</span>
+</div>
+<div class="text-4xl font-extrabold text-on-surface mb-2">7.4%</div>
+<div class="text-tertiary font-medium mb-4">Promedio ROI Alquiler Urbano</div>
+<div class="flex items-center gap-2 text-secondary text-sm font-bold">
+<span class="material-symbols-outlined text-sm" data-weight="fill">arrow_drop_up</span>
+                        +0.8% este mes
+                    </div>
+</div>
+<!-- Stat Card 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all border border-transparent hover:border-primary/10">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed mb-6">
+<span class="material-symbols-outlined">location_city</span>
+</div>
+<div class="text-4xl font-extrabold text-on-surface mb-2">9.2%</div>
+<div class="text-tertiary font-medium mb-4">Plusvalía Proyectada (Escazú)</div>
+<div class="text-on-surface-variant text-xs font-bold tracking-widest uppercase opacity-60">GAM COSTA RICA</div>
+</div>
+<!-- Stat Card 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all border border-transparent hover:border-primary/10">
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed mb-6">
+<span class="material-symbols-outlined">finance_chip</span>
+</div>
+<div class="text-4xl font-extrabold text-on-surface mb-2">$850M</div>
+<div class="text-tertiary font-medium mb-4">Inversión en Verticales San José</div>
+<div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary w-3/4"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Oportunidades Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<h2 class="font-headline text-4xl font-extrabold text-on-surface mb-4">Oportunidades de Inversión</h2>
+<div class="w-24 h-1 cta-gradient mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<!-- Property Card 1 -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
+<div class="relative h-72 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="architectural marvel contemporary villa in Escazu with geometric white walls, large wooden deck and glowing turquoise pool" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxtZVsUM6FdHorHgL-84XeO2JG75JnOVTNdxBXQbuImGlorD7vDLk-L_IWKQ6tlK3Lmhi9_jzRbeLq3ortifUjtK4wOSnpqL0HOPErTIL98ymozXVrSCE3wPbSqkC5TMM5054S7Kafz5IzR7vnIOWjcnxBpEFIXM3OyA2_8ZHbeHRPT3_wv5Hb8EDjcDsW8JZ11tJgDrV2LYRDuzUO9HOB2HcjwL4x0W_vKrOnwe7xchHjQ78fwIFKerpQUTM3xpZZzfoNmxm8P98"/>
+<div class="absolute top-4 left-4">
+<span class="bg-secondary text-white text-[10px] font-bold px-3 py-1 rounded-full tracking-tighter uppercase">OPORTUNIDAD VIP</span>
+</div>
+</div>
+<div class="p-8">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-2">Contemporary Escazú Villa</h3>
+<p class="text-tertiary text-sm mb-6 flex items-center gap-1">
+<span class="material-symbols-outlined text-base">location_on</span> Jaboncillos, Escazú
+                        </p>
+<div class="flex justify-between items-center py-4 border-t border-surface-container">
+<div class="text-2xl font-extrabold text-primary">$1,250,000</div>
+<div class="flex gap-4 text-tertiary">
+<div class="flex items-center gap-1 text-xs font-medium"><span class="material-symbols-outlined text-sm">bed</span> 4</div>
+<div class="flex items-center gap-1 text-xs font-medium"><span class="material-symbols-outlined text-sm">shower</span> 4.5</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Property Card 2 -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
+<div class="relative h-72 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="modern brutalist concrete house in Santa Ana surrounded by tropical palms with a long minimal lap pool" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB84asHRny3ryr_ah40D3pOfz2BzMnXwIfrdwQlIBM2puVhcuzx2adEfLMqUJupB1cO-Vgg6zh5FdR4ZoJTMCmaUMNjDXnA-SqM7vwiE2iYLbJiTw9KFPo7mT-yNsY0OLRmFkIu0uffZ_Y1Dnixj9p9G8en8_N7mq8nGdVKCeZKIajx-IibuggXxwrS8fy6P-k4HtXga-QUr8nErodLstRYnz9e3Vgn-iaQ3r9v0o7ddriDHeV7CDKSbKlGECkNjksbZEKyLM8D83Q"/>
+<div class="absolute top-4 left-4">
+<span class="bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full tracking-tighter uppercase">RECIÉN LISTADA</span>
+</div>
+</div>
+<div class="p-8">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-2">Santa Ana Modern Sanctuary</h3>
+<p class="text-tertiary text-sm mb-6 flex items-center gap-1">
+<span class="material-symbols-outlined text-base">location_on</span> Lindora, Santa Ana
+                        </p>
+<div class="flex justify-between items-center py-4 border-t border-surface-container">
+<div class="text-2xl font-extrabold text-primary">$895,000</div>
+<div class="flex gap-4 text-tertiary">
+<div class="flex items-center gap-1 text-xs font-medium"><span class="material-symbols-outlined text-sm">bed</span> 3</div>
+<div class="flex items-center gap-1 text-xs font-medium"><span class="material-symbols-outlined text-sm">shower</span> 3.5</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Property Card 3 -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
+<div class="relative h-72 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="sleek metropolitan penthouse view with a private glass-edged pool overlooking the city skyline at sunset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0U2IRwZhUHz7YLkI0oDaXL-5USPWDAzaD5Gh1Y3eynsegs_IS7lBY7Z1oDnjMQmBkasteJS9MHfkOkXxJqU9uIfihjNra05qqPFsqY0ZJDFrGr_ah0bS_5kElFeNvBhMLr_hgnGXh4b9VR7Tx916dr5NMJ832FBCwYZLLvgOyZUHhG1yfG46gTnU5dRpaI0dPgKH5Um1pzUf1K3RK09zNPJBEO2UzsJR1tuhK8xSuAsdoOo_ARRzQrAYDDS1N-5kLHys23oUz1ao"/>
+<div class="absolute top-4 left-4">
+<span class="bg-tertiary text-white text-[10px] font-bold px-3 py-1 rounded-full tracking-tighter uppercase">ALTA PLUSVALÍA</span>
+</div>
+</div>
+<div class="p-8">
+<h3 class="font-headline text-xl font-bold text-on-surface mb-2">Metropolitan Pool Retreat</h3>
+<p class="text-tertiary text-sm mb-6 flex items-center gap-1">
+<span class="material-symbols-outlined text-base">location_on</span> Sabana, San José
+                        </p>
+<div class="flex justify-between items-center py-4 border-t border-surface-container">
+<div class="text-2xl font-extrabold text-primary">$540,000</div>
+<div class="flex gap-4 text-tertiary">
+<div class="flex items-center gap-1 text-xs font-medium"><span class="material-symbols-outlined text-sm">bed</span> 2</div>
+<div class="flex items-center gap-1 text-xs font-medium"><span class="material-symbols-outlined text-sm">shower</span> 2</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-20 text-center">
+<button class="group inline-flex items-center gap-3 text-secondary font-bold text-sm tracking-widest uppercase hover:gap-5 transition-all">
+                    VER TODOS LOS LISTADOS URBANOS
+                    <span class="material-symbols-outlined">arrow_forward</span>
+<div class="h-[2px] w-full bg-secondary scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+</button>
+</div>
+</div>
+</section>
+<!-- About Section (Mike) -->
+<section class="py-32 bg-white overflow-hidden">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex flex-col md:flex-row gap-20 items-center">
+<div class="w-full md:w-1/2 relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-primary-fixed rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
+<div class="absolute -bottom-10 -right-10 w-40 h-40 bg-secondary-fixed rounded-full mix-blend-multiply filter blur-3xl opacity-30"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-2xl">
+<img class="w-full h-[600px] object-cover" data-alt="professional portrait of Mike, a sharp-dressed real estate broker in a navy suit, confident expression with a modern architectural background" src="https://lh3.googleusercontent.com/aida/ADBb0uhxOA_CHQjOLh2a8z074DT-Y0jx13haZzcjKuPwwx2Lr7VvMTFzoVSBj-s75EIEYiFmC-1l9YeHlgvNDVDs5eZxbDEjduxE2K5Fg8YJ0QANnbX6snT3ZoUJ2FJYDyPDqJytJltbxidvi-vHmR7wPO8JqfPzc7PR6CctlXtE6cszP-DT48lJFsGYPhLVqAwJ2MronnILLcrT2nmepw_K36acR0m64IkPw84-PRKmpnoDyT4KI2qI6FWxrz1N4tDInU9MsyQ8Udh5"/>
+</div>
+<div class="absolute bottom-10 right-10 bg-surface-container-lowest p-6 rounded-xl shadow-xl max-w-[200px]">
+<div class="text-3xl font-extrabold text-primary mb-1">$1B+</div>
+<div class="text-[10px] font-bold text-tertiary uppercase tracking-widest">EN VENTAS TOTALES</div>
+</div>
+</div>
+<div class="w-full md:w-1/2">
+<span class="text-secondary font-bold text-xs tracking-[0.3em] uppercase mb-6 block">EL GUÍA ESTRATÉGICO</span>
+<h2 class="font-headline text-5xl font-extrabold text-on-surface leading-tight mb-8">El Guía Estratégico Detrás de su Inversión Urbana</h2>
+<p class="text-tertiary text-lg leading-relaxed mb-6">
+                        Con más de dos décadas en el corazón del mercado inmobiliario premium, Mike no solo vende propiedades; diseña carteras de inversión que perduran. Su enfoque combina la precisión del análisis de datos con una red de contactos inigualable en el Gran Área Metropolitana.
+                    </p>
+<div class="grid grid-cols-2 gap-8 mb-10">
+<div>
+<div class="text-3xl font-extrabold text-on-surface">20+</div>
+<div class="text-xs font-medium text-tertiary">AÑOS DE EXPERIENCIA</div>
+</div>
+<div>
+<div class="text-3xl font-extrabold text-on-surface">1500+</div>
+<div class="text-xs font-medium text-tertiary">CLIENTES SATISFECHOS</div>
+</div>
+</div>
+<button class="cta-gradient text-on-primary px-10 py-4 rounded-xl font-bold shadow-xl shadow-primary/30 hover:-translate-y-1 transition-transform">
+                        Conoce a Mike
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Social Proof Section -->
+<section class="py-24 bg-surface-container">
+<div class="max-w-7xl mx-auto px-8">
+<div class="flex justify-between items-center mb-16">
+<h2 class="font-headline text-3xl font-extrabold text-on-surface">Voces del Éxito</h2>
+<div class="flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-surface-container-lowest p-10 rounded-2xl relative">
+<div class="text-primary opacity-20 absolute top-8 right-10">
+<span class="material-symbols-outlined text-6xl">format_quote</span>
+</div>
+<div class="flex gap-1 text-secondary mb-6">
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+</div>
+<p class="text-on-surface-variant italic mb-8 relative z-10">"La capacidad de Mike para identificar oportunidades antes de que lleguen al mercado público nos permitió asegurar nuestra villa en Escazú a un valor increíble."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-slate-200"></div>
+<div>
+<div class="font-bold text-on-surface">Jose Pablo Zamora Prado</div>
+<div class="text-xs text-tertiary">Inversores Privados</div>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-container-lowest p-10 rounded-2xl relative">
+<div class="text-primary opacity-20 absolute top-8 right-10">
+<span class="material-symbols-outlined text-6xl">format_quote</span>
+</div>
+<div class="flex gap-1 text-secondary mb-6">
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+</div>
+<p class="text-on-surface-variant italic mb-8 relative z-10">"Como desarrollador, valoro la precisión de los datos. Mike entrega informes de mercado que son piezas maestras de inteligencia comercial."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-slate-200"></div>
+<div>
+<div class="font-bold text-on-surface">Andres Salas</div>
+<div class="text-xs text-tertiary">CEO de Rossi Verticals</div>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-container-lowest p-10 rounded-2xl relative">
+<div class="text-primary opacity-20 absolute top-8 right-10">
+<span class="material-symbols-outlined text-6xl">format_quote</span>
+</div>
+<div class="flex gap-1 text-secondary mb-6">
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+<span class="material-symbols-outlined" data-weight="fill">star</span>
+</div>
+<p class="text-on-surface-variant italic mb-8 relative z-10">"Encontró el hogar perfecto para mi familia en tiempo récord. Su paciencia y profesionalismo transformaron una mudanza estresante en una aventura emocionante."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-slate-200"></div>
+<div>
+<div class="font-bold text-on-surface">Ricardo Fonseca</div>
+<div class="text-xs text-tertiary">Empresaria</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="relative py-32 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="dramatic wide angle shot of a vibrant city skyline at night with glowing lights and blurred traffic trails, cinematic night photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtCaVBwvjw0AbYk7rx7gDL4zBVX74x4aB7W2NM0uPhkcJq7rFFLZkO2Yx_7CCIAYOd-TJv1lZoWdQ56MiNuc8WvnNrgiraO9DZ6b3c6mRe3mHQIsNB5tGSO97TFVHeAcQtSnwxmI47QIIWdY91RHaSfPIrKlefkOilyYtQVrftDoaJ5JDL1goe7sLRkdyXBaoXDvb6rB9bMhSr7K6znfVBMYFt56LLfFGOWwOfzGtdFXzuz7vGPn0FmU-ZzhDVxQFYUMhgR97uudA"/>
+<div class="absolute inset-0 bg-primary/80 backdrop-blur-sm"></div>
+</div>
+<div class="relative z-10 max-w-4xl mx-auto px-8 text-center">
+<h2 class="font-headline text-5xl font-extrabold text-white mb-6">Comience su Viaje</h2>
+<p class="text-white/80 text-lg mb-12">Estamos listos para transformar su visión en una inversión tangible. Complete los detalles y un estratega senior se pondrá en contacto en menos de 12 horas.</p>
+<div class="bg-white p-10 rounded-3xl shadow-2xl text-left">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">NOMBRE COMPLETO</label>
+<input class="w-full bg-surface-container-high border-none rounded-xl focus:ring-2 focus:ring-primary p-4" placeholder="Ej: Juan Pérez" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">CORREO ELECTRÓNICO</label>
+<input class="w-full bg-surface-container-high border-none rounded-xl focus:ring-2 focus:ring-primary p-4" placeholder="juan@inversion.com" type="email"/>
+</div>
+</div>
+<div>
+<label class="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">INTERÉS DE INVERSIÓN</label>
+<select class="w-full bg-surface-container-high border-none rounded-xl focus:ring-2 focus:ring-primary p-4">
+<option>Residencial de Lujo</option>
+<option>Comercial / Verticales</option>
+<option>Consultoría de Cartera</option>
+</select>
+</div>
+<button class="w-full cta-gradient text-on-primary font-bold py-5 rounded-xl shadow-lg hover:shadow-primary/40 transition-all text-lg" type="submit">
+                        SOLICITAR CONSULTORÍA PRIVADA
+                    </button>
+</form>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-950 w-full py-12 border-t border-slate-200/20 dark:border-slate-800/20">
+<div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-6">
+<div class="flex flex-col gap-2">
+<div class="text-lg font-bold text-slate-800 dark:text-slate-200 font-headline">Broker Mike</div>
+<div class="font-['Inter'] text-xs text-slate-500 dark:text-slate-400">© 2024 Broker Mike. The Digital Horizon Real Estate.</div>
+</div>
+<div class="flex gap-8">
+<a class="font-['Inter'] text-xs text-slate-500 hover:text-sky-500 transition-opacity" href="#">Aviso Legal</a>
+<a class="font-['Inter'] text-xs text-slate-500 hover:text-sky-500 transition-opacity" href="#">Privacidad</a>
+<a class="font-['Inter'] text-xs text-slate-500 hover:text-sky-500 transition-opacity" href="#">Cookies</a>
+<a class="font-['Inter'] text-xs text-slate-500 hover:text-sky-500 transition-opacity" href="#">Contacto</a>
+</div>
+<div class="flex gap-4">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-slate-500 hover:text-primary transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-sm">share</span>
+</div>
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-slate-500 hover:text-primary transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-sm">mail</span>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
