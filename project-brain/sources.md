@@ -106,3 +106,18 @@
 - Si vamos a mantener consistencia visual: seguir `project-brain/design.md` y actualizarlo cuando cambie la dirección de marca.
 - Si vamos a tocar contenido editable de negocio: revisar `landingpage/src/content/editableContent.ts` antes de cambiar componentes.
 - Si vamos a tocar deploy o headers de seguridad: revisar `landingpage/Dockerfile`, `landingpage/Caddyfile` y `project-brain/error.md`.
+
+## 7. Fuentes en FAcebook
+https://www.facebook.com/loriambienesraices
+
+threads:
+
+https://www.threads.com/@brokermike.cr?xmt=AQF06qj1aBK5-rZoPmi4T0euYa9G1JtNBUIobhs7H-sO8dE&fbclid=IwY2xjawQ3er1leHRuA2FlbQIxMABicmlkETFNUE1ZUE9vaG96Skk0b2xRc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHj6wfQgMwjyPvpuaSDPmSpDyDaE7MmqupU_YEEu-QEwhsvoHyL4em1_Ki2Z4_aem_QNBE2gov5v4gm8t3bfS2Nw
+
+instagram
+https://www.instagram.com/brokermike.cr?fbclid=IwY2xjawQ3evBleHRuA2FlbQIxMABicmlkETFNUE1ZUE9vaG96Skk0b2xRc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlcndXsQz7JdYljhy_3TUwaKNBes6KjRJDOMOri64lUP9iIq74lRdeRu2lRi_aem_MWKWIu6ipCig-8jAvevFoQ
+post apartamento Torres de la Colina:
+https://www.instagram.com/p/DWPMLXwkR4J/
+
+Teléfono ☎️ 71121318 
+mloria25@hotmail.com

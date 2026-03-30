@@ -36,9 +36,21 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
         <p className="text-tertiary text-sm mb-6 flex items-center gap-1">
           <span className="material-symbols-outlined text-base">location_on</span> {property.location}
         </p>
+        {property.details && property.details.length > 0 && (
+          <div className="flex flex-wrap gap-2 mb-6">
+            {property.details.map((detail) => (
+              <span
+                key={detail}
+                className="rounded-full bg-surface-container px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-tertiary"
+              >
+                {detail}
+              </span>
+            ))}
+          </div>
+        )}
         <div className="flex justify-between items-center py-4 border-t border-surface-container">
           <div className="text-2xl font-extrabold text-primary">
-            ${property.price.toLocaleString()}
+            {property.priceLabel ?? `$${property.price.toLocaleString()}`}
           </div>
           <div className="flex gap-4 text-tertiary">
             <div className="flex items-center gap-1 text-xs font-medium">
@@ -49,6 +61,12 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
             </div>
           </div>
         </div>
+        {property.contactPhone && (
+          <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-secondary">
+            <span className="material-symbols-outlined text-base">call</span>
+            {property.contactPhone}
+          </div>
+        )}
       </div>
     </div>
   );

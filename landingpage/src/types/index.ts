@@ -5,9 +5,12 @@ export interface Property {
   title: string;
   location: string;
   price: number;
+  priceLabel?: string;
   beds: number;
   baths: number;
   image: string;
+  details?: string[];
+  contactPhone?: string;
   badge?: {
     text: string;
     variant: 'primary' | 'secondary' | 'tertiary';
