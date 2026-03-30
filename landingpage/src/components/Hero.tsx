@@ -23,18 +23,34 @@ export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
           </h1>
           <div className="bg-surface-container-lowest/10 glass-effect p-2 rounded-2xl border border-white/20 shadow-2xl">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
-              <div className="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors cursor-pointer group">
-                <label className="block text-[10px] font-bold text-white/60 uppercase tracking-widest mb-1">Tipo de propiedad</label>
-                <div className="flex items-center justify-between">
-                  <span className="text-white font-medium">Alquiler, venta y bodegas</span>
-                  <span className="material-symbols-outlined text-white text-sm">expand_more</span>
+              <div className="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors group">
+                <label className="block text-[10px] font-bold text-white/60 uppercase tracking-widest mb-2">Tipo de propiedad</label>
+                <div className="relative">
+                  <select
+                    className="w-full appearance-none bg-transparent text-white font-medium outline-none cursor-pointer pr-8"
+                    defaultValue="alquiler"
+                    aria-label="Tipo de propiedad"
+                  >
+                    <option value="alquiler" className="text-slate-900">Alquiler</option>
+                    <option value="venta" className="text-slate-900">Venta</option>
+                    <option value="bodegas" className="text-slate-900">Bodegas</option>
+                  </select>
+                  <span className="material-symbols-outlined pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 text-white text-sm">expand_more</span>
                 </div>
               </div>
-              <div className="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors cursor-pointer group">
+              <div className="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors group">
                 <label className="block text-[10px] font-bold text-white/60 uppercase tracking-widest mb-1">Ubicación</label>
-                <div className="flex items-center justify-between">
-                  <span className="text-white font-medium">Heredia, Escazú y Desamparados</span>
-                  <span className="material-symbols-outlined text-white text-sm">location_on</span>
+                <div className="relative">
+                  <select
+                    className="w-full appearance-none bg-transparent text-white font-medium outline-none cursor-pointer pr-8"
+                    defaultValue="heredia"
+                    aria-label="Ubicación"
+                  >
+                    <option value="heredia" className="text-slate-900">Heredia</option>
+                    <option value="escazu" className="text-slate-900">Escazú</option>
+                    <option value="desamparados" className="text-slate-900">Desamparados</option>
+                  </select>
+                  <span className="material-symbols-outlined pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 text-white text-sm">expand_more</span>
                 </div>
               </div>
               <div className="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors cursor-pointer group">
