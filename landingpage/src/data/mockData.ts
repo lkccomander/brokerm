@@ -288,6 +288,9 @@ const allProperties: Property[] = [
 
 export const featuredProperties: Property[] = [
   allProperties[0],
+  allProperties[1],
+  allProperties[2],
+  allProperties[3],
 ];
 
 export const catalogProperties: Property[] = allProperties;
