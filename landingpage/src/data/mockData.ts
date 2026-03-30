@@ -19,27 +19,27 @@ export const heroContent = {
 export const marketStats: Stat[] = [
   {
     id: 'stat-1',
-    value: '7.4%',
-    label: 'Promedio ROI Alquiler Urbano',
+    value: '6% - 8%',
+    label: 'ROI promedio en alquiler residencial urbano',
     icon: 'trending_up',
     iconBg: 'bg-primary-fixed',
     iconColor: 'text-primary',
     trend: 'arrow_drop_up',
-    trendValue: '+0.8% este mes'
+    trendValue: 'San José, Escazú y Santa Ana'
   },
   {
     id: 'stat-2',
-    value: '9.2%',
-    label: 'Plusvalía Proyectada (Escazú)',
+    value: '7% - 10%',
+    label: 'Plusvalía anual en zonas premium',
     icon: 'location_city',
     iconBg: 'bg-secondary-fixed',
     iconColor: 'text-on-secondary-fixed',
-    subtitle: 'GAM COSTA RICA'
+    subtitle: 'Escazú y Santa Ana'
   },
   {
     id: 'stat-3',
-    value: '$850M',
-    label: 'Inversión en Verticales San José',
+    value: '$700M - $1B+',
+    label: 'Inversión en desarrollos verticales GAM',
     icon: 'finance_chip',
     iconBg: 'bg-tertiary-fixed',
     iconColor: 'text-on-tertiary-fixed'
