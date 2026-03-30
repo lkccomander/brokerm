@@ -13,7 +13,7 @@ export const Opportunities: React.FC<OpportunitiesProps> = ({ className = '' }) 
           <h2 className="font-headline text-4xl font-extrabold text-on-surface mb-4">Oportunidades de Inversion</h2>
           <div className="w-24 h-1 cta-gradient mx-auto rounded-full"></div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10">
           {featuredProperties.map((property) => (
             <PropertyCard key={property.id} property={property} />
           ))}

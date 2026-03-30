@@ -76,6 +76,28 @@ export const featuredProperties: Property[] = [
     baths: 2,
     image: '/images/image-9.jpg',
     badge: { text: 'ALTA PLUSVALÍA', variant: 'tertiary' }
+  },
+  {
+    id: 'prop-8',
+    title: 'Apartamento Full Amoblado con Vista a la Ciudad',
+    location: 'Torres de la Colina, Escazú',
+    price: 1600,
+    priceLabel: '$1,600 USD / mes',
+    beds: 2,
+    baths: 2,
+    image: '/images/image-9.jpg',
+    details: [
+      'Piso 6',
+      '1 parqueo bajo techo',
+      'Full amoblado',
+      'Seguridad 24/7',
+      'Piscina',
+      'Ascensor',
+    ],
+    contactPhone: '7112 1318',
+    inquiryEnabled: true,
+    inquirySource: 'catalogo',
+    badge: { text: 'SE RENTA', variant: 'primary' }
   }
 ];
 
@@ -117,28 +139,6 @@ export const catalogProperties: Property[] = [
     baths: 4.5,
     image: '/images/image-4.jpg',
   },
-  {
-    id: 'prop-8',
-    title: 'Apartamento Full Amoblado con Vista a la Ciudad',
-    location: 'Torres de la Colina, Escazú',
-    price: 1600,
-    priceLabel: '$1,600 USD / mes',
-    beds: 2,
-    baths: 2,
-    image: '/images/image-9.jpg',
-    details: [
-      'Piso 6',
-      '1 parqueo bajo techo',
-      'Full amoblado',
-      'Seguridad 24/7',
-      'Piscina',
-      'Ascensor',
-    ],
-    contactPhone: '7112 1318',
-    inquiryEnabled: true,
-    inquirySource: 'catalogo',
-    badge: { text: 'SE RENTA', variant: 'primary' }
-  }
 ];
 
 export const aboutMike = {
