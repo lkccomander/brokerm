@@ -1,32 +1,26 @@
 import PropertyCard from './PropertyCard';
-import { catalogProperties } from '../data/mockData';
+import type { Property } from '../types';
 
 export interface CatalogGridProps {
+  readonly properties?: Property[];
   readonly className?: string;
 }
 
-export const CatalogGrid: React.FC<CatalogGridProps> = ({ className = '' }) => {
+export const CatalogGrid: React.FC<CatalogGridProps> = ({ properties = [], className = '' }) => {
   return (
     <section className={`py-12 bg-surface-container-lowest ${className}`}>
       <div className="max-w-7xl mx-auto px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {catalogProperties.map(property => (
+          {properties.map(property => (
             <PropertyCard key={property.id} property={property} />
           ))}
         </div>
-        
-        {/* Pagination */ }
-        <div className="flex justify-center items-center gap-2 mt-16 cursor-default">
-          <button className="w-10 h-10 rounded-full border border-surface-container flex items-center justify-center text-tertiary hover:bg-surface-container transition-colors disabled:opacity-50" disabled>
-            <span className="material-symbols-outlined text-sm">chevron_left</span>
-          </button>
-          <button className="w-10 h-10 rounded-full bg-primary text-on-primary font-bold font-body shadow-sm">1</button>
-          <button className="w-10 h-10 rounded-full border border-surface-container text-tertiary hover:bg-surface-container transition-colors font-medium font-body">2</button>
-          <button className="w-10 h-10 rounded-full border border-surface-container text-tertiary hover:bg-surface-container transition-colors font-medium font-body">3</button>
-          <button className="w-10 h-10 rounded-full border border-surface-container flex items-center justify-center text-tertiary hover:bg-surface-container transition-colors cursor-pointer">
-            <span className="material-symbols-outlined text-sm">chevron_right</span>
-          </button>
-        </div>
+        {properties.length === 0 && (
+          <div className="mt-12 rounded-3xl border border-surface-container bg-surface-container px-8 py-14 text-center">
+            <p className="text-lg font-semibold text-on-surface">No hay propiedades en esta categoría por ahora.</p>
+            <p className="mt-2 text-sm text-tertiary">Cambia el filtro o vuelve a revisar más tarde.</p>
+          </div>
+        )}
       </div>
     </section>
   );

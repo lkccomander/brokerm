@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resultados | Social Thumbnailer</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="panel hero-panel results-hero">
+        <div>
+          <p class="eyebrow">Broker Mike Tools</p>
+          <h1>Resultados</h1>
+          <p class="tool-version">Version 9</p>
+          <p id="results-copy" class="hero-copy">
+            Cargando posts del perfil...
+          </p>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-chip">
+            <span class="meta-label">Perfil</span>
+            <strong id="results-profile">Instagram</strong>
+          </div>
+          <div class="meta-chip">
+            <span class="meta-label">Resultados</span>
+            <strong id="results-count">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel results-panel">
+        <div class="results-toolbar">
+          <a href="/index.html" class="ghost-link">Volver al editor</a>
+          <a id="results-profile-link" href="#" target="_blank" rel="noreferrer" class="ghost-link hidden">
+            Abrir perfil original
+          </a>
+        </div>
+
+        <div id="results-status" class="status-box muted">
+          Resolviendo posts recientes del perfil...
+        </div>
+
+        <section id="results-grid" class="results-grid hidden"></section>
+      </section>
+    </main>
+
+    <script src="/results.js" type="module"></script>
+  </body>
+</html>

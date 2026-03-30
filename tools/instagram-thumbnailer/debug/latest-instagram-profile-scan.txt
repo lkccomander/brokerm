@@ -1,0 +1,19 @@
+Profile URL: https://www.instagram.com/brokermike.cr
+persistent_context=1 headless=0
+step=1 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=0
+step=2 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=1
+step=3 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=2
+step=4 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=3
+step=5 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=4
+step=6 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=5
+step=7 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=6
+step=8 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=7
+step=9 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=8
+step=10 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=9
+step=11 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=10
+step=12 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=11
+step=13 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=12
+step=14 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=13
+final_dom_scan=1 | current_posts=0 | best_posts=0
+rendered_html_detected=login_page
+result_source=cache_on_login_page count=16

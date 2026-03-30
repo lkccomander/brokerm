@@ -4,6 +4,7 @@ export interface Property {
   id: string;
   title: string;
   location: string;
+  category?: 'alquiler' | 'venta' | 'bodegas';
   price: number;
   priceLabel?: string;
   beds: number;

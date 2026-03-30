@@ -3,6 +3,7 @@ from __future__ import annotations
 import html
 import json
 import mimetypes
+import os
 import re
 import time
 from http import HTTPStatus
@@ -18,8 +19,11 @@ APP_DIR = Path(__file__).resolve().parent
 STATIC_DIR = APP_DIR / "static"
 DEBUG_DIR = APP_DIR / "debug"
 GENERATED_DIR = APP_DIR / "generated"
+PROFILE_CACHE_DIR = APP_DIR / "cache"
+BROWSER_PROFILE_DIR = APP_DIR / "browser-profile"
 DEFAULT_HOST = "127.0.0.1"
 DEFAULT_PORT = 8765
+PLAYWRIGHT_HEADLESS = os.environ.get("SOCIAL_THUMBNAILER_HEADED", "").strip() != "1"
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -232,6 +236,33 @@ def save_generated_bytes(data: bytes, suffix: str = ".png") -> Path:
     return generated_file
 
 
+def profile_cache_path(profile_url: str) -> Path:
+    PROFILE_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    username = [part for part in urlparse(profile_url).path.split("/") if part]
+    slug = username[0] if username else "instagram-profile"
+    return PROFILE_CACHE_DIR / f"{slug}-posts.json"
+
+
+def save_profile_posts_cache(profile_url: str, posts: list[dict[str, str]]) -> None:
+    profile_cache_path(profile_url).write_text(
+        json.dumps(posts, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
+def load_profile_posts_cache(profile_url: str) -> list[dict[str, str]]:
+    cache_file = profile_cache_path(profile_url)
+    if not cache_file.is_file():
+        return []
+
+    try:
+        payload = json.loads(cache_file.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+
+    return payload if isinstance(payload, list) else []
+
+
 def extract_instagram_profile_posts_from_html(profile_url: str, html_text: str) -> list[dict[str, str]]:
     matches = re.finditer(
         r'<a [^>]*href="([^"]*(?:/reel/|/p/)[^"]*)"[^>]*>(.*?)</a>',
@@ -277,6 +308,89 @@ def extract_instagram_profile_posts_from_html(profile_url: str, html_text: str) 
         seen.add(href)
 
     return posts
+
+
+def extract_instagram_profile_posts_with_playwright(page, profile_url: str) -> list[dict[str, str]]:
+    raw_posts = page.evaluate(
+        """
+        () => {
+          const anchors = Array.from(document.querySelectorAll('a[href]'));
+          const items = [];
+          const seen = new Set();
+
+          for (const anchor of anchors) {
+            const href = anchor.getAttribute('href') || '';
+            if (!href.includes('/reel/') && !href.includes('/p/')) {
+              continue;
+            }
+
+            const absoluteUrl = new URL(href, window.location.origin).toString();
+            if (seen.has(absoluteUrl)) {
+              continue;
+            }
+
+            const image =
+              anchor.querySelector('img') ||
+              anchor.closest('article')?.querySelector('img') ||
+              anchor.parentElement?.querySelector('img');
+
+            const thumbnailUrl =
+              image?.getAttribute('src') ||
+              image?.getAttribute('data-src') ||
+              image?.currentSrc ||
+              '';
+
+            const label =
+              image?.getAttribute('alt') ||
+              anchor.getAttribute('aria-label') ||
+              anchor.textContent ||
+              absoluteUrl;
+
+            items.push({
+              url: absoluteUrl,
+              thumbnailUrl,
+              label: (label || absoluteUrl).trim(),
+              kind: href.includes('/reel/') ? 'reel' : 'post',
+            });
+            seen.add(absoluteUrl);
+          }
+
+          return items;
+        }
+        """
+    )
+
+    posts: list[dict[str, str]] = []
+    for item in raw_posts:
+        if not isinstance(item, dict):
+            continue
+        absolute_url = item.get("url", "").strip()
+        if not absolute_url:
+            continue
+        thumbnail_url = item.get("thumbnailUrl", "").strip()
+        label = item.get("label", "").strip() or absolute_url
+        kind = item.get("kind", "").strip() or ("reel" if "/reel/" in absolute_url else "post")
+        posts.append(
+            {
+                "url": absolute_url,
+                "thumbnailUrl": thumbnail_url,
+                "label": label,
+                "kind": kind,
+            }
+        )
+
+    return posts
+
+
+def looks_like_instagram_login_page(html_text: str) -> bool:
+    markers = [
+        'name="email"',
+        "Número de celular, nombre de usuario o correo",
+        "Inicia sesión",
+        "Log in",
+        "password",
+    ]
+    return sum(1 for marker in markers if marker in html_text) >= 2
 
 
 def metadata_from_rendered_html(
@@ -328,18 +442,61 @@ def playwright_imports():
     return PlaywrightTimeoutError, sync_playwright
 
 
+def create_stealth_context(playwright, viewport: dict[str, int]):
+    BROWSER_PROFILE_DIR.mkdir(parents=True, exist_ok=True)
+    context = playwright.chromium.launch_persistent_context(
+        user_data_dir=str(BROWSER_PROFILE_DIR),
+        headless=PLAYWRIGHT_HEADLESS,
+        locale="es-CR",
+        timezone_id="America/Costa_Rica",
+        viewport=viewport,
+        user_agent=USER_AGENT,
+        color_scheme="dark",
+        extra_http_headers={
+            "Accept-Language": "es-CR,es;q=0.9,en;q=0.8",
+            "DNT": "1",
+        },
+        args=[
+            "--disable-blink-features=AutomationControlled",
+            "--lang=es-CR",
+            f"--window-size={viewport['width']},{viewport['height']}",
+        ],
+    )
+    context.add_init_script(
+        """
+        Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+        Object.defineProperty(navigator, 'languages', { get: () => ['es-CR', 'es', 'en-US', 'en'] });
+        Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4] });
+        window.chrome = window.chrome || { runtime: {} };
+        const originalQuery = window.navigator.permissions && window.navigator.permissions.query;
+        if (originalQuery) {
+          window.navigator.permissions.query = (parameters) => (
+            parameters && parameters.name === 'notifications'
+              ? Promise.resolve({ state: Notification.permission })
+              : originalQuery(parameters)
+          );
+        }
+        """
+    )
+    return context
+
+
+def prepare_social_page(context, warmup_url: str, target_url: str):
+    page = context.pages[0] if context.pages else context.new_page()
+    page.goto(warmup_url, wait_until="domcontentloaded", timeout=30000)
+    page.wait_for_timeout(2200)
+    page.goto(target_url, wait_until="domcontentloaded", timeout=30000)
+    return page
+
+
 def capture_frame_with_playwright(media_url: str, platform_name: str) -> Path | None:
     PlaywrightTimeoutError, sync_playwright = playwright_imports()
 
     try:
         with sync_playwright() as playwright:
-            browser = playwright.chromium.launch(headless=True)
-            page = browser.new_page(
-                user_agent=USER_AGENT,
-                viewport={"width": 1440, "height": 1200},
-                locale="es-CR",
-            )
-            page.goto(media_url, wait_until="domcontentloaded", timeout=30000)
+            context = create_stealth_context(playwright, {"width": 1440, "height": 1200})
+            warmup_url = "https://www.tiktok.com/" if "tiktok.com" in media_url else "https://www.instagram.com/"
+            page = prepare_social_page(context, warmup_url, media_url)
             page.wait_for_timeout(4500)
 
             selectors = ["video", "[data-e2e='feed-video'] video", "#main-content-video_detail video"]
@@ -357,7 +514,7 @@ def capture_frame_with_playwright(media_url: str, platform_name: str) -> Path | 
                 except Exception:
                     continue
 
-            browser.close()
+            context.close()
 
             if not frame_bytes:
                 return None
@@ -369,27 +526,104 @@ def capture_frame_with_playwright(media_url: str, platform_name: str) -> Path | 
 
 def fetch_instagram_profile_posts(profile_url: str) -> list[dict[str, str]]:
     PlaywrightTimeoutError, sync_playwright = playwright_imports()
+    debug_lines = [f"Profile URL: {profile_url}"]
 
     try:
         with sync_playwright() as playwright:
-            browser = playwright.chromium.launch(headless=True)
-            page = browser.new_page(
-                user_agent=USER_AGENT,
-                viewport={"width": 1440, "height": 1600},
-                locale="es-CR",
-            )
-            page.goto(profile_url, wait_until="domcontentloaded", timeout=30000)
+            context = create_stealth_context(playwright, {"width": 1440, "height": 1600})
+            debug_lines.append(f"persistent_context=1 headless={int(PLAYWRIGHT_HEADLESS)}")
+            page = prepare_social_page(context, "https://www.instagram.com/", profile_url)
             page.wait_for_timeout(4000)
+            last_height = 0
+            stable_rounds = 0
+            best_posts: list[dict[str, str]] = []
+
+            for step in range(14):
+                current_posts = extract_instagram_profile_posts_with_playwright(page, profile_url)
+                if len(current_posts) > len(best_posts):
+                    best_posts = current_posts
+
+                current_height = page.evaluate("() => document.body.scrollHeight")
+                if current_height == last_height:
+                    stable_rounds += 1
+                else:
+                    stable_rounds = 0
+                last_height = current_height
+                debug_lines.append(
+                    " | ".join(
+                        [
+                            f"step={step + 1}",
+                            f"current_posts={len(current_posts)}",
+                            f"best_posts={len(best_posts)}",
+                            f"scroll_height={current_height}",
+                            f"stable_rounds={stable_rounds}",
+                        ]
+                    )
+                )
+
+                page.evaluate("() => window.scrollTo(0, document.body.scrollHeight)")
+                page.wait_for_timeout(1200)
+
+                if stable_rounds >= 3 and len(best_posts) >= 24:
+                    debug_lines.append(
+                        f"break_condition=stable_rounds>=3_and_best_posts>=24 at step {step + 1}"
+                    )
+                    break
+
+            current_posts = extract_instagram_profile_posts_with_playwright(page, profile_url)
+            if len(current_posts) > len(best_posts):
+                best_posts = current_posts
+            debug_lines.append(
+                " | ".join(
+                    [
+                        "final_dom_scan=1",
+                        f"current_posts={len(current_posts)}",
+                        f"best_posts={len(best_posts)}",
+                    ]
+                )
+            )
+
+            page.evaluate("() => window.scrollTo(0, 0)")
+            page.wait_for_timeout(400)
             rendered_html = page.content()
             save_debug_html(rendered_html, "latest-instagram-profile-rendered.html")
-            browser.close()
+            context.close()
     except PlaywrightTimeoutError as error:
         raise ValueError("Playwright no logro cargar el perfil de Instagram a tiempo.") from error
 
-    posts = extract_instagram_profile_posts_from_html(profile_url, rendered_html)[:20]
+    if looks_like_instagram_login_page(rendered_html):
+        cached_posts = load_profile_posts_cache(profile_url)
+        debug_lines.append("rendered_html_detected=login_page")
+        if cached_posts:
+            debug_lines.append(f"result_source=cache_on_login_page count={len(cached_posts)}")
+            save_debug_text("\n".join(debug_lines), "latest-instagram-profile-scan.txt")
+            return cached_posts
+        debug_lines.append("result_source=error_on_login_page count=0")
+        save_debug_text("\n".join(debug_lines), "latest-instagram-profile-scan.txt")
+        raise ValueError(
+            "Instagram mostro una pantalla de inicio de sesion en vez del perfil publico. "
+            "Pruebe de nuevo en unos segundos."
+        )
+
+    html_posts = extract_instagram_profile_posts_from_html(profile_url, rendered_html)
+    debug_lines.append(f"html_fallback_posts={len(html_posts)}")
+    posts = best_posts or html_posts
 
     if not posts:
+        cached_posts = load_profile_posts_cache(profile_url)
+        if cached_posts:
+            debug_lines.append(f"result_source=cache_after_empty_extraction count={len(cached_posts)}")
+            save_debug_text("\n".join(debug_lines), "latest-instagram-profile-scan.txt")
+            return cached_posts
+        debug_lines.append("result_source=error_empty_extraction count=0")
+        save_debug_text("\n".join(debug_lines), "latest-instagram-profile-scan.txt")
         raise ValueError("No se encontraron posts recientes en ese perfil de Instagram.")
+
+    debug_lines.append(
+        f"result_source={'playwright_dom' if best_posts else 'rendered_html'} count={len(posts)}"
+    )
+    save_profile_posts_cache(profile_url, posts)
+    save_debug_text("\n".join(debug_lines), "latest-instagram-profile-scan.txt")
 
     return posts
 
@@ -637,7 +871,7 @@ class ThumbnailHandler(SimpleHTTPRequestHandler):
             self.respond_json({"error": str(error)}, HTTPStatus.BAD_REQUEST)
             return
 
-        self.respond_json({"posts": posts}, HTTPStatus.OK)
+        self.respond_json({"posts": posts, "count": len(posts)}, HTTPStatus.OK)
 
     def handle_generated_asset(self, query_string: str) -> None:
         query = parse_qs(query_string)

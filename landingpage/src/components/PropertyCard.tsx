@@ -65,14 +65,20 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
           <div className="text-2xl font-extrabold text-primary">
             {property.priceLabel ?? `$${property.price.toLocaleString()}`}
           </div>
-          <div className="flex gap-4 text-tertiary">
-            <div className="flex items-center gap-1 text-xs font-medium">
-              <span className="material-symbols-outlined text-sm">bed</span> {property.beds}
+          {(property.beds > 0 || property.baths > 0) && (
+            <div className="flex gap-4 text-tertiary">
+              {property.beds > 0 && (
+                <div className="flex items-center gap-1 text-xs font-medium">
+                  <span className="material-symbols-outlined text-sm">bed</span> {property.beds}
+                </div>
+              )}
+              {property.baths > 0 && (
+                <div className="flex items-center gap-1 text-xs font-medium">
+                  <span className="material-symbols-outlined text-sm">shower</span> {property.baths}
+                </div>
+              )}
             </div>
-            <div className="flex items-center gap-1 text-xs font-medium">
-              <span className="material-symbols-outlined text-sm">shower</span> {property.baths}
-            </div>
-          </div>
+          )}
         </div>
         {(property.contactPhone || property.inquiryEnabled) && (
           <div className="mt-4 flex flex-wrap items-center gap-3">

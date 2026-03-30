@@ -456,6 +456,12 @@ async function fetchInstagramProfilePosts(instagramUrl) {
   return payload.posts || [];
 }
 
+function openProfileResults(instagramUrl) {
+  const targetUrl = new URL("/resultados.html", window.location.origin);
+  targetUrl.searchParams.set("instagram_url", instagramUrl);
+  window.location.href = targetUrl.toString();
+}
+
 async function submitResolveUrl(instagramUrl) {
   setStatus("Resolviendo media del post...", "muted");
   downloadButton.disabled = true;
@@ -507,15 +513,8 @@ async function handleSubmit(event) {
   }
 
   if (isInstagramProfileUrl(instagramUrl)) {
-    setStatus("Cargando posts recientes del perfil...", "muted");
-    try {
-      const posts = await fetchInstagramProfilePosts(instagramUrl);
-      renderProfilePosts(posts);
-      setStatus("Elija un post del perfil para cargarlo en el thumbnailer.", "success");
-    } catch (error) {
-      hideProfileBrowser();
-      setStatus(error.message, "error");
-    }
+    setStatus("Abriendo pagina de resultados del perfil...", "muted");
+    openProfileResults(instagramUrl);
     return;
   }
 
@@ -596,4 +595,31 @@ outputFormatInput.addEventListener("change", () => {
   jpegQualityInput.disabled = outputFormatInput.value !== "image/jpeg";
 });
 
+async function hydrateFromQueryParams() {
+  const params = new URLSearchParams(window.location.search);
+  const postUrl = params.get("post_url");
+  const thumbnailUrl = params.get("thumbnail_url");
+  const label = params.get("label");
+  const kind = params.get("kind");
+
+  if (!postUrl) {
+    return;
+  }
+
+  if (thumbnailUrl) {
+    await loadProfileThumbnail({
+      url: postUrl,
+      thumbnailUrl,
+      label: label || postUrl,
+      kind: kind || "post",
+    });
+    return;
+  }
+
+  await submitResolveUrl(postUrl);
+}
+
 paintCanvas();
+hydrateFromQueryParams().catch((error) => {
+  setStatus(error.message, "error");
+});

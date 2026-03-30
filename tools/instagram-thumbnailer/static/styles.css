@@ -137,11 +137,72 @@ code {
 
 .profile-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.results-panel {
+  padding: 28px;
+  display: grid;
+  gap: 20px;
+}
+
+.results-toolbar {
+  display: flex;
+  justify-content: space-between;
   gap: 12px;
-  max-height: 720px;
-  overflow: auto;
-  padding-right: 4px;
+  flex-wrap: wrap;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.result-card {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: rgba(16, 28, 41, 0.9);
+}
+
+.result-card-link {
+  display: grid;
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+}
+
+.result-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: #0f172a;
+}
+
+.result-card-body {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+}
+
+.result-card-body small {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.result-card-body strong {
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.result-card-body span {
+  color: var(--primary);
+  font-size: 0.82rem;
+  font-weight: 700;
 }
 
 .profile-card {
@@ -392,7 +453,11 @@ canvas {
   }
 
   .profile-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .results-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -413,7 +478,11 @@ canvas {
   }
 
   .profile-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
+  }
+
+  .results-grid {
+    grid-template-columns: 1fr;
   }
 
   .button-row {
