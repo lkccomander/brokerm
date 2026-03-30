@@ -12,10 +12,17 @@ export function useSiteLanguage() {
   const switchLanguagePath = () => {
     if (isEnglish) {
       if (location.pathname === '/en') {
-        return '/';
+        return `/${location.search}${location.hash}`.replace(/\/(?=[?#])/, '/');
       }
 
-      return `${location.pathname.replace(/^\/en/, '') || '/'}${location.search}${location.hash}`;
+      const spanishPath =
+        location.pathname === '/en/catalog'
+          ? '/catalogo'
+          : location.pathname === '/en/site-map'
+            ? '/mapa-del-sitio'
+            : location.pathname.replace(/^\/en/, '') || '/';
+
+      return `${spanishPath}${location.search}${location.hash}`;
     }
 
     if (location.pathname === '/') {
