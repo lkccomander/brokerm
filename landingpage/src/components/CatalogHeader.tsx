@@ -16,11 +16,12 @@ export const CatalogHeader: React.FC<CatalogHeaderProps> = ({
   counts,
   className = '' 
 }) => {
+  const isEnglish = typeof window !== 'undefined' && window.location.pathname.startsWith('/en');
   const filterOptions: Array<{ key: 'todas' | 'alquiler' | 'venta' | 'bodegas'; label: string }> = [
-    { key: 'todas', label: 'Todas' },
-    { key: 'alquiler', label: 'Alquiler' },
-    { key: 'venta', label: 'Venta' },
-    { key: 'bodegas', label: 'Bodegas' },
+    { key: 'todas', label: isEnglish ? 'All' : 'Todas' },
+    { key: 'alquiler', label: isEnglish ? 'Rent' : 'Alquiler' },
+    { key: 'venta', label: isEnglish ? 'Sale' : 'Venta' },
+    { key: 'bodegas', label: isEnglish ? 'Warehouses' : 'Bodegas' },
   ];
 
   return (
@@ -28,8 +29,8 @@ export const CatalogHeader: React.FC<CatalogHeaderProps> = ({
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex flex-col md:flex-row justify-between items-end gap-8">
           <div className="max-w-3xl">
-            <h1 className="text-5xl font-extrabold tracking-tighter text-on-surface mb-6 font-headline">Catálogo Privado de Propiedades</h1>
-            <p className="text-tertiary font-body text-lg md:text-xl leading-relaxed">Explora alquileres, ventas y oportunidades comerciales activas con un formato claro y directo para convertir más rápido.</p>
+            <h1 className="text-5xl font-extrabold tracking-tighter text-on-surface mb-6 font-headline">{isEnglish ? 'Private Property Catalog' : 'Catálogo Privado de Propiedades'}</h1>
+            <p className="text-tertiary font-body text-lg md:text-xl leading-relaxed">{isEnglish ? 'Explore active rentals, sales and commercial opportunities with a cleaner, conversion-ready presentation.' : 'Explora alquileres, ventas y oportunidades comerciales activas con un formato claro y directo para convertir más rápido.'}</p>
           </div>
           
           <div className="flex gap-4">
@@ -38,12 +39,12 @@ export const CatalogHeader: React.FC<CatalogHeaderProps> = ({
               onClick={() => onFilterChange?.(activeFilter)}
             >
               <span className="material-symbols-outlined text-xl">tune</span>
-              {counts ? `Filtros (${counts[activeFilter]})` : 'Filtros'}
+              {counts ? `${isEnglish ? 'Filters' : 'Filtros'} (${counts[activeFilter]})` : isEnglish ? 'Filters' : 'Filtros'}
             </button>
             <button 
               className="px-6 py-3 rounded-xl bg-primary text-on-primary font-bold font-body hover:bg-primary-container transition-colors shadow-md cursor-pointer"
             >
-              Contactar Asesor
+              {isEnglish ? 'Contact Advisor' : 'Contactar Asesor'}
             </button>
           </div>
         </div>

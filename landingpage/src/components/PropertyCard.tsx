@@ -1,5 +1,6 @@
 import type { Property } from '../types';
 import { Link } from 'react-router-dom';
+import { useSiteLanguage } from '../hooks/useSiteLanguage';
 
 export interface PropertyCardProps {
   readonly property: Property;
@@ -10,11 +11,18 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
   property, 
   className = '' 
 }) => {
+  const { isEnglish, localizePath } = useSiteLanguage();
   const badgeClasses = {
     primary: 'bg-primary text-white',
     secondary: 'bg-secondary text-white',
     tertiary: 'bg-tertiary text-white',
   } as const;
+  const badgeTextMap: Record<string, string> = {
+    'SE RENTA': 'FOR RENT',
+    'SE ALQUILA': 'FOR RENT',
+    'SE VENDE': 'FOR SALE',
+    'SE ALQUILAN': 'FOR LEASE',
+  };
 
   return (
     <div className={`group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 ${className}`}>
@@ -39,7 +47,7 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
         {property.badge && (
           <div className="absolute top-14 left-4">
             <span className={`${badgeClasses[property.badge.variant]} text-[10px] font-bold px-3 py-1 rounded-full tracking-tighter uppercase`}>
-              {property.badge.text}
+              {isEnglish ? (badgeTextMap[property.badge.text] ?? property.badge.text) : property.badge.text}
             </span>
           </div>
         )}
@@ -91,10 +99,10 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
             {property.inquiryEnabled && (
               <Link
                 className="inline-flex items-center gap-2 rounded-xl border border-primary/20 bg-primary px-4 py-2 text-xs font-bold uppercase tracking-wide text-on-primary shadow-lg shadow-primary/20 transition-all hover:-translate-y-0.5 hover:brightness-110"
-                to={`/?propiedad=${encodeURIComponent(property.id)}&origen=${encodeURIComponent(property.inquirySource ?? 'catalogo')}#contacto`}
+                to={`${localizePath('/', '/en')}?propiedad=${encodeURIComponent(property.id)}&origen=${encodeURIComponent(property.inquirySource ?? 'catalogo')}#contacto`}
               >
                 <span className="material-symbols-outlined text-sm">arrow_forward</span>
-                Me interesa
+                {isEnglish ? 'I am interested' : 'Me interesa'}
               </Link>
             )}
           </div>

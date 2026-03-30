@@ -1,15 +1,17 @@
 import { testimonials } from '../data/mockData';
+import { useSiteLanguage } from '../hooks/useSiteLanguage';
 
 export interface TestimonialsProps {
   readonly className?: string;
 }
 
 export const Testimonials: React.FC<TestimonialsProps> = ({ className = '' }) => {
+  const { isEnglish } = useSiteLanguage();
   return (
     <section id="testimonios" className={`py-24 bg-surface-container ${className}`}>
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex justify-between items-center mb-16">
-          <h2 className="font-headline text-3xl font-extrabold text-on-surface">Voces del Exito</h2>
+          <h2 className="font-headline text-3xl font-extrabold text-on-surface">{isEnglish ? 'Client Voices' : 'Voces del Exito'}</h2>
           <div className="flex gap-4">
             <button className="w-12 h-12 rounded-full border border-outline/20 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all">
               <span className="material-symbols-outlined">chevron_left</span>

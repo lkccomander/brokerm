@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { catalogProperties, contactImage } from '../data/mockData';
+import { useSiteLanguage } from '../hooks/useSiteLanguage';
 
 export interface ContactFormProps {
   readonly className?: string;
@@ -11,6 +12,7 @@ const PUBLIC_SITE_URL = 'https://www.brokermikecr.com';
 
 export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
   const location = useLocation();
+  const { isEnglish } = useSiteLanguage();
   const sectionRef = useRef<HTMLElement | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
@@ -70,12 +72,12 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
       form.reset();
       setStatus({
         type: 'success',
-        message: 'Gracias. Su solicitud fue enviada y Mike recibira el mensaje por correo.',
+        message: isEnglish ? 'Thank you. Your request was sent and Mike will receive it by email.' : 'Gracias. Su solicitud fue enviada y Mike recibira el mensaje por correo.',
       });
     } catch {
       setStatus({
         type: 'error',
-        message: 'No pudimos enviar su solicitud en este momento. Intente de nuevo en unos minutos.',
+        message: isEnglish ? 'We could not send your request right now. Please try again in a few minutes.' : 'No pudimos enviar su solicitud en este momento. Intente de nuevo en unos minutos.',
       });
     } finally {
       setIsSubmitting(false);
@@ -93,8 +95,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
         <div className="absolute inset-0 bg-primary/80 backdrop-blur-sm"></div>
       </div>
       <div className="relative z-10 max-w-4xl mx-auto px-8 text-center">
-        <h2 className="font-headline text-5xl font-extrabold text-white mb-6">Comience su Viaje</h2>
-        <p className="text-white/80 text-lg mb-12">Estamos listos para transformar su vision en una inversion tangible. Complete los detalles y un estratega senior se pondra en contacto en menos de 12 horas.</p>
+        <h2 className="font-headline text-5xl font-extrabold text-white mb-6">{isEnglish ? 'Start Your Search' : 'Comience su Viaje'}</h2>
+        <p className="text-white/80 text-lg mb-12">{isEnglish ? 'We are ready to turn your vision into a tangible investment. Share your details and a senior advisor will reach out in under 12 hours.' : 'Estamos listos para transformar su vision en una inversion tangible. Complete los detalles y un estratega senior se pondra en contacto en menos de 12 horas.'}</p>
         <div className="bg-white p-10 rounded-3xl shadow-2xl text-left">
           <form className="space-y-6" onSubmit={handleSubmit}>
             <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
@@ -105,25 +107,25 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
             <input type="hidden" name="origen_del_lead" value={inquirySource} />
             {selectedProperty ? (
               <div className="rounded-2xl border border-primary/15 bg-primary/5 px-5 py-4">
-                <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-primary/80">Propiedad Seleccionada</p>
+                <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-primary/80">{isEnglish ? 'Selected Property' : 'Propiedad Seleccionada'}</p>
                 <p className="mt-2 text-base font-semibold text-on-surface">{selectedProperty.title}</p>
                 <p className="mt-1 text-sm text-tertiary">{selectedProperty.location}</p>
-                <p className="mt-1 text-sm text-tertiary">Su consulta llegara internamente asociada a esta propiedad para dar seguimiento mas rapido.</p>
+                <p className="mt-1 text-sm text-tertiary">{isEnglish ? 'Your inquiry will be internally linked to this property for faster follow-up.' : 'Su consulta llegara internamente asociada a esta propiedad para dar seguimiento mas rapido.'}</p>
               </div>
             ) : null}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">NOMBRE COMPLETO</label>
+                <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">{isEnglish ? 'FULL NAME' : 'NOMBRE COMPLETO'}</label>
                 <input
                   className="w-full bg-surface-container-high border-none rounded-xl focus:ring-2 focus:ring-primary p-4"
-                  placeholder="Ej: Juan Perez"
+                  placeholder={isEnglish ? 'Ex: John Smith' : 'Ej: Juan Perez'}
                   type="text"
                   name="nombre"
                   required
                 />
               </div>
               <div>
-                <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">CORREO ELECTRONICO</label>
+                <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">{isEnglish ? 'EMAIL ADDRESS' : 'CORREO ELECTRONICO'}</label>
                 <input
                   className="w-full bg-surface-container-high border-none rounded-xl focus:ring-2 focus:ring-primary p-4"
                   placeholder="juan@inversion.com"
@@ -134,23 +136,23 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
               </div>
             </div>
             <div>
-              <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">INTERES DE INVERSION</label>
+                <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">{isEnglish ? 'INVESTMENT GOAL' : 'INTERES DE INVERSION'}</label>
               <select
                 className="w-full bg-surface-container-high border-none rounded-xl focus:ring-2 focus:ring-primary p-4"
                 name="interes"
                 required
-                defaultValue="Residencial de Lujo"
+                defaultValue={isEnglish ? 'Luxury Residential' : 'Residencial de Lujo'}
               >
-                <option>Residencial de Lujo</option>
-                <option>Comercial / Verticales</option>
-                <option>Consultoria de Cartera</option>
+                <option>{isEnglish ? 'Luxury Residential' : 'Residencial de Lujo'}</option>
+                <option>{isEnglish ? 'Commercial / Vertical' : 'Comercial / Verticales'}</option>
+                <option>{isEnglish ? 'Portfolio Advisory' : 'Consultoria de Cartera'}</option>
               </select>
             </div>
             <div>
-              <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">MENSAJE</label>
+              <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">{isEnglish ? 'MESSAGE' : 'MENSAJE'}</label>
               <textarea
                 className="w-full min-h-36 bg-surface-container-high border-none rounded-xl focus:ring-2 focus:ring-primary p-4 resize-y"
-                placeholder="Comparta ubicacion, presupuesto, tipo de propiedad o cualquier detalle relevante."
+                placeholder={isEnglish ? 'Share location, budget, property type or any relevant detail.' : 'Comparta ubicacion, presupuesto, tipo de propiedad o cualquier detalle relevante.'}
                 name="mensaje"
                 required
               />
@@ -165,7 +167,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
               type="submit"
               disabled={isSubmitting}
             >
-              {isSubmitting ? 'ENVIANDO...' : 'SOLICITAR CONSULTORIA PRIVADA'}
+              {isSubmitting ? (isEnglish ? 'SENDING...' : 'ENVIANDO...') : isEnglish ? 'REQUEST PRIVATE ADVISORY' : 'SOLICITAR CONSULTORIA PRIVADA'}
             </button>
           </form>
         </div>
