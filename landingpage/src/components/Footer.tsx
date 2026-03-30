@@ -14,9 +14,9 @@ export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
           <div className="font-body text-xs text-slate-500">Copyright © 2026 Broker Mike - {isEnglish ? 'All Rights Reserved.' : 'Todos los derechos reservados.'}</div>
         </div>
         <div className="flex gap-8">
-          <a className="font-body text-xs text-slate-500 hover:text-sky-500 transition-opacity" href={localizePath('/mapa-del-sitio', '/en/site-map')}>{isEnglish ? 'Legal' : 'Aviso Legal'}</a>
-          <a className="font-body text-xs text-slate-500 hover:text-sky-500 transition-opacity" href={localizePath('/#contacto', '/en/#contacto')}>{isEnglish ? 'Privacy' : 'Privacidad'}</a>
-          <a className="font-body text-xs text-slate-500 hover:text-sky-500 transition-opacity" href={localizePath('/#contacto', '/en/#contacto')}>Cookies</a>
+          <a className="font-body text-xs text-slate-500 hover:text-sky-500 transition-opacity" href={localizePath('/aviso-legal', '/en/legal-notice')}>{isEnglish ? 'Legal Notice' : 'Aviso Legal'}</a>
+          <a className="font-body text-xs text-slate-500 hover:text-sky-500 transition-opacity" href={localizePath('/privacidad', '/en/privacy')}>{isEnglish ? 'Privacy' : 'Privacidad'}</a>
+          <a className="font-body text-xs text-slate-500 hover:text-sky-500 transition-opacity" href={localizePath('/cookies', '/en/cookies')}>Cookies</a>
           <a className="font-body text-xs text-slate-500 hover:text-sky-500 transition-opacity" href={localizePath('/#contacto', '/en/#contacto')}>{isEnglish ? 'Contact' : 'Contacto'}</a>
         </div>
         <div className="flex gap-4">
