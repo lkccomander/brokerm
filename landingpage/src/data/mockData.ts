@@ -85,7 +85,7 @@ export const featuredProperties: Property[] = [
     priceLabel: '$1,600 USD / mes',
     beds: 2,
     baths: 2,
-    image: '/images/image-9.jpg',
+    image: '/images/prop-8-thumbnail.png',
     details: [
       'Piso 6',
       '1 parqueo bajo techo',

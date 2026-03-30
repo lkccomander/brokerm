@@ -1,0 +1,23 @@
+Source URL: https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/657429945_904029125962389_5604823339628021054_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fsyq8-1.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2gGk9qy0aPpDfxXZxWsGsOCHTgtgK9_tpxJVjhqsNMr96pVF-w6EpfnJ9MYyXw6fzJA&_nc_ohc=ca7keQf3Q_gQ7kNvwEl3P6w&_nc_gid=NsUcbUoanizpv5aAttOk3Q&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Afzt1XvL8ueNWYrTkt40DKyVynBL9eKi9BWmZUgH4L07rg&oe=69D0C30D&_nc_sid=8b3546
+HTTP Status: 200
+Content-Type: image/jpeg
+Content-Length: 21664
+Response Headers:
+Last-Modified: Mon, 23 Mar 2026 18:44:03 GMT
+x-additional-error-detail: 
+Content-Type: image/jpeg
+content-digest: adler32=667522291
+x-crypto-project: 0
+cross-origin-resource-policy: cross-origin
+timing-allow-origin: *
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=1209600, no-transform
+Accept-Ranges: bytes
+X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=14, rtx=0, c=13, mss=1392, tbw=3377, tp=-1, tpl=-1, uplat=0, ullat=-1
+Date: Mon, 30 Mar 2026 20:43:11 GMT
+Alt-Svc: h3=":443"; ma=86400
+No-Vary-Search: key-order, params=("_nc_gid" "oh" "oe" "_nc_oc" "_nc_ohc" "_nc_cat" "_nc_ht" "_nc_cb")
+x-fb-ptm-uuid: 1145C733650BA669347C46D8052ED6BF
+X-Robots-Tag: noarchive, noindex
+Connection: close
+Content-Length: 21664

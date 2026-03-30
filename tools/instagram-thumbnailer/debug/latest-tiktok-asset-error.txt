@@ -1,0 +1,33 @@
+Source URL: https://v16-webapp-prime.tiktok.com/video/tos/alisg/tos-alisg-pve-0037c001/owGuYGxiA41I2gineoQLIfgBQFzefWBDLAGSRR/?a=1988&bti=ODszNWYuMDE6&ch=0&cr=3&dr=0&lr=all&cd=0%7C0%7C0%7C&cv=1&br=1900&bt=950&cs=0&ds=3&eid=20480&ft=I~da4ooyD12NvhwCI.IxRPhSLlBF-UjNSfopiX&mime_type=video_mp4&qs=0&rc=OTY6NmlkOGgzNmQ7OWRpPEBpamc1Ong5cnh0OjMzODczNEBiXi0zYGIuNjIxLzJeNV4tYSNrZDQvMmQ0NC1hLS1kMTFzcw%3D%3D&btag=e00090000&expire=1775073253&l=20260331035235E1CEC37C00F3F352C4F7&ply_type=2&policy=2&signature=6f2cfb08c879b6182e18aa087f491f22&tk=tt_chain_token
+HTTP Status: 403
+Reason: Forbidden
+Response Headers:
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Type: text/html
+Content-Length: 504
+Expires: Mon, 30 Mar 2026 19:52:52 GMT
+Date: Mon, 30 Mar 2026 19:52:52 GMT
+X-Cache: TCP_DENIED from a201-191-210-134.deploy.akamaitechnologies.com (AkamaiGHost/22.4.4-cf5672731e69c345796af56199edfb50) (-)
+Connection: close
+x-response-cache: 
+x-tt-trace-tag: id=16;cdn-cache=hit;type=static
+Server-Timing: cdn-cache; desc=HIT, edge; dur=0, origin; dur=0
+Access-Control-Expose-Headers: Content-Length,Content-Range,content-type,expires,last-modified,via,X-Cache,x-response-cache,x-response-sinfo,x-response-cinfo
+Accept-Ranges: bytes
+Access-Control-Allow-Headers: range
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://www.tiktok.com
+X-Akamai-Request-ID: 2a54aa99
+
+Response Body:
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;v16&#45;webapp&#45;prime&#46;tiktok&#46;com&#47;video&#47;tos&#47;alisg&#47;tos&#45;alisg&#45;pve&#45;0037c001&#47;owGuYGxiA41I2gineoQLIfgBQFzefWBDLAGSRR&#47;&#63;" on this server.<P>
+Reference&#32;&#35;18&#46;86d2bfc9&#46;1774900372&#46;2a54aa99
+<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;86d2bfc9&#46;1774900372&#46;2a54aa99</P>
+</BODY>
+</HTML>

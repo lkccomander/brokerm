@@ -19,13 +19,25 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
   return (
     <div className={`group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 ${className}`}>
       <div className="relative h-72 overflow-hidden">
-        <img 
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
-          alt={property.title} 
-          src={property.image}
-        />
+        {property.embedUrl ? (
+          <iframe
+            className="h-full w-full bg-surface-container"
+            src={property.embedUrl}
+            title={property.title}
+            loading="lazy"
+            allowTransparency={true}
+            frameBorder="0"
+            scrolling="no"
+          />
+        ) : (
+          <img
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+            alt={property.title}
+            src={property.image}
+          />
+        )}
         {property.badge && (
-          <div className="absolute top-4 left-4">
+          <div className="absolute top-14 left-4">
             <span className={`${badgeClasses[property.badge.variant]} text-[10px] font-bold px-3 py-1 rounded-full tracking-tighter uppercase`}>
               {property.badge.text}
             </span>

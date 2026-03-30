@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Thumbnailer</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="panel hero-panel">
+        <div>
+          <p class="eyebrow">Broker Mike Tools</p>
+          <h1>Social Thumbnailer</h1>
+          <p class="tool-version">Version 2</p>
+          <p class="hero-copy">
+            Crea thumbnails tipo catálogo desde un link público de Instagram o TikTok.
+            La altura queda fija en 288 px para que respete la card real del sitio,
+            y el recorte funciona como <code>object-cover</code>. Si el post es video,
+            puede elegir el frame exacto antes de exportar.
+          </p>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-chip">
+            <span class="meta-label">Altura</span>
+            <strong>288 px</strong>
+          </div>
+          <div class="meta-chip">
+            <span class="meta-label">Modo</span>
+            <strong>Cover Crop</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace-grid">
+        <section class="panel form-panel">
+          <form id="resolve-form" class="stack">
+            <label class="field">
+              <span>Link de Instagram o TikTok</span>
+              <input
+                id="instagram-url"
+                name="instagram_url"
+                type="url"
+                value="https://www.instagram.com/brokermike.cr/"
+                placeholder="https://www.instagram.com/... o https://www.tiktok.com/..."
+                required
+              />
+            </label>
+
+            <div class="button-row">
+              <button type="submit" class="primary-button">Resolver Post</button>
+              <button type="button" id="download-button" class="secondary-button" disabled>
+                Descargar Thumbnail
+              </button>
+            </div>
+
+            <div id="video-nudges" class="quick-time-row hidden">
+              <button type="button" class="mini-button" data-video-nudge="-5">-5.0 s</button>
+              <button type="button" class="mini-button" data-video-nudge="-1">-1.0 s</button>
+              <button type="button" class="mini-button" data-video-nudge="-0.2">-0.2 s</button>
+              <button type="button" class="mini-button" data-video-nudge="0.2">+0.2 s</button>
+              <button type="button" class="mini-button" data-video-nudge="1">+1.0 s</button>
+              <button type="button" class="mini-button" data-video-nudge="5">+5.0 s</button>
+            </div>
+
+            <section id="profile-browser" class="profile-browser hidden">
+              <div class="retouch-header">
+                <div>
+                  <p class="eyebrow">Perfil</p>
+                  <h3>Posts Recientes</h3>
+                </div>
+              </div>
+              <p class="helper-text">
+                Elija un post del perfil para cargarlo directo en el thumbnailer.
+              </p>
+              <div id="profile-posts" class="profile-grid"></div>
+            </section>
+
+            <div class="row two-cols">
+              <label class="field">
+                <span>Ancho de salida</span>
+                <input id="output-width" type="number" min="240" max="2000" value="512" />
+              </label>
+              <label class="field">
+                <span>Altura de salida</span>
+                <input id="output-height" type="number" value="288" disabled />
+              </label>
+            </div>
+
+            <div class="row two-cols">
+              <label class="field">
+                <span>Formato</span>
+                <select id="output-format">
+                  <option value="image/png">PNG</option>
+                  <option value="image/jpeg">JPG</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Calidad JPG</span>
+                <input id="jpeg-quality" type="range" min="0.5" max="1" step="0.05" value="0.92" />
+              </label>
+            </div>
+
+            <div class="slider-stack">
+              <label id="video-time-field" class="field hidden">
+                <span>Segundo del video</span>
+                <input id="video-time" type="range" min="0" max="0" step="0.1" value="0" />
+                <small id="video-time-label" class="helper-text">0.0 s</small>
+              </label>
+              <label class="field">
+                <span>Zoom</span>
+                <input id="zoom" type="range" min="1" max="2.4" step="0.01" value="1" />
+              </label>
+              <label class="field">
+                <span>Posición horizontal</span>
+                <input id="offset-x" type="range" min="-100" max="100" step="1" value="0" />
+              </label>
+              <label class="field">
+                <span>Posición vertical</span>
+                <input id="offset-y" type="range" min="-100" max="100" step="1" value="0" />
+              </label>
+            </div>
+
+            <section class="retouch-panel">
+              <div class="retouch-header">
+                <div>
+                  <p class="eyebrow">Retoque</p>
+                  <h3>Remover Play Icon</h3>
+                </div>
+                <label class="toggle-field">
+                  <input id="retouch-enabled" type="checkbox" />
+                  <span>Activar parche</span>
+                </label>
+              </div>
+
+              <p class="helper-text">
+                Clona la zona vecina para tapar el icono de play antes de descargar el thumbnail.
+              </p>
+
+              <div class="row two-cols">
+                <label class="field">
+                  <span>Origen del parche</span>
+                  <select id="retouch-direction">
+                    <option value="up">Tomar de arriba</option>
+                    <option value="down">Tomar de abajo</option>
+                    <option value="left">Tomar de la izquierda</option>
+                    <option value="right">Tomar de la derecha</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>Suavizado</span>
+                  <input id="retouch-softness" type="range" min="0" max="24" step="1" value="10" />
+                </label>
+              </div>
+
+              <div class="row two-cols">
+                <label class="field">
+                  <span>Ancho del parche</span>
+                  <input id="retouch-width" type="range" min="24" max="220" step="2" value="92" />
+                </label>
+                <label class="field">
+                  <span>Alto del parche</span>
+                  <input id="retouch-height" type="range" min="24" max="220" step="2" value="92" />
+                </label>
+              </div>
+
+              <div class="slider-stack">
+                <label class="field">
+                  <span>Centro horizontal del parche</span>
+                  <input id="retouch-x" type="range" min="-100" max="100" step="1" value="0" />
+                </label>
+                <label class="field">
+                  <span>Centro vertical del parche</span>
+                  <input id="retouch-y" type="range" min="-100" max="100" step="1" value="0" />
+                </label>
+              </div>
+            </section>
+
+          </form>
+
+          <div id="status-box" class="status-box muted">
+            Pegue un link público de Instagram o TikTok y resuelva la portada para empezar.
+          </div>
+        </section>
+
+        <section class="panel preview-panel">
+          <div class="preview-header">
+            <div>
+              <p class="eyebrow">Preview</p>
+              <h2>Thumbnail del Catálogo</h2>
+            </div>
+            <a id="source-link" href="#" target="_blank" rel="noreferrer" class="ghost-link hidden">
+              Abrir post original
+            </a>
+          </div>
+
+          <div class="canvas-shell">
+            <canvas id="preview-canvas" width="512" height="288"></canvas>
+            <video id="source-video" class="hidden" muted playsinline preload="metadata"></video>
+          </div>
+
+          <div id="post-meta" class="post-meta hidden">
+            <p id="post-title"></p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

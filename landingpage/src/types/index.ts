@@ -9,6 +9,7 @@ export interface Property {
   beds: number;
   baths: number;
   image: string;
+  embedUrl?: string;
   details?: string[];
   contactPhone?: string;
   inquiryEnabled?: boolean;
