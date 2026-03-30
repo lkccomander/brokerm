@@ -12,8 +12,8 @@ export default function Landing() {
     <>
       <TopNavBar />
       <Hero />
-      <MarketIntelligence />
       <Opportunities />
+      <MarketIntelligence />
       <AboutMike />
       <Testimonials />
       <ContactForm />
