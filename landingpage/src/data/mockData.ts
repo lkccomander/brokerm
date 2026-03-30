@@ -135,6 +135,8 @@ export const catalogProperties: Property[] = [
       'Ascensor',
     ],
     contactPhone: '7112 1318',
+    inquiryPropertyName: 'Apartamento en Torres de la Colina, Escazú, piso 6, 2 habitaciones, full amoblado',
+    inquirySource: 'catalogo',
     badge: { text: 'SE RENTA', variant: 'primary' }
   }
 ];

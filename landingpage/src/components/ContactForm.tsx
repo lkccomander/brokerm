@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { contactImage } from '../data/mockData';
 
 export interface ContactFormProps {
@@ -8,8 +9,24 @@ export interface ContactFormProps {
 const FORM_ENDPOINT = 'https://formsubmit.co/ajax/mike@brokermikecr.com';
 
 export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
+  const location = useLocation();
+  const sectionRef = useRef<HTMLElement | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
+  const selectedProperty = useMemo(() => {
+    const params = new URLSearchParams(location.search);
+    return params.get('propiedad')?.trim() ?? '';
+  }, [location.search]);
+  const inquirySource = useMemo(() => {
+    const params = new URLSearchParams(location.search);
+    return params.get('origen')?.trim() ?? 'sitio-web';
+  }, [location.search]);
+
+  useEffect(() => {
+    if (location.hash === '#contacto') {
+      sectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [location.hash]);
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -18,9 +35,16 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
 
     const form = event.currentTarget;
     const formData = new FormData(form);
-    formData.append('_subject', 'Nuevo lead desde brokermikecr.com');
-    formData.append('_template', 'table');
-    formData.append('_captcha', 'false');
+    const subject = selectedProperty
+      ? `Nuevo lead interesado en ${selectedProperty}`
+      : 'Nuevo lead desde brokermikecr.com';
+    formData.set('_subject', subject);
+    formData.set('_template', 'table');
+    formData.set('_captcha', 'false');
+    formData.set('origen_del_lead', inquirySource);
+    if (selectedProperty) {
+      formData.set('propiedad_de_interes', selectedProperty);
+    }
 
     try {
       const response = await fetch(FORM_ENDPOINT, {
@@ -51,7 +75,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
   };
 
   return (
-    <section id="contacto" className={`relative py-32 overflow-hidden ${className}`}>
+    <section id="contacto" ref={sectionRef} className={`relative py-32 overflow-hidden ${className}`}>
       <div className="absolute inset-0 z-0">
         <img
           className="w-full h-full object-cover"
@@ -66,6 +90,15 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
         <div className="bg-white p-10 rounded-3xl shadow-2xl text-left">
           <form className="space-y-6" onSubmit={handleSubmit}>
             <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
+            <input type="hidden" name="propiedad_de_interes" value={selectedProperty} />
+            <input type="hidden" name="origen_del_lead" value={inquirySource} />
+            {selectedProperty ? (
+              <div className="rounded-2xl border border-primary/15 bg-primary/5 px-5 py-4">
+                <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-primary/80">Propiedad Seleccionada</p>
+                <p className="mt-2 text-base font-semibold text-on-surface">{selectedProperty}</p>
+                <p className="mt-1 text-sm text-tertiary">Su consulta llegara internamente asociada a esta propiedad para dar seguimiento mas rapido.</p>
+              </div>
+            ) : null}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">NOMBRE COMPLETO</label>

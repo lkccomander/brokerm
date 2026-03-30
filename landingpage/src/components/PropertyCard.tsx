@@ -1,4 +1,5 @@
 import type { Property } from '../types';
+import { Link } from 'react-router-dom';
 
 export interface PropertyCardProps {
   readonly property: Property;
@@ -61,10 +62,23 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
             </div>
           </div>
         </div>
-        {property.contactPhone && (
-          <div className="mt-4 flex items-center gap-2 text-sm font-semibold text-secondary">
-            <span className="material-symbols-outlined text-base">call</span>
-            {property.contactPhone}
+        {(property.contactPhone || property.inquiryPropertyName) && (
+          <div className="mt-4 flex flex-wrap items-center gap-3">
+            {property.contactPhone && (
+              <div className="flex items-center gap-2 text-sm font-semibold text-secondary">
+                <span className="material-symbols-outlined text-base">call</span>
+                {property.contactPhone}
+              </div>
+            )}
+            {property.inquiryPropertyName && (
+              <Link
+                className="inline-flex items-center gap-2 rounded-xl border border-primary/20 bg-primary px-4 py-2 text-xs font-bold uppercase tracking-wide text-on-primary shadow-lg shadow-primary/20 transition-all hover:-translate-y-0.5 hover:brightness-110"
+                to={`/?propiedad=${encodeURIComponent(property.inquiryPropertyName)}&origen=${encodeURIComponent(property.inquirySource ?? 'catalogo')}#contacto`}
+              >
+                <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                Me interesa
+              </Link>
+            )}
           </div>
         )}
       </div>

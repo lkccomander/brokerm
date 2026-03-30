@@ -11,6 +11,8 @@ export interface Property {
   image: string;
   details?: string[];
   contactPhone?: string;
+  inquiryPropertyName?: string;
+  inquirySource?: string;
   badge?: {
     text: string;
     variant: 'primary' | 'secondary' | 'tertiary';
