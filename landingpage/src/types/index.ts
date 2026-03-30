@@ -11,7 +11,7 @@ export interface Property {
   image: string;
   details?: string[];
   contactPhone?: string;
-  inquiryPropertyName?: string;
+  inquiryEnabled?: boolean;
   inquirySource?: string;
   badge?: {
     text: string;

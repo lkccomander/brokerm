@@ -1,22 +1,30 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { contactImage } from '../data/mockData';
+import { catalogProperties, contactImage } from '../data/mockData';
 
 export interface ContactFormProps {
   readonly className?: string;
 }
 
 const FORM_ENDPOINT = 'https://formsubmit.co/ajax/mike@brokermikecr.com';
+const PUBLIC_SITE_URL = 'https://www.brokermikecr.com';
 
 export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
   const location = useLocation();
   const sectionRef = useRef<HTMLElement | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
-  const selectedProperty = useMemo(() => {
+  const selectedPropertyId = useMemo(() => {
     const params = new URLSearchParams(location.search);
     return params.get('propiedad')?.trim() ?? '';
   }, [location.search]);
+  const selectedProperty = useMemo(() => {
+    if (!selectedPropertyId) {
+      return null;
+    }
+
+    return catalogProperties.find((property) => property.id === selectedPropertyId) ?? null;
+  }, [selectedPropertyId]);
   const inquirySource = useMemo(() => {
     const params = new URLSearchParams(location.search);
     return params.get('origen')?.trim() ?? 'sitio-web';
@@ -35,15 +43,15 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
 
     const form = event.currentTarget;
     const formData = new FormData(form);
-    const subject = selectedProperty
-      ? `Nuevo lead interesado en ${selectedProperty}`
-      : 'Nuevo lead desde brokermikecr.com';
-    formData.set('_subject', subject);
+    formData.set('_subject', 'Nuevo lead desde brokermikecr.com');
     formData.set('_template', 'table');
     formData.set('_captcha', 'false');
     formData.set('origen_del_lead', inquirySource);
     if (selectedProperty) {
-      formData.set('propiedad_de_interes', selectedProperty);
+      formData.set('propiedad_id', selectedProperty.id);
+      formData.set('propiedad_de_interes', selectedProperty.title);
+      formData.set('propiedad_ubicacion', selectedProperty.location);
+      formData.set('propiedad_link', `${PUBLIC_SITE_URL}/catalogo?propiedad=${encodeURIComponent(selectedProperty.id)}`);
     }
 
     try {
@@ -90,12 +98,16 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
         <div className="bg-white p-10 rounded-3xl shadow-2xl text-left">
           <form className="space-y-6" onSubmit={handleSubmit}>
             <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
-            <input type="hidden" name="propiedad_de_interes" value={selectedProperty} />
+            <input type="hidden" name="propiedad_id" value={selectedProperty?.id ?? ''} />
+            <input type="hidden" name="propiedad_de_interes" value={selectedProperty?.title ?? ''} />
+            <input type="hidden" name="propiedad_ubicacion" value={selectedProperty?.location ?? ''} />
+            <input type="hidden" name="propiedad_link" value={selectedProperty ? `${PUBLIC_SITE_URL}/catalogo?propiedad=${encodeURIComponent(selectedProperty.id)}` : ''} />
             <input type="hidden" name="origen_del_lead" value={inquirySource} />
             {selectedProperty ? (
               <div className="rounded-2xl border border-primary/15 bg-primary/5 px-5 py-4">
                 <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-primary/80">Propiedad Seleccionada</p>
-                <p className="mt-2 text-base font-semibold text-on-surface">{selectedProperty}</p>
+                <p className="mt-2 text-base font-semibold text-on-surface">{selectedProperty.title}</p>
+                <p className="mt-1 text-sm text-tertiary">{selectedProperty.location}</p>
                 <p className="mt-1 text-sm text-tertiary">Su consulta llegara internamente asociada a esta propiedad para dar seguimiento mas rapido.</p>
               </div>
             ) : null}

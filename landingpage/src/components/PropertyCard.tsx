@@ -62,7 +62,7 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
             </div>
           </div>
         </div>
-        {(property.contactPhone || property.inquiryPropertyName) && (
+        {(property.contactPhone || property.inquiryEnabled) && (
           <div className="mt-4 flex flex-wrap items-center gap-3">
             {property.contactPhone && (
               <div className="flex items-center gap-2 text-sm font-semibold text-secondary">
@@ -70,10 +70,10 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
                 {property.contactPhone}
               </div>
             )}
-            {property.inquiryPropertyName && (
+            {property.inquiryEnabled && (
               <Link
                 className="inline-flex items-center gap-2 rounded-xl border border-primary/20 bg-primary px-4 py-2 text-xs font-bold uppercase tracking-wide text-on-primary shadow-lg shadow-primary/20 transition-all hover:-translate-y-0.5 hover:brightness-110"
-                to={`/?propiedad=${encodeURIComponent(property.inquiryPropertyName)}&origen=${encodeURIComponent(property.inquirySource ?? 'catalogo')}#contacto`}
+                to={`/?propiedad=${encodeURIComponent(property.id)}&origen=${encodeURIComponent(property.inquirySource ?? 'catalogo')}#contacto`}
               >
                 <span className="material-symbols-outlined text-sm">arrow_forward</span>
                 Me interesa
