@@ -48,7 +48,6 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
     const formData = new FormData(form);
     formData.set('_subject', 'Nuevo lead desde brokermikecr.com');
     formData.set('_template', 'table');
-    formData.set('_captcha', 'false');
     formData.set('origen_del_lead', inquirySource);
     formData.set('requiere_financiamiento', requiresFinancing ? (isEnglish ? 'yes' : 'si') : (isEnglish ? 'no' : 'no'));
     if (!requiresFinancing) {
