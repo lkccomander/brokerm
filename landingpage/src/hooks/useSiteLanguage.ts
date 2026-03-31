@@ -20,6 +20,12 @@ export function useSiteLanguage() {
           ? '/catalogo'
           : location.pathname === '/en/site-map'
             ? '/mapa-del-sitio'
+            : location.pathname === '/en/legal-notice'
+              ? '/aviso-legal'
+              : location.pathname === '/en/privacy'
+                ? '/privacidad'
+                : location.pathname === '/en/cookies'
+                  ? '/cookies'
             : location.pathname.replace(/^\/en/, '') || '/';
 
       return `${spanishPath}${location.search}${location.hash}`;
@@ -34,6 +40,12 @@ export function useSiteLanguage() {
         ? '/en/catalog'
         : location.pathname === '/mapa-del-sitio'
           ? '/en/site-map'
+          : location.pathname === '/aviso-legal'
+            ? '/en/legal-notice'
+            : location.pathname === '/privacidad'
+              ? '/en/privacy'
+              : location.pathname === '/cookies'
+                ? '/en/cookies'
           : `/en${location.pathname}`;
 
     return `${englishPath}${location.search}${location.hash}`;
