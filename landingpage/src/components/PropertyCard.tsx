@@ -12,6 +12,10 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
   className = '' 
 }) => {
   const { isEnglish, localizePath } = useSiteLanguage();
+  const localizedTitle = isEnglish ? property.translations?.en?.title ?? property.title : property.title;
+  const localizedLocation = isEnglish ? property.translations?.en?.location ?? property.location : property.location;
+  const localizedDetails = isEnglish ? property.translations?.en?.details ?? property.details : property.details;
+  const localizedPriceLabel = isEnglish ? property.translations?.en?.priceLabel ?? property.priceLabel : property.priceLabel;
   const badgeClasses = {
     primary: 'bg-primary text-white',
     secondary: 'bg-secondary text-white',
@@ -31,7 +35,7 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
           <iframe
             className="h-full w-full bg-surface-container"
             src={property.embedUrl}
-            title={property.title}
+            title={localizedTitle}
             loading="lazy"
             allowTransparency={true}
             frameBorder="0"
@@ -40,26 +44,26 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
         ) : (
           <img
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-            alt={property.title}
+            alt={localizedTitle}
             src={property.image}
           />
         )}
         {property.badge && (
           <div className="absolute top-14 left-4">
             <span className={`${badgeClasses[property.badge.variant]} text-[10px] font-bold px-3 py-1 rounded-full tracking-tighter uppercase`}>
-              {isEnglish ? (badgeTextMap[property.badge.text] ?? property.badge.text) : property.badge.text}
+              {isEnglish ? (property.translations?.en?.badgeText ?? badgeTextMap[property.badge.text] ?? property.badge.text) : property.badge.text}
             </span>
           </div>
         )}
       </div>
       <div className="p-8">
-        <h3 className="font-headline text-xl font-bold text-on-surface mb-2">{property.title}</h3>
+        <h3 className="font-headline text-xl font-bold text-on-surface mb-2">{localizedTitle}</h3>
         <p className="text-tertiary text-sm mb-6 flex items-center gap-1">
-          <span className="material-symbols-outlined text-base">location_on</span> {property.location}
+          <span className="material-symbols-outlined text-base">location_on</span> {localizedLocation}
         </p>
-        {property.details && property.details.length > 0 && (
+        {localizedDetails && localizedDetails.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-6">
-            {property.details.map((detail) => (
+            {localizedDetails.map((detail) => (
               <span
                 key={detail}
                 className="rounded-full bg-surface-container px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-tertiary"
@@ -71,7 +75,7 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
         )}
         <div className="flex justify-between items-center py-4 border-t border-surface-container">
           <div className="text-2xl font-extrabold text-primary">
-            {property.priceLabel ?? `$${property.price.toLocaleString()}`}
+            {localizedPriceLabel ?? `$${property.price.toLocaleString()}`}
           </div>
           {(property.beds > 0 || property.baths > 0) && (
             <div className="flex gap-4 text-tertiary">

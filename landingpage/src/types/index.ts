@@ -19,6 +19,15 @@ export interface Property {
     text: string;
     variant: 'primary' | 'secondary' | 'tertiary';
   };
+  translations?: {
+    en?: {
+      title?: string;
+      location?: string;
+      priceLabel?: string;
+      details?: string[];
+      badgeText?: string;
+    };
+  };
 }
 
 export interface Testimonial {

@@ -32,6 +32,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
     const params = new URLSearchParams(location.search);
     return params.get('origen')?.trim() ?? 'sitio-web';
   }, [location.search]);
+  const selectedPropertyTitle = isEnglish ? selectedProperty?.translations?.en?.title ?? selectedProperty?.title ?? '' : selectedProperty?.title ?? '';
+  const selectedPropertyLocation = isEnglish ? selectedProperty?.translations?.en?.location ?? selectedProperty?.location ?? '' : selectedProperty?.location ?? '';
 
   useEffect(() => {
     if (location.hash === '#contacto') {
@@ -55,8 +57,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
     }
     if (selectedProperty) {
       formData.set('propiedad_id', selectedProperty.id);
-      formData.set('propiedad_de_interes', selectedProperty.title);
-      formData.set('propiedad_ubicacion', selectedProperty.location);
+      formData.set('propiedad_de_interes', selectedPropertyTitle);
+      formData.set('propiedad_ubicacion', selectedPropertyLocation);
       formData.set('propiedad_link', `${PUBLIC_SITE_URL}/catalogo?propiedad=${encodeURIComponent(selectedProperty.id)}`);
     }
 
@@ -106,16 +108,16 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
           <form className="space-y-6" onSubmit={handleSubmit}>
             <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
             <input type="hidden" name="propiedad_id" value={selectedProperty?.id ?? ''} />
-            <input type="hidden" name="propiedad_de_interes" value={selectedProperty?.title ?? ''} />
-            <input type="hidden" name="propiedad_ubicacion" value={selectedProperty?.location ?? ''} />
+            <input type="hidden" name="propiedad_de_interes" value={selectedPropertyTitle} />
+            <input type="hidden" name="propiedad_ubicacion" value={selectedPropertyLocation} />
             <input type="hidden" name="propiedad_link" value={selectedProperty ? `${PUBLIC_SITE_URL}/catalogo?propiedad=${encodeURIComponent(selectedProperty.id)}` : ''} />
             <input type="hidden" name="origen_del_lead" value={inquirySource} />
             <input type="hidden" name="requiere_financiamiento" value={requiresFinancing ? (isEnglish ? 'yes' : 'si') : (isEnglish ? 'no' : 'no')} />
             {selectedProperty ? (
               <div className="rounded-2xl border border-primary/15 bg-primary/5 px-5 py-4">
                 <p className="text-[10px] font-bold uppercase tracking-[0.24em] text-primary/80">{isEnglish ? 'Selected Property' : 'Propiedad Seleccionada'}</p>
-                <p className="mt-2 text-base font-semibold text-on-surface">{selectedProperty.title}</p>
-                <p className="mt-1 text-sm text-tertiary">{selectedProperty.location}</p>
+                <p className="mt-2 text-base font-semibold text-on-surface">{selectedPropertyTitle}</p>
+                <p className="mt-1 text-sm text-tertiary">{selectedPropertyLocation}</p>
                 <p className="mt-1 text-sm text-tertiary">{isEnglish ? 'Your inquiry will be internally linked to this property for faster follow-up.' : 'Su consulta llegara internamente asociada a esta propiedad para dar seguimiento mas rapido.'}</p>
               </div>
             ) : null}
