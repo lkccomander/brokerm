@@ -48,8 +48,26 @@
 - Se agregó `landingpage/public/.well-known/security.txt`.
 
 #### Estado actual
-- El checker aún reporta `security-txt.isPresent: false`.
-- Falta validar manualmente si `https://www.brokermikecr.com/.well-known/security.txt` responde correctamente o si el fallback SPA está interfiriendo.
+- Localmente el archivo sí existe en:
+  - `landingpage/public/.well-known/security.txt`
+  - `landingpage/dist/.well-known/security.txt`
+- El `Dockerfile` y el `Caddyfile` locales sí deberían servir esa ruta correctamente.
+- `https://www.brokermikecr.com/.well-known/security.txt` es la URL canónica correcta.
+
+#### Causa raíz actual
+- El problema restante no parece estar en el código local.
+- El dominio apex `https://brokermikecr.com` no está resolviendo bien todas las rutas, incluyendo `/.well-known/security.txt` y `/en`.
+- En Railway, `brokermikecr.com` sigue en estado `Waiting for DNS update`.
+- Railway pide un `CNAME @`, pero ese punto choca con limitaciones típicas del apex `@` y con la operativa actual en GoDaddy.
+
+#### Decisión actual
+- Dejar el dominio apex como está por ahora.
+- Mantener `www.brokermikecr.com` como dominio canónico operativo.
+- No mover todavía DNS a Cloudflare ni rehacer la estrategia del apex.
+
+#### Deuda técnica pendiente
+- Resolver más adelante el dominio raíz `brokermikecr.com` para que redirija o sirva correctamente hacia `www`.
+- Volver a correr el checker cuando el apex quede bien resuelto.
 
 ### Limitaciones del entorno local
 

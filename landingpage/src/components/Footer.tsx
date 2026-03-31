@@ -6,6 +6,32 @@ export interface FooterProps {
 
 export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
   const { isEnglish, localizePath } = useSiteLanguage();
+
+  const handleShare = async () => {
+    const shareUrl = window.location.href;
+    const shareTitle = 'Broker Mike';
+    const shareText = isEnglish
+      ? 'Explore Broker Mike real estate opportunities.'
+      : 'Explore las oportunidades inmobiliarias de Broker Mike.';
+
+    try {
+      if (navigator.share) {
+        await navigator.share({
+          title: shareTitle,
+          text: shareText,
+          url: shareUrl,
+        });
+        return;
+      }
+
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(shareUrl);
+      }
+    } catch {
+      // If sharing is cancelled or unsupported, we silently keep the UI simple.
+    }
+  };
+
   return (
     <footer className={`bg-slate-50 w-full py-12 border-t border-slate-200/20 ${className}`}>
       <div className="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-6">
@@ -20,12 +46,25 @@ export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
           <a className="font-body text-xs text-slate-500 hover:text-sky-500 transition-opacity" href={localizePath('/#contacto', '/en/#contacto')}>{isEnglish ? 'Contact' : 'Contacto'}</a>
         </div>
         <div className="flex gap-4">
-          <div className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-slate-500 hover:text-primary transition-colors cursor-pointer">
+          <button
+            type="button"
+            aria-label={isEnglish ? 'Share this page' : 'Compartir esta pagina'}
+            title={isEnglish ? 'Share this page' : 'Compartir esta pagina'}
+            className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-slate-500 hover:text-primary transition-colors cursor-pointer"
+            onClick={() => {
+              void handleShare();
+            }}
+          >
             <span className="material-symbols-outlined text-sm">share</span>
-          </div>
-          <div className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-slate-500 hover:text-primary transition-colors cursor-pointer">
+          </button>
+          <a
+            aria-label={isEnglish ? 'Contact by email' : 'Contactar por correo'}
+            title={isEnglish ? 'Contact by email' : 'Contactar por correo'}
+            className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-slate-500 hover:text-primary transition-colors cursor-pointer"
+            href="mailto:mike@brokermikecr.com"
+          >
             <span className="material-symbols-outlined text-sm">mail</span>
-          </div>
+          </a>
         </div>
       </div>
     </footer>

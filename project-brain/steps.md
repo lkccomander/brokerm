@@ -46,6 +46,20 @@ Esto es importante porque tu app Vite vive dentro de esa subcarpeta, no en la ra
 4. Railway te dirá qué registro DNS crear.
 5. Espera la validación y el SSL automático.
 
+### Nota operativa actual sobre el apex
+
+- Hoy `www.brokermikecr.com` es el dominio que sí está operativo y debe tratarse como canónico.
+- El dominio raíz `brokermikecr.com` sigue con incidencias de resolución en Railway.
+- El caso actual observado:
+  - `https://brokermikecr.com/en` devuelve `404`
+  - `https://brokermikecr.com/.well-known/security.txt` no responde como esperamos
+- En Railway, el apex sigue apareciendo como `Waiting for DNS update`.
+- Railway solicita un `CNAME @`, lo cual no siempre encaja bien con la gestión del apex en GoDaddy.
+- Decisión actual:
+  - no cambiar esta parte todavía
+  - seguir operando con `www.brokermikecr.com`
+  - dejar el arreglo del apex como deuda técnica posterior
+
 ## Antes de hacer el deploy
 
 Asegúrate de que localmente compile con:
