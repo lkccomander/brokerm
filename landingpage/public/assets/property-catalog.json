@@ -1,6 +1,6 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-04-04T03:38:38Z",
+  "generatedAt": "2026-04-04T04:50:12Z",
   "allProperties": [
     {
       "id": "prop-1",
@@ -29,14 +29,30 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWo1hUmkTjs/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWo1hUmkTjs/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "Torres de Heredia, (Khaya ruta 1)",
+          "priceLabel": "Price on request / month",
+          "details": [
+            "2 bedrooms",
+            "2 bathrooms",
+            "2 balcones",
+            "Corner unit",
+            "Calentador de agua",
+            "Puertas de vidrio corredizas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-2",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Torres de Heredia",
+      "location": "Ubicación por confirmar",
       "price": 900.0,
       "priceLabel": "$900 USD / mes",
       "beds": 1,
@@ -58,7 +74,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "location": "Location to be confirmed",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "El apartment se renta así como lo ve en las fotografías.",
+            "Piscina",
+            "Jacuzzi",
+            "Gimnasio",
+            "Green areas",
+            "BBQ area"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-3",
@@ -87,7 +119,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWPMLXwkR4J/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWPMLXwkR4J/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
+          "location": "Torres de la Colina, Escazu",
+          "priceLabel": "$1600USD / month",
+          "details": [
+            "Floor 6 con increíble city view",
+            "2 bedrooms",
+            "2 bathrooms",
+            "1 covered parking",
+            "Fully furnished",
+            "24/7 security"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-4",
@@ -116,14 +164,30 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWHvH-aEcQ8/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWHvH-aEcQ8/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Torres San Marino",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Excelente vista floor 5",
+            "2 parqueos",
+            "Piscina",
+            "BBQ area",
+            "Parques infantiles",
+            "Mini gym"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-5",
       "category": "venta",
       "status": "disponible",
       "title": "Apartamento Amoblado",
-      "location": "Torres de Heredia (Khaya ruta uno)",
+      "location": "Ubicación por confirmar",
       "price": 65.0,
       "priceLabel": "₡65",
       "beds": 0,
@@ -131,11 +195,11 @@
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/655312696_1228864946065722_7952721626604119294_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzg1NTc1NTMwODUxMDA3ODQ3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=8k6RirnCk8gQ7kNvwEMq4BV&_nc_oc=Adq5EcI0_0Vr8SLQqR-4PCWY1nwwyU_xPHdct4449oWZOVTVGPhyu1-KGJ19sM2tic0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=UW4pb02nyHXho_uL34d6AA&_nc_ss=7a32e&oh=00_Af2vTq-y7Rg9iQlzsTisAGC8Dz0fBhehfIJbYAnNFtfErA&oe=69D64AAA",
       "details": [
         "Medidas: 50m2 de apartamento más 15m2 de parqueo.",
-        "Piso 7",
-        "esquinero",
-        "con vista al oeste.",
+        "Piso 7, esquinero, con vista al oeste.",
         "Solicitar video.",
-        "Áreas comunes:"
+        "Áreas comunes:",
+        "Piscina",
+        "Jacuzzi"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -145,7 +209,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWCZQZAkeYI/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWCZQZAkeYI/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "₡65",
+          "details": [
+            "Medidas: 50m2 de apartment más 15m2 de parqueo.",
+            "Floor 7, corner unit, con vista al oeste.",
+            "Solicitar video.",
+            "Áreas comunes:",
+            "Piscina",
+            "Jacuzzi"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-6",
@@ -160,8 +240,7 @@
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/641292384_899752016011489_7518385841643226975_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzg0NjI4MDM1NDc3NzM1Mzk1MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=eoYAe3YO7wMQ7kNvwEc4jPM&_nc_oc=AdoeK4U4dezs9PYlbex6FiO59SuPJsMpXKLFjwzZgrlsf-wXKEZjtzub-8i4O5g4NUw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=UW4pb02nyHXho_uL34d6AA&_nc_ss=7a32e&oh=00_Af1le3eIdGc2t7iRrujRP5jG8h8_2maxlBSHPY0BqYHztQ&oe=69D62D30",
       "details": [
         "Solicite el video",
-        "El apartamento se renta así como lo ve en las fotos",
-        "y el precio incluye cuota condominal y un parqueo bajo techo."
+        "El apartamento se renta así como lo ve en las fotos, y el precio incluye cuota condominal y un parqueo bajo techo."
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -171,14 +250,26 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DVgu5qtEU7f/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DVgu5qtEU7f/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms",
+          "location": "Robledal Flats, ground floor con patio privado",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Solicite el video",
+            "El apartment se renta así como lo ve en las fotos, y el precio incluye HOA fee y un covered parking."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-7",
       "category": "alquiler",
       "status": "disponible",
       "title": "Casa 2 Habitaciones",
-      "location": "San Juan de Dios, Desamparados",
+      "location": "Ubicación por confirmar",
       "price": 400000.0,
       "priceLabel": "₡400,000 / mes",
       "beds": 2,
@@ -200,7 +291,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DVWsd9YkQwn/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DVWsd9YkQwn/",
+      "translations": {
+        "en": {
+          "title": "House 2 Bedrooms",
+          "location": "Location to be confirmed",
+          "priceLabel": "₡400,000 / month",
+          "details": [
+            "Garaje para 2 vehículos",
+            "Doble portón electrico",
+            "2 bedrooms",
+            "1 bathroom completo",
+            "Amplio laundry room",
+            "Walk-in clóset en el patio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-8",
@@ -229,7 +336,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DU3mk5ZEa2Y/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DU3mk5ZEa2Y/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Corner Unit",
+          "location": "Torres de Heredia, floor 11",
+          "priceLabel": "$850 USD / month",
+          "details": [
+            "Floor 11, great view",
+            "Incluye lava-seca",
+            "Tiene walk in closet",
+            "Corner unit",
+            "Incluye parqueo",
+            "24/7 security"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-9",
@@ -251,14 +374,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUwFcodkSdU/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUwFcodkSdU/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · Furnished",
+          "location": "Torres De Heredia",
+          "priceLabel": "$1350 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-10",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · Amoblado",
-      "location": "Torres de Heredia",
+      "location": "Ubicación por confirmar",
       "price": 1000.0,
       "priceLabel": "$1000 USD / mes",
       "beds": 1,
@@ -280,7 +412,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUQmo6RkYHP/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUQmo6RkYHP/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1000 USD / month",
+          "details": [
+            "1 bedroom",
+            "Fully furnished y equipado",
+            "Balcón con sunset view",
+            "Floor 12",
+            "Precio incluye 1 parqueo y HOA fee",
+            "Condominio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-11",
@@ -309,7 +457,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUOCVUMETvP/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUOCVUMETvP/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "location": "Torres de Heredia",
+          "priceLabel": "₡430,000",
+          "details": [
+            "¡En excelente ubicación privilegiada! Este elegante apartment le ofrece confort, seguridad y acceso inmediato a todo lo que necesita.",
+            "Características del apartment:",
+            "▪️ 1 bedroom",
+            "▪️ 1 bathroom",
+            "▪️ Cocina equipada",
+            "▪️ Sala y comedor integrados"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-12",
@@ -338,7 +502,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTvep-5kVlV/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTvep-5kVlV/",
+      "translations": {
+        "en": {
+          "title": "House 2 Bedrooms · 3 Bathrooms · with Línea Blanca",
+          "location": "Condominio Francosta, Ulloa de Heredia",
+          "priceLabel": "₡85",
+          "details": [
+            "House:",
+            "Lote 372m2",
+            "Construcción 258m2",
+            "2 niveles",
+            "2 amplias bedrooms con vistas increíbles desde los balcones",
+            "A/C en las bedrooms"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-13",
@@ -367,7 +547,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DToAUJmEeVo/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DToAUJmEeVo/",
+      "translations": {
+        "en": {
+          "title": "House 2 Bedrooms · Furnished",
+          "location": "Condominio Blue Cariari",
+          "priceLabel": "$1650 USD / month",
+          "details": [
+            "Piscina",
+            "Cancha de tenis",
+            "BBQ area",
+            "Gimnasio",
+            "Cancha de fut5",
+            "24/7 security"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-14",
@@ -396,7 +592,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTS_wCvkY1A/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTS_wCvkY1A/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1000 USD / month",
+          "details": [
+            "Piscina",
+            "24/7 security",
+            "Green areas",
+            "Parqueo",
+            "BBQ area",
+            "Elegante lobby con recepción"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-15",
@@ -425,7 +637,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS6Mr11kbRA/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS6Mr11kbRA/",
+      "translations": {
+        "en": {
+          "title": "Apartment en Torres de Heredia",
+          "location": "Torres de Heredia",
+          "priceLabel": "₡430,000 / month",
+          "details": [
+            "55m2 más 15 m2 de covered parking.",
+            "Floor 8 con sunset view",
+            "Se da con lavaseca",
+            "Small pets allowed",
+            "Piscinas",
+            "Jacuzzis"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-16",
@@ -454,7 +682,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS5L1cSETUR/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS5L1cSETUR/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$900USD / month",
+          "details": [
+            "55m2 más 15 m2 de covered parking.",
+            "Floor 2 con forest view",
+            "Fully furnished, así como se ve en las fotografías",
+            "Small pets allowed",
+            "Piscinas",
+            "Jacuzzis"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-17",
@@ -483,26 +727,39 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS0Ny72EcbO/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS0Ny72EcbO/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
+          "details": [
+            "Tipo estudio 40m2 más 15 m2 de covered parking.",
+            "Floor 6 con vista a la piscina",
+            "Fully furnished, así como se ve en las fotografías",
+            "Tiene aire acondicionado",
+            "Pets are not allowed",
+            "Piscinas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-18",
       "category": "bodegas",
       "status": "disponible",
       "title": "Bodega Disponible",
-      "location": "a la par del aeropuerto Juan Santamaría.",
+      "location": "Ubicación por confirmar",
       "price": 800.0,
       "priceLabel": "$800 USD / mes",
       "beds": 0,
       "baths": 0,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/601785473_25547681771536870_8168317921271865437_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzc5MTMzMTI0ODExMjIyMDY2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=RFROtr5r30IQ7kNvwG2PZIE&_nc_oc=AdoFtRuoigIb6w1X_xyklNjVdGuJLTovFCbHFLP8H-YDrs1FdGiIoYIDbQh7BGjQcXQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=cBXdz4n65AJ792Bft48_gw&_nc_ss=7a32e&oh=00_Af2OsGRGouSQ4ZN7TQTWFP4MF3aAxfjO54whf6AF6GfH2g&oe=69D62F1C",
       "details": [
-        "desde 90m2",
-        "precios desde $800 USD",
-        "Teléfono ☎️ 71121318",
         "Tenemos 3 bodegas disponibles",
-        "1. 100m2 $1000 USD (techo alto)",
-        "2. 100m2 $900 USD"
+        "Incluye servicios de agua y luz.",
+        "Lugar privado son seguridad, portón eléctrico."
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -512,7 +769,20 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DSdg67NkTn9/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DSdg67NkTn9/",
+      "translations": {
+        "en": {
+          "title": "Warehouse Disponible",
+          "location": "Location to be confirmed",
+          "priceLabel": "$800 USD / month",
+          "details": [
+            "Tenemos 3 warehouses disponibles",
+            "Incluye servicios de agua y luz.",
+            "Lugar privado son seguridad, portón eléctrico."
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-19",
@@ -541,26 +811,42 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DR2kdsmERIf/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DR2kdsmERIf/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1000 USD / month",
+          "details": [
+            "2 bathrooms",
+            "2 parqueos",
+            "2 balcones",
+            "Aire acondicionado",
+            "Piscina",
+            "Gimnasio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-20",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 2 Habitaciones · 2 Baños · Amoblado",
-      "location": "NÚCLEO SÁBANA",
+      "location": "Ubicación por confirmar",
       "price": 1600.0,
       "priceLabel": "$1600 USD / mes",
       "beds": 2,
       "baths": 2,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/586701341_3747245322238881_1630494025017009101_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzc3NTM1NTEzNTA0MTA1NjA0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=cSTPRoXKUyIQ7kNvwGfMpKx&_nc_oc=Adoqfk6wDLYJQpU7Bqi-Idbx3rlVT3oBO2ikOGQmKmLi-ZJGZGzf8WoI7dikkcs4zx0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=cBXdz4n65AJ792Bft48_gw&_nc_ss=7a32e&oh=00_Af1G0qn1dC6OJsdCR_R4EQTvqT214twbfwXYAAAWO4yc9g&oe=69D61D5B",
       "details": [
-        "🍀Full amoblado",
-        "como se ve en las fotos",
+        "🍀Full amoblado, como se ve en las fotos",
         "🍀2 habitaciones",
         "🍀2 baños",
         "🍀Aire acondicionado",
-        "🍀Cuarto de pilas"
+        "🍀Cuarto de pilas",
+        "🍀1 Parqueo"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -570,7 +856,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRkwX4dEa0p/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRkwX4dEa0p/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1600 USD / month",
+          "details": [
+            "Fully furnished, como se ve en las fotos",
+            "2 bedrooms",
+            "2 bathrooms",
+            "Aire acondicionado",
+            "Laundry room",
+            "1 Parqueo"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-21",
@@ -599,7 +901,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRQYw6QkTrX/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRQYw6QkTrX/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · 2 Bathrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "2 bathrooms",
+            "2 parqueos",
+            "2 balcones",
+            "Aire acondicionado",
+            "Piscina",
+            "Gimnasio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-22",
@@ -628,7 +946,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQ4iuHwEfno/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQ4iuHwEfno/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "CONDOMINIO AL ANDALUS, EN LA GUACIMA DE ALAJUELA.",
+          "priceLabel": "$1,150 USD / month",
+          "details": [
+            "• 3 cuartos remodelados con closet cada uno.",
+            "• 2 Aires Acondicionados.",
+            "• 2 bathrooms totalmente con mamparas",
+            "• Parqueo para dos carros (techado)",
+            "• Terraza techada y con césped sintético",
+            "• Cocina empotrada."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-23",
@@ -657,7 +991,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQcrtTakaQa/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQcrtTakaQa/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "TORRES DE HEREDIA",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "CONDOMINIO TORRES DE HEREDIA:",
+            "PISCINA",
+            "GIMNASIO",
+            "BBQ area",
+            "Green areas",
+            "PET FRIENDLY"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-24",
@@ -686,7 +1036,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQaQfKQERy3/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQaQfKQERy3/",
+      "translations": {
+        "en": {
+          "title": "Apartment Corner Unit",
+          "location": "LAGUNILLA DE HEREDIA, corner unit, SOBRE CALLE PRINCIPAL, EQUIPADO.",
+          "priceLabel": "$6000 USD / month",
+          "details": [
+            "EL LOCAL ESTÁ ACONDICIONADO PARA UN NEGOCIO DE COMIDA, TAL COMO LO VE EN LAS FOTOS.",
+            "TIENE UN apartment EN SEGUNDA PLANTA (opcional)",
+            "330 m2 DE CONSTRUCCIÓN",
+            "PARQUEOS PROPIOS",
+            "SE PUEDE PRESTAR PATENTE POR 3 MESES POR MIENTRAS TRAMITAN LA PROPIA (comida)",
+            "TAMBIÉN SE PUEDE RENTAR PARA OTRO TIPO DE NEGOCIO Y SE PUEDE DIVIDIR LA PROPIEDAD."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-25",
@@ -708,7 +1074,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPpqqKJkbBL/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPpqqKJkbBL/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Condominio Malibu en San Pablo de Heredia, la house es de 2 niveles, 3 espacios de garaje, en la planta baja hay un cuarto servicio amplio con bathroom completo, ademas de un amplio jardín, sala, cocina, comedor cuarto de lavado",
+          "priceLabel": "$1800 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-26",
@@ -737,14 +1112,30 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPkPbyHEfa5/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPkPbyHEfa5/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Línea Blanca",
+          "location": "Altamira, primera planta",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "San Pablo de Heredia",
+            "Incluye appliances included",
+            "2 bathrooms",
+            "2 bedrooms",
+            "Piscina recreativa y de nado",
+            "Cancha de tenis"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-27",
-      "category": "alquiler",
+      "category": "bodegas",
       "status": "disponible",
-      "title": "SE ALQUILA precioso apartamento nuevo",
-      "location": "Núcleo Sábana",
+      "title": "Bodega con Línea Blanca",
+      "location": "Ubicación por confirmar",
       "price": 2000.0,
       "priceLabel": "$2000 USD / mes",
       "beds": 2,
@@ -765,7 +1156,22 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPiI3LmDIYB/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPiI3LmDIYB/",
+      "translations": {
+        "en": {
+          "title": "Warehouse con Línea Blanca",
+          "location": "Location to be confirmed",
+          "priceLabel": "$2000 USD / month",
+          "details": [
+            "Floor 13",
+            "Parqueo para 2 vehículos",
+            "Warehouse",
+            "Vista increíble",
+            "Appliances included"
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-28",
@@ -794,7 +1200,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPIYqjNDKAp/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPIYqjNDKAp/",
+      "translations": {
+        "en": {
+          "title": "House 2 Bedrooms · 2 Bathrooms",
+          "location": "La Guacima de Alajuela, enfrente de Hacienda los Reyes.",
+          "priceLabel": "₡65,000,000",
+          "details": [
+            "Está ubicado en Condominio los Príncipes.",
+            "2 bedrooms.",
+            "2 bathrooms.",
+            "Sala.",
+            "Cocina.",
+            "Comedor."
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-29",
@@ -819,7 +1241,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPASR38kchT/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPASR38kchT/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "Este apartment se encuentra en floor con vista a la piscina y a bellos atardeceres. El apartment esta completamente furnished, tiene A/C en la bedroom.",
+            "En el Condominio hay piscina, BBQ area, gimnasio, green areas, entre otras amenidades. 24/7 security, elegante lobby con recepcionista 24/7."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-30",
@@ -844,7 +1278,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO9xyeHEY6Q/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO9xyeHEY6Q/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "CONhouse",
+          "priceLabel": "$850 USD / month",
+          "details": [
+            "El apartment es bien amplio, cuanta con recibidor, sala, comedor, cocina, cuarto pilas, balcón, 3 bedrooms, 2 bathrooms completos y garaje para 1 vehiculo .",
+            "El condominio cuenta con green areas, piscina, cancha multiuso, cancha de basket, cancha de tenis, 24/7 security."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-31",
@@ -866,7 +1312,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO6NIw8ETRf/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO6NIw8ETRf/",
+      "translations": {
+        "en": {
+          "title": "House en Santo Domingo de Heredia, frente a calle principal, 385m2, uso de suelo mixto, 16 metros de frente.",
+          "location": "Santo Domingo de Heredia, frente a calle principal, 385m2, uso de suelo mixto, 16 metros de frente.",
+          "priceLabel": "Price on request",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-32",
@@ -888,7 +1343,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOzQrfFEfFl/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOzQrfFEfFl/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Condominio Malibu en San Pablo de Heredia, la house es de 2 niveles, 4 espacios de garaje, en la planta baja hay un cuarto servicio amplio con bathroom completo, ademas de un amplio jardín, sala, cocina, comedor cuarto de lavado",
+          "priceLabel": "$270,000 USD",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-33",
@@ -917,7 +1381,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOrRlflkRr1/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOrRlflkRr1/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms",
+          "location": "Torres de Heredia, cuanta con 2 niveles",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Torres de Heredia tiene una excelente ubicación, frente a zona franca metropolitana en Barreal de Heredia (Ulloa), además cuanta con las siguientes amenidades y comodidades:",
+            "Piscina",
+            "Jacuzzi",
+            "BBQ area",
+            "Gym",
+            "Green areas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-34",
@@ -942,7 +1422,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DObt9CckbVD/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DObt9CckbVD/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "Condominio Lomas de San Rafael de Escazu",
+          "priceLabel": "$1200 USD / month",
+          "details": [
+            "El apartment tiene una medida de 78m2, cuenta con 2 bedrooms, 2 bathrooms completos, sala, comedor, cocina, laundry room y balcón, esta en el floor top de la torre que es el floor 5, cuenta con una vista increíble al valle central.",
+            "Ademas, el condominio cuenta con entrada privada y 24/7 security, también tiene un BBQ area con piscina, playground para niños."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-35",
@@ -967,7 +1459,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOJZdoykXhp/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOJZdoykXhp/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia.",
+          "priceLabel": "Price on request / month",
+          "details": [
+            "Este apartment se encuentra en el floor 2 de la torre B, con excelente forest view. El apartment se entrega fully furnished, el precio incluye la HOA fee.",
+            "Torres de Heredia tiene diferentes amenidades como piscinas, BBQ area, green areas, entre otras, además cuanta con una excelente ubicación."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-36",
@@ -989,7 +1493,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOEiSGhkShu/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOEiSGhkShu/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom",
+          "location": "Núcleo Sábana, floor 16 con vista al sur, incluye todo lo que ve en el video",
+          "priceLabel": "$165,000 USD",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-37",
@@ -1011,7 +1524,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN6LnQYkcll/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN6LnQYkcll/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Balcony",
+          "location": "Torres de Heredia",
+          "priceLabel": "$850 USD",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-38",
@@ -1033,7 +1555,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN3h26fYtQF/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN3h26fYtQF/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1000 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-39",
@@ -1057,13 +1588,24 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DNlOc90xk-y/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DNlOc90xk-y/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "Price on request / month",
+          "details": [
+            "Amenidades del condominio: piscina, Jacuzzi, gimnasio, BBQ area, green areas. #viral #viralpost #alquiler #renta #alquilerheredia"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-40",
-      "category": "alquiler",
+      "category": "bodegas",
       "status": "disponible",
-      "title": "Se renta precioso apartamento de 1 habitacion",
+      "title": "Bodega con Línea Blanca",
       "location": "Vistas de Robledal",
       "price": 975.0,
       "priceLabel": "$975 USD / mes",
@@ -1071,11 +1613,8 @@
       "baths": 0,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.82787-15/527228964_17938428579026180_3896132106396686941_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=MzY5MTMwMzc1NDU3MTQyODM0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNzB4MjA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=2BhBs3ZtoocQ7kNvwF_aonw&_nc_oc=Ado4u0BJ0dYQsIgXtfYmsRRWy0RZBsTqbx5snpevh-dJMr1AJXzIIchusEwpjYN2dsI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=uAGJzwf0T01HQ_wNSayWHw&_nc_ss=7a32e&oh=00_Af1UsW_OLB2FtG9rX4qMsmfqKCrWL0aqBPK3uCysa7Pavw&oe=69D62763",
       "details": [
-        "☎️ 71121318",
-        "Amenidades",
-        "piscina",
-        "gimnasio",
-        "mirador en el último piso."
+        "☎️ 71121318,",
+        "Amenidades, piscina, gimnasio, mirador en el último piso."
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -1085,13 +1624,25 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DM6JTUZS7H1/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DM6JTUZS7H1/",
+      "translations": {
+        "en": {
+          "title": "Warehouse con Línea Blanca",
+          "location": "Vistas de Robledal",
+          "priceLabel": "$975 USD / month",
+          "details": [
+            "☎️ 71121318,",
+            "Amenidades, piscina, gimnasio, mirador en el último piso."
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-41",
-      "category": "venta",
+      "category": "bodegas",
       "status": "disponible",
-      "title": "Hermosa Casa en San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
+      "title": "Bodega en San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
       "location": "San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
       "price": 256.0,
       "priceLabel": "$256 USD / mes",
@@ -1099,12 +1650,12 @@
       "baths": 2,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.82787-15/525670560_17938191777026180_1582837353652090289_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=109&ig_cache_key=MzY4OTc4OTk3MDQ0NzAxMTg3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTA4MC5oZHIuQzMifQ%3D%3D&_nc_ohc=Fb-Ac5dW4wwQ7kNvwG-K-yE&_nc_oc=Adq8R7JP_2488NRqMdcHE0HKwnPigyJL3eYwLxpFj25EkrNBlN7f6q6lrf2u3CCegVU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=uAGJzwf0T01HQ_wNSayWHw&_nc_ss=7a32e&oh=00_Af3bc_tHAIZY27DZH8NC4v8s6Z_K5nDjcXeWLnzY4NlgmQ&oe=69D622FC",
       "details": [
-        "Viví en una casa espaciosa",
-        "cómoda y en excelentes condiciones",
-        "ubicada en una zona estratégica",
-        "muy cerca del centro de Heredia",
-        "con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
-        "Área de terreno: 168 m²"
+        "Viví en una casa espaciosa, cómoda y en excelentes condiciones, ubicada en una zona estratégica, muy cerca del centro de Heredia, con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
+        "Área de terreno: 168 m²",
+        "Construcción: aproximadamente 250 m²",
+        "Distribución en dos niveles:",
+        "Planta baja con espacios integrados:",
+        "Sala amplia"
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -1114,7 +1665,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DM0xHJvSY0j/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DM0xHJvSY0j/",
+      "translations": {
+        "en": {
+          "title": "Warehouse en San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
+          "location": "San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
+          "priceLabel": "$256 USD / month",
+          "details": [
+            "Viví en una house espaciosa, cómoda y en excelentes condiciones, ubicada en una zona estratégica, muy cerca del centro de Heredia, con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
+            "Área de terreno: 168 m²",
+            "Construcción: aproximadamente 250 m²",
+            "Distribución en dos niveles:",
+            "Planta baja con espacios integrados:",
+            "Sala amplia"
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-42",
@@ -1136,7 +1703,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DMyFmrqyFy2/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DMyFmrqyFy2/",
+      "translations": {
+        "en": {
+          "title": "Apartment en Mercedes de Heredia, 500mts norte del quiropráctico, uso de suelo mixto",
+          "location": "Mercedes de Heredia, 500mts norte del quiropráctico, uso de suelo mixto",
+          "priceLabel": "₡105,000",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-43",
@@ -1165,7 +1741,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtZZvAvxUo/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtZZvAvxUo/",
+      "translations": {
+        "en": {
+          "title": "Apartment en Torres de Heredia",
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
+          "details": [
+            "☎️ 71121318",
+            "Piscinas",
+            "BBQ area",
+            "Green areas",
+            "Elegante lobby con recepción",
+            "Gimnasio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-44",
@@ -1194,7 +1786,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtBD6YPMAg/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtBD6YPMAg/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Piscinas",
+            "Jacuzzis",
+            "Gimnasio",
+            "BBQ area",
+            "Green areas",
+            "Elegante Lobby con recepcionista"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-45",
@@ -1223,7 +1831,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMs4UIpxKvs/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMs4UIpxKvs/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Piscina",
+            "Gimnasio",
+            "BBQ area",
+            "Green areas",
+            "24/7 security",
+            "Elegante lobby con recepción"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-46",
@@ -1250,7 +1874,21 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMp9h-XMmX5/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMp9h-XMmX5/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Residencial Colinas del Viento, en Desamparados de Alajuela",
+          "priceLabel": "$127,500 USD",
+          "details": [
+            "Este apartment tiene una medida de 78m2 más un parqueo de 15m2.",
+            "Adentro del residencial Colinas del Viento queda el edificio de apartments, es de 3 pisos que se llama Amaranto.",
+            "Estos apartments cuantas con una pequeña piscina privada para los residentes del edificio.",
+            "Cel: 71121318"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-47",
@@ -1272,7 +1910,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMjWdJwxy6p/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMjWdJwxy6p/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "location": "Torres de Heredia",
+          "priceLabel": "$850 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-48",
@@ -1300,7 +1947,22 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdXJ9vRANr/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdXJ9vRANr/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1400 USD / month",
+          "details": [
+            "Piscina",
+            "Gimnasio",
+            "Green areas",
+            "BBQ area",
+            "Lobby con 24/7 front desk"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-49",
@@ -1329,7 +1991,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdHyEZRoRP/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdHyEZRoRP/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms",
+          "location": "Condominio Bellavista, Heredia, Ulloa, floor 17",
+          "priceLabel": "$1000 USD / month",
+          "details": [
+            "2 piscinas",
+            "2 jacuzzi",
+            "2 gimnasios",
+            "2 salas de cine",
+            "Cancha multiuso",
+            "Áreas de BBQ"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-50",
@@ -1351,26 +2029,31 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMasBnLRQMa/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMasBnLRQMa/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms · Furnished",
+          "location": "Ciudad Cariari Heredia, garaje para 2 vehículos",
+          "priceLabel": "$1400 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-51",
-      "category": "venta",
+      "category": "bodegas",
       "status": "disponible",
-      "title": "Se vende hermoso apartamento en Bambú 106",
-      "location": "Lagunilla de Heredia",
+      "title": "Bodega Disponible",
+      "location": "Ubicación por confirmar",
       "price": 145000.0,
       "priceLabel": "$145,000 USD / mes",
       "beds": 2,
       "baths": 0,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/522906160_1096371442428356_2651163144161044113_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzY4MjAzMTEyMzg0NDc2NDMzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=4Bz5jcLCGIQQ7kNvwGDG1Jn&_nc_oc=Adpp96VqnYquUC2HAEQzWbc9BGYJawoGbISULxF7GFg5fda0pmNbZ3T1rNfPO-h4Ko0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=YDkrBjjE9EC1Ys-H8AcUbg&_nc_ss=7a32e&oh=00_Af05QqCEuf8yBoEoxHbQRj-JnbgNtLzJfrLUn0YK2lE6EQ&oe=69D63453",
       "details": [
-        "Se vende hermoso apartamento en Bambú 106",
-        "Lagunilla de Heredia",
-        "2 habitaciones",
-        "en piso 10",
-        "parqueo para 2 vehículos",
-        "más una bodega."
+        "Se vende hermoso apartamento en Bambú 106, Lagunilla de Heredia, 2 habitaciones, en piso 10, parqueo para 2 vehículos, más una bodega.",
+        "Plazo: 8 años"
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -1380,7 +2063,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMZM8yEsxKz/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMZM8yEsxKz/",
+      "translations": {
+        "en": {
+          "title": "Warehouse Disponible",
+          "location": "Location to be confirmed",
+          "priceLabel": "$145,000 USD / month",
+          "details": [
+            "Se vende hermoso apartment en Bambú 106, Lagunilla de Heredia, 2 bedrooms, en floor 10, parqueo para 2 vehículos, más una warehouse.",
+            "Plazo: 8 años"
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-52",
@@ -1402,7 +2097,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMT-K5Lxxqe/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMT-K5Lxxqe/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · Furnished",
+          "location": "Condominio Núcleo la Sábana",
+          "priceLabel": "$1700 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-53",
@@ -1424,15 +2128,24 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMJcBjISKnE/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMJcBjISKnE/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Condominio Núcleo Sábana, en el floor 16 de la torre nueva",
+          "priceLabel": "$1400, USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-54",
       "category": "alquiler",
       "status": "disponible",
       "title": "Propiedad en Alquiler",
-      "location": "SER Escalante",
-      "price": 0.0,
+      "location": "Ubicación por confirmar",
+      "price": 0,
       "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
@@ -1446,15 +2159,24 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMG2VYeSj4A/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMG2VYeSj4A/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-55",
       "category": "alquiler",
       "status": "disponible",
       "title": "Propiedad en Alquiler",
-      "location": "Residencial los Arcos , CARIARI2",
-      "price": 0.0,
+      "location": "Ubicación por confirmar",
+      "price": 0,
       "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
@@ -1468,15 +2190,24 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DLnsBQLyK9i/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DLnsBQLyK9i/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-56",
       "category": "venta",
       "status": "disponible",
       "title": "Propiedad en Venta",
-      "location": "San Joaquín de Heredia",
-      "price": 0.0,
+      "location": "Ubicación por confirmar",
+      "price": 0,
       "priceLabel": "Consultar precio",
       "beds": 0,
       "baths": 0,
@@ -1490,7 +2221,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKC69TgxsMr/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKC69TgxsMr/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Venta",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-57",
@@ -1512,7 +2252,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKBo-ZauDCG/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKBo-ZauDCG/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-58",
@@ -1534,7 +2283,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJxRzejyq7q/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJxRzejyq7q/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-59",
@@ -1556,7 +2314,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJnWoWhRIjc/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJnWoWhRIjc/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-60",
@@ -1578,7 +2345,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJMjym_RRlT/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJMjym_RRlT/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-61",
@@ -1600,7 +2376,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJCrmh5Sjvc/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJCrmh5Sjvc/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-62",
@@ -1622,7 +2407,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIQMH-dOwUW/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIQMH-dOwUW/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-63",
@@ -1644,7 +2438,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIP5FX7RRq5/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIP5FX7RRq5/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Venta",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-64",
@@ -1666,7 +2469,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIM4MLwShog/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIM4MLwShog/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-65",
@@ -1688,7 +2500,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHtjPJUx8AF/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHtjPJUx8AF/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-66",
@@ -1710,7 +2531,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHdxLUDx_H9/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHdxLUDx_H9/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-67",
@@ -1732,7 +2562,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHb2gAcy57i/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHb2gAcy57i/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-68",
@@ -1754,7 +2593,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHbu6cvSt-z/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHbu6cvSt-z/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-69",
@@ -1776,7 +2624,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHYmBQ1xx8A/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHYmBQ1xx8A/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-70",
@@ -1784,18 +2641,14 @@
       "status": "disponible",
       "title": "Casa en la misma propiedad, en VILLA REAL SANTA ANA.",
       "location": "la misma propiedad, en VILLA REAL SANTA ANA.",
-      "price": 1.9,
-      "priceLabel": "$1.9 M USD",
+      "price": 19.0,
+      "priceLabel": "$1.9 USD",
       "beds": 0,
       "baths": 0,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.75761-15/483304431_17922693924026180_1975438614832213295_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=101&ig_cache_key=MzU4NTIzMTE2NjMzODU4MzAyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5oZHIuQzMifQ%3D%3D&_nc_ohc=O1LvyePDlT8Q7kNvwFRR0ZK&_nc_oc=Ado888FegqbjCRy0dhH_mQ2fj4hw1faAfi4kFKBP9NDRuJWZTOYmgTcgJaWofSTXZEo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=tFd2P_xkSJpRaSEEjgqAPQ&_nc_ss=7a32e&oh=00_Af132IlpoMlkhYna5eKpcvukv3EF5e-4Dvqzb5cJoHCE9w&oe=69D63A96",
       "details": [
-        "Se vende 2 casas grandes",
-        "están separadas",
-        "pero en la misma propiedad",
-        "en VILLA REAL SANTA ANA.",
-        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica",
-        "con excelentes vistas"
+        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
+        "Están construidas en un terreno de 2078m2, cada casa tiene una construcción aproximada de 450m2"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -1805,7 +2658,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/",
+      "translations": {
+        "en": {
+          "title": "House en la misma propiedad, en VILLA REAL SANTA ANA.",
+          "location": "La misma propiedad, en VILLA REAL SANTA ANA.",
+          "priceLabel": "$1.9 USD",
+          "details": [
+            "Estás 2 houses se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
+            "Están construidas en un terreno de 2078m2, cada house tiene una construcción aproximada de 450m2"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-71",
@@ -1827,7 +2692,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG7Ju8_Oxb7/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG7Ju8_Oxb7/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-72",
@@ -1849,7 +2723,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG2I_pFusEw/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG2I_pFusEw/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-73",
@@ -1871,7 +2754,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DEiJ4DNyNar/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DEiJ4DNyNar/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-74",
@@ -1893,7 +2785,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DDVo-q5Rj7s/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DDVo-q5Rj7s/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-75",
@@ -1915,7 +2816,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gT5bqRrRz/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gT5bqRrRz/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-76",
@@ -1937,7 +2847,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gLC-XRGXg/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gLC-XRGXg/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-77",
@@ -1959,7 +2878,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-x7aUExUJ9/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-x7aUExUJ9/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-78",
@@ -1981,7 +2909,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-WUt0nNH_i/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-WUt0nNH_i/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-79",
@@ -2003,7 +2940,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EIcC8xslr/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EIcC8xslr/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-80",
@@ -2025,7 +2971,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EG196R6qB/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EG196R6qB/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-81",
@@ -2047,7 +3002,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8sbUCqy3Dj/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8sbUCqy3Dj/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-82",
@@ -2069,7 +3033,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8GIky8x8Su/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8GIky8x8Su/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-83",
@@ -2091,7 +3064,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8E5niURL-E/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8E5niURL-E/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-84",
@@ -2113,7 +3095,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7uZFeaxYXC/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7uZFeaxYXC/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     }
   ],
   "featuredProperties": [
@@ -2144,14 +3135,30 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWo1hUmkTjs/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWo1hUmkTjs/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "Torres de Heredia, (Khaya ruta 1)",
+          "priceLabel": "Price on request / month",
+          "details": [
+            "2 bedrooms",
+            "2 bathrooms",
+            "2 balcones",
+            "Corner unit",
+            "Calentador de agua",
+            "Puertas de vidrio corredizas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-2",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Torres de Heredia",
+      "location": "Ubicación por confirmar",
       "price": 900.0,
       "priceLabel": "$900 USD / mes",
       "beds": 1,
@@ -2173,7 +3180,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "location": "Location to be confirmed",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "El apartment se renta así como lo ve en las fotografías.",
+            "Piscina",
+            "Jacuzzi",
+            "Gimnasio",
+            "Green areas",
+            "BBQ area"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-3",
@@ -2202,7 +3225,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWPMLXwkR4J/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWPMLXwkR4J/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
+          "location": "Torres de la Colina, Escazu",
+          "priceLabel": "$1600USD / month",
+          "details": [
+            "Floor 6 con increíble city view",
+            "2 bedrooms",
+            "2 bathrooms",
+            "1 covered parking",
+            "Fully furnished",
+            "24/7 security"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-4",
@@ -2231,7 +3270,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWHvH-aEcQ8/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWHvH-aEcQ8/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Torres San Marino",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Excelente vista floor 5",
+            "2 parqueos",
+            "Piscina",
+            "BBQ area",
+            "Parques infantiles",
+            "Mini gym"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-70",
@@ -2239,18 +3294,14 @@
       "status": "disponible",
       "title": "Casa en la misma propiedad, en VILLA REAL SANTA ANA.",
       "location": "la misma propiedad, en VILLA REAL SANTA ANA.",
-      "price": 1.9,
-      "priceLabel": "$1.9 M USD",
+      "price": 19.0,
+      "priceLabel": "$1.9 USD",
       "beds": 0,
       "baths": 0,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.75761-15/483304431_17922693924026180_1975438614832213295_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=101&ig_cache_key=MzU4NTIzMTE2NjMzODU4MzAyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5oZHIuQzMifQ%3D%3D&_nc_ohc=O1LvyePDlT8Q7kNvwFRR0ZK&_nc_oc=Ado888FegqbjCRy0dhH_mQ2fj4hw1faAfi4kFKBP9NDRuJWZTOYmgTcgJaWofSTXZEo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=tFd2P_xkSJpRaSEEjgqAPQ&_nc_ss=7a32e&oh=00_Af132IlpoMlkhYna5eKpcvukv3EF5e-4Dvqzb5cJoHCE9w&oe=69D63A96",
       "details": [
-        "Se vende 2 casas grandes",
-        "están separadas",
-        "pero en la misma propiedad",
-        "en VILLA REAL SANTA ANA.",
-        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica",
-        "con excelentes vistas"
+        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
+        "Están construidas en un terreno de 2078m2, cada casa tiene una construcción aproximada de 450m2"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -2260,7 +3311,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/",
+      "translations": {
+        "en": {
+          "title": "House en la misma propiedad, en VILLA REAL SANTA ANA.",
+          "location": "La misma propiedad, en VILLA REAL SANTA ANA.",
+          "priceLabel": "$1.9 USD",
+          "details": [
+            "Estás 2 houses se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
+            "Están construidas en un terreno de 2078m2, cada house tiene una construcción aproximada de 450m2"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     }
   ],
   "catalogProperties": [
@@ -2291,14 +3354,30 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWo1hUmkTjs/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWo1hUmkTjs/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "Torres de Heredia, (Khaya ruta 1)",
+          "priceLabel": "Price on request / month",
+          "details": [
+            "2 bedrooms",
+            "2 bathrooms",
+            "2 balcones",
+            "Corner unit",
+            "Calentador de agua",
+            "Puertas de vidrio corredizas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-2",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Torres de Heredia",
+      "location": "Ubicación por confirmar",
       "price": 900.0,
       "priceLabel": "$900 USD / mes",
       "beds": 1,
@@ -2320,7 +3399,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "location": "Location to be confirmed",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "El apartment se renta así como lo ve en las fotografías.",
+            "Piscina",
+            "Jacuzzi",
+            "Gimnasio",
+            "Green areas",
+            "BBQ area"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-3",
@@ -2349,7 +3444,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWPMLXwkR4J/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWPMLXwkR4J/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
+          "location": "Torres de la Colina, Escazu",
+          "priceLabel": "$1600USD / month",
+          "details": [
+            "Floor 6 con increíble city view",
+            "2 bedrooms",
+            "2 bathrooms",
+            "1 covered parking",
+            "Fully furnished",
+            "24/7 security"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-4",
@@ -2378,14 +3489,30 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWHvH-aEcQ8/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWHvH-aEcQ8/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Torres San Marino",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Excelente vista floor 5",
+            "2 parqueos",
+            "Piscina",
+            "BBQ area",
+            "Parques infantiles",
+            "Mini gym"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-5",
       "category": "venta",
       "status": "disponible",
       "title": "Apartamento Amoblado",
-      "location": "Torres de Heredia (Khaya ruta uno)",
+      "location": "Ubicación por confirmar",
       "price": 65.0,
       "priceLabel": "₡65",
       "beds": 0,
@@ -2393,11 +3520,11 @@
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/655312696_1228864946065722_7952721626604119294_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzg1NTc1NTMwODUxMDA3ODQ3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=8k6RirnCk8gQ7kNvwEMq4BV&_nc_oc=Adq5EcI0_0Vr8SLQqR-4PCWY1nwwyU_xPHdct4449oWZOVTVGPhyu1-KGJ19sM2tic0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=UW4pb02nyHXho_uL34d6AA&_nc_ss=7a32e&oh=00_Af2vTq-y7Rg9iQlzsTisAGC8Dz0fBhehfIJbYAnNFtfErA&oe=69D64AAA",
       "details": [
         "Medidas: 50m2 de apartamento más 15m2 de parqueo.",
-        "Piso 7",
-        "esquinero",
-        "con vista al oeste.",
+        "Piso 7, esquinero, con vista al oeste.",
         "Solicitar video.",
-        "Áreas comunes:"
+        "Áreas comunes:",
+        "Piscina",
+        "Jacuzzi"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -2407,7 +3534,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWCZQZAkeYI/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWCZQZAkeYI/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "₡65",
+          "details": [
+            "Medidas: 50m2 de apartment más 15m2 de parqueo.",
+            "Floor 7, corner unit, con vista al oeste.",
+            "Solicitar video.",
+            "Áreas comunes:",
+            "Piscina",
+            "Jacuzzi"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-6",
@@ -2422,8 +3565,7 @@
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/641292384_899752016011489_7518385841643226975_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzg0NjI4MDM1NDc3NzM1Mzk1MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=eoYAe3YO7wMQ7kNvwEc4jPM&_nc_oc=AdoeK4U4dezs9PYlbex6FiO59SuPJsMpXKLFjwzZgrlsf-wXKEZjtzub-8i4O5g4NUw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=UW4pb02nyHXho_uL34d6AA&_nc_ss=7a32e&oh=00_Af1le3eIdGc2t7iRrujRP5jG8h8_2maxlBSHPY0BqYHztQ&oe=69D62D30",
       "details": [
         "Solicite el video",
-        "El apartamento se renta así como lo ve en las fotos",
-        "y el precio incluye cuota condominal y un parqueo bajo techo."
+        "El apartamento se renta así como lo ve en las fotos, y el precio incluye cuota condominal y un parqueo bajo techo."
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -2433,14 +3575,26 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DVgu5qtEU7f/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DVgu5qtEU7f/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms",
+          "location": "Robledal Flats, ground floor con patio privado",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Solicite el video",
+            "El apartment se renta así como lo ve en las fotos, y el precio incluye HOA fee y un covered parking."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-7",
       "category": "alquiler",
       "status": "disponible",
       "title": "Casa 2 Habitaciones",
-      "location": "San Juan de Dios, Desamparados",
+      "location": "Ubicación por confirmar",
       "price": 400000.0,
       "priceLabel": "₡400,000 / mes",
       "beds": 2,
@@ -2462,7 +3616,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DVWsd9YkQwn/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DVWsd9YkQwn/",
+      "translations": {
+        "en": {
+          "title": "House 2 Bedrooms",
+          "location": "Location to be confirmed",
+          "priceLabel": "₡400,000 / month",
+          "details": [
+            "Garaje para 2 vehículos",
+            "Doble portón electrico",
+            "2 bedrooms",
+            "1 bathroom completo",
+            "Amplio laundry room",
+            "Walk-in clóset en el patio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-8",
@@ -2491,7 +3661,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DU3mk5ZEa2Y/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DU3mk5ZEa2Y/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Corner Unit",
+          "location": "Torres de Heredia, floor 11",
+          "priceLabel": "$850 USD / month",
+          "details": [
+            "Floor 11, great view",
+            "Incluye lava-seca",
+            "Tiene walk in closet",
+            "Corner unit",
+            "Incluye parqueo",
+            "24/7 security"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-9",
@@ -2513,14 +3699,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUwFcodkSdU/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUwFcodkSdU/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · Furnished",
+          "location": "Torres De Heredia",
+          "priceLabel": "$1350 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-10",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · Amoblado",
-      "location": "Torres de Heredia",
+      "location": "Ubicación por confirmar",
       "price": 1000.0,
       "priceLabel": "$1000 USD / mes",
       "beds": 1,
@@ -2542,7 +3737,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUQmo6RkYHP/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUQmo6RkYHP/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1000 USD / month",
+          "details": [
+            "1 bedroom",
+            "Fully furnished y equipado",
+            "Balcón con sunset view",
+            "Floor 12",
+            "Precio incluye 1 parqueo y HOA fee",
+            "Condominio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-11",
@@ -2571,7 +3782,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUOCVUMETvP/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUOCVUMETvP/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "location": "Torres de Heredia",
+          "priceLabel": "₡430,000",
+          "details": [
+            "¡En excelente ubicación privilegiada! Este elegante apartment le ofrece confort, seguridad y acceso inmediato a todo lo que necesita.",
+            "Características del apartment:",
+            "▪️ 1 bedroom",
+            "▪️ 1 bathroom",
+            "▪️ Cocina equipada",
+            "▪️ Sala y comedor integrados"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-12",
@@ -2600,7 +3827,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTvep-5kVlV/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTvep-5kVlV/",
+      "translations": {
+        "en": {
+          "title": "House 2 Bedrooms · 3 Bathrooms · with Línea Blanca",
+          "location": "Condominio Francosta, Ulloa de Heredia",
+          "priceLabel": "₡85",
+          "details": [
+            "House:",
+            "Lote 372m2",
+            "Construcción 258m2",
+            "2 niveles",
+            "2 amplias bedrooms con vistas increíbles desde los balcones",
+            "A/C en las bedrooms"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-13",
@@ -2629,7 +3872,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DToAUJmEeVo/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DToAUJmEeVo/",
+      "translations": {
+        "en": {
+          "title": "House 2 Bedrooms · Furnished",
+          "location": "Condominio Blue Cariari",
+          "priceLabel": "$1650 USD / month",
+          "details": [
+            "Piscina",
+            "Cancha de tenis",
+            "BBQ area",
+            "Gimnasio",
+            "Cancha de fut5",
+            "24/7 security"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-14",
@@ -2658,7 +3917,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTS_wCvkY1A/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTS_wCvkY1A/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1000 USD / month",
+          "details": [
+            "Piscina",
+            "24/7 security",
+            "Green areas",
+            "Parqueo",
+            "BBQ area",
+            "Elegante lobby con recepción"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-15",
@@ -2687,7 +3962,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS6Mr11kbRA/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS6Mr11kbRA/",
+      "translations": {
+        "en": {
+          "title": "Apartment en Torres de Heredia",
+          "location": "Torres de Heredia",
+          "priceLabel": "₡430,000 / month",
+          "details": [
+            "55m2 más 15 m2 de covered parking.",
+            "Floor 8 con sunset view",
+            "Se da con lavaseca",
+            "Small pets allowed",
+            "Piscinas",
+            "Jacuzzis"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-16",
@@ -2716,7 +4007,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS5L1cSETUR/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS5L1cSETUR/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$900USD / month",
+          "details": [
+            "55m2 más 15 m2 de covered parking.",
+            "Floor 2 con forest view",
+            "Fully furnished, así como se ve en las fotografías",
+            "Small pets allowed",
+            "Piscinas",
+            "Jacuzzis"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-17",
@@ -2745,26 +4052,39 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS0Ny72EcbO/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS0Ny72EcbO/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
+          "details": [
+            "Tipo estudio 40m2 más 15 m2 de covered parking.",
+            "Floor 6 con vista a la piscina",
+            "Fully furnished, así como se ve en las fotografías",
+            "Tiene aire acondicionado",
+            "Pets are not allowed",
+            "Piscinas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-18",
       "category": "bodegas",
       "status": "disponible",
       "title": "Bodega Disponible",
-      "location": "a la par del aeropuerto Juan Santamaría.",
+      "location": "Ubicación por confirmar",
       "price": 800.0,
       "priceLabel": "$800 USD / mes",
       "beds": 0,
       "baths": 0,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/601785473_25547681771536870_8168317921271865437_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzc5MTMzMTI0ODExMjIyMDY2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=RFROtr5r30IQ7kNvwG2PZIE&_nc_oc=AdoFtRuoigIb6w1X_xyklNjVdGuJLTovFCbHFLP8H-YDrs1FdGiIoYIDbQh7BGjQcXQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=cBXdz4n65AJ792Bft48_gw&_nc_ss=7a32e&oh=00_Af2OsGRGouSQ4ZN7TQTWFP4MF3aAxfjO54whf6AF6GfH2g&oe=69D62F1C",
       "details": [
-        "desde 90m2",
-        "precios desde $800 USD",
-        "Teléfono ☎️ 71121318",
         "Tenemos 3 bodegas disponibles",
-        "1. 100m2 $1000 USD (techo alto)",
-        "2. 100m2 $900 USD"
+        "Incluye servicios de agua y luz.",
+        "Lugar privado son seguridad, portón eléctrico."
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -2774,7 +4094,20 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DSdg67NkTn9/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DSdg67NkTn9/",
+      "translations": {
+        "en": {
+          "title": "Warehouse Disponible",
+          "location": "Location to be confirmed",
+          "priceLabel": "$800 USD / month",
+          "details": [
+            "Tenemos 3 warehouses disponibles",
+            "Incluye servicios de agua y luz.",
+            "Lugar privado son seguridad, portón eléctrico."
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-19",
@@ -2803,26 +4136,42 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DR2kdsmERIf/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DR2kdsmERIf/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1000 USD / month",
+          "details": [
+            "2 bathrooms",
+            "2 parqueos",
+            "2 balcones",
+            "Aire acondicionado",
+            "Piscina",
+            "Gimnasio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-20",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 2 Habitaciones · 2 Baños · Amoblado",
-      "location": "NÚCLEO SÁBANA",
+      "location": "Ubicación por confirmar",
       "price": 1600.0,
       "priceLabel": "$1600 USD / mes",
       "beds": 2,
       "baths": 2,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/586701341_3747245322238881_1630494025017009101_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzc3NTM1NTEzNTA0MTA1NjA0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=cSTPRoXKUyIQ7kNvwGfMpKx&_nc_oc=Adoqfk6wDLYJQpU7Bqi-Idbx3rlVT3oBO2ikOGQmKmLi-ZJGZGzf8WoI7dikkcs4zx0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=cBXdz4n65AJ792Bft48_gw&_nc_ss=7a32e&oh=00_Af1G0qn1dC6OJsdCR_R4EQTvqT214twbfwXYAAAWO4yc9g&oe=69D61D5B",
       "details": [
-        "🍀Full amoblado",
-        "como se ve en las fotos",
+        "🍀Full amoblado, como se ve en las fotos",
         "🍀2 habitaciones",
         "🍀2 baños",
         "🍀Aire acondicionado",
-        "🍀Cuarto de pilas"
+        "🍀Cuarto de pilas",
+        "🍀1 Parqueo"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -2832,7 +4181,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRkwX4dEa0p/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRkwX4dEa0p/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1600 USD / month",
+          "details": [
+            "Fully furnished, como se ve en las fotos",
+            "2 bedrooms",
+            "2 bathrooms",
+            "Aire acondicionado",
+            "Laundry room",
+            "1 Parqueo"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-21",
@@ -2861,7 +4226,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRQYw6QkTrX/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRQYw6QkTrX/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · 2 Bathrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "2 bathrooms",
+            "2 parqueos",
+            "2 balcones",
+            "Aire acondicionado",
+            "Piscina",
+            "Gimnasio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-22",
@@ -2890,7 +4271,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQ4iuHwEfno/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQ4iuHwEfno/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "CONDOMINIO AL ANDALUS, EN LA GUACIMA DE ALAJUELA.",
+          "priceLabel": "$1,150 USD / month",
+          "details": [
+            "• 3 cuartos remodelados con closet cada uno.",
+            "• 2 Aires Acondicionados.",
+            "• 2 bathrooms totalmente con mamparas",
+            "• Parqueo para dos carros (techado)",
+            "• Terraza techada y con césped sintético",
+            "• Cocina empotrada."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-23",
@@ -2919,7 +4316,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQcrtTakaQa/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQcrtTakaQa/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "TORRES DE HEREDIA",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "CONDOMINIO TORRES DE HEREDIA:",
+            "PISCINA",
+            "GIMNASIO",
+            "BBQ area",
+            "Green areas",
+            "PET FRIENDLY"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-24",
@@ -2948,7 +4361,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQaQfKQERy3/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQaQfKQERy3/",
+      "translations": {
+        "en": {
+          "title": "Apartment Corner Unit",
+          "location": "LAGUNILLA DE HEREDIA, corner unit, SOBRE CALLE PRINCIPAL, EQUIPADO.",
+          "priceLabel": "$6000 USD / month",
+          "details": [
+            "EL LOCAL ESTÁ ACONDICIONADO PARA UN NEGOCIO DE COMIDA, TAL COMO LO VE EN LAS FOTOS.",
+            "TIENE UN apartment EN SEGUNDA PLANTA (opcional)",
+            "330 m2 DE CONSTRUCCIÓN",
+            "PARQUEOS PROPIOS",
+            "SE PUEDE PRESTAR PATENTE POR 3 MESES POR MIENTRAS TRAMITAN LA PROPIA (comida)",
+            "TAMBIÉN SE PUEDE RENTAR PARA OTRO TIPO DE NEGOCIO Y SE PUEDE DIVIDIR LA PROPIEDAD."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-25",
@@ -2970,7 +4399,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPpqqKJkbBL/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPpqqKJkbBL/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Condominio Malibu en San Pablo de Heredia, la house es de 2 niveles, 3 espacios de garaje, en la planta baja hay un cuarto servicio amplio con bathroom completo, ademas de un amplio jardín, sala, cocina, comedor cuarto de lavado",
+          "priceLabel": "$1800 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-26",
@@ -2999,14 +4437,30 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPkPbyHEfa5/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPkPbyHEfa5/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Línea Blanca",
+          "location": "Altamira, primera planta",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "San Pablo de Heredia",
+            "Incluye appliances included",
+            "2 bathrooms",
+            "2 bedrooms",
+            "Piscina recreativa y de nado",
+            "Cancha de tenis"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-27",
-      "category": "alquiler",
+      "category": "bodegas",
       "status": "disponible",
-      "title": "SE ALQUILA precioso apartamento nuevo",
-      "location": "Núcleo Sábana",
+      "title": "Bodega con Línea Blanca",
+      "location": "Ubicación por confirmar",
       "price": 2000.0,
       "priceLabel": "$2000 USD / mes",
       "beds": 2,
@@ -3027,7 +4481,22 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPiI3LmDIYB/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPiI3LmDIYB/",
+      "translations": {
+        "en": {
+          "title": "Warehouse con Línea Blanca",
+          "location": "Location to be confirmed",
+          "priceLabel": "$2000 USD / month",
+          "details": [
+            "Floor 13",
+            "Parqueo para 2 vehículos",
+            "Warehouse",
+            "Vista increíble",
+            "Appliances included"
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-28",
@@ -3056,7 +4525,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPIYqjNDKAp/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPIYqjNDKAp/",
+      "translations": {
+        "en": {
+          "title": "House 2 Bedrooms · 2 Bathrooms",
+          "location": "La Guacima de Alajuela, enfrente de Hacienda los Reyes.",
+          "priceLabel": "₡65,000,000",
+          "details": [
+            "Está ubicado en Condominio los Príncipes.",
+            "2 bedrooms.",
+            "2 bathrooms.",
+            "Sala.",
+            "Cocina.",
+            "Comedor."
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-29",
@@ -3081,7 +4566,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPASR38kchT/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPASR38kchT/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "Este apartment se encuentra en floor con vista a la piscina y a bellos atardeceres. El apartment esta completamente furnished, tiene A/C en la bedroom.",
+            "En el Condominio hay piscina, BBQ area, gimnasio, green areas, entre otras amenidades. 24/7 security, elegante lobby con recepcionista 24/7."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-30",
@@ -3106,7 +4603,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO9xyeHEY6Q/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO9xyeHEY6Q/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "CONhouse",
+          "priceLabel": "$850 USD / month",
+          "details": [
+            "El apartment es bien amplio, cuanta con recibidor, sala, comedor, cocina, cuarto pilas, balcón, 3 bedrooms, 2 bathrooms completos y garaje para 1 vehiculo .",
+            "El condominio cuenta con green areas, piscina, cancha multiuso, cancha de basket, cancha de tenis, 24/7 security."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-31",
@@ -3128,7 +4637,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO6NIw8ETRf/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO6NIw8ETRf/",
+      "translations": {
+        "en": {
+          "title": "House en Santo Domingo de Heredia, frente a calle principal, 385m2, uso de suelo mixto, 16 metros de frente.",
+          "location": "Santo Domingo de Heredia, frente a calle principal, 385m2, uso de suelo mixto, 16 metros de frente.",
+          "priceLabel": "Price on request",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-32",
@@ -3150,7 +4668,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOzQrfFEfFl/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOzQrfFEfFl/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Condominio Malibu en San Pablo de Heredia, la house es de 2 niveles, 4 espacios de garaje, en la planta baja hay un cuarto servicio amplio con bathroom completo, ademas de un amplio jardín, sala, cocina, comedor cuarto de lavado",
+          "priceLabel": "$270,000 USD",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-33",
@@ -3179,7 +4706,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOrRlflkRr1/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOrRlflkRr1/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms",
+          "location": "Torres de Heredia, cuanta con 2 niveles",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Torres de Heredia tiene una excelente ubicación, frente a zona franca metropolitana en Barreal de Heredia (Ulloa), además cuanta con las siguientes amenidades y comodidades:",
+            "Piscina",
+            "Jacuzzi",
+            "BBQ area",
+            "Gym",
+            "Green areas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-34",
@@ -3204,7 +4747,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DObt9CckbVD/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DObt9CckbVD/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "Condominio Lomas de San Rafael de Escazu",
+          "priceLabel": "$1200 USD / month",
+          "details": [
+            "El apartment tiene una medida de 78m2, cuenta con 2 bedrooms, 2 bathrooms completos, sala, comedor, cocina, laundry room y balcón, esta en el floor top de la torre que es el floor 5, cuenta con una vista increíble al valle central.",
+            "Ademas, el condominio cuenta con entrada privada y 24/7 security, también tiene un BBQ area con piscina, playground para niños."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-35",
@@ -3229,7 +4784,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOJZdoykXhp/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOJZdoykXhp/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia.",
+          "priceLabel": "Price on request / month",
+          "details": [
+            "Este apartment se encuentra en el floor 2 de la torre B, con excelente forest view. El apartment se entrega fully furnished, el precio incluye la HOA fee.",
+            "Torres de Heredia tiene diferentes amenidades como piscinas, BBQ area, green areas, entre otras, además cuanta con una excelente ubicación."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-36",
@@ -3251,7 +4818,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOEiSGhkShu/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOEiSGhkShu/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom",
+          "location": "Núcleo Sábana, floor 16 con vista al sur, incluye todo lo que ve en el video",
+          "priceLabel": "$165,000 USD",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-37",
@@ -3273,7 +4849,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN6LnQYkcll/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN6LnQYkcll/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Balcony",
+          "location": "Torres de Heredia",
+          "priceLabel": "$850 USD",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-38",
@@ -3295,7 +4880,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN3h26fYtQF/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN3h26fYtQF/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1000 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-39",
@@ -3319,13 +4913,24 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DNlOc90xk-y/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DNlOc90xk-y/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "Price on request / month",
+          "details": [
+            "Amenidades del condominio: piscina, Jacuzzi, gimnasio, BBQ area, green areas. #viral #viralpost #alquiler #renta #alquilerheredia"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-40",
-      "category": "alquiler",
+      "category": "bodegas",
       "status": "disponible",
-      "title": "Se renta precioso apartamento de 1 habitacion",
+      "title": "Bodega con Línea Blanca",
       "location": "Vistas de Robledal",
       "price": 975.0,
       "priceLabel": "$975 USD / mes",
@@ -3333,11 +4938,8 @@
       "baths": 0,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.82787-15/527228964_17938428579026180_3896132106396686941_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=MzY5MTMwMzc1NDU3MTQyODM0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNzB4MjA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=2BhBs3ZtoocQ7kNvwF_aonw&_nc_oc=Ado4u0BJ0dYQsIgXtfYmsRRWy0RZBsTqbx5snpevh-dJMr1AJXzIIchusEwpjYN2dsI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=uAGJzwf0T01HQ_wNSayWHw&_nc_ss=7a32e&oh=00_Af1UsW_OLB2FtG9rX4qMsmfqKCrWL0aqBPK3uCysa7Pavw&oe=69D62763",
       "details": [
-        "☎️ 71121318",
-        "Amenidades",
-        "piscina",
-        "gimnasio",
-        "mirador en el último piso."
+        "☎️ 71121318,",
+        "Amenidades, piscina, gimnasio, mirador en el último piso."
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -3347,13 +4949,25 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DM6JTUZS7H1/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DM6JTUZS7H1/",
+      "translations": {
+        "en": {
+          "title": "Warehouse con Línea Blanca",
+          "location": "Vistas de Robledal",
+          "priceLabel": "$975 USD / month",
+          "details": [
+            "☎️ 71121318,",
+            "Amenidades, piscina, gimnasio, mirador en el último piso."
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-41",
-      "category": "venta",
+      "category": "bodegas",
       "status": "disponible",
-      "title": "Hermosa Casa en San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
+      "title": "Bodega en San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
       "location": "San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
       "price": 256.0,
       "priceLabel": "$256 USD / mes",
@@ -3361,12 +4975,12 @@
       "baths": 2,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.82787-15/525670560_17938191777026180_1582837353652090289_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=109&ig_cache_key=MzY4OTc4OTk3MDQ0NzAxMTg3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTA4MC5oZHIuQzMifQ%3D%3D&_nc_ohc=Fb-Ac5dW4wwQ7kNvwG-K-yE&_nc_oc=Adq8R7JP_2488NRqMdcHE0HKwnPigyJL3eYwLxpFj25EkrNBlN7f6q6lrf2u3CCegVU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=uAGJzwf0T01HQ_wNSayWHw&_nc_ss=7a32e&oh=00_Af3bc_tHAIZY27DZH8NC4v8s6Z_K5nDjcXeWLnzY4NlgmQ&oe=69D622FC",
       "details": [
-        "Viví en una casa espaciosa",
-        "cómoda y en excelentes condiciones",
-        "ubicada en una zona estratégica",
-        "muy cerca del centro de Heredia",
-        "con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
-        "Área de terreno: 168 m²"
+        "Viví en una casa espaciosa, cómoda y en excelentes condiciones, ubicada en una zona estratégica, muy cerca del centro de Heredia, con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
+        "Área de terreno: 168 m²",
+        "Construcción: aproximadamente 250 m²",
+        "Distribución en dos niveles:",
+        "Planta baja con espacios integrados:",
+        "Sala amplia"
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -3376,7 +4990,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DM0xHJvSY0j/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DM0xHJvSY0j/",
+      "translations": {
+        "en": {
+          "title": "Warehouse en San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
+          "location": "San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
+          "priceLabel": "$256 USD / month",
+          "details": [
+            "Viví en una house espaciosa, cómoda y en excelentes condiciones, ubicada en una zona estratégica, muy cerca del centro de Heredia, con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
+            "Área de terreno: 168 m²",
+            "Construcción: aproximadamente 250 m²",
+            "Distribución en dos niveles:",
+            "Planta baja con espacios integrados:",
+            "Sala amplia"
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-42",
@@ -3398,7 +5028,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DMyFmrqyFy2/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DMyFmrqyFy2/",
+      "translations": {
+        "en": {
+          "title": "Apartment en Mercedes de Heredia, 500mts norte del quiropráctico, uso de suelo mixto",
+          "location": "Mercedes de Heredia, 500mts norte del quiropráctico, uso de suelo mixto",
+          "priceLabel": "₡105,000",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-43",
@@ -3427,7 +5066,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtZZvAvxUo/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtZZvAvxUo/",
+      "translations": {
+        "en": {
+          "title": "Apartment en Torres de Heredia",
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
+          "details": [
+            "☎️ 71121318",
+            "Piscinas",
+            "BBQ area",
+            "Green areas",
+            "Elegante lobby con recepción",
+            "Gimnasio"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-44",
@@ -3456,7 +5111,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtBD6YPMAg/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtBD6YPMAg/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Piscinas",
+            "Jacuzzis",
+            "Gimnasio",
+            "BBQ area",
+            "Green areas",
+            "Elegante Lobby con recepcionista"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-45",
@@ -3485,7 +5156,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMs4UIpxKvs/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMs4UIpxKvs/",
+      "translations": {
+        "en": {
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "Piscina",
+            "Gimnasio",
+            "BBQ area",
+            "Green areas",
+            "24/7 security",
+            "Elegante lobby con recepción"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-46",
@@ -3512,7 +5199,21 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMp9h-XMmX5/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMp9h-XMmX5/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Residencial Colinas del Viento, en Desamparados de Alajuela",
+          "priceLabel": "$127,500 USD",
+          "details": [
+            "Este apartment tiene una medida de 78m2 más un parqueo de 15m2.",
+            "Adentro del residencial Colinas del Viento queda el edificio de apartments, es de 3 pisos que se llama Amaranto.",
+            "Estos apartments cuantas con una pequeña piscina privada para los residentes del edificio.",
+            "Cel: 71121318"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-47",
@@ -3534,7 +5235,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMjWdJwxy6p/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMjWdJwxy6p/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "location": "Torres de Heredia",
+          "priceLabel": "$850 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-48",
@@ -3562,7 +5272,22 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdXJ9vRANr/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdXJ9vRANr/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1400 USD / month",
+          "details": [
+            "Piscina",
+            "Gimnasio",
+            "Green areas",
+            "BBQ area",
+            "Lobby con 24/7 front desk"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-49",
@@ -3591,7 +5316,23 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdHyEZRoRP/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdHyEZRoRP/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms",
+          "location": "Condominio Bellavista, Heredia, Ulloa, floor 17",
+          "priceLabel": "$1000 USD / month",
+          "details": [
+            "2 piscinas",
+            "2 jacuzzi",
+            "2 gimnasios",
+            "2 salas de cine",
+            "Cancha multiuso",
+            "Áreas de BBQ"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-50",
@@ -3613,26 +5354,31 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMasBnLRQMa/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMasBnLRQMa/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms · Furnished",
+          "location": "Ciudad Cariari Heredia, garaje para 2 vehículos",
+          "priceLabel": "$1400 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-51",
-      "category": "venta",
+      "category": "bodegas",
       "status": "disponible",
-      "title": "Se vende hermoso apartamento en Bambú 106",
-      "location": "Lagunilla de Heredia",
+      "title": "Bodega Disponible",
+      "location": "Ubicación por confirmar",
       "price": 145000.0,
       "priceLabel": "$145,000 USD / mes",
       "beds": 2,
       "baths": 0,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/522906160_1096371442428356_2651163144161044113_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzY4MjAzMTEyMzg0NDc2NDMzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=4Bz5jcLCGIQQ7kNvwGDG1Jn&_nc_oc=Adpp96VqnYquUC2HAEQzWbc9BGYJawoGbISULxF7GFg5fda0pmNbZ3T1rNfPO-h4Ko0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=YDkrBjjE9EC1Ys-H8AcUbg&_nc_ss=7a32e&oh=00_Af05QqCEuf8yBoEoxHbQRj-JnbgNtLzJfrLUn0YK2lE6EQ&oe=69D63453",
       "details": [
-        "Se vende hermoso apartamento en Bambú 106",
-        "Lagunilla de Heredia",
-        "2 habitaciones",
-        "en piso 10",
-        "parqueo para 2 vehículos",
-        "más una bodega."
+        "Se vende hermoso apartamento en Bambú 106, Lagunilla de Heredia, 2 habitaciones, en piso 10, parqueo para 2 vehículos, más una bodega.",
+        "Plazo: 8 años"
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -3642,7 +5388,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMZM8yEsxKz/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMZM8yEsxKz/",
+      "translations": {
+        "en": {
+          "title": "Warehouse Disponible",
+          "location": "Location to be confirmed",
+          "priceLabel": "$145,000 USD / month",
+          "details": [
+            "Se vende hermoso apartment en Bambú 106, Lagunilla de Heredia, 2 bedrooms, en floor 10, parqueo para 2 vehículos, más una warehouse.",
+            "Plazo: 8 años"
+          ],
+          "badgeText": "FOR LEASE"
+        }
+      }
     },
     {
       "id": "prop-52",
@@ -3664,7 +5422,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMT-K5Lxxqe/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMT-K5Lxxqe/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · Furnished",
+          "location": "Condominio Núcleo la Sábana",
+          "priceLabel": "$1700 USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-53",
@@ -3686,15 +5453,24 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMJcBjISKnE/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMJcBjISKnE/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Condominio Núcleo Sábana, en el floor 16 de la torre nueva",
+          "priceLabel": "$1400, USD / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-54",
       "category": "alquiler",
       "status": "disponible",
       "title": "Propiedad en Alquiler",
-      "location": "SER Escalante",
-      "price": 0.0,
+      "location": "Ubicación por confirmar",
+      "price": 0,
       "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
@@ -3708,15 +5484,24 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMG2VYeSj4A/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMG2VYeSj4A/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-55",
       "category": "alquiler",
       "status": "disponible",
       "title": "Propiedad en Alquiler",
-      "location": "Residencial los Arcos , CARIARI2",
-      "price": 0.0,
+      "location": "Ubicación por confirmar",
+      "price": 0,
       "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
@@ -3730,15 +5515,24 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DLnsBQLyK9i/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DLnsBQLyK9i/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-56",
       "category": "venta",
       "status": "disponible",
       "title": "Propiedad en Venta",
-      "location": "San Joaquín de Heredia",
-      "price": 0.0,
+      "location": "Ubicación por confirmar",
+      "price": 0,
       "priceLabel": "Consultar precio",
       "beds": 0,
       "baths": 0,
@@ -3752,7 +5546,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKC69TgxsMr/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKC69TgxsMr/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Venta",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-57",
@@ -3774,7 +5577,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKBo-ZauDCG/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKBo-ZauDCG/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-58",
@@ -3796,7 +5608,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJxRzejyq7q/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJxRzejyq7q/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-59",
@@ -3818,7 +5639,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJnWoWhRIjc/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJnWoWhRIjc/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-60",
@@ -3840,7 +5670,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJMjym_RRlT/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJMjym_RRlT/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-61",
@@ -3862,7 +5701,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJCrmh5Sjvc/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJCrmh5Sjvc/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-62",
@@ -3884,7 +5732,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIQMH-dOwUW/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIQMH-dOwUW/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-63",
@@ -3906,7 +5763,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIP5FX7RRq5/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIP5FX7RRq5/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Venta",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-64",
@@ -3928,7 +5794,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIM4MLwShog/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIM4MLwShog/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-65",
@@ -3950,7 +5825,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHtjPJUx8AF/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHtjPJUx8AF/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-66",
@@ -3972,7 +5856,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHdxLUDx_H9/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHdxLUDx_H9/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-67",
@@ -3994,7 +5887,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHb2gAcy57i/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHb2gAcy57i/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-68",
@@ -4016,7 +5918,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHbu6cvSt-z/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHbu6cvSt-z/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-69",
@@ -4038,7 +5949,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHYmBQ1xx8A/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHYmBQ1xx8A/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-70",
@@ -4046,18 +5966,14 @@
       "status": "disponible",
       "title": "Casa en la misma propiedad, en VILLA REAL SANTA ANA.",
       "location": "la misma propiedad, en VILLA REAL SANTA ANA.",
-      "price": 1.9,
-      "priceLabel": "$1.9 M USD",
+      "price": 19.0,
+      "priceLabel": "$1.9 USD",
       "beds": 0,
       "baths": 0,
       "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.75761-15/483304431_17922693924026180_1975438614832213295_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=101&ig_cache_key=MzU4NTIzMTE2NjMzODU4MzAyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5oZHIuQzMifQ%3D%3D&_nc_ohc=O1LvyePDlT8Q7kNvwFRR0ZK&_nc_oc=Ado888FegqbjCRy0dhH_mQ2fj4hw1faAfi4kFKBP9NDRuJWZTOYmgTcgJaWofSTXZEo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=tFd2P_xkSJpRaSEEjgqAPQ&_nc_ss=7a32e&oh=00_Af132IlpoMlkhYna5eKpcvukv3EF5e-4Dvqzb5cJoHCE9w&oe=69D63A96",
       "details": [
-        "Se vende 2 casas grandes",
-        "están separadas",
-        "pero en la misma propiedad",
-        "en VILLA REAL SANTA ANA.",
-        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica",
-        "con excelentes vistas"
+        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
+        "Están construidas en un terreno de 2078m2, cada casa tiene una construcción aproximada de 450m2"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -4067,7 +5983,19 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/",
+      "translations": {
+        "en": {
+          "title": "House en la misma propiedad, en VILLA REAL SANTA ANA.",
+          "location": "La misma propiedad, en VILLA REAL SANTA ANA.",
+          "priceLabel": "$1.9 USD",
+          "details": [
+            "Estás 2 houses se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
+            "Están construidas en un terreno de 2078m2, cada house tiene una construcción aproximada de 450m2"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
     },
     {
       "id": "prop-71",
@@ -4089,7 +6017,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG7Ju8_Oxb7/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG7Ju8_Oxb7/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-72",
@@ -4111,7 +6048,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG2I_pFusEw/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG2I_pFusEw/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-73",
@@ -4133,7 +6079,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DEiJ4DNyNar/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DEiJ4DNyNar/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-74",
@@ -4155,7 +6110,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DDVo-q5Rj7s/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DDVo-q5Rj7s/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-75",
@@ -4177,7 +6141,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gT5bqRrRz/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gT5bqRrRz/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-76",
@@ -4199,7 +6172,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gLC-XRGXg/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gLC-XRGXg/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-77",
@@ -4221,7 +6203,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-x7aUExUJ9/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-x7aUExUJ9/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-78",
@@ -4243,7 +6234,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-WUt0nNH_i/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-WUt0nNH_i/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-79",
@@ -4265,7 +6265,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EIcC8xslr/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EIcC8xslr/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-80",
@@ -4287,7 +6296,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EG196R6qB/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EG196R6qB/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-81",
@@ -4309,7 +6327,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8sbUCqy3Dj/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8sbUCqy3Dj/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-82",
@@ -4331,7 +6358,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8GIky8x8Su/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8GIky8x8Su/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-83",
@@ -4353,7 +6389,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8E5niURL-E/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8E5niURL-E/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     },
     {
       "id": "prop-84",
@@ -4375,7 +6420,16 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7uZFeaxYXC/"
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7uZFeaxYXC/",
+      "translations": {
+        "en": {
+          "title": "Propiedad en Alquiler",
+          "location": "Location to be confirmed",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      }
     }
   ]
 }
