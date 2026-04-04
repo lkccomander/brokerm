@@ -3,9 +3,10 @@ import TopNavBar from '../components/TopNavBar';
 import CatalogHeader from '../components/CatalogHeader';
 import CatalogGrid from '../components/CatalogGrid';
 import Footer from '../components/Footer';
-import { catalogProperties } from '../data/mockData';
+import { usePublishedCatalog } from '../hooks/usePublishedCatalog';
 
 export default function Catalog() {
+  const { catalogProperties } = usePublishedCatalog();
   const [activeFilter, setActiveFilter] = useState<'todas' | 'alquiler' | 'venta' | 'bodegas'>('todas');
 
   const counts = useMemo(
@@ -15,7 +16,7 @@ export default function Catalog() {
       venta: catalogProperties.filter((property) => property.category === 'venta').length,
       bodegas: catalogProperties.filter((property) => property.category === 'bodegas').length,
     }),
-    []
+    [catalogProperties]
   );
 
   const filteredProperties = useMemo(() => {
@@ -24,7 +25,7 @@ export default function Catalog() {
     }
 
     return catalogProperties.filter((property) => property.category === activeFilter);
-  }, [activeFilter]);
+  }, [activeFilter, catalogProperties]);
 
   return (
     <>

@@ -12,7 +12,7 @@
         <div>
           <p class="eyebrow">Broker Mike Tools</p>
           <h1>Resultados</h1>
-          <p class="tool-version">Version 9</p>
+          <p class="tool-version">Version 21.05</p>
           <p id="results-copy" class="hero-copy">
             Cargando posts del perfil...
           </p>
@@ -35,13 +35,109 @@
           <a id="results-profile-link" href="#" target="_blank" rel="noreferrer" class="ghost-link hidden">
             Abrir perfil original
           </a>
+          <a href="/catalog-state.html" class="ghost-link">Ver estado del catálogo</a>
+          <a href="/catalog-preview.html" class="ghost-link">Catalog preview</a>
         </div>
+
+        <section id="results-progress" class="progress-panel" aria-live="polite">
+          <div class="progress-meta">
+            <strong id="results-progress-label">Iniciando</strong>
+            <span id="results-progress-value">5%</span>
+          </div>
+          <div class="progress-track">
+            <div id="results-progress-bar" class="progress-fill" style="width: 5%"></div>
+          </div>
+        </section>
 
         <div id="results-status" class="status-box muted">
           Resolviendo posts recientes del perfil...
         </div>
 
+        <section class="publish-panel">
+          <div class="retouch-header">
+            <div>
+              <p class="eyebrow">Importación</p>
+              <h3>Preparar para Catálogo</h3>
+            </div>
+          </div>
+          <p class="helper-text">
+            Primero se procesa la lista prioritaria de `lista.md`. Después se completa con el perfil.
+            Desde aquí puede preparar un lote de borradores para el catálogo.
+          </p>
+          <div class="button-row">
+            <button type="button" id="prepare-priority-button" class="primary-button" disabled>
+              Preparar links abiertos de la lista
+            </button>
+            <button type="button" id="prepare-all-button" class="secondary-button" disabled>
+              Preparar todos los resultados
+            </button>
+            <button type="button" id="publish-catalog-button" class="secondary-button">
+              Publicar catálogo a landing
+            </button>
+          </div>
+          <div id="prepare-status" class="status-box muted">
+            Todavía no hay resultados preparados.
+          </div>
+        </section>
+
+        <section class="results-section">
+          <div class="results-section-header">
+            <div>
+              <p class="eyebrow">Análisis</p>
+              <h3>Duplicados en catalog-import-drafts.json</h3>
+            </div>
+            <div class="catalog-summary">
+              <button type="button" id="sync-drafts-button" class="secondary-button">
+                Sync con lista.md
+              </button>
+              <div class="meta-chip">
+                <span class="meta-label">Drafts</span>
+                <strong id="duplicates-total-drafts">0</strong>
+              </div>
+              <div class="meta-chip">
+                <span class="meta-label">Duplicados</span>
+                <strong id="duplicates-total-groups">0</strong>
+              </div>
+            </div>
+          </div>
+          <div id="duplicates-status" class="status-box muted">
+            Analizando borradores actuales...
+          </div>
+          <section id="duplicates-grid" class="results-grid hidden"></section>
+        </section>
+
+        <section class="results-section">
+          <div class="results-section-header">
+            <div>
+              <p class="eyebrow">Lista</p>
+              <h3>Links priorizados</h3>
+            </div>
+            <div class="catalog-summary">
+              <button type="button" id="analyze-list-button" class="secondary-button">
+                Analizar lista.md
+              </button>
+              <div class="meta-chip">
+                <span class="meta-label">Abiertos</span>
+                <strong id="priority-opened-count">0</strong>
+              </div>
+              <div class="meta-chip">
+                <span class="meta-label">Fallidos</span>
+                <strong id="priority-failed-count">0</strong>
+              </div>
+            </div>
+          </div>
+          <section id="priority-grid" class="results-grid hidden"></section>
+        </section>
+
+        <section class="results-section">
+          <div class="results-section-header">
+            <div>
+              <p class="eyebrow">Perfil</p>
+              <h3>Resto del perfil</h3>
+            </div>
+          </div>
         <section id="results-grid" class="results-grid hidden"></section>
+        </section>
       </section>
     </main>
 

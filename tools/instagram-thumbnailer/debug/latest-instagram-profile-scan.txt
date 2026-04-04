@@ -1,19 +1,19 @@
 Profile URL: https://www.instagram.com/brokermike.cr
-persistent_context=1 headless=0
-step=1 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=0
-step=2 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=1
-step=3 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=2
-step=4 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=3
-step=5 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=4
-step=6 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=5
-step=7 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=6
-step=8 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=7
-step=9 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=8
-step=10 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=9
-step=11 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=10
-step=12 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=11
-step=13 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=12
-step=14 | current_posts=0 | best_posts=0 | scroll_height=1600 | stable_rounds=13
-final_dom_scan=1 | current_posts=0 | best_posts=0
-rendered_html_detected=login_page
-result_source=cache_on_login_page count=16
+persistent_context=1 headless=1
+step=1 | current_posts=12 | best_posts=12 | scroll_height=2706 | stable_rounds=0
+step=2 | current_posts=24 | best_posts=24 | scroll_height=2794 | stable_rounds=0
+step=3 | current_posts=36 | best_posts=36 | scroll_height=3771 | stable_rounds=0
+step=4 | current_posts=36 | best_posts=36 | scroll_height=4836 | stable_rounds=0
+step=5 | current_posts=48 | best_posts=48 | scroll_height=4924 | stable_rounds=0
+step=6 | current_posts=60 | best_posts=60 | scroll_height=5900 | stable_rounds=0
+step=7 | current_posts=52 | best_posts=60 | scroll_height=5988 | stable_rounds=0
+step=8 | current_posts=60 | best_posts=60 | scroll_height=8029 | stable_rounds=0
+step=9 | current_posts=52 | best_posts=60 | scroll_height=8117 | stable_rounds=0
+step=10 | current_posts=52 | best_posts=60 | scroll_height=9182 | stable_rounds=0
+step=11 | current_posts=48 | best_posts=60 | scroll_height=10159 | stable_rounds=0
+step=12 | current_posts=59 | best_posts=60 | scroll_height=10868 | stable_rounds=0
+step=13 | current_posts=51 | best_posts=60 | scroll_height=10868 | stable_rounds=1
+step=14 | current_posts=51 | best_posts=60 | scroll_height=10868 | stable_rounds=2
+final_dom_scan=1 | current_posts=51 | best_posts=60
+html_fallback_posts=52
+result_source=playwright_dom count=60

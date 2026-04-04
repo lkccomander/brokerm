@@ -5,12 +5,15 @@ export interface Property {
   title: string;
   location: string;
   category?: 'alquiler' | 'venta' | 'bodegas';
+  status?: 'disponible' | 'rentada' | 'vendida';
+  featured?: boolean;
   price: number;
   priceLabel?: string;
   beds: number;
   baths: number;
   image: string;
   embedUrl?: string;
+  sourceUrl?: string;
   details?: string[];
   contactPhone?: string;
   inquiryEnabled?: boolean;

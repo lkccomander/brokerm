@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { catalogProperties, contactImage } from '../data/mockData';
+import { contactImage } from '../data/mockData';
 import { useSiteLanguage } from '../hooks/useSiteLanguage';
+import { usePublishedCatalog } from '../hooks/usePublishedCatalog';
 
 export interface ContactFormProps {
   readonly className?: string;
@@ -13,6 +14,7 @@ const PUBLIC_SITE_URL = 'https://www.brokermikecr.com';
 export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
   const location = useLocation();
   const { isEnglish } = useSiteLanguage();
+  const { catalogProperties } = usePublishedCatalog();
   const sectionRef = useRef<HTMLElement | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [requiresFinancing, setRequiresFinancing] = useState(false);
@@ -27,7 +29,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
     }
 
     return catalogProperties.find((property) => property.id === selectedPropertyId) ?? null;
-  }, [selectedPropertyId]);
+  }, [catalogProperties, selectedPropertyId]);
   const inquirySource = useMemo(() => {
     const params = new URLSearchParams(location.search);
     return params.get('origen')?.trim() ?? 'sitio-web';

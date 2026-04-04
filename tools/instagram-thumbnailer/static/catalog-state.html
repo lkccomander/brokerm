@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estado del Catálogo | Social Thumbnailer</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="panel hero-panel results-hero">
+        <div>
+          <p class="eyebrow">Broker Mike Tools</p>
+          <h1>Estado del Catálogo</h1>
+          <p class="tool-version">Version 21.05</p>
+          <p class="hero-copy">
+            Vista operativa del catálogo publicado después de la normalización. Aquí puede revisar
+            cuántas propiedades hay y en qué estado se encuentran.
+          </p>
+        </div>
+        <div class="hero-meta">
+          <div class="meta-chip">
+            <span class="meta-label">Total</span>
+            <strong id="catalog-total">0</strong>
+          </div>
+          <div class="meta-chip">
+            <span class="meta-label">Featured</span>
+            <strong id="catalog-featured">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel results-panel">
+        <div class="results-toolbar">
+          <a href="/index.html" class="ghost-link">Volver al editor</a>
+          <a href="/catalog-preview.html" class="ghost-link">Abrir catalog preview</a>
+        </div>
+
+        <div id="catalog-status" class="status-box muted">
+          Cargando estado actual del catálogo...
+        </div>
+
+        <div id="catalog-summary" class="catalog-summary hidden">
+          <div class="meta-chip"><span class="meta-label">Disponible</span><strong id="catalog-available">0</strong></div>
+          <div class="meta-chip"><span class="meta-label">Rentada</span><strong id="catalog-rented">0</strong></div>
+          <div class="meta-chip"><span class="meta-label">Vendida</span><strong id="catalog-sold">0</strong></div>
+        </div>
+
+        <section id="catalog-grid" class="results-grid hidden"></section>
+      </section>
+    </main>
+
+    <script src="/catalog-state.js" type="module"></script>
+  </body>
+</html>

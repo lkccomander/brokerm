@@ -1,6 +1,6 @@
 import PropertyCard from './PropertyCard';
-import { featuredProperties } from '../data/mockData';
 import { useSiteLanguage } from '../hooks/useSiteLanguage';
+import { usePublishedCatalog } from '../hooks/usePublishedCatalog';
 
 export interface OpportunitiesProps {
   readonly className?: string;
@@ -8,6 +8,7 @@ export interface OpportunitiesProps {
 
 export const Opportunities: React.FC<OpportunitiesProps> = ({ className = '' }) => {
   const { isEnglish, localizePath } = useSiteLanguage();
+  const { featuredProperties } = usePublishedCatalog();
   return (
     <section id="oportunidades" className={`py-24 bg-surface-container-low ${className}`}>
       <div className="max-w-7xl mx-auto px-8">

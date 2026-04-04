@@ -26,6 +26,21 @@ const postMeta = document.getElementById("post-meta");
 const postTitle = document.getElementById("post-title");
 const profileBrowser = document.getElementById("profile-browser");
 const profilePosts = document.getElementById("profile-posts");
+const publishTitleInput = document.getElementById("publish-title");
+const publishLocationInput = document.getElementById("publish-location");
+const publishCategoryInput = document.getElementById("publish-category");
+const publishStatusInput = document.getElementById("publish-status");
+const publishPriceInput = document.getElementById("publish-price");
+const publishPriceLabelInput = document.getElementById("publish-price-label");
+const publishBedsInput = document.getElementById("publish-beds");
+const publishBathsInput = document.getElementById("publish-baths");
+const publishDetailsInput = document.getElementById("publish-details");
+const publishFeaturedInput = document.getElementById("publish-featured");
+const publishButton = document.getElementById("publish-button");
+const toolProgress = document.getElementById("tool-progress");
+const toolProgressLabel = document.getElementById("tool-progress-label");
+const toolProgressValue = document.getElementById("tool-progress-value");
+const toolProgressBar = document.getElementById("tool-progress-bar");
 const canvas = document.getElementById("preview-canvas");
 const sourceVideo = document.getElementById("source-video");
 const context = canvas.getContext("2d");
@@ -37,11 +52,35 @@ const state = {
   canonicalUrl: "",
   filenameStem: "brokermike-thumbnail",
   videoObjectUrl: "",
+  publishedPropertyId: "",
 };
 
 function setStatus(message, kind = "muted") {
   statusBox.textContent = message;
   statusBox.className = `status-box ${kind}`;
+}
+
+function setProgress(label, percent, visible = true) {
+  const safePercent = Math.max(0, Math.min(100, Math.round(percent)));
+  toolProgressLabel.textContent = label;
+  toolProgressValue.textContent = `${safePercent}%`;
+  toolProgressBar.style.width = `${safePercent}%`;
+  toolProgress.classList.toggle("hidden", !visible);
+}
+
+function clearProgress() {
+  setProgress("Listo", 0, false);
+}
+
+function setPublishDefaultsFromResolvedPost() {
+  if (!publishTitleInput.value.trim()) {
+    publishTitleInput.value = state.title || "";
+  }
+  publishButton.disabled = !currentSource();
+}
+
+function currentThumbnailDataUrl() {
+  return canvas.toDataURL("image/png");
 }
 
 function slugify(value) {
@@ -111,6 +150,7 @@ async function loadProfileThumbnail(post) {
   }
 
   setStatus("Cargando thumbnail limpio desde el perfil...", "muted");
+  setProgress("Descargando thumbnail limpio", 35);
   downloadButton.disabled = true;
 
   try {
@@ -121,6 +161,7 @@ async function loadProfileThumbnail(post) {
     state.canonicalUrl = post.url;
     state.filenameStem = slugify(state.title);
     state.mediaKind = "image";
+    state.publishedPropertyId = "";
 
     sourceLink.href = state.canonicalUrl;
     sourceLink.classList.remove("hidden");
@@ -128,6 +169,8 @@ async function loadProfileThumbnail(post) {
     postMeta.classList.remove("hidden");
 
     paintCanvas();
+    setPublishDefaultsFromResolvedPost();
+    setProgress("Thumbnail listo", 100);
     setStatus("Thumbnail limpio cargado desde la grilla del perfil.", "success");
   } catch (error) {
     state.image = null;
@@ -135,6 +178,7 @@ async function loadProfileThumbnail(post) {
     paintCanvas();
     sourceLink.classList.add("hidden");
     postMeta.classList.add("hidden");
+    setProgress("Error al cargar thumbnail", 100);
     setStatus(error.message, "error");
   }
 }
@@ -286,6 +330,7 @@ function paintCanvas() {
     context.font = "600 16px Segoe UI";
     context.fillText("Resuelva un post de Instagram para ver el preview", 24, height / 2);
     downloadButton.disabled = true;
+    publishButton.disabled = true;
     return;
   }
 
@@ -303,6 +348,7 @@ function paintCanvas() {
   context.drawImage(source, cover.x, cover.y, cover.drawWidth, cover.drawHeight);
   applyRetouchPatch(width, height);
   downloadButton.disabled = false;
+  publishButton.disabled = false;
 }
 
 async function loadImage(proxyImageUrl) {
@@ -462,29 +508,97 @@ function openProfileResults(instagramUrl) {
   window.location.href = targetUrl.toString();
 }
 
+async function publishCurrentProperty() {
+  if (!currentSource()) {
+    setStatus("Primero resuelva una imagen o video antes de publicar.", "error");
+    return;
+  }
+
+  const title = publishTitleInput.value.trim();
+  const location = publishLocationInput.value.trim();
+  const price = Number(publishPriceInput.value || 0);
+
+  if (!title || !location || price <= 0) {
+    setStatus("Titulo, ubicacion y precio son obligatorios para publicar.", "error");
+    return;
+  }
+
+  publishButton.disabled = true;
+  setProgress("Publicando propiedad", 20);
+  setStatus("Publicando propiedad en el catalogo JSON...", "muted");
+
+  try {
+    const response = await fetch("/api/publish-property", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        id: state.publishedPropertyId,
+        title,
+        location,
+        category: publishCategoryInput.value,
+        status: publishStatusInput.value,
+        featured: publishFeaturedInput.checked,
+        price,
+        priceLabel: publishPriceLabelInput.value.trim(),
+        beds: Number(publishBedsInput.value || 0),
+        baths: Number(publishBathsInput.value || 0),
+        details: publishDetailsInput.value,
+        sourceUrl: state.canonicalUrl,
+        thumbnailDataUrl: currentThumbnailDataUrl(),
+      }),
+    });
+
+    const payload = await response.json();
+    if (!response.ok) {
+      throw new Error(payload.error || "No se pudo publicar la propiedad.");
+    }
+
+    state.publishedPropertyId = payload.property?.id || state.publishedPropertyId;
+    setProgress("Propiedad publicada", 100);
+    setStatus(
+      `Propiedad ${state.publishedPropertyId || ""} publicada. Total actual: ${payload.summary?.total || 0}.`,
+      "success",
+    );
+  } catch (error) {
+    setProgress("Error al publicar", 100);
+    setStatus(error.message, "error");
+  } finally {
+    publishButton.disabled = !currentSource();
+  }
+}
+
 async function submitResolveUrl(instagramUrl) {
   setStatus("Resolviendo media del post...", "muted");
+  setProgress("Resolviendo metadata", 15);
   downloadButton.disabled = true;
 
   try {
     const payload = await resolveInstagramPost(instagramUrl);
     hideProfileBrowser();
+    setProgress("Metadata resuelta", 40);
 
     state.title = payload.title || "Post de Instagram";
     state.canonicalUrl = payload.canonicalUrl || instagramUrl;
     state.filenameStem = slugify(state.title);
     state.mediaKind = payload.mediaKind || "image";
     state.image = null;
+    state.publishedPropertyId = "";
 
     if (state.mediaKind === "video" && payload.proxyVideoUrl) {
+      setProgress("Descargando video", 68);
       await loadVideo(payload.proxyVideoUrl);
+      setProgress("Video listo", 100);
       setStatus(
         payload.note || "Video listo. Elija el segundo exacto, ajuste el recorte y descargue el thumbnail.",
         "success",
       );
     } else {
       unloadVideo();
+      setProgress("Descargando imagen", 72);
       await loadImage(payload.proxyImageUrl);
+      setProgress("Imagen lista", 100);
       setStatus(payload.note || "Imagen lista. Ajuste el recorte y descargue el thumbnail.", "success");
     }
 
@@ -494,6 +608,7 @@ async function submitResolveUrl(instagramUrl) {
     postMeta.classList.remove("hidden");
 
     paintCanvas();
+    setPublishDefaultsFromResolvedPost();
   } catch (error) {
     state.image = null;
     state.mediaKind = "image";
@@ -501,6 +616,7 @@ async function submitResolveUrl(instagramUrl) {
     paintCanvas();
     sourceLink.classList.add("hidden");
     postMeta.classList.add("hidden");
+    setProgress("Error al resolver", 100);
     setStatus(error.message, "error");
   }
 }
@@ -513,6 +629,7 @@ async function handleSubmit(event) {
   }
 
   if (isInstagramProfileUrl(instagramUrl)) {
+    setProgress("Abriendo resultados del perfil", 20);
     setStatus("Abriendo pagina de resultados del perfil...", "muted");
     openProfileResults(instagramUrl);
     return;
@@ -551,6 +668,9 @@ function downloadCurrentCanvas() {
 
 form.addEventListener("submit", handleSubmit);
 downloadButton.addEventListener("click", downloadCurrentCanvas);
+publishButton.addEventListener("click", () => {
+  void publishCurrentProperty();
+});
 [outputWidthInput, zoomInput, offsetXInput, offsetYInput].forEach((input) => {
   input.addEventListener("input", paintCanvas);
 });
@@ -620,6 +740,8 @@ async function hydrateFromQueryParams() {
 }
 
 paintCanvas();
+clearProgress();
 hydrateFromQueryParams().catch((error) => {
+  setProgress("Error al hidratar datos", 100);
   setStatus(error.message, "error");
 });

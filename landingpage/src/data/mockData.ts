@@ -52,7 +52,7 @@ const leadDefaults = {
   inquirySource: 'catalogo',
 } as const;
 
-const allProperties: Property[] = [
+export const allProperties: Property[] = [
   {
     id: 'prop-8',
     category: 'alquiler',

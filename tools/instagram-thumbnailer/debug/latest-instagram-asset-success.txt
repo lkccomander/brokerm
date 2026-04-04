@@ -1,23 +1,23 @@
-Source URL: https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/601785473_25547681771536870_8168317921271865437_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzc5MTMzMTI0ODExMjIyMDY2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=clfz48Mo6T0Q7kNvwHt7Wax&_nc_oc=AdrFrR7Ft2ab091xlVyWPC38fJbmZNxBl5A1-II7ZUtyPkqInsvIwwrXwh9Od8URNNw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=Y9SX9wY0eIrgHrgyoTgG6Q&_nc_ss=7a32e&oh=00_Afxr-3FkC3YQjXCJL4sVWFFsbesS9OfDFUl1qDpDlgs-ZQ&oe=69D0B0DC
+Source URL: https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/571578396_722550510140142_753952040711377099_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzc1NTA2ODQxODU0MzQyODYzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&_nc_ohc=nOeRCgPQ7aQQ7kNvwEeYytz&_nc_oc=AdouOUW3H7wLikckpHo6-YPaq3XmP0UMScLEtH1nnFVarNFH44ud1b7n3Kdq_MoMkEI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=3p-XWLnAV8suPOZgHbkMvA&_nc_ss=7a32e&oh=00_Af0OYZkP1b5tApxG9WW0nZ6Fq_XpxS7iXcmtWRJZslWJ4A&oe=69D6648A
 HTTP Status: 200
 Content-Type: image/jpeg
-Content-Length: 58533
+Content-Length: 18681
 Response Headers:
-Last-Modified: Fri, 19 Dec 2025 22:05:47 GMT
+Last-Modified: Thu, 30 Oct 2025 21:18:26 GMT
 x-additional-error-detail: 
 Content-Type: image/jpeg
-content-digest: adler32=2703051135
+content-digest: adler32=1770148368
 x-crypto-project: 0
 cross-origin-resource-policy: cross-origin
 timing-allow-origin: *
 Access-Control-Allow-Origin: *
 Cache-Control: max-age=1209600, no-transform
 Accept-Ranges: bytes
-X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=12, rtx=1, c=13, mss=1392, tbw=3378, tp=-1, tpl=-1, uplat=0, ullat=-1
-Date: Mon, 30 Mar 2026 21:53:30 GMT
+X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=23, rtx=0, c=13, mss=1392, tbw=3377, tp=-1, tpl=-1, uplat=0, ullat=-1
+Date: Sat, 04 Apr 2026 03:19:59 GMT
 Alt-Svc: h3=":443"; ma=86400
 No-Vary-Search: key-order, params=("_nc_gid" "oh" "oe" "_nc_oc" "_nc_ohc" "_nc_cat" "_nc_ht" "_nc_cb")
-x-fb-ptm-uuid: 11475C2F7B473775FC687AB2A0D0B884
+x-fb-ptm-uuid: AB413F9D3FF196E82910C6DE9BEF05A3
 X-Robots-Tag: noarchive, noindex
 Connection: close
-Content-Length: 58533
+Content-Length: 18681

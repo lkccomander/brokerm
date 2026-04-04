@@ -90,6 +90,11 @@ code {
   border: 1px solid var(--border);
 }
 
+.meta-chip-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .meta-label,
 .eyebrow {
   display: block;
@@ -126,6 +131,15 @@ code {
   border: 1px solid rgba(148, 163, 184, 0.12);
 }
 
+.publish-panel {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(8, 15, 24, 0.72);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
 .profile-browser {
   display: grid;
   gap: 16px;
@@ -147,6 +161,19 @@ code {
   gap: 20px;
 }
 
+.results-section {
+  display: grid;
+  gap: 16px;
+}
+
+.results-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .results-toolbar {
   display: flex;
   justify-content: space-between;
@@ -158,6 +185,12 @@ code {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
+}
+
+.catalog-summary {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 .result-card {
@@ -226,6 +259,94 @@ code {
   background: #0f172a;
 }
 
+.catalog-preview-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(320px, 1fr);
+  gap: 24px;
+}
+
+.catalog-filter-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.catalog-filter-chip {
+  border: 1px solid var(--border);
+  background: rgba(16, 28, 41, 0.9);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.catalog-filter-chip.is-active {
+  background: linear-gradient(135deg, var(--primary), var(--primary-deep));
+  border-color: transparent;
+  color: white;
+}
+
+.catalog-preview-sidebar,
+.catalog-preview-editor {
+  padding: 24px;
+}
+
+.catalog-preview-list {
+  display: grid;
+  gap: 12px;
+  max-height: 72vh;
+  overflow: auto;
+}
+
+.catalog-preview-item {
+  display: grid;
+  gap: 8px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: rgba(16, 28, 41, 0.9);
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.catalog-preview-item.is-selected {
+  border-color: rgba(34, 211, 238, 0.45);
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.2) inset;
+}
+
+.catalog-preview-item small {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.catalog-preview-item strong {
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.catalog-preview-item span {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.catalog-preview-media {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: rgba(16, 28, 41, 0.9);
+}
+
+.catalog-preview-media img {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
 .profile-card strong {
   font-size: 0.86rem;
   line-height: 1.4;
@@ -269,6 +390,10 @@ code {
   accent-color: var(--primary);
 }
 
+.publish-toggle {
+  justify-content: flex-start;
+}
+
 .row.two-cols {
   display: grid;
   gap: 16px;
@@ -298,13 +423,20 @@ button {
 
 input[type="url"],
 input[type="number"],
-select {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   border: 1px solid var(--border);
   background: var(--surface-strong);
   border-radius: 14px;
   padding: 14px 16px;
   color: var(--text);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 108px;
 }
 
 input::placeholder {
@@ -325,6 +457,49 @@ input[type="range"] {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+}
+
+.progress-panel {
+  display: grid;
+  gap: 10px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(10, 19, 29, 0.82);
+  border: 1px solid var(--border);
+}
+
+.progress-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.progress-meta strong {
+  font-size: 0.9rem;
+}
+
+.progress-meta span {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.progress-track {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(148, 163, 184, 0.16);
+  border: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.progress-fill {
+  width: 0;
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), var(--primary));
+  transition: width 220ms ease;
 }
 
 .mini-button {
@@ -450,6 +625,10 @@ canvas {
   .retouch-header {
     grid-template-columns: 1fr;
     flex-direction: column;
+  }
+
+  .catalog-preview-layout {
+    grid-template-columns: 1fr;
   }
 
   .profile-grid {
