@@ -144,6 +144,15 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
                   required
                 />
               </div>
+              <div>
+                <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">{isEnglish ? 'PHONE NUMBER' : 'NUMERO TELEFONICO'}</label>
+                <input
+                  className="w-full bg-surface-container-high border-none rounded-xl focus:ring-2 focus:ring-primary p-4"
+                  placeholder={isEnglish ? 'Ex: +506 8888 8888' : 'Ej: +506 8888 8888'}
+                  type="tel"
+                  name="telefono"
+                />
+              </div>
             </div>
             <div>
                 <label className="block text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mb-2">{isEnglish ? 'INVESTMENT GOAL' : 'INTERES DE INVERSION'}</label>
