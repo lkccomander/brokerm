@@ -1,3 +1,4 @@
+/project-brain/
 # Logs
 logs
 *.log
@@ -22,7 +23,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Repo-specific directories
 project-brain/
 tools/
+docs/

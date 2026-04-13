@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import { useSiteLanguage } from '../hooks/useSiteLanguage';
+
 export interface CatalogHeaderProps {
   readonly onFilterChange?: (filter: string) => void;
   readonly activeFilter?: 'todas' | 'alquiler' | 'venta' | 'bodegas';
@@ -16,7 +19,7 @@ export const CatalogHeader: React.FC<CatalogHeaderProps> = ({
   counts,
   className = '' 
 }) => {
-  const isEnglish = typeof window !== 'undefined' && window.location.pathname.startsWith('/en');
+  const { isEnglish, localizePath } = useSiteLanguage();
   const filterOptions: Array<{ key: 'todas' | 'alquiler' | 'venta' | 'bodegas'; label: string }> = [
     { key: 'todas', label: isEnglish ? 'All' : 'Todas' },
     { key: 'alquiler', label: isEnglish ? 'Rent' : 'Alquiler' },
@@ -41,11 +44,12 @@ export const CatalogHeader: React.FC<CatalogHeaderProps> = ({
               <span className="material-symbols-outlined text-xl">tune</span>
               {counts ? `${isEnglish ? 'Filters' : 'Filtros'} (${counts[activeFilter]})` : isEnglish ? 'Filters' : 'Filtros'}
             </button>
-            <button 
+            <Link
               className="px-6 py-3 rounded-xl bg-primary text-on-primary font-bold font-body hover:bg-primary-container transition-colors shadow-md cursor-pointer"
+              to={`${localizePath('/', '/en')}#contacto`}
             >
               {isEnglish ? 'Contact Advisor' : 'Contactar Asesor'}
-            </button>
+            </Link>
           </div>
         </div>
 
