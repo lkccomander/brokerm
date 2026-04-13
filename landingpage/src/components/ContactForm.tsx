@@ -29,6 +29,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
   const sectionRef = useRef<HTMLElement | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [requiresFinancing, setRequiresFinancing] = useState(false);
+  const [phoneNumber, setPhoneNumber] = useState('');
   const [status, setStatus] = useState<{ type: 'success' | 'error'; message: string } | null>(null);
   const selectedPropertyId = useMemo(() => {
     const params = new URLSearchParams(location.search);
@@ -48,6 +49,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
   const selectedPropertyTitle = isEnglish ? selectedProperty?.translations?.en?.title ?? selectedProperty?.title ?? '' : selectedProperty?.title ?? '';
   const selectedPropertyLocation = isEnglish ? selectedProperty?.translations?.en?.location ?? selectedProperty?.location ?? '' : selectedProperty?.location ?? '';
   const selectedPropertyWhatsAppUrl = createWhatsAppUrl(selectedProperty?.contactPhone);
+  const leadWhatsAppUrl = createWhatsAppUrl(phoneNumber) || selectedPropertyWhatsAppUrl;
 
   useEffect(() => {
     if (location.hash === '#contacto') {
@@ -64,7 +66,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
     const formData = new FormData(form);
     const submittedPhone = formData.get('telefono');
     const submittedWhatsAppUrl = createWhatsAppUrl(typeof submittedPhone === 'string' ? submittedPhone : '');
-    const whatsappUrl = selectedPropertyWhatsAppUrl || submittedWhatsAppUrl;
+    const whatsappUrl = submittedWhatsAppUrl || selectedPropertyWhatsAppUrl;
 
     formData.set('_subject', 'Nuevo lead desde brokermikecr.com');
     formData.set('_template', 'table');
@@ -95,6 +97,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
       }
 
       form.reset();
+      setPhoneNumber('');
       setRequiresFinancing(false);
       setStatus({
         type: 'success',
@@ -130,7 +133,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
             <input type="hidden" name="propiedad_de_interes" value={selectedPropertyTitle} />
             <input type="hidden" name="propiedad_ubicacion" value={selectedPropertyLocation} />
             <input type="hidden" name="propiedad_link" value={selectedProperty ? `${PUBLIC_SITE_URL}/catalogo?propiedad=${encodeURIComponent(selectedProperty.id)}` : ''} />
-            <input type="hidden" name="WHatsapp_url" value={selectedPropertyWhatsAppUrl} />
+            <input type="hidden" name="WHatsapp_url" value={leadWhatsAppUrl} />
             <input type="hidden" name="origen_del_lead" value={inquirySource} />
             <input type="hidden" name="requiere_financiamiento" value={requiresFinancing ? (isEnglish ? 'yes' : 'si') : (isEnglish ? 'no' : 'no')} />
             {selectedProperty ? (
@@ -169,6 +172,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
                   placeholder={isEnglish ? 'Ex: +506 8888 8888' : 'Ej: +506 8888 8888'}
                   type="tel"
                   name="telefono"
+                  value={phoneNumber}
+                  onChange={(event) => setPhoneNumber(event.target.value)}
                 />
               </div>
             </div>
