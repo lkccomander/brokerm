@@ -25,8 +25,9 @@ const createWhatsAppUrl = (phone?: string) => {
 export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
   const location = useLocation();
   const { isEnglish } = useSiteLanguage();
-  const { catalogProperties } = usePublishedCatalog();
+  const { allProperties } = usePublishedCatalog();
   const sectionRef = useRef<HTMLElement | null>(null);
+  const formCardRef = useRef<HTMLDivElement | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [requiresFinancing, setRequiresFinancing] = useState(false);
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -40,8 +41,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
       return null;
     }
 
-    return catalogProperties.find((property) => property.id === selectedPropertyId) ?? null;
-  }, [catalogProperties, selectedPropertyId]);
+    return allProperties.find((property) => property.id === selectedPropertyId) ?? null;
+  }, [allProperties, selectedPropertyId]);
   const inquirySource = useMemo(() => {
     const params = new URLSearchParams(location.search);
     return params.get('origen')?.trim() ?? 'sitio-web';
@@ -53,7 +54,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
 
   useEffect(() => {
     if (location.hash === '#contacto') {
-      sectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      formCardRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }, [location.hash]);
 
@@ -126,7 +127,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
       <div className="relative z-10 max-w-4xl mx-auto px-8 text-center">
         <h2 className="font-headline text-5xl font-extrabold text-white mb-6">{isEnglish ? 'Start Your Search' : 'Comience su Viaje'}</h2>
         <p className="text-white/80 text-lg mb-12">{isEnglish ? 'We are ready to turn your vision into a tangible investment. Share your details and a senior advisor will reach out in under 12 hours.' : 'Estamos listos para transformar su vision en una inversion tangible. Complete los detalles y un estratega senior se pondra en contacto en menos de 12 horas.'}</p>
-        <div className="bg-white p-10 rounded-3xl shadow-2xl text-left">
+        <div ref={formCardRef} className="scroll-mt-28 bg-white p-10 rounded-3xl shadow-2xl text-left">
           <form className="space-y-6" onSubmit={handleSubmit}>
             <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
             <input type="hidden" name="propiedad_id" value={selectedProperty?.id ?? ''} />
