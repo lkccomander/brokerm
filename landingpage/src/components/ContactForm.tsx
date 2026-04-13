@@ -50,6 +50,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
   const selectedPropertyTitle = isEnglish ? selectedProperty?.translations?.en?.title ?? selectedProperty?.title ?? '' : selectedProperty?.title ?? '';
   const selectedPropertyLocation = isEnglish ? selectedProperty?.translations?.en?.location ?? selectedProperty?.location ?? '' : selectedProperty?.location ?? '';
   const selectedPropertyWhatsAppUrl = createWhatsAppUrl(selectedProperty?.contactPhone);
+  const selectedPropertyReelUrl = selectedProperty?.sourceUrl ?? selectedProperty?.embedUrl ?? '';
   const leadWhatsAppUrl = createWhatsAppUrl(phoneNumber) || selectedPropertyWhatsAppUrl;
 
   useEffect(() => {
@@ -82,6 +83,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
       formData.set('propiedad_de_interes', selectedPropertyTitle);
       formData.set('propiedad_ubicacion', selectedPropertyLocation);
       formData.set('propiedad_link', `${PUBLIC_SITE_URL}/catalogo?propiedad=${encodeURIComponent(selectedProperty.id)}`);
+      formData.set('propiedad_reel_url', selectedPropertyReelUrl);
     }
 
     try {
@@ -134,6 +136,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
             <input type="hidden" name="propiedad_de_interes" value={selectedPropertyTitle} />
             <input type="hidden" name="propiedad_ubicacion" value={selectedPropertyLocation} />
             <input type="hidden" name="propiedad_link" value={selectedProperty ? `${PUBLIC_SITE_URL}/catalogo?propiedad=${encodeURIComponent(selectedProperty.id)}` : ''} />
+            <input type="hidden" name="propiedad_reel_url" value={selectedPropertyReelUrl} />
             <input type="hidden" name="WHatsapp_url" value={leadWhatsAppUrl} />
             <input type="hidden" name="origen_del_lead" value={inquirySource} />
             <input type="hidden" name="requiere_financiamiento" value={requiresFinancing ? (isEnglish ? 'yes' : 'si') : (isEnglish ? 'no' : 'no')} />
