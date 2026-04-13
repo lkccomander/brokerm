@@ -62,10 +62,15 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
 
     const form = event.currentTarget;
     const formData = new FormData(form);
+    const submittedPhone = formData.get('telefono');
+    const submittedWhatsAppUrl = createWhatsAppUrl(typeof submittedPhone === 'string' ? submittedPhone : '');
+    const whatsappUrl = selectedPropertyWhatsAppUrl || submittedWhatsAppUrl;
+
     formData.set('_subject', 'Nuevo lead desde brokermikecr.com');
     formData.set('_template', 'table');
     formData.set('origen_del_lead', inquirySource);
     formData.set('requiere_financiamiento', requiresFinancing ? (isEnglish ? 'yes' : 'si') : (isEnglish ? 'no' : 'no'));
+    formData.set('WHatsapp_url', whatsappUrl);
     if (!requiresFinancing) {
       formData.set('numero_cedula', '');
     }
@@ -74,7 +79,6 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
       formData.set('propiedad_de_interes', selectedPropertyTitle);
       formData.set('propiedad_ubicacion', selectedPropertyLocation);
       formData.set('propiedad_link', `${PUBLIC_SITE_URL}/catalogo?propiedad=${encodeURIComponent(selectedProperty.id)}`);
-      formData.set('WHatsapp url', selectedPropertyWhatsAppUrl);
     }
 
     try {
@@ -126,7 +130,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
             <input type="hidden" name="propiedad_de_interes" value={selectedPropertyTitle} />
             <input type="hidden" name="propiedad_ubicacion" value={selectedPropertyLocation} />
             <input type="hidden" name="propiedad_link" value={selectedProperty ? `${PUBLIC_SITE_URL}/catalogo?propiedad=${encodeURIComponent(selectedProperty.id)}` : ''} />
-            <input type="hidden" name="WHatsapp url" value={selectedPropertyWhatsAppUrl} />
+            <input type="hidden" name="WHatsapp_url" value={selectedPropertyWhatsAppUrl} />
             <input type="hidden" name="origen_del_lead" value={inquirySource} />
             <input type="hidden" name="requiere_financiamiento" value={requiresFinancing ? (isEnglish ? 'yes' : 'si') : (isEnglish ? 'no' : 'no')} />
             {selectedProperty ? (
