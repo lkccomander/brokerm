@@ -1,6 +1,6 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-04-15T20:31:09Z",
+  "generatedAt": "2026-04-16T00:35:45Z",
   "allProperties": [
     {
       "id": "prop-1",
@@ -759,7 +759,8 @@
       "details": [
         "Tenemos 3 bodegas disponibles",
         "Incluye servicios de agua y luz.",
-        "Lugar privado son seguridad, portón eléctrico."
+        "Lugar privado son seguridad",
+        "portón eléctrico. xx"
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -1132,9 +1133,9 @@
     },
     {
       "id": "prop-27",
-      "category": "bodegas",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Bodega con Línea Blanca",
+      "title": "SE ALQUILA precioso apartamento nuevo",
       "location": "Ubicación por confirmar",
       "price": 2000.0,
       "priceLabel": "$2000 USD / mes",
@@ -1603,9 +1604,9 @@
     },
     {
       "id": "prop-40",
-      "category": "bodegas",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Bodega con Línea Blanca",
+      "title": "Se renta precioso apartamento de 1 habitacion",
       "location": "Vistas de Robledal",
       "price": 975.0,
       "priceLabel": "$975 USD / mes",
@@ -1613,8 +1614,11 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.82787-15/527228964_17938428579026180_3896132106396686941_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hK5APx8-KW0Q7kNvwGwQBZX&_nc_oc=AdoRdf0CyW9YQXpoFDgOy7MpYe1ejAQTgtYn1aepqQPDG18XliNzTztjdyljD2tRaf4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=vUzdfZNgB-Hsm-rzCwcDRg&_nc_ss=7a289&oh=00_Af2h4dbLYV_NWiBVaZH7nM-AKkddYFDzub_ZPg8QVFmLDA&oe=69E5C123",
       "details": [
-        "☎️ 71121318,",
-        "Amenidades, piscina, gimnasio, mirador en el último piso."
+        "☎️ 71121318",
+        "Amenidades",
+        "piscina",
+        "gimnasio",
+        "mirador en el último piso."
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -1640,22 +1644,22 @@
     },
     {
       "id": "prop-41",
-      "category": "bodegas",
+      "category": "venta",
       "status": "disponible",
-      "title": "Bodega en San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
+      "title": "REBAJA!! Venta de hermosa casa en San Francisco de Heredia",
       "location": "San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
       "price": 256.0,
-      "priceLabel": "$256 USD / mes",
+      "priceLabel": "$256 000 USD",
       "beds": 1,
       "baths": 2,
       "image": "https://scontent.cdninstagram.com/v/t51.82787-15/525670560_17938191777026180_1582837353652090289_n.jpg?stp=c216.0.648.648a_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HcsAXUZoKiIQ7kNvwE1FdQx&_nc_oc=AdqPmX6fgU5vXstG0PbCi6bRi8mx4cTPQtHFkL-xAKmSDEAX4MGnlrwi0YupSf6Hjjw&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=UhBgoJ625NH2xGxIyL6LSA&_nc_ss=7a289&oh=00_Af2Nc_A5s4MwC3Xyj8kMJOP5eTE3qeI4pJagSw7CeQiIKw&oe=69E5BCBC",
       "details": [
-        "Viví en una casa espaciosa, cómoda y en excelentes condiciones, ubicada en una zona estratégica, muy cerca del centro de Heredia, con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
-        "Área de terreno: 168 m²",
-        "Construcción: aproximadamente 250 m²",
-        "Distribución en dos niveles:",
-        "Planta baja con espacios integrados:",
-        "Sala amplia"
+        "Viví en una casa espaciosa",
+        "cómoda y en excelentes condiciones",
+        "ubicada en una zona estratégica",
+        "muy cerca del centro de Heredia",
+        "con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
+        "Área de terreno: 168 m²"
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -2042,18 +2046,22 @@
     },
     {
       "id": "prop-51",
-      "category": "bodegas",
+      "category": "venta",
       "status": "disponible",
-      "title": "Bodega Disponible",
+      "title": "Se vende hermoso apartamento en Bambú 106,",
       "location": "Ubicación por confirmar",
       "price": 145000.0,
-      "priceLabel": "$145,000 USD / mes",
+      "priceLabel": "$145,000 USD",
       "beds": 2,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/522906160_1096371442428356_2651163144161044113_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Oc3MLnkW0AEQ7kNvwEMBIB4&_nc_oc=AdqguotpKAnDFrSM4_Tnu_t3EhzbTvkre5opXKpxDdzpUEsoiJ5CYHJVpnbTAoFKlR4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=b-yz_RxZkYe7m0RZBtY_Lw&_nc_ss=7a289&oh=00_Af2KRnu5gnYCucMwZzALSIr02WtR_5idTnCMgEDuExyy5w&oe=69E5CE13",
       "details": [
-        "Se vende hermoso apartamento en Bambú 106, Lagunilla de Heredia, 2 habitaciones, en piso 10, parqueo para 2 vehículos, más una bodega.",
-        "Plazo: 8 años"
+        "Precio: $145",
+        "000 USD",
+        "Prima: $30",
+        "Mensualidad: $1760 USD",
+        "Plazo: 8 años",
+        "Teléfono ☎️: 71121318"
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -5045,7 +5053,8 @@
       "details": [
         "Tenemos 3 bodegas disponibles",
         "Incluye servicios de agua y luz.",
-        "Lugar privado son seguridad, portón eléctrico."
+        "Lugar privado son seguridad",
+        "portón eléctrico. xx"
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -5418,9 +5427,9 @@
     },
     {
       "id": "prop-27",
-      "category": "bodegas",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Bodega con Línea Blanca",
+      "title": "SE ALQUILA precioso apartamento nuevo",
       "location": "Ubicación por confirmar",
       "price": 2000.0,
       "priceLabel": "$2000 USD / mes",
@@ -5889,9 +5898,9 @@
     },
     {
       "id": "prop-40",
-      "category": "bodegas",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Bodega con Línea Blanca",
+      "title": "Se renta precioso apartamento de 1 habitacion",
       "location": "Vistas de Robledal",
       "price": 975.0,
       "priceLabel": "$975 USD / mes",
@@ -5899,8 +5908,11 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.82787-15/527228964_17938428579026180_3896132106396686941_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hK5APx8-KW0Q7kNvwGwQBZX&_nc_oc=AdoRdf0CyW9YQXpoFDgOy7MpYe1ejAQTgtYn1aepqQPDG18XliNzTztjdyljD2tRaf4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=vUzdfZNgB-Hsm-rzCwcDRg&_nc_ss=7a289&oh=00_Af2h4dbLYV_NWiBVaZH7nM-AKkddYFDzub_ZPg8QVFmLDA&oe=69E5C123",
       "details": [
-        "☎️ 71121318,",
-        "Amenidades, piscina, gimnasio, mirador en el último piso."
+        "☎️ 71121318",
+        "Amenidades",
+        "piscina",
+        "gimnasio",
+        "mirador en el último piso."
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -5926,22 +5938,22 @@
     },
     {
       "id": "prop-41",
-      "category": "bodegas",
+      "category": "venta",
       "status": "disponible",
-      "title": "Bodega en San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
+      "title": "REBAJA!! Venta de hermosa casa en San Francisco de Heredia",
       "location": "San Francisco de Heredia – ¡A solo 800 metros del Mall Oxígeno!",
       "price": 256.0,
-      "priceLabel": "$256 USD / mes",
+      "priceLabel": "$256 000 USD",
       "beds": 1,
       "baths": 2,
       "image": "https://scontent.cdninstagram.com/v/t51.82787-15/525670560_17938191777026180_1582837353652090289_n.jpg?stp=c216.0.648.648a_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HcsAXUZoKiIQ7kNvwE1FdQx&_nc_oc=AdqPmX6fgU5vXstG0PbCi6bRi8mx4cTPQtHFkL-xAKmSDEAX4MGnlrwi0YupSf6Hjjw&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=UhBgoJ625NH2xGxIyL6LSA&_nc_ss=7a289&oh=00_Af2Nc_A5s4MwC3Xyj8kMJOP5eTE3qeI4pJagSw7CeQiIKw&oe=69E5BCBC",
       "details": [
-        "Viví en una casa espaciosa, cómoda y en excelentes condiciones, ubicada en una zona estratégica, muy cerca del centro de Heredia, con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
-        "Área de terreno: 168 m²",
-        "Construcción: aproximadamente 250 m²",
-        "Distribución en dos niveles:",
-        "Planta baja con espacios integrados:",
-        "Sala amplia"
+        "Viví en una casa espaciosa",
+        "cómoda y en excelentes condiciones",
+        "ubicada en una zona estratégica",
+        "muy cerca del centro de Heredia",
+        "con fácil acceso a San José y Alajuela. Ideal para familias que buscan tranquilidad sin alejarse de la ciudad.",
+        "Área de terreno: 168 m²"
       ],
       "badge": {
         "text": "SE ALQUILAN",
@@ -6328,18 +6340,22 @@
     },
     {
       "id": "prop-51",
-      "category": "bodegas",
+      "category": "venta",
       "status": "disponible",
-      "title": "Bodega Disponible",
+      "title": "Se vende hermoso apartamento en Bambú 106,",
       "location": "Ubicación por confirmar",
       "price": 145000.0,
-      "priceLabel": "$145,000 USD / mes",
+      "priceLabel": "$145,000 USD",
       "beds": 2,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/522906160_1096371442428356_2651163144161044113_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Oc3MLnkW0AEQ7kNvwEMBIB4&_nc_oc=AdqguotpKAnDFrSM4_Tnu_t3EhzbTvkre5opXKpxDdzpUEsoiJ5CYHJVpnbTAoFKlR4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=b-yz_RxZkYe7m0RZBtY_Lw&_nc_ss=7a289&oh=00_Af2KRnu5gnYCucMwZzALSIr02WtR_5idTnCMgEDuExyy5w&oe=69E5CE13",
       "details": [
-        "Se vende hermoso apartamento en Bambú 106, Lagunilla de Heredia, 2 habitaciones, en piso 10, parqueo para 2 vehículos, más una bodega.",
-        "Plazo: 8 años"
+        "Precio: $145",
+        "000 USD",
+        "Prima: $30",
+        "Mensualidad: $1760 USD",
+        "Plazo: 8 años",
+        "Teléfono ☎️: 71121318"
       ],
       "badge": {
         "text": "SE ALQUILAN",
