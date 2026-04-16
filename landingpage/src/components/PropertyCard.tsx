@@ -57,33 +57,49 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
     'SE VENDE': 'FOR SALE',
     'SE ALQUILAN': 'FOR LEASE',
   };
+  const openReelModal = () => {
+    setShowReelModal(true);
+  };
+  const thumbnailImage = (
+    <img
+      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+      alt={localizedTitle}
+      src={property.image}
+    />
+  );
+  const reelBadge = reelEmbedUrl ? (
+    <span className="absolute inset-x-0 bottom-4 mx-auto inline-flex w-fit items-center gap-2 rounded-full bg-black/65 px-4 py-2 text-xs font-bold uppercase tracking-wider text-white backdrop-blur-sm transition group-hover:bg-black/80">
+      <span className="material-symbols-outlined text-base">play_arrow</span>
+      {isEnglish ? 'Play reel' : 'Ver reel'}
+    </span>
+  ) : null;
+  const propertyBadge = property.badge ? (
+    <div className="absolute top-14 left-4">
+      <span className={`${badgeClasses[property.badge.variant]} text-[10px] font-bold px-3 py-1 rounded-full tracking-tighter uppercase`}>
+        {isEnglish ? (property.translations?.en?.badgeText ?? badgeTextMap[property.badge.text] ?? property.badge.text) : property.badge.text}
+      </span>
+    </div>
+  ) : null;
 
   return (
     <div className={`group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 ${className}`}>
-      <div className="relative h-72 overflow-hidden">
-        <img
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-          alt={localizedTitle}
-          src={property.image}
-        />
-        {reelEmbedUrl && (
-          <button
-            type="button"
-            className="absolute inset-x-0 bottom-4 mx-auto inline-flex w-fit items-center gap-2 rounded-full bg-black/65 px-4 py-2 text-xs font-bold uppercase tracking-wider text-white backdrop-blur-sm transition hover:bg-black/80"
-            onClick={() => setShowReelModal(true)}
-          >
-            <span className="material-symbols-outlined text-base">play_arrow</span>
-            {isEnglish ? 'Play reel' : 'Ver reel'}
-          </button>
-        )}
-        {property.badge && (
-          <div className="absolute top-14 left-4">
-            <span className={`${badgeClasses[property.badge.variant]} text-[10px] font-bold px-3 py-1 rounded-full tracking-tighter uppercase`}>
-              {isEnglish ? (property.translations?.en?.badgeText ?? badgeTextMap[property.badge.text] ?? property.badge.text) : property.badge.text}
-            </span>
-          </div>
-        )}
-      </div>
+      {reelEmbedUrl ? (
+        <button
+          type="button"
+          className="relative block h-72 w-full cursor-pointer overflow-hidden border-0 bg-transparent p-0 text-left focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/40"
+          onClick={openReelModal}
+          aria-label={isEnglish ? `Play reel for ${localizedTitle}` : `Ver reel de ${localizedTitle}`}
+        >
+          {thumbnailImage}
+          {reelBadge}
+          {propertyBadge}
+        </button>
+      ) : (
+        <div className="relative h-72 overflow-hidden">
+          {thumbnailImage}
+          {propertyBadge}
+        </div>
+      )}
       {showReelModal && reelEmbedUrl && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/75 px-4 py-8 backdrop-blur-sm">
           <div className="relative w-full max-w-3xl overflow-hidden rounded-3xl bg-surface-container shadow-2xl">
