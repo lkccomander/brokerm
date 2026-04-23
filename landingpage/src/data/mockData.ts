@@ -463,7 +463,7 @@ export const testimonials: Testimonial[] = [
   {
     id: 'test-3',
     name: 'Ricardo Fonseca',
-    title: 'Empresaria',
+    title: 'Empresario',
     quote: 'Encontró el hogar perfecto para mi familia en tiempo récord. Su paciencia y profesionalismo transformaron una mudanza estresante en una aventura emocionante.',
     rating: 5
   }
