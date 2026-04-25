@@ -1,12 +1,12 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-04-25T18:17:14Z",
+  "generatedAt": "2026-04-25T20:36:19Z",
   "allProperties": [
     {
       "id": "prop-116",
       "category": "alquiler",
       "status": "disponible",
-      "title": "Apartamento en Plaza Torres de Heredia de 97m2 incluyendo la terraza",
+      "title": "Se renta local comercial en Plaza Torres de Heredia",
       "location": "Plaza Torres de Heredia de 97m2 incluyendo la terraza",
       "price": 1700.0,
       "priceLabel": "$1700 USD / mes",
@@ -14,8 +14,12 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670589082_856421553497364_667281686573351905_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=xh8oTsf_X3gQ7kNvwEyMxYU&_nc_oc=AdoJDXIggSCYJl0LgC-6VOBI2EoCw2yaQWiKpbjYu1wUkP5dREflskz-QfRzl4ijQio&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=MOje9ZljVZmRHIWeYB9i7g&oh=00_Af0U3scLs2ss3U1VjHCF3HqGWq-2alPszeoDChzz458SCQ&oe=69F1D1A3",
       "details": [
-        "En el centro comercial se encuentra restaurantes, bancos, bares, mini súper, barbería, clínica médica, entre otros.",
-        "Además cuanta con un amplio parqueo en la parte trasera del centro comercial."
+        "En el centro comercial se encuentra restaurantes",
+        "bancos",
+        "bares",
+        "mini súper",
+        "barbería",
+        "clínica médica"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -43,7 +47,7 @@
       "id": "prop-117",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa 2 Habitaciones · 2 Baños · con Línea Blanca",
+      "title": "Apartamento 2 Habitaciones · 2 Baños · con Línea Blanca",
       "location": "Torres de Heredia (KHAYA RUTA 1)",
       "price": 150000.0,
       "priceLabel": "$150,000 USD",
@@ -86,12 +90,12 @@
     },
     {
       "id": "prop-118",
-      "category": "venta",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Casa 1 Habitación · con Línea Blanca",
+      "title": "Apartamento 1 Habitación · con Línea Blanca",
       "location": "Ubicación por confirmar",
       "price": 950.0,
-      "priceLabel": "$950 USD",
+      "priceLabel": "$950 USD / mes",
       "beds": 1,
       "baths": 1,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=byhrlTVgAPAQ7kNvwFsX2XQ&_nc_oc=AdrCjw4rhfe8Vu-L3O30iBoS3ho3SvCtapglaENhJ4iXmD6uKmoIjs5gliASV5UqDGs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=leHLTuUCWFh8qfW4pAbiVw&oh=00_Af0NCwbh7LWlUa4UsQl3_dduwuyIND4ZjdoD4qth6nS51g&oe=69F1E5BE",
@@ -104,8 +108,8 @@
         "🍀Walk-in-closet"
       ],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -559,12 +563,12 @@
     },
     {
       "id": "prop-11",
-      "category": "venta",
+      "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
       "location": "Torres de Heredia",
       "price": 430000.0,
-      "priceLabel": "₡430,000",
+      "priceLabel": "₡430,000 / mes",
       "beds": 1,
       "baths": 1,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/626565499_3374413572723566_475184433930986093_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ySp8h9NsbK4Q7kNvwGDrjuh&_nc_oc=AdowZcyEtw6YmeK_amXK9cv3if4Zam2FQPbBTmBsMZTeMCNqUbWp0v7SIL8PTolrQ4g&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=XSmVcqXP1hnQKDX4S3o32Q&oh=00_Af0Q9Rr42dpYRobhSxbrL-aE9cGAjhwxp-g0HmlsUe0ZxQ&oe=69F1E274",
@@ -577,8 +581,8 @@
         "▪️ Sala y comedor integrados"
       ],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -876,7 +880,7 @@
       "id": "prop-18",
       "category": "bodegas",
       "status": "disponible",
-      "title": "Bodega Disponible",
+      "title": "Propiedad en Alquiler",
       "location": "Ubicación por confirmar",
       "price": 800.0,
       "priceLabel": "$800 USD / mes",
@@ -886,11 +890,12 @@
       "details": [
         "Tenemos 3 bodegas disponibles",
         "Incluye servicios de agua y luz.",
-        "Lugar privado son seguridad, portón eléctrico."
+        "Lugar privado son seguridad",
+        "portón eléctrico."
       ],
       "badge": {
-        "text": "SE ALQUILAN",
-        "variant": "tertiary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -1304,7 +1309,7 @@
       "id": "prop-28",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa 2 Habitaciones · 2 Baños",
+      "title": "Apartamento 2 Habitaciones · 2 Baños",
       "location": "La Guacima de Alajuela, enfrente de Hacienda los Reyes.",
       "price": 65000000.0,
       "priceLabel": "₡65,000,000",
@@ -1386,7 +1391,7 @@
       "id": "prop-30",
       "category": "alquiler",
       "status": "disponible",
-      "title": "Casa 3 Habitaciones · 2 Baños · con Balcón",
+      "title": "Apartamento 3 Habitaciones · 2 Baños · con Balcón",
       "location": "CONCASA",
       "price": 850.0,
       "priceLabel": "$850 USD / mes",
@@ -2330,19 +2335,19 @@
     },
     {
       "id": "prop-56",
-      "category": "venta",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Propiedad en Venta",
+      "title": "Propiedad en Alquiler",
       "location": "Ubicación por confirmar",
       "price": 0,
-      "priceLabel": "Consultar precio",
+      "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.75761-15/501364978_17930571204026180_313376123638742219_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=QxCPvkuxARcQ7kNvwH4crFV&_nc_oc=AdrZ9_epIA17yN0CgONaNuKCDO2TdYQW4fQsn-Jt39RHte6zc04xf_yICuX8jvT-xfs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=CfZapBcMVVKtMjhUMwAb1Q&oh=00_Af1MjI1AL_KgYGSUKCyCBt6pQpjnoVugcTg66aszUSyb4A&oe=69F1E4C2",
       "details": [],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -2547,19 +2552,19 @@
     },
     {
       "id": "prop-63",
-      "category": "venta",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Propiedad en Venta",
+      "title": "Propiedad en Alquiler",
       "location": "Ubicación por confirmar",
       "price": 0,
-      "priceLabel": "Consultar precio",
+      "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.75761-15/489858933_17925919413026180_2371295890432040871_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_C2x_1Kb57wQ7kNvwGtU3IB&_nc_oc=AdqPq5lnI5Lhpt0Bc-nYoOn-ZB-n59An2jBuOT6x5Fb81ubjRXMUCse4oPn6zrUVBTo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=klu4IjP8-NTuFM5ciVslDg&oh=00_Af3YIJfOXh0zFMAyKuVbq-71sQFEoIS_roQnuVn-2QnVqg&oe=69F1DD3F",
       "details": [],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -4200,7 +4205,7 @@
       "id": "prop-116",
       "category": "alquiler",
       "status": "disponible",
-      "title": "Apartamento en Plaza Torres de Heredia de 97m2 incluyendo la terraza",
+      "title": "Se renta local comercial en Plaza Torres de Heredia",
       "location": "Plaza Torres de Heredia de 97m2 incluyendo la terraza",
       "price": 1700.0,
       "priceLabel": "$1700 USD / mes",
@@ -4208,8 +4213,12 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670589082_856421553497364_667281686573351905_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=xh8oTsf_X3gQ7kNvwEyMxYU&_nc_oc=AdoJDXIggSCYJl0LgC-6VOBI2EoCw2yaQWiKpbjYu1wUkP5dREflskz-QfRzl4ijQio&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=MOje9ZljVZmRHIWeYB9i7g&oh=00_Af0U3scLs2ss3U1VjHCF3HqGWq-2alPszeoDChzz458SCQ&oe=69F1D1A3",
       "details": [
-        "En el centro comercial se encuentra restaurantes, bancos, bares, mini súper, barbería, clínica médica, entre otros.",
-        "Además cuanta con un amplio parqueo en la parte trasera del centro comercial."
+        "En el centro comercial se encuentra restaurantes",
+        "bancos",
+        "bares",
+        "mini súper",
+        "barbería",
+        "clínica médica"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -4237,7 +4246,7 @@
       "id": "prop-117",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa 2 Habitaciones · 2 Baños · con Línea Blanca",
+      "title": "Apartamento 2 Habitaciones · 2 Baños · con Línea Blanca",
       "location": "Torres de Heredia (KHAYA RUTA 1)",
       "price": 150000.0,
       "priceLabel": "$150,000 USD",
@@ -4280,12 +4289,12 @@
     },
     {
       "id": "prop-118",
-      "category": "venta",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Casa 1 Habitación · con Línea Blanca",
+      "title": "Apartamento 1 Habitación · con Línea Blanca",
       "location": "Ubicación por confirmar",
       "price": 950.0,
-      "priceLabel": "$950 USD",
+      "priceLabel": "$950 USD / mes",
       "beds": 1,
       "baths": 1,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=byhrlTVgAPAQ7kNvwFsX2XQ&_nc_oc=AdrCjw4rhfe8Vu-L3O30iBoS3ho3SvCtapglaENhJ4iXmD6uKmoIjs5gliASV5UqDGs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=leHLTuUCWFh8qfW4pAbiVw&oh=00_Af0NCwbh7LWlUa4UsQl3_dduwuyIND4ZjdoD4qth6nS51g&oe=69F1E5BE",
@@ -4298,8 +4307,8 @@
         "🍀Walk-in-closet"
       ],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -4546,7 +4555,7 @@
       "id": "prop-116",
       "category": "alquiler",
       "status": "disponible",
-      "title": "Apartamento en Plaza Torres de Heredia de 97m2 incluyendo la terraza",
+      "title": "Se renta local comercial en Plaza Torres de Heredia",
       "location": "Plaza Torres de Heredia de 97m2 incluyendo la terraza",
       "price": 1700.0,
       "priceLabel": "$1700 USD / mes",
@@ -4554,8 +4563,12 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670589082_856421553497364_667281686573351905_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=xh8oTsf_X3gQ7kNvwEyMxYU&_nc_oc=AdoJDXIggSCYJl0LgC-6VOBI2EoCw2yaQWiKpbjYu1wUkP5dREflskz-QfRzl4ijQio&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=MOje9ZljVZmRHIWeYB9i7g&oh=00_Af0U3scLs2ss3U1VjHCF3HqGWq-2alPszeoDChzz458SCQ&oe=69F1D1A3",
       "details": [
-        "En el centro comercial se encuentra restaurantes, bancos, bares, mini súper, barbería, clínica médica, entre otros.",
-        "Además cuanta con un amplio parqueo en la parte trasera del centro comercial."
+        "En el centro comercial se encuentra restaurantes",
+        "bancos",
+        "bares",
+        "mini súper",
+        "barbería",
+        "clínica médica"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -4583,7 +4596,7 @@
       "id": "prop-117",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa 2 Habitaciones · 2 Baños · con Línea Blanca",
+      "title": "Apartamento 2 Habitaciones · 2 Baños · con Línea Blanca",
       "location": "Torres de Heredia (KHAYA RUTA 1)",
       "price": 150000.0,
       "priceLabel": "$150,000 USD",
@@ -4626,12 +4639,12 @@
     },
     {
       "id": "prop-118",
-      "category": "venta",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Casa 1 Habitación · con Línea Blanca",
+      "title": "Apartamento 1 Habitación · con Línea Blanca",
       "location": "Ubicación por confirmar",
       "price": 950.0,
-      "priceLabel": "$950 USD",
+      "priceLabel": "$950 USD / mes",
       "beds": 1,
       "baths": 1,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=byhrlTVgAPAQ7kNvwFsX2XQ&_nc_oc=AdrCjw4rhfe8Vu-L3O30iBoS3ho3SvCtapglaENhJ4iXmD6uKmoIjs5gliASV5UqDGs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=leHLTuUCWFh8qfW4pAbiVw&oh=00_Af0NCwbh7LWlUa4UsQl3_dduwuyIND4ZjdoD4qth6nS51g&oe=69F1E5BE",
@@ -4644,8 +4657,8 @@
         "🍀Walk-in-closet"
       ],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -5099,12 +5112,12 @@
     },
     {
       "id": "prop-11",
-      "category": "venta",
+      "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
       "location": "Torres de Heredia",
       "price": 430000.0,
-      "priceLabel": "₡430,000",
+      "priceLabel": "₡430,000 / mes",
       "beds": 1,
       "baths": 1,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/626565499_3374413572723566_475184433930986093_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ySp8h9NsbK4Q7kNvwGDrjuh&_nc_oc=AdowZcyEtw6YmeK_amXK9cv3if4Zam2FQPbBTmBsMZTeMCNqUbWp0v7SIL8PTolrQ4g&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=XSmVcqXP1hnQKDX4S3o32Q&oh=00_Af0Q9Rr42dpYRobhSxbrL-aE9cGAjhwxp-g0HmlsUe0ZxQ&oe=69F1E274",
@@ -5117,8 +5130,8 @@
         "▪️ Sala y comedor integrados"
       ],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -5416,7 +5429,7 @@
       "id": "prop-18",
       "category": "bodegas",
       "status": "disponible",
-      "title": "Bodega Disponible",
+      "title": "Propiedad en Alquiler",
       "location": "Ubicación por confirmar",
       "price": 800.0,
       "priceLabel": "$800 USD / mes",
@@ -5426,11 +5439,12 @@
       "details": [
         "Tenemos 3 bodegas disponibles",
         "Incluye servicios de agua y luz.",
-        "Lugar privado son seguridad, portón eléctrico."
+        "Lugar privado son seguridad",
+        "portón eléctrico."
       ],
       "badge": {
-        "text": "SE ALQUILAN",
-        "variant": "tertiary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -5844,7 +5858,7 @@
       "id": "prop-28",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa 2 Habitaciones · 2 Baños",
+      "title": "Apartamento 2 Habitaciones · 2 Baños",
       "location": "La Guacima de Alajuela, enfrente de Hacienda los Reyes.",
       "price": 65000000.0,
       "priceLabel": "₡65,000,000",
@@ -5926,7 +5940,7 @@
       "id": "prop-30",
       "category": "alquiler",
       "status": "disponible",
-      "title": "Casa 3 Habitaciones · 2 Baños · con Balcón",
+      "title": "Apartamento 3 Habitaciones · 2 Baños · con Balcón",
       "location": "CONCASA",
       "price": 850.0,
       "priceLabel": "$850 USD / mes",
@@ -6870,19 +6884,19 @@
     },
     {
       "id": "prop-56",
-      "category": "venta",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Propiedad en Venta",
+      "title": "Propiedad en Alquiler",
       "location": "Ubicación por confirmar",
       "price": 0,
-      "priceLabel": "Consultar precio",
+      "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.75761-15/501364978_17930571204026180_313376123638742219_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=QxCPvkuxARcQ7kNvwH4crFV&_nc_oc=AdrZ9_epIA17yN0CgONaNuKCDO2TdYQW4fQsn-Jt39RHte6zc04xf_yICuX8jvT-xfs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=CfZapBcMVVKtMjhUMwAb1Q&oh=00_Af1MjI1AL_KgYGSUKCyCBt6pQpjnoVugcTg66aszUSyb4A&oe=69F1E4C2",
       "details": [],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
@@ -7087,19 +7101,19 @@
     },
     {
       "id": "prop-63",
-      "category": "venta",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Propiedad en Venta",
+      "title": "Propiedad en Alquiler",
       "location": "Ubicación por confirmar",
       "price": 0,
-      "priceLabel": "Consultar precio",
+      "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.75761-15/489858933_17925919413026180_2371295890432040871_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_C2x_1Kb57wQ7kNvwGtU3IB&_nc_oc=AdqPq5lnI5Lhpt0Bc-nYoOn-ZB-n59An2jBuOT6x5Fb81ubjRXMUCse4oPn6zrUVBTo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=klu4IjP8-NTuFM5ciVslDg&oh=00_Af3YIJfOXh0zFMAyKuVbq-71sQFEoIS_roQnuVn-2QnVqg&oe=69F1DD3F",
       "details": [],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
