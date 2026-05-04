@@ -1,6 +1,6 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-04-30T01:04:57Z",
+  "generatedAt": "2026-05-04T23:12:04Z",
   "allProperties": [
     {
       "id": "prop-116",
@@ -8,11 +8,11 @@
       "status": "disponible",
       "title": "Se renta local comercial en Plaza Torres de Heredia",
       "location": "Plaza Torres de Heredia de 97m2 incluyendo la terraza",
-      "price": 1700.0,
+      "price": 1700,
       "priceLabel": "$1700 USD / mes",
       "beds": 0,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670589082_856421553497364_667281686573351905_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Gk2NU7MyRm0Q7kNvwHRQKFa&_nc_oc=AdoKNuWowmwpDmrNQG0aaHu6RF7U5Imz9jtrGzSCMHac6JfPI3XfU193wsdpwbbtKp8&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=FZPO0TgKrbpi0gph8JBfmQ&_nc_ss=7a689&oh=00_Af2DpXXmi4215eG2S2mJeTWi1_cuteV7PgfUUqKD9g9vUw&oe=69F86923",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670589082_856421553497364_667281686573351905_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6\u0026_nc_cat=101\u0026ccb=7-5\u0026_nc_sid=18de74\u0026efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D\u0026_nc_ohc=Gk2NU7MyRm0Q7kNvwHRQKFa\u0026_nc_oc=AdoKNuWowmwpDmrNQG0aaHu6RF7U5Imz9jtrGzSCMHac6JfPI3XfU193wsdpwbbtKp8\u0026_nc_zt=23\u0026_nc_ht=scontent.cdninstagram.com\u0026_nc_gid=FZPO0TgKrbpi0gph8JBfmQ\u0026_nc_ss=7a689\u0026oh=00_Af2DpXXmi4215eG2S2mJeTWi1_cuteV7PgfUUqKD9g9vUw\u0026oe=69F86923",
       "details": [
         "En el centro comercial se encuentra restaurantes",
         "bancos",
@@ -39,7 +39,9 @@
             "En el centro comercial se encuentra restaurantes, bancos, bares, mini súper, barbería, clínica médica, entre otros.",
             "Además cuanta con un amplio parqueo en la parte trasera del centro comercial."
           ],
-          "badgeText": "FOR RENT"
+          "location": "Plaza Torres de Heredia de 97m2 incluyendo la terraza",
+          "priceLabel": "$1700 USD / month",
+          "title": "Local en Plaza Torres de Heredia de 97m2 incluyendo la terraza"
         }
       }
     },
@@ -49,11 +51,11 @@
       "status": "disponible",
       "title": "Apartamento 2 Habitaciones · 2 Baños · con Línea Blanca",
       "location": "Torres de Heredia (KHAYA RUTA 1)",
-      "price": 150000.0,
+      "price": 150000,
       "priceLabel": "$150,000 USD",
       "beds": 2,
       "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670882656_1384799513411551_1887738600767749049_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KJbGacg1P0oQ7kNvwG0zA6V&_nc_oc=AdrW3z_ZAjeB4RtwZNNDbQNNPvNwycon1yKMub3j0kHE_ZD6MchFSnadn9UprVtMt6I&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=G88GimieHIrSggZWgvnPzA&_nc_ss=7b689&oh=00_Af1dhMvErAMgNWLVJhDHOpqh6H-DFB9_A4eibwAqT7FbNw&oe=69F886DE",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670882656_1384799513411551_1887738600767749049_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6\u0026_nc_cat=101\u0026ccb=7-5\u0026_nc_sid=18de74\u0026efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D\u0026_nc_ohc=KJbGacg1P0oQ7kNvwG0zA6V\u0026_nc_oc=AdrW3z_ZAjeB4RtwZNNDbQNNPvNwycon1yKMub3j0kHE_ZD6MchFSnadn9UprVtMt6I\u0026_nc_zt=23\u0026_nc_ht=scontent.cdninstagram.com\u0026_nc_gid=G88GimieHIrSggZWgvnPzA\u0026_nc_ss=7b689\u0026oh=00_Af1dhMvErAMgNWLVJhDHOpqh6H-DFB9_A4eibwAqT7FbNw\u0026oe=69F886DE",
       "details": [
         "71 m2 de apartamento",
         "15 m2 de parqueo",
@@ -94,11 +96,11 @@
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
       "location": "BeCariari (Real Cariari)",
-      "price": 950.0,
+      "price": 950,
       "priceLabel": "$950 USD / mes",
       "beds": 1,
       "baths": 1,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TiQP399PgDUQ7kNvwFgCYim&_nc_oc=Adp-JWVGKplZp6bs_nUMyK6WGbe4ffDMu0eau3znVs7XzDhPnLbcYrdohDBdbFumqz8&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=cPj99HRehPJ0pqQtESAuyw&_nc_ss=7b689&oh=00_Af0oIm7i31F5IdZ4NUvZsxL3QWb4EOkOc1S8hYyoFnbX1g&oe=69F87D3E",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6\u0026_nc_cat=104\u0026ccb=7-5\u0026_nc_sid=18de74\u0026efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D\u0026_nc_ohc=TiQP399PgDUQ7kNvwFgCYim\u0026_nc_oc=Adp-JWVGKplZp6bs_nUMyK6WGbe4ffDMu0eau3znVs7XzDhPnLbcYrdohDBdbFumqz8\u0026_nc_zt=23\u0026_nc_ht=scontent.cdninstagram.com\u0026_nc_gid=cPj99HRehPJ0pqQtESAuyw\u0026_nc_ss=7b689\u0026oh=00_Af0oIm7i31F5IdZ4NUvZsxL3QWb4EOkOc1S8hYyoFnbX1g\u0026oe=69F87D3E",
       "details": [
         "Apartamento",
         "🍀Tipo estudio (1 habitación)",
@@ -143,7 +145,7 @@
       "priceLabel": "Consultar precio / mes",
       "beds": 2,
       "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/661040107_1901204777234351_674432110434194337_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=JCTAAWH6cMAQ7kNvwFoUJZb&_nc_oc=Adp3-yULYETRlbJZ5dV_0kUvwWZpJwEsZtcOEGu0Iykjii7U882zEqpWLMNVfwuKirU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=I7ILHMRsFfiTxDChFiqDmw&_nc_ss=7b689&oh=00_Af2dnUZx8TLl4_dApA3bCj6vG6a9WIKKg_Pne2XrQEtDtA&oe=69F88663",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/661040107_1901204777234351_674432110434194337_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6\u0026_nc_cat=105\u0026ccb=7-5\u0026_nc_sid=18de74\u0026efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D\u0026_nc_ohc=JCTAAWH6cMAQ7kNvwFoUJZb\u0026_nc_oc=Adp3-yULYETRlbJZ5dV_0kUvwWZpJwEsZtcOEGu0Iykjii7U882zEqpWLMNVfwuKirU\u0026_nc_zt=23\u0026_nc_ht=scontent.cdninstagram.com\u0026_nc_gid=I7ILHMRsFfiTxDChFiqDmw\u0026_nc_ss=7b689\u0026oh=00_Af2dnUZx8TLl4_dApA3bCj6vG6a9WIKKg_Pne2XrQEtDtA\u0026oe=69F88663",
       "details": [
         "2 habitaciones",
         "2 baños",
@@ -184,11 +186,11 @@
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
       "location": "Ubicación por confirmar",
-      "price": 900.0,
+      "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 1,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/659138863_1486192659595719_7420859786082071621_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=eNjef3gsxUIQ7kNvwFIONMK&_nc_oc=AdrihiGnoLp15PITEOze-QT58K6ch8YtfjREdkz0gA5GFuP0nyVwSgVWjehq_oU6Zl0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Wa31mZjKKlMgoxuUcWQFFA&_nc_ss=7b689&oh=00_Af2RnZAPjSTz8jKmpp8F9Jjh-cnaAb4RHZReOis70RL5FA&oe=69F853A9",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/659138863_1486192659595719_7420859786082071621_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6\u0026_nc_cat=103\u0026ccb=7-5\u0026_nc_sid=18de74\u0026efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D\u0026_nc_ohc=eNjef3gsxUIQ7kNvwFIONMK\u0026_nc_oc=AdrihiGnoLp15PITEOze-QT58K6ch8YtfjREdkz0gA5GFuP0nyVwSgVWjehq_oU6Zl0\u0026_nc_zt=23\u0026_nc_ht=scontent.cdninstagram.com\u0026_nc_gid=Wa31mZjKKlMgoxuUcWQFFA\u0026_nc_ss=7b689\u0026oh=00_Af2RnZAPjSTz8jKmpp8F9Jjh-cnaAb4RHZReOis70RL5FA\u0026oe=69F853A9",
       "details": [
         "El apartamento se renta así como lo ve en las fotografías.",
         "Piscina",
@@ -229,11 +231,11 @@
       "status": "disponible",
       "title": "Apartamento 2 Habitaciones · 2 Baños · Amoblado",
       "location": "Torres de la Colina, Escazu",
-      "price": 1600.0,
+      "price": 1600,
       "priceLabel": "$1600USD / mes",
       "beds": 2,
       "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/657429945_904029125962389_5604823339628021054_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=cvEzL7Pr6tQQ7kNvwE-TUi0&_nc_oc=AdrLqKJ3D1yv9LFSITtK0qP6FTCBmtTG90GhywmlIEJfvka3osAjPFTQf6xKCSwVOeM&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=DV6jwb98fASsVqo2WQ01xQ&_nc_ss=7b689&oh=00_Af1lwWBsSUX1wyjjA_oB6gvhl71vA2t1WP05sp_D0A4Eww&oe=69F8884D",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/657429945_904029125962389_5604823339628021054_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6\u0026_nc_cat=102\u0026ccb=7-5\u0026_nc_sid=18de74\u0026efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D\u0026_nc_ohc=cvEzL7Pr6tQQ7kNvwE-TUi0\u0026_nc_oc=AdrLqKJ3D1yv9LFSITtK0qP6FTCBmtTG90GhywmlIEJfvka3osAjPFTQf6xKCSwVOeM\u0026_nc_zt=23\u0026_nc_ht=scontent.cdninstagram.com\u0026_nc_gid=DV6jwb98fASsVqo2WQ01xQ\u0026_nc_ss=7b689\u0026oh=00_Af1lwWBsSUX1wyjjA_oB6gvhl71vA2t1WP05sp_D0A4Eww\u0026oe=69F8884D",
       "details": [
         "Piso 6 con increíble vista a la ciudad",
         "2 habitaciones",
@@ -274,11 +276,11 @@
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones",
       "location": "Torres San Marino",
-      "price": 1100.0,
+      "price": 1100,
       "priceLabel": "$1100 USD / mes",
       "beds": 3,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/656004530_2191261808351166_6148399968691955575_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=lpgwGZSldw4Q7kNvwHL6PAw&_nc_oc=AdoRVpOqixIuiRh1_VR8DCqgxe0Q_SSD7Ln6q5N4tDbh7iRmkVew9bXGedevUBd71mI&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=NfTuL8ViXcvthMRRBc1dvQ&_nc_ss=7b689&oh=00_Af00qJuQQylGAu2IYFwacfhH9ui3fEBZFdgdqZlgn1IdVw&oe=69F8637A",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/656004530_2191261808351166_6148399968691955575_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6\u0026_nc_cat=105\u0026ccb=7-5\u0026_nc_sid=18de74\u0026efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D\u0026_nc_ohc=lpgwGZSldw4Q7kNvwHL6PAw\u0026_nc_oc=AdoRVpOqixIuiRh1_VR8DCqgxe0Q_SSD7Ln6q5N4tDbh7iRmkVew9bXGedevUBd71mI\u0026_nc_zt=23\u0026_nc_ht=scontent.cdninstagram.com\u0026_nc_gid=NfTuL8ViXcvthMRRBc1dvQ\u0026_nc_ss=7b689\u0026oh=00_Af00qJuQQylGAu2IYFwacfhH9ui3fEBZFdgdqZlgn1IdVw\u0026oe=69F8637A",
       "details": [
         "✅Excelente vista piso 5",
         "✅2 parqueos",
