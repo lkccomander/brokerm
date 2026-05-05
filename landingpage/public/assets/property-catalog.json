@@ -1,6 +1,6 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-05-04T23:59:47Z",
+  "generatedAt": "2026-05-05T21:25:03Z",
   "allProperties": [
     {
       "id": "prop-116",
@@ -8,7 +8,7 @@
       "status": "disponible",
       "title": "Se renta local comercial en Plaza Torres de Heredia",
       "location": "Plaza Torres de Heredia de 97m2 incluyendo la terraza",
-      "price": 1700,
+      "price": 1700.0,
       "priceLabel": "$1700 USD / mes",
       "beds": 0,
       "baths": 0,
@@ -49,7 +49,7 @@
       "status": "disponible",
       "title": "Apartamento 2 Habitaciones · 2 Baños · con Línea Blanca",
       "location": "Torres de Heredia (KHAYA RUTA 1)",
-      "price": 150000,
+      "price": 150000.0,
       "priceLabel": "$150,000 USD",
       "beds": 2,
       "baths": 2,
@@ -93,8 +93,8 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Ubicación por confirmar",
-      "price": 950.0,
+      "location": "BeCariari (Real Cariari)",
+      "price": 950,
       "priceLabel": "$950 USD / mes",
       "beds": 1,
       "baths": 1,
@@ -878,7 +878,7 @@
     },
     {
       "id": "prop-18",
-      "category": "alquiler",
+      "category": "bodegas",
       "status": "disponible",
       "title": "Propiedad en Alquiler",
       "location": "Ubicación por confirmar",
@@ -4212,8 +4212,12 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670589082_856421553497364_667281686573351905_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Ac7a6hQdP9cQ7kNvwGwKrlD&_nc_oc=AdotJz_7oUAnIHJ4FQCpgjRDrdC5wymP18JFmgv-kPleUE_KqP5HH-yE4P1Ml9BgbPA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=vCLkYGX_loLSE2uPfJQ_4A&_nc_ss=7a689&oh=00_Af5dDnDP1cRmrW70hDvscW9eC24ziqO684x2Ig4brpkTew&oe=69FF00A3",
       "details": [
-        "En el centro comercial se encuentra restaurantes, bancos, bares, mini súper, barbería, clínica médica, entre otros.",
-        "Además cuanta con un amplio parqueo en la parte trasera del centro comercial."
+        "En el centro comercial se encuentra restaurantes",
+        "bancos",
+        "bares",
+        "mini súper",
+        "barbería",
+        "clínica médica"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -4226,7 +4230,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXctAreEW_z/",
       "translations": {
         "en": {
-          "title": "Apartmento en Plaza Torres de Heredia de 97m2 incluyendo la terraza",
+          "title": "Local en Plaza Torres de Heredia de 97m2 incluyendo la terraza",
           "location": "Plaza Torres de Heredia de 97m2 incluyendo la terraza",
           "priceLabel": "$1700 USD / month",
           "details": [
@@ -4287,13 +4291,14 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Ubicación por confirmar",
+      "location": "BeCariari (Real Cariari)",
       "price": 950.0,
       "priceLabel": "$950 USD / mes",
       "beds": 1,
       "baths": 1,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Z4NH32SeKV8Q7kNvwGNwynN&_nc_oc=AdpB_8SA378zC08Ydkphryp3c1Gs6Un19TbXOustfMgtYBYlVgOP7jfudjv1bNEYmWs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=KrQjEOpLqY4LiMlUR8uQDQ&_nc_ss=7b689&oh=00_Af5V5X1aydZVTdYTs3C7MOAOPGxZ6DRgZePgTaQF0It7PQ&oe=69FF14BE",
       "details": [
+        "Apartamento",
         "🍀Tipo estudio (1 habitación)",
         "🍀Full línea blanca",
         "🍀Aire acondicionado",
@@ -4558,8 +4563,12 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670589082_856421553497364_667281686573351905_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Ac7a6hQdP9cQ7kNvwGwKrlD&_nc_oc=AdotJz_7oUAnIHJ4FQCpgjRDrdC5wymP18JFmgv-kPleUE_KqP5HH-yE4P1Ml9BgbPA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=vCLkYGX_loLSE2uPfJQ_4A&_nc_ss=7a689&oh=00_Af5dDnDP1cRmrW70hDvscW9eC24ziqO684x2Ig4brpkTew&oe=69FF00A3",
       "details": [
-        "En el centro comercial se encuentra restaurantes, bancos, bares, mini súper, barbería, clínica médica, entre otros.",
-        "Además cuanta con un amplio parqueo en la parte trasera del centro comercial."
+        "En el centro comercial se encuentra restaurantes",
+        "bancos",
+        "bares",
+        "mini súper",
+        "barbería",
+        "clínica médica"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -4640,6 +4649,7 @@
       "baths": 1,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Z4NH32SeKV8Q7kNvwGNwynN&_nc_oc=AdpB_8SA378zC08Ydkphryp3c1Gs6Un19TbXOustfMgtYBYlVgOP7jfudjv1bNEYmWs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=KrQjEOpLqY4LiMlUR8uQDQ&_nc_ss=7b689&oh=00_Af5V5X1aydZVTdYTs3C7MOAOPGxZ6DRgZePgTaQF0It7PQ&oe=69FF14BE",
       "details": [
+        "Apartamento",
         "🍀Tipo estudio (1 habitación)",
         "🍀Full línea blanca",
         "🍀Aire acondicionado",
@@ -5418,7 +5428,7 @@
     },
     {
       "id": "prop-18",
-      "category": "alquiler",
+      "category": "bodegas",
       "status": "disponible",
       "title": "Propiedad en Alquiler",
       "location": "Ubicación por confirmar",
