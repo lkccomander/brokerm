@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Property } from '../types';
 import { Link } from 'react-router-dom';
 import { useSiteLanguage } from '../hooks/useSiteLanguage';
@@ -13,11 +13,16 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
   className = '' 
 }) => {
   const [showReelModal, setShowReelModal] = useState(false);
+  const [imageFailed, setImageFailed] = useState(false);
   const { isEnglish, localizePath } = useSiteLanguage();
   const localizedTitle = isEnglish ? property.translations?.en?.title ?? property.title : property.title;
   const localizedLocation = isEnglish ? property.translations?.en?.location ?? property.location : property.location;
   const localizedDetails = isEnglish ? property.translations?.en?.details ?? property.details : property.details;
   const localizedPriceLabel = isEnglish ? property.translations?.en?.priceLabel ?? property.priceLabel : property.priceLabel;
+
+  useEffect(() => {
+    setImageFailed(false);
+  }, [property.image]);
   const reelEmbedUrl = useMemo(() => {
     if (property.embedUrl) {
       return property.embedUrl;
@@ -60,11 +65,23 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
   const openReelModal = () => {
     setShowReelModal(true);
   };
-  const thumbnailImage = (
+  const thumbnailImage = imageFailed ? (
+    <div className="flex h-full w-full flex-col items-center justify-center bg-gradient-to-br from-surface-container via-surface-container-high to-surface-container px-6 text-center text-on-surface">
+      <span className="material-symbols-outlined text-5xl text-primary/80">image_not_supported</span>
+      <p className="mt-4 text-sm font-bold uppercase tracking-[0.2em] text-primary">
+        {isEnglish ? 'Image unavailable' : 'Imagen no disponible'}
+      </p>
+      <p className="mt-2 max-w-xs text-sm text-tertiary">
+        {isEnglish ? 'This listing image could not be loaded.' : 'No se pudo cargar la imagen de esta propiedad.'}
+      </p>
+    </div>
+  ) : (
     <img
-      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
       alt={localizedTitle}
       src={property.image}
+      loading="lazy"
+      onError={() => setImageFailed(true)}
     />
   );
   const reelBadge = reelEmbedUrl ? (
