@@ -3,6 +3,92 @@
   "generatedAt": "2026-05-10T16:13:33Z",
   "allProperties": [
     {
+      "id": "prop-119",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 3 Habitaciones",
+      "location": "Instagram: \"Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
+      "price": 900.0,
+      "priceLabel": "$900 USD / mes",
+      "beds": 3,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/689523869_1506873497742143_8226210004955678695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dJ679uYof_sQ7kNvwE99xjv&_nc_oc=AdqCmhMY9mfo-OZ27h5hHA3cEdHvFhGUTK_IfzzvFHDfxpD7k2HCzet9vl8AGUkIH1I&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=jcmD2_DlBPryGcfB48U9vQ&_nc_ss=7a689&oh=00_Af7NdI7530LZU5V-t9YvFC_cs_pNTDqpnRFkSMU22xoGeg&oe=6A067574",
+      "details": [
+        "El apartamento se renta sin muebles.",
+        "Este apartamento tiene 3 habitaciones con una medida de 78m2 más un parqueo para 2 vehículos en tándem. Se encuentra en la primera planta.",
+        "Adentro del residencial Colinas del Viento queda el edificio de apartamentos, es de 3 pisos que se llama Amaranto.",
+        "Estos apartamentos cuentan con una pequeña piscina privada para los residentes del edificio."
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYFu29mRvA3/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Instagram: \"Se ALQUILA precioso apartment en Residencial Colinas del Viento",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "El apartment se renta sin muebles.",
+            "Este apartment tiene 3 bedrooms con una medida de 78m2 más un parqueo para 2 vehículos en tándem. Se encuentra en la primera planta.",
+            "Adentro del residencial Colinas del Viento queda el edificio de apartments, es de 3 pisos que se llama Amaranto.",
+            "Estos apartments cuentan con una pequeña piscina privada para los residentes del edificio."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
+    },
+    {
+      "id": "prop-120",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación · Amoblado",
+      "location": "Ubicación por confirmar",
+      "price": 900.0,
+      "priceLabel": "$900 USD / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/685800179_1632249311398923_1902920261753698034_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=q-6rJUekEv8Q7kNvwF4ARK0&_nc_oc=AdoQGKb6v04cUWZDQqS9EQ0t9IND39R3d7AN3LhXsJN6jTkfSnyYGIyxHR1txBhUrvA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=7ReDLfKPG3px2SjSwlCc8w&_nc_ss=7a689&oh=00_Af61-BrWqyttN3Um7au85TvCt4xthtY6rZGSYvlAbicb7w&oe=6A067CA6",
+      "details": [
+        "🍀Esquinero",
+        "🍀50m2 habitables más 15m2 de parqueo",
+        "🍀Semi amoblado",
+        "🍀Piso 6",
+        "🍀Piscina",
+        "🍀Jacuzzi"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYDe8Sux9a1/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "Corner unit",
+            "50m2 habitables más 15m2 de parqueo",
+            "Semi furnished",
+            "Floor 6",
+            "Piscina",
+            "Jacuzzi"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
+    },
+    {
       "id": "prop-116",
       "category": "alquiler",
       "status": "disponible",
