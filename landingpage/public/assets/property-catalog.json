@@ -1,6 +1,6 @@
 {
   "source": "social-thumbnailer-thumbnail-audit",
-  "generatedAt": "2026-05-10T16:13:33Z",
+  "generatedAt": "2026-05-10T20:08:48Z",
   "allProperties": [
     {
       "id": "prop-119",
@@ -966,9 +966,9 @@
       "id": "prop-18",
       "category": "bodegas",
       "status": "disponible",
-      "title": "Propiedad en Alquiler",
+      "title": "BODEGA en Alquiler",
       "location": "Ubicación por confirmar",
-      "price": 800,
+      "price": 800.0,
       "priceLabel": "$800 USD / mes",
       "beds": 0,
       "baths": 0,
@@ -976,7 +976,8 @@
       "details": [
         "Tenemos 3 bodegas disponibles",
         "Incluye servicios de agua y luz.",
-        "Lugar privado son seguridad, portón eléctrico."
+        "Lugar privado son seguridad",
+        "portón eléctrico."
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -2856,16 +2857,19 @@
       "id": "prop-70",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa  en VILLA REAL SANTA ANA.",
+      "title": "Casa en VILLA REAL SANTA ANA.",
       "location": "VILLA REAL SANTA ANA.",
-      "price": 19,
+      "price": 19.0,
       "priceLabel": "$1.9 USD",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.75761-15/483155554_17922693942026180_5453058376412134691_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=n-cP2y798-YQ7kNvwHyhrHb&_nc_oc=AdqyhWa5izyGK3xWjM-cSb9sTgzjM_UgEPn8XzE02JcJPv5mMgvDBGVd_sZPY-jjFCc&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=8i9yzZHspNbwr5yHGoMylQ&_nc_ss=7b689&oh=00_Af7vWHQdafXHtx4KFGGMNm2SQwYKPwSCK3CiOcDNyarxHg&oe=6A0681B2",
       "details": [
-        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
-        "Están construidas en un terreno de 2078m2, cada casa tiene una construcción aproximada de 450m2"
+        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica",
+        "con excelentes vistas",
+        "rodeado de naturaleza.",
+        "Están construidas en un terreno de 2078m2",
+        "cada casa tiene una construcción aproximada de 450m2"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -4287,6 +4291,92 @@
   ],
   "featuredProperties": [
     {
+      "id": "prop-119",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 3 Habitaciones",
+      "location": "Instagram: \"Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
+      "price": 900.0,
+      "priceLabel": "$900 USD / mes",
+      "beds": 3,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/689523869_1506873497742143_8226210004955678695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dJ679uYof_sQ7kNvwE99xjv&_nc_oc=AdqCmhMY9mfo-OZ27h5hHA3cEdHvFhGUTK_IfzzvFHDfxpD7k2HCzet9vl8AGUkIH1I&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=jcmD2_DlBPryGcfB48U9vQ&_nc_ss=7a689&oh=00_Af7NdI7530LZU5V-t9YvFC_cs_pNTDqpnRFkSMU22xoGeg&oe=6A067574",
+      "details": [
+        "El apartamento se renta sin muebles.",
+        "Este apartamento tiene 3 habitaciones con una medida de 78m2 más un parqueo para 2 vehículos en tándem. Se encuentra en la primera planta.",
+        "Adentro del residencial Colinas del Viento queda el edificio de apartamentos, es de 3 pisos que se llama Amaranto.",
+        "Estos apartamentos cuentan con una pequeña piscina privada para los residentes del edificio."
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYFu29mRvA3/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Instagram: \"Se ALQUILA precioso apartment en Residencial Colinas del Viento",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "El apartment se renta sin muebles.",
+            "Este apartment tiene 3 bedrooms con una medida de 78m2 más un parqueo para 2 vehículos en tándem. Se encuentra en la primera planta.",
+            "Adentro del residencial Colinas del Viento queda el edificio de apartments, es de 3 pisos que se llama Amaranto.",
+            "Estos apartments cuentan con una pequeña piscina privada para los residentes del edificio."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
+    },
+    {
+      "id": "prop-120",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación · Amoblado",
+      "location": "Ubicación por confirmar",
+      "price": 900.0,
+      "priceLabel": "$900 USD / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/685800179_1632249311398923_1902920261753698034_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=q-6rJUekEv8Q7kNvwF4ARK0&_nc_oc=AdoQGKb6v04cUWZDQqS9EQ0t9IND39R3d7AN3LhXsJN6jTkfSnyYGIyxHR1txBhUrvA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=7ReDLfKPG3px2SjSwlCc8w&_nc_ss=7a689&oh=00_Af61-BrWqyttN3Um7au85TvCt4xthtY6rZGSYvlAbicb7w&oe=6A067CA6",
+      "details": [
+        "🍀Esquinero",
+        "🍀50m2 habitables más 15m2 de parqueo",
+        "🍀Semi amoblado",
+        "🍀Piso 6",
+        "🍀Piscina",
+        "🍀Jacuzzi"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYDe8Sux9a1/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "Corner unit",
+            "50m2 habitables más 15m2 de parqueo",
+            "Semi furnished",
+            "Floor 6",
+            "Piscina",
+            "Jacuzzi"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
+    },
+    {
       "id": "prop-116",
       "category": "alquiler",
       "status": "disponible",
@@ -4357,7 +4447,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXcewDSkbtG/",
       "translations": {
         "en": {
-          "title": "House 2 Bedrooms · 2 Bathrooms · with Línea Blanca",
+          "title": "House 2 Bedrooms · 2 Bathrooms · with Appliances",
           "location": "Torres de Heredia (KHAYA RUTA 1)",
           "priceLabel": "$150,000 USD",
           "details": [
@@ -4384,7 +4474,6 @@
       "baths": 1,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=L6UyWDnF2m4Q7kNvwGlTINa&_nc_oc=Adq8DYVrgcVkGCrvHrVNs38YDbX-n-cBLfooMovv5ujliANtwZ2Tww_uAWHdbVPno-0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=gJiZ5ZJj-1UcLzpldZfU0Q&_nc_ss=7b689&oh=00_Af6e8Kyhm_uMQU4h-PH_p-TyaL7Fgzws13H_dFx6YiM4-Q&oe=6A068D3E",
       "details": [
-        "Apartamento",
         "🍀Tipo estudio (1 habitación)",
         "🍀Full línea blanca",
         "🍀Aire acondicionado",
@@ -4397,13 +4486,13 @@
         "variant": "primary"
       },
       "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
+      "inquiryEnabled": false,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXXqk5ikVQi/",
       "translations": {
         "en": {
-          "title": "House 1 Bedroom · with Línea Blanca",
+          "title": "House 1 Bedroom · with Appliances",
           "location": "Location to be confirmed",
           "priceLabel": "$950 USD",
           "details": [
@@ -4493,7 +4582,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "title": "Apartment 1 Bedroom · with Appliances",
           "location": "Location to be confirmed",
           "priceLabel": "$900 USD / month",
           "details": [
@@ -4602,16 +4691,19 @@
       "id": "prop-70",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa  en VILLA REAL SANTA ANA.",
+      "title": "Casa en VILLA REAL SANTA ANA.",
       "location": "VILLA REAL SANTA ANA.",
-      "price": 19,
+      "price": 19.0,
       "priceLabel": "$1.9 USD",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.75761-15/483155554_17922693942026180_5453058376412134691_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=n-cP2y798-YQ7kNvwHyhrHb&_nc_oc=AdqyhWa5izyGK3xWjM-cSb9sTgzjM_UgEPn8XzE02JcJPv5mMgvDBGVd_sZPY-jjFCc&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=8i9yzZHspNbwr5yHGoMylQ&_nc_ss=7b689&oh=00_Af7vWHQdafXHtx4KFGGMNm2SQwYKPwSCK3CiOcDNyarxHg&oe=6A0681B2",
       "details": [
-        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
-        "Están construidas en un terreno de 2078m2, cada casa tiene una construcción aproximada de 450m2"
+        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica",
+        "con excelentes vistas",
+        "rodeado de naturaleza.",
+        "Están construidas en un terreno de 2078m2",
+        "cada casa tiene una construcción aproximada de 450m2"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -4625,7 +4717,7 @@
       "translations": {
         "en": {
           "title": "House in VILLA REAL SANTA ANA.",
-          "location": " VILLA REAL SANTA ANA.",
+          "location": "VILLA REAL SANTA ANA.",
           "priceLabel": "$1.9 USD",
           "details": [
             "Estás 2 houses se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
@@ -4637,6 +4729,92 @@
     }
   ],
   "catalogProperties": [
+    {
+      "id": "prop-119",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 3 Habitaciones",
+      "location": "Instagram: \"Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
+      "price": 900.0,
+      "priceLabel": "$900 USD / mes",
+      "beds": 3,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/689523869_1506873497742143_8226210004955678695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dJ679uYof_sQ7kNvwE99xjv&_nc_oc=AdqCmhMY9mfo-OZ27h5hHA3cEdHvFhGUTK_IfzzvFHDfxpD7k2HCzet9vl8AGUkIH1I&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=jcmD2_DlBPryGcfB48U9vQ&_nc_ss=7a689&oh=00_Af7NdI7530LZU5V-t9YvFC_cs_pNTDqpnRFkSMU22xoGeg&oe=6A067574",
+      "details": [
+        "El apartamento se renta sin muebles.",
+        "Este apartamento tiene 3 habitaciones con una medida de 78m2 más un parqueo para 2 vehículos en tándem. Se encuentra en la primera planta.",
+        "Adentro del residencial Colinas del Viento queda el edificio de apartamentos, es de 3 pisos que se llama Amaranto.",
+        "Estos apartamentos cuentan con una pequeña piscina privada para los residentes del edificio."
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYFu29mRvA3/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Instagram: \"Se ALQUILA precioso apartment en Residencial Colinas del Viento",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "El apartment se renta sin muebles.",
+            "Este apartment tiene 3 bedrooms con una medida de 78m2 más un parqueo para 2 vehículos en tándem. Se encuentra en la primera planta.",
+            "Adentro del residencial Colinas del Viento queda el edificio de apartments, es de 3 pisos que se llama Amaranto.",
+            "Estos apartments cuentan con una pequeña piscina privada para los residentes del edificio."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
+    },
+    {
+      "id": "prop-120",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación · Amoblado",
+      "location": "Ubicación por confirmar",
+      "price": 900.0,
+      "priceLabel": "$900 USD / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/685800179_1632249311398923_1902920261753698034_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=q-6rJUekEv8Q7kNvwF4ARK0&_nc_oc=AdoQGKb6v04cUWZDQqS9EQ0t9IND39R3d7AN3LhXsJN6jTkfSnyYGIyxHR1txBhUrvA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=7ReDLfKPG3px2SjSwlCc8w&_nc_ss=7a689&oh=00_Af61-BrWqyttN3Um7au85TvCt4xthtY6rZGSYvlAbicb7w&oe=6A067CA6",
+      "details": [
+        "🍀Esquinero",
+        "🍀50m2 habitables más 15m2 de parqueo",
+        "🍀Semi amoblado",
+        "🍀Piso 6",
+        "🍀Piscina",
+        "🍀Jacuzzi"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYDe8Sux9a1/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "$900 USD / month",
+          "details": [
+            "Corner unit",
+            "50m2 habitables más 15m2 de parqueo",
+            "Semi furnished",
+            "Floor 6",
+            "Piscina",
+            "Jacuzzi"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      }
+    },
     {
       "id": "prop-116",
       "category": "alquiler",
@@ -4708,7 +4886,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXcewDSkbtG/",
       "translations": {
         "en": {
-          "title": "House 2 Bedrooms · 2 Bathrooms · with Línea Blanca",
+          "title": "House 2 Bedrooms · 2 Bathrooms · with Appliances",
           "location": "Torres de Heredia (KHAYA RUTA 1)",
           "priceLabel": "$150,000 USD",
           "details": [
@@ -4735,7 +4913,6 @@
       "baths": 1,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=L6UyWDnF2m4Q7kNvwGlTINa&_nc_oc=Adq8DYVrgcVkGCrvHrVNs38YDbX-n-cBLfooMovv5ujliANtwZ2Tww_uAWHdbVPno-0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=gJiZ5ZJj-1UcLzpldZfU0Q&_nc_ss=7b689&oh=00_Af6e8Kyhm_uMQU4h-PH_p-TyaL7Fgzws13H_dFx6YiM4-Q&oe=6A068D3E",
       "details": [
-        "Apartamento",
         "🍀Tipo estudio (1 habitación)",
         "🍀Full línea blanca",
         "🍀Aire acondicionado",
@@ -4748,13 +4925,13 @@
         "variant": "primary"
       },
       "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
+      "inquiryEnabled": false,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXXqk5ikVQi/",
       "translations": {
         "en": {
-          "title": "House 1 Bedroom · with Línea Blanca",
+          "title": "House 1 Bedroom · with Appliances",
           "location": "Location to be confirmed",
           "priceLabel": "$950 USD",
           "details": [
@@ -4844,7 +5021,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "title": "Apartment 1 Bedroom · with Appliances",
           "location": "Location to be confirmed",
           "priceLabel": "$900 USD / month",
           "details": [
@@ -5227,7 +5404,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DUOCVUMETvP/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "title": "Apartment 1 Bedroom · with Appliances",
           "location": "Torres de Heredia",
           "priceLabel": "₡430,000",
           "details": [
@@ -5272,7 +5449,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTvep-5kVlV/",
       "translations": {
         "en": {
-          "title": "House 2 Bedrooms · 3 Bathrooms · with Línea Blanca",
+          "title": "House 2 Bedrooms · 3 Bathrooms · with Appliances",
           "location": "Condominio Francosta, Ulloa de Heredia",
           "priceLabel": "₡85",
           "details": [
@@ -5516,9 +5693,9 @@
       "id": "prop-18",
       "category": "bodegas",
       "status": "disponible",
-      "title": "Propiedad en Alquiler",
+      "title": "BODEGA en Alquiler",
       "location": "Ubicación por confirmar",
-      "price": 800,
+      "price": 800.0,
       "priceLabel": "$800 USD / mes",
       "beds": 0,
       "baths": 0,
@@ -5526,7 +5703,8 @@
       "details": [
         "Tenemos 3 bodegas disponibles",
         "Incluye servicios de agua y luz.",
-        "Lugar privado son seguridad, portón eléctrico."
+        "Lugar privado son seguridad",
+        "portón eléctrico."
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -5882,7 +6060,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPkPbyHEfa5/",
       "translations": {
         "en": {
-          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Línea Blanca",
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Appliances",
           "location": "Altamira, primera planta",
           "priceLabel": "$1100 USD / month",
           "details": [
@@ -5926,7 +6104,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPiI3LmDIYB/",
       "translations": {
         "en": {
-          "title": "Warehouse con Línea Blanca",
+          "title": "Warehouse with Appliances",
           "location": "Location to be confirmed",
           "priceLabel": "$2000 USD / month",
           "details": [
@@ -6394,7 +6572,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DM6JTUZS7H1/",
       "translations": {
         "en": {
-          "title": "Warehouse con Línea Blanca",
+          "title": "Warehouse with Appliances",
           "location": "Vistas de Robledal",
           "priceLabel": "$975 USD / month",
           "details": [
@@ -6680,7 +6858,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMjWdJwxy6p/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "title": "Apartment 1 Bedroom · with Appliances",
           "location": "Torres de Heredia",
           "priceLabel": "$850 USD / month",
           "details": [],
@@ -6929,7 +7107,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMG2VYeSj4A/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -6960,7 +7138,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DLnsBQLyK9i/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7022,7 +7200,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKBo-ZauDCG/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7053,7 +7231,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJxRzejyq7q/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7084,7 +7262,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJnWoWhRIjc/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7115,7 +7293,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJMjym_RRlT/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7146,7 +7324,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJCrmh5Sjvc/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7177,7 +7355,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIQMH-dOwUW/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7239,7 +7417,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIM4MLwShog/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7270,7 +7448,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHtjPJUx8AF/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7301,7 +7479,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHdxLUDx_H9/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7332,7 +7510,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHb2gAcy57i/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7363,7 +7541,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHbu6cvSt-z/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7394,7 +7572,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHYmBQ1xx8A/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7406,16 +7584,19 @@
       "id": "prop-70",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa  en VILLA REAL SANTA ANA.",
-      "location": " VILLA REAL SANTA ANA.",
-      "price": 19,
+      "title": "Casa en VILLA REAL SANTA ANA.",
+      "location": "VILLA REAL SANTA ANA.",
+      "price": 19.0,
       "priceLabel": "$1.9 USD",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.75761-15/483155554_17922693942026180_5453058376412134691_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=n-cP2y798-YQ7kNvwHyhrHb&_nc_oc=AdqyhWa5izyGK3xWjM-cSb9sTgzjM_UgEPn8XzE02JcJPv5mMgvDBGVd_sZPY-jjFCc&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=8i9yzZHspNbwr5yHGoMylQ&_nc_ss=7b689&oh=00_Af7vWHQdafXHtx4KFGGMNm2SQwYKPwSCK3CiOcDNyarxHg&oe=6A0681B2",
       "details": [
-        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
-        "Están construidas en un terreno de 2078m2, cada casa tiene una construcción aproximada de 450m2"
+        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica",
+        "con excelentes vistas",
+        "rodeado de naturaleza.",
+        "Están construidas en un terreno de 2078m2",
+        "cada casa tiene una construcción aproximada de 450m2"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -7462,7 +7643,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG7Ju8_Oxb7/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7493,7 +7674,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG2I_pFusEw/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7524,7 +7705,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DEiJ4DNyNar/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7555,7 +7736,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DDVo-q5Rj7s/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7586,7 +7767,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gT5bqRrRz/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7617,7 +7798,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gLC-XRGXg/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7648,7 +7829,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-x7aUExUJ9/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7679,7 +7860,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-WUt0nNH_i/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7710,7 +7891,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EIcC8xslr/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7741,7 +7922,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EG196R6qB/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7772,7 +7953,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8sbUCqy3Dj/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7803,7 +7984,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8GIky8x8Su/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7834,7 +8015,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8E5niURL-E/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7865,7 +8046,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7uZFeaxYXC/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7896,7 +8077,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7cNE8outlx/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7927,7 +8108,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7Nm7rWNkVh/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7958,7 +8139,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7J649MrTPY/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -7989,7 +8170,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7J6pQOrm_2/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8020,7 +8201,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C6ph8LSt5Xe/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8051,7 +8232,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C6nMw3-NWau/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8082,7 +8263,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C6h7rVrtFOD/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8113,7 +8294,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/C5FodjHOxew/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8144,7 +8325,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C370fH7LRc6/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8175,7 +8356,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/C3gH0c5P2Hm/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8206,7 +8387,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C2ubrX0uD4B/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8237,7 +8418,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C2OhtZ7uT21/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8268,7 +8449,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C2FsScLxv1z/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8299,7 +8480,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BP9f8OE4J/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8330,7 +8511,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BPmpkOv2U/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8361,7 +8542,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BPFVEuqDF/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8392,7 +8573,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BO5PBOBim/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8423,7 +8604,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BOur9O_wV/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8454,7 +8635,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CwyBD4bPGTA/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8485,7 +8666,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/Cwm8jqyO-we/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8516,7 +8697,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/CwS0vXERuC7/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "$425,000 USD / month",
           "details": [],
@@ -8547,7 +8728,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CwJaZNUoj2U/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8578,7 +8759,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CwJaMbqo-Ys/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8609,7 +8790,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cv3hesxxDJn/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8640,7 +8821,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cv2mY9OMHHy/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8671,7 +8852,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cvgc3JBLmwS/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8702,7 +8883,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CvgbfQuN-fH/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8733,7 +8914,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CuyRrOuMwTW/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8764,7 +8945,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CuyRYJvOB1z/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8795,7 +8976,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cuu4VCMr5kN/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
@@ -8826,7 +9007,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CurfCWyAU-g/",
       "translations": {
         "en": {
-          "title": "Propiedad en Alquiler",
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
           "details": [],
