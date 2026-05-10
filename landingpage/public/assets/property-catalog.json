@@ -26,7 +26,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYFu29mRvA3/",
       "translations": {
         "en": {
@@ -69,7 +69,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYDe8Sux9a1/",
       "translations": {
         "en": {
@@ -198,7 +198,7 @@
         "variant": "primary"
       },
       "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
+      "inquiryEnabled": false,
       "inquirySource": "catalogo",
       "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXXqk5ikVQi/",
@@ -4399,7 +4399,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXXqk5ikVQi/",
       "translations": {
         "en": {
@@ -4750,7 +4750,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXXqk5ikVQi/",
       "translations": {
         "en": {
