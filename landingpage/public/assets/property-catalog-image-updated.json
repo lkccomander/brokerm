@@ -7,8 +7,8 @@
       "category": "venta",
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones · 2 Baños · con Balcón",
-      "location": "Ubicación por confirmar",
-      "price": 103000.0,
+      "location": "Torres San Marino, Heredia",
+      "price": 103000,
       "priceLabel": "₡103,000",
       "beds": 3,
       "baths": 2,
@@ -33,7 +33,7 @@
       "translations": {
         "en": {
           "title": "Apartment 3 Bedrooms · 2 Bathrooms · with Balcony",
-          "location": "Location to be confirmed",
+          "location": "Torres San Marino, Heredia",
           "priceLabel": "₡103,000",
           "details": [
             "3 bedrooms",
@@ -53,8 +53,8 @@
       "status": "disponible",
       "title": "Apartamento en Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
       "location": "Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-      "price": 75.0,
-      "priceLabel": "₡75",
+      "price": 75000000,
+      "priceLabel": "₡75 000 000",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/690367910_1520394293018512_2759492390870764492_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=M1sABIag9ZUQ7kNvwEUw7ly&_nc_oc=AdpRHrBb_vkBCUgyy26Fxm_BCpu02YGGqYaBb9ssmLgWaWz0i-cZ6b4KKIcZ_KrVSxA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=3jlDNSho1mpt3dnl-jZ6Jw&_nc_ss=7b689&oh=00_Af4hSZxY_8pljizZUcRsuS_ywhtBcNVYW1H_5sZ73MsEEg&oe=6A0AF5E4",
@@ -72,7 +72,7 @@
         "en": {
           "title": "Apartment en Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
           "location": "Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-          "priceLabel": "₡75",
+          "priceLabel": "₡75000000",
           "details": [],
           "badgeText": "FOR SALE"
         }
@@ -301,7 +301,7 @@
       "status": "disponible",
       "title": "Apartamento 2 Habitaciones · 2 Baños · con Balcón",
       "location": "Torres de Heredia, (Khaya ruta 1)",
-      "price": 500000,
+      "price":500000,
       "priceLabel": "Consultar precio / mes",
       "beds": 2,
       "baths": 2,
