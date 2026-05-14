@@ -51,8 +51,8 @@
       "id": "prop-122",
       "category": "venta",
       "status": "disponible",
-      "title": "Apartamento en Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-      "location": "Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+      "title": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+      "location": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
       "price": 75000000,
       "priceLabel": "₡75 000 000",
       "beds": 0,
@@ -70,8 +70,8 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYQhrQrR2BJ/",
       "translations": {
         "en": {
-          "title": "Apartment en Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-          "location": "Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+          "title": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+          "location": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
           "priceLabel": "₡75000000",
           "details": [],
           "badgeText": "FOR SALE"
@@ -83,7 +83,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones",
-      "location": "Instagram: \"Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
+      "location": "Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
       "price": 900.0,
       "priceLabel": "$900 USD / mes",
       "beds": 3,
