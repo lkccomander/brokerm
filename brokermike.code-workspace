@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "agentmemory",
+			"path": "mem/agentmemory"
 		}
 	],
 	"settings": {}

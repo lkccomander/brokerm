@@ -1,2 +1,5 @@
 # Landing page-specific ignores
 docs/
+tools/
+mem/
+landingpage/public/assets/property-catalog-image-updated.json
