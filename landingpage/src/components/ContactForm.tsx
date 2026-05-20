@@ -190,8 +190,8 @@ export const ContactForm: React.FC<ContactFormProps> = ({ className = '' }) => {
                 defaultValue={isEnglish ? 'Luxury Residential' : 'Residencial de Lujo'}
               >
                 <option>{isEnglish ? 'Luxury Residential' : 'Residencial de Lujo'}</option>
-                <option>{isEnglish ? 'Commercial / Vertical' : 'Comercial / Verticales'}</option>
-                <option>{isEnglish ? 'Portfolio Advisory' : 'Consultoria de Cartera'}</option>
+                <option>{isEnglish ? 'Commercial Spaces' : 'Locales Comerciales'}</option>
+                <option>{isEnglish ? 'Real Estate Services' : 'Servicios de Bienes Raices'}</option>
               </select>
             </div>
             <div className="rounded-2xl bg-surface-container-high px-5 py-4">
