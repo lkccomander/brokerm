@@ -1,7 +1,52 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-05-20T16:06:50Z",
+  "generatedAt": "2026-05-20T17:00:35Z",
   "allProperties": [
+    {
+      "id": "prop-123",
+      "category": "venta",
+      "status": "disponible",
+      "title": "Casa 3 Habitaciones · 2 Baños",
+      "location": "Ubicación por confirmar",
+      "price": 365000,
+      "priceLabel": "$365,000 USD",
+      "beds": 3,
+      "baths": 2,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/687710016_1170069961912696_2932111962013846131_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ArqsKxERvvYQ7kNvwEm2PRp&_nc_oc=AdqWXPQLRyA-9PVbHrWLAoHLt4Ih5e2uqAd64Ajwh_VxdzVeHlCiScTIEGilcVKsQks&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=NjV84degrsrW1GdtPaZ3aA&_nc_ss=7aa8c&oh=00_Af6GI1mFU6E5KBBUT6UKqFggi-UmdN4uSQ6_4Q2ttElvbw&oe=6A13C56A",
+      "details": [
+        "Casa:",
+        "🍀201m2 de construcción",
+        "🍀3 habitaciones en la segunda planta",
+        "🍀2 baños y medio",
+        "🍀Garaje para 2 vehículos bajo techo",
+        "🍀Porcelanato en primer nivel"
+      ],
+      "badge": {
+        "text": "SE VENDE",
+        "variant": "secondary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYTa0F1sA6I/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Location to be confirmed",
+          "priceLabel": "$365,000 USD",
+          "details": [
+            "House:",
+            "201m2 de construcción",
+            "3 bedrooms en la segunda planta",
+            "2 bathrooms y medio",
+            "Garaje para 2 vehículos bajo techo",
+            "Porcelanato en primer nivel"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
+    },
     {
       "id": "prop-121",
       "category": "venta",
@@ -84,7 +129,7 @@
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones",
       "location": "Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
-      "price": 900.0,
+      "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 3,
       "baths": 0,
@@ -125,7 +170,7 @@
       "status": "disponible",
       "title": "Apartamento 1 Habitación · Amoblado",
       "location": "Ubicación por confirmar",
-      "price": 900.0,
+      "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 1,
       "baths": 0,
@@ -4372,11 +4417,11 @@
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones",
       "location": "Instagram: \"Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
-      "price": 900.0,
+      "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 3,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/689523869_1506873497742143_8226210004955678695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=qAoUwYJnkVEQ7kNvwEahujA&_nc_oc=AdpR7j6JowjNRvb5Xxm7X-t3KdFKT63xhYOVgjQVwEcgCW8-f3B0QhYcIMC-XkpHZpk&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Gnp3q-r1iflFYkh_fDvdQA&_nc_ss=7b689&oh=00_Af4PJ5mwvkBFJTlnEhzyswNABIA6DCxj9kpP3CO1kz2IHw&oe=6A0ADA74",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/689523869_1506873497742143_8226210004955678695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=igeu741M7wwQ7kNvwFmByVM&_nc_oc=AdordI8w9OpwD4ZdW92BogvCXYpLX00QRbCfHmUfZHh7aZWAB1dqAVcxlMq7SuJcXGU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=uHKESpGwTzZ_qTC3Cn2LNw&_nc_ss=7ba8c&oh=00_Af4MXQt4LU_mvFpFhhd3W6xbsFpRcoNdj0uoiN6MjKZC9w&oe=6A13A474",
       "details": [
         "El apartamento se renta sin muebles.",
         "Este apartamento tiene 3 habitaciones con una medida de 78m2 más un parqueo para 2 vehículos en tándem. Se encuentra en la primera planta.",
@@ -4413,11 +4458,11 @@
       "status": "disponible",
       "title": "Apartamento 1 Habitación · Amoblado",
       "location": "Ubicación por confirmar",
-      "price": 900.0,
+      "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 1,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/685800179_1632249311398923_1902920261753698034_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6_Fdb9wj4GcQ7kNvwGk6FPU&_nc_oc=AdpNy005suVDzdjvMVptfKeN_t_co_euz3QYfyZxYp037V0FVIp__kHP_yB8PVXr09s&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-ejH8PDLUXnzPFjilYLazw&_nc_ss=7b689&oh=00_Af4_N6sxejEKprH-BwfZKMHnQ0L0rgHA6fNt26YXcadXuQ&oe=6A0AE1A6",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/685800179_1632249311398923_1902920261753698034_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dBWdag9VQTQQ7kNvwEBji8j&_nc_oc=AdrvVcat7kL7i7nOCyLGpHEiq4rMS3ZiUh61TmfOVttD6G3N2teSFdKMXO8hv7gcCXw&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=M1s1qDMR4E0dFz4p1FFznw&_nc_ss=7ba8c&oh=00_Af5W8jtXc3ZFKK8Zk82DCCto9pks2-L6DSN6Fi7ZB2qeyg&oe=6A13ABA6",
       "details": [
         "🍀Esquinero",
         "🍀50m2 habitables más 15m2 de parqueo",
@@ -4503,7 +4548,7 @@
       "priceLabel": "$150,000 USD",
       "beds": 2,
       "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670882656_1384799513411551_1887738600767749049_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UwZrkN-_Mw0Q7kNvwGmoRfn&_nc_oc=AdqQVVWFSqeefPFl4fUHCaH8lHyk70zlpGd9LzNPxK3u7YiBElKTHyIwuCcm0Be59hs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=nzswihgX-0sU5n_YBUAhrA&_nc_ss=7b689&oh=00_Af5ImVMSG7qEyUb-r1aMaDBYocsj_22uWFHETIlSzZBLCg&oe=6A0AFBDE",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670882656_1384799513411551_1887738600767749049_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=AOewrvx3O3IQ7kNvwGVt7I-&_nc_oc=AdocUwZzttaVIo-P3BKMjvlGZotubL9oQdE6yI_kRQXq2A8gGDXDrh6uCA4GyjRh8Dg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=KbnzrnSrYNBc-LoiI4u3Ag&_nc_ss=7ba8c&oh=00_Af5xhosYJgaxl1Ji3z3jf5DeAqlYvcruINRuvcOdY1XBiA&oe=6A13C5DE",
       "details": [
         "71 m2 de apartamento",
         "15 m2 de parqueo",
@@ -4548,7 +4593,7 @@
       "priceLabel": "$950 USD / mes",
       "beds": 1,
       "baths": 1,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Z7CyvCPE2n4Q7kNvwFnQZ8S&_nc_oc=AdqiCe_bBnmTZDwq_vYPmZgh79hLFynvgQUAI65OZyhebD8VyJqVQbQds_kpnA4Tcq4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W1ldC9Udf2CXCaYKXz25TA&_nc_ss=7b689&oh=00_Af7fKTlbt-kTPUTxZKoE0feydSTP3xuVL7md6gzJQSG8ag&oe=6A0AF23E",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=LcHVUEkFbVoQ7kNvwGQ3Sc2&_nc_oc=AdpKy0SzZ_cASXP_uIKldQ7QCAKknRjjFlSybLkcn9NRG_XbdHQfcyNeAS8Vhuyrw3M&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=3HnaLlwkrBVo8i1-_JoMNg&_nc_ss=7ba8c&oh=00_Af5gg0L2Y035Sqvnayzh-sj-hhgDWOeF6WorJdVHu2bbew&oe=6A13BC3E",
       "details": [
         "🍀Tipo estudio (1 habitación)",
         "🍀Full línea blanca",
@@ -4805,6 +4850,51 @@
   ],
   "catalogProperties": [
     {
+      "id": "prop-123",
+      "category": "venta",
+      "status": "disponible",
+      "title": "Casa 3 Habitaciones · 2 Baños",
+      "location": "Ubicación por confirmar",
+      "price": 365000,
+      "priceLabel": "$365,000 USD",
+      "beds": 3,
+      "baths": 2,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/687710016_1170069961912696_2932111962013846131_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ArqsKxERvvYQ7kNvwEm2PRp&_nc_oc=AdqWXPQLRyA-9PVbHrWLAoHLt4Ih5e2uqAd64Ajwh_VxdzVeHlCiScTIEGilcVKsQks&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=NjV84degrsrW1GdtPaZ3aA&_nc_ss=7aa8c&oh=00_Af6GI1mFU6E5KBBUT6UKqFggi-UmdN4uSQ6_4Q2ttElvbw&oe=6A13C56A",
+      "details": [
+        "Casa:",
+        "🍀201m2 de construcción",
+        "🍀3 habitaciones en la segunda planta",
+        "🍀2 baños y medio",
+        "🍀Garaje para 2 vehículos bajo techo",
+        "🍀Porcelanato en primer nivel"
+      ],
+      "badge": {
+        "text": "SE VENDE",
+        "variant": "secondary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYTa0F1sA6I/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Location to be confirmed",
+          "priceLabel": "$365,000 USD",
+          "details": [
+            "House:",
+            "201m2 de construcción",
+            "3 bedrooms en la segunda planta",
+            "2 bathrooms y medio",
+            "Garaje para 2 vehículos bajo techo",
+            "Porcelanato en primer nivel"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      }
+    },
+    {
       "id": "prop-121",
       "category": "venta",
       "status": "disponible",
@@ -4872,8 +4962,8 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYQhrQrR2BJ/",
       "translations": {
         "en": {
-          "title": "Apartment en Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-          "location": "Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+          "title": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+          "location": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
           "priceLabel": "₡75000000",
           "details": [],
           "badgeText": "FOR SALE"
@@ -4886,7 +4976,7 @@
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones",
       "location": "Instagram: \"Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
-      "price": 900.0,
+      "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 3,
       "baths": 0,
@@ -5410,7 +5500,7 @@
       "status": "disponible",
       "title": "Apartamento 1 Habitación · Esquinero",
       "location": "Torres de Heredia, piso 11",
-      "price": 850.0,
+      "price": 850,
       "priceLabel": "$850 USD / mes",
       "beds": 1,
       "baths": 0,
@@ -8928,7 +9018,7 @@
       "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/503314854_554919504349571_6909216173659068695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=XVQ5h_NWeF4Q7kNvwEXfW2P&_nc_oc=AdpfB5khlTg_6HHWKUaf2NQ_lYeXz0T4XcWbJqTbNa0YfNw2Ywm5vM1cJpczIDnF6iE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=YJ7ra9MKAehmiMYuf6U1hQ&_nc_ss=7b689&oh=00_Af5qYP4i6UJABo8taqLC2MWS80SehAsn_D7VReUvh6pFdA&oe=6A0AF900",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/503314854_554919504349571_6909216173659068695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=74ZeWygNf4kQ7kNvwFtw09t&_nc_oc=Adro7opeGZlW106QE-44Q_X2F9AlelbEA43dcMjcv1YnDeV-rFJ0sN0SQupRzv77h_4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=xclBB27EE__SIsAGdDf16Q&_nc_ss=7ba8c&oh=00_Af4lv9femk5PosOAu0aAfI-quqX0FH_Y4wNnD8pLAzbrzQ&oe=6A13C300",
       "details": [],
       "badge": {
         "text": "SE ALQUILA",
