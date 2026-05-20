@@ -3161,11 +3161,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gT5bqRrRz/",
       "translations": {
         "en": {
-          "title": "Property for Rent",
+          "badgeText": "FOR RENT",
+          "details": [],
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "details": [],
-          "badgeText": "FOR RENT"
+          "title": "Property for Rent"
         }
       }
     },
@@ -3192,11 +3192,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gLC-XRGXg/",
       "translations": {
         "en": {
-          "title": "Property for Rent",
+          "badgeText": "FOR RENT",
+          "details": [],
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "details": [],
-          "badgeText": "FOR RENT"
+          "title": "Property for Rent"
         }
       }
     },
@@ -3223,11 +3223,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-x7aUExUJ9/",
       "translations": {
         "en": {
-          "title": "Property for Rent",
+          "badgeText": "FOR RENT",
+          "details": [],
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "details": [],
-          "badgeText": "FOR RENT"
+          "title": "Property for Rent"
         }
       }
     },
@@ -3254,11 +3254,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-WUt0nNH_i/",
       "translations": {
         "en": {
-          "title": "Property for Rent",
+          "badgeText": "FOR RENT",
+          "details": [],
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "details": [],
-          "badgeText": "FOR RENT"
+          "title": "Property for Rent"
         }
       }
     },
@@ -4703,7 +4703,7 @@
       "translations": {
         "en": {
           "title": "Apartment 1 Bedroom · with Appliances",
-          "location": "Location to be confirmed",
+          "location": "Torres de Heredia",
           "priceLabel": "$900 USD / month",
           "details": [
             "The apartment is rented as shown in the photos.",
@@ -4811,16 +4811,19 @@
       "id": "prop-70",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa en la misma propiedad, en VILLA REAL SANTA ANA.",
-      "location": "la misma propiedad, en VILLA REAL SANTA ANA.",
+      "title": "Casa en VILLA REAL SANTA ANA.",
+      "location": "VILLA REAL SANTA ANA.",
       "price": 19,
       "priceLabel": "$1.9 USD",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.75761-15/483155554_17922693942026180_5453058376412134691_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=sQQxlU3lE8AQ7kNvwHAn7Zb&_nc_oc=AdoyZP0tB-AUJTtGb23d_pRNrNSCNjG6H0-wc2ppA-lcRfedK8036nnblcwtqd5Fgp8&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=xnAZS3EujNdqkMvkSYV4ZA&_nc_ss=7ba8c&oh=00_Af55A5EFb7gAHGy_m9PIAOD8DktgRCEg_ECic5IPRQjiHg&oe=6A13B0B2",
       "details": [
-        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
-        "Están construidas en un terreno de 2078m2, cada casa tiene una construcción aproximada de 450m2"
+        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica",
+        "con excelentes vistas",
+        "rodeado de naturaleza.",
+        "Están construidas en un terreno de 2078m2",
+        "cada casa tiene una construcción aproximada de 450m2"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -4833,14 +4836,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/",
       "translations": {
         "en": {
-          "title": "House in VILLA REAL SANTA ANA.",
-          "location": "VILLA REAL SANTA ANA.",
-          "priceLabel": "$1.9 USD",
+          "badgeText": "FOR SALE",
           "details": [
             "These 2 houses are located in one of the most exclusive condominiums in Costa Rica, with excellent views and surrounded by nature.",
             "They are built on a 2,078 m² lot, and each house has approximately 450 m² of construction."
           ],
-          "badgeText": "FOR SALE"
+          "location": "VILLA REAL SANTA ANA.",
+          "priceLabel": "$1.9 USD",
+          "title": "House in VILLA REAL SANTA ANA."
         }
       }
     }
@@ -4896,7 +4899,7 @@
       "category": "venta",
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones · 2 Baños · con Balcón",
-      "location": "Ubicación por confirmar",
+      "location": "Torres San Marino, Heredia",
       "price": 103000,
       "priceLabel": "₡103,000",
       "beds": 3,
@@ -4942,8 +4945,8 @@
       "status": "disponible",
       "title": "Apartamento en Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
       "location": "Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-      "price": 75,
-      "priceLabel": "₡75",
+      "price": 75000000,
+      "priceLabel": "₡75 000 000",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/690367910_1520394293018512_2759492390870764492_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dtDiI-LvH8YQ7kNvwE-cjrP&_nc_oc=AdprPIN1jSwmgwuvDtzlR_YZre5u_o3OCzfFIvgQDyfE_p0NBIGB4zpQB8BTzuP05qk&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=RWI5IMSj76zm9JwX7tx1xA&_nc_ss=7ba8c&oh=00_Af61UIeWNiv1wpW78Y1puUW3TOEgdoXhWRyND8GohFmcog&oe=6A13BFE4",
@@ -5013,7 +5016,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · Amoblado",
-      "location": "Ubicación por confirmar",
+      "location": "Torres de Heredia (Khaya Ruta 1)",
       "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 1,
@@ -5057,7 +5060,7 @@
       "id": "prop-116",
       "category": "alquiler",
       "status": "disponible",
-      "title": "Apartamento en Plaza Torres de Heredia de 97m2 incluyendo la terraza",
+      "title": "Se renta local comercial en Plaza Torres de Heredia",
       "location": "Plaza Torres de Heredia de 97m2 incluyendo la terraza",
       "price": 1700,
       "priceLabel": "$1700 USD / mes",
@@ -5065,8 +5068,12 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670589082_856421553497364_667281686573351905_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=-3T60j_r5wgQ7kNvwGZxRkO&_nc_oc=AdoxYT3FmcnlwUNPkjtxgrdPBP8ZVF7j2MOmTBz0Kp3tasdnxoNFuHDWhWk2BhTKcZE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=qAGRwZjZGrZsI_FPLqPbwg&_nc_ss=7ba8c&oh=00_Af4w0dtR4qselGFo5HRWWlqBVnrzvX3B_bLlbXao8PpUmA&oe=6A13A823",
       "details": [
-        "En el centro comercial se encuentra restaurantes, bancos, bares, mini súper, barbería, clínica médica, entre otros.",
-        "Además cuanta con un amplio parqueo en la parte trasera del centro comercial."
+        "En el centro comercial se encuentra restaurantes",
+        "bancos",
+        "bares",
+        "mini súper",
+        "barbería",
+        "clínica médica"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -5140,7 +5147,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Ubicación por confirmar",
+      "location": "BeCariari (Real Cariari)",
       "price": 950,
       "priceLabel": "$950 USD / mes",
       "beds": 1,
@@ -5186,8 +5193,8 @@
       "status": "disponible",
       "title": "Apartamento 2 Habitaciones · 2 Baños · con Balcón",
       "location": "Torres de Heredia, (Khaya ruta 1)",
-      "price": 0,
-      "priceLabel": "Consultar precio / mes",
+      "price": 500000,
+      "priceLabel": "500000",
       "beds": 2,
       "baths": 2,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/661040107_1901204777234351_674432110434194337_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=lZW-GUKdTHQQ7kNvwHT2kW2&_nc_oc=AdqYKcB0VZmFPRwZKCOnGTru6hXZhL8CXyYrffwu5V9yz95Z9bsA1gcIBm157_GKqOg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=VeHp1qICZwtcAl_HtzL4VA&_nc_ss=7ba8c&oh=00_Af7_Hctmf3Y0e1z1r0SWT30oV7jBRs6m0HiCesnGFnJ6DA&oe=6A13C563",
@@ -5499,12 +5506,12 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/631785649_1996695554589473_1121546415761597153_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TQY3CRnFfGAQ7kNvwFrOZhn&_nc_oc=AdrIL6_lHt03L2Q3ql0YpKS4OtKbDvR61G6iOlBq6V3ILr6UL4XUZHIFbROwIv09htQ&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=7Lm2ETkTZ1-jhCxkSV3Prw&_nc_ss=7ba8c&oh=00_Af4IKRwUTqXD4wxtX2xgAl9v90NGLpAp3h5I-h9uk_cUIA&oe=6A13A2BE",
       "details": [
-        "🍀Piso 11, increíble vista",
+        "🍀Piso 11",
+        "increíble vista",
         "🍀Incluye lava-seca",
         "🍀Tiene walk in closet",
         "🍀Esquinero",
-        "🍀Incluye parqueo",
-        "🍀Seguridad 24/7"
+        "🍀Incluye parqueo"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -5659,8 +5666,8 @@
       "status": "disponible",
       "title": "Casa 2 Habitaciones · 3 Baños · con Línea Blanca",
       "location": "condominio Francosta, Ulloa de Heredia",
-      "price": 85,
-      "priceLabel": "₡85",
+      "price": 349000,
+      "priceLabel": "$349000",
       "beds": 2,
       "baths": 3,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/619882153_1259237512933290_5838787327923053255_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=C7kVx9Bro9wQ7kNvwFOzB8i&_nc_oc=AdoN-_Byv8PhtgnIHU5NY8Def76sry2mc-4zqezpBPJmfVfAZF3UFztRyNRz95w5noY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=AKk8AUUlpAVoBb779pzCxQ&_nc_ss=7ba8c&oh=00_Af50Yx2ZkcpHHYON6UB8spmaJ-YHqTrQ91IAP-5tXs5o7Q&oe=6A13A6C7",
@@ -5728,9 +5735,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DToAUJmEeVo/",
       "translations": {
         "en": {
-          "title": "House 2 Bedrooms · Furnished",
-          "location": "Condominio Blue Cariari",
-          "priceLabel": "$1650 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "Pool",
             "Tennis court",
@@ -5739,7 +5744,9 @@
             "5-a-side soccer field",
             "24/7 security"
           ],
-          "badgeText": "FOR RENT"
+          "location": "Condominio Blue Cariari",
+          "priceLabel": "$1650 USD / month",
+          "title": "House 2 Bedrooms · Furnished"
         }
       }
     },
@@ -5908,9 +5915,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS0Ny72EcbO/",
       "translations": {
         "en": {
-          "title": "Apartment Furnished",
-          "location": "Torres de Heredia",
-          "priceLabel": "$800 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "Studio type, 40 m² plus 15 m² of covered parking.",
             "6th floor with pool view",
@@ -5919,7 +5924,9 @@
             "Pets are not allowed",
             "Pools"
           ],
-          "badgeText": "FOR RENT"
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
+          "title": "Apartment Furnished"
         }
       }
     },
@@ -6338,9 +6345,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPiI3LmDIYB/",
       "translations": {
         "en": {
-          "title": "Warehouse with Appliances",
-          "location": "Location to be confirmed",
-          "priceLabel": "$2000 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "13th floor",
             "Parking for 2 vehicles",
@@ -6348,7 +6353,9 @@
             "Incredible view",
             "Appliances included"
           ],
-          "badgeText": "FOR RENT"
+          "location": "Location to be confirmed",
+          "priceLabel": "$2000 USD / month",
+          "title": "Warehouse with Appliances"
         }
       }
     },
@@ -6382,9 +6389,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPIYqjNDKAp/",
       "translations": {
         "en": {
-          "title": "House 2 Bedrooms · 2 Bathrooms",
-          "location": "La Guácima, Alajuela, across from Hacienda Los Reyes.",
-          "priceLabel": "₡65,000,000",
+          "badgeText": "FOR SALE",
           "details": [
             "Located in Los Príncipes Condominium.",
             "2 bedrooms.",
@@ -6393,7 +6398,9 @@
             "Kitchen.",
             "Dining room."
           ],
-          "badgeText": "FOR SALE"
+          "location": "La Guácima, Alajuela, across from Hacienda Los Reyes.",
+          "priceLabel": "₡65,000,000",
+          "title": "House 2 Bedrooms · 2 Bathrooms"
         }
       }
     },
@@ -6423,14 +6430,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPASR38kchT/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom · Furnished",
-          "location": "Torres de Heredia",
-          "priceLabel": "$900 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "This apartment is located on a floor with views of the pool and beautiful sunsets. The apartment is fully furnished and has A/C in the bedroom.",
             "The condominium has a pool, BBQ area, gym, green areas, and other amenities. It also offers 24/7 security and an elegant lobby with a 24/7 receptionist."
           ],
-          "badgeText": "FOR RENT"
+          "location": "Torres de Heredia",
+          "priceLabel": "$900 USD / month",
+          "title": "Apartment 1 Bedroom · Furnished"
         }
       }
     },
@@ -6460,14 +6467,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO9xyeHEY6Q/",
       "translations": {
         "en": {
-          "title": "House 3 Bedrooms · 2 Bathrooms · with Balcony",
-          "location": "CONhouse",
-          "priceLabel": "$850 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "The apartment is very spacious and includes an entry area, living room, dining room, kitchen, laundry room, balcony, 3 bedrooms, 2 full bathrooms, and a garage for 1 vehicle.",
             "The condominium has green areas, a pool, multipurpose court, basketball court, tennis court, and 24/7 security."
           ],
-          "badgeText": "FOR RENT"
+          "location": "CONhouse",
+          "priceLabel": "$850 USD / month",
+          "title": "House 3 Bedrooms · 2 Bathrooms · with Balcony"
         }
       }
     },
@@ -6494,11 +6501,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO6NIw8ETRf/",
       "translations": {
         "en": {
-          "title": "House in Santo Domingo de Heredia, facing a main street, 385 m², mixed-use zoning, 16 meters of frontage.",
+          "badgeText": "FOR SALE",
+          "details": [],
           "location": "Santo Domingo de Heredia, facing a main street, 385 m², mixed-use zoning, 16 meters of frontage.",
           "priceLabel": "Price on request",
-          "details": [],
-          "badgeText": "FOR SALE"
+          "title": "House in Santo Domingo de Heredia, facing a main street, 385 m², mixed-use zoning, 16 meters of frontage."
         }
       }
     },
@@ -6525,11 +6532,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOzQrfFEfFl/",
       "translations": {
         "en": {
-          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "badgeText": "FOR SALE",
+          "details": [],
           "location": "Malibu Condominium in San Pablo de Heredia. The house has 2 levels, 4 garage spaces, and on the ground floor there is a spacious service room with a full bathroom, plus a large garden, living room, kitchen, dining room, and laundry room.",
           "priceLabel": "$270,000 USD",
-          "details": [],
-          "badgeText": "FOR SALE"
+          "title": "House 3 Bedrooms · 2 Bathrooms"
         }
       }
     },
@@ -6563,9 +6570,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOrRlflkRr1/",
       "translations": {
         "en": {
-          "title": "Apartment 2 Bedrooms",
-          "location": "Torres de Heredia, with 2 levels",
-          "priceLabel": "$1100 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "Torres de Heredia has an excellent location, in front of the Metropolitan Free Zone in Barreal de Heredia (Ulloa), and also offers the following amenities and conveniences:",
             "Pool",
@@ -6574,7 +6579,9 @@
             "Gym",
             "Green areas"
           ],
-          "badgeText": "FOR RENT"
+          "location": "Torres de Heredia, with 2 levels",
+          "priceLabel": "$1100 USD / month",
+          "title": "Apartment 2 Bedrooms"
         }
       }
     },
@@ -6611,7 +6618,9 @@
             "The apartment measures 78 m² and has 2 bedrooms, 2 full bathrooms, living room, dining room, kitchen, laundry room, and balcony. It is on the top floor of the tower, the 5th floor, with an incredible view of the Central Valley.",
             "In addition, the condominium has a private entrance and 24/7 security, as well as a BBQ area with a pool and a children's playground."
           ],
-          "badgeText": "FOR RENT"
+          "location": "Condominio Lomas de San Rafael de Escazu",
+          "priceLabel": "$1200 USD / month",
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony"
         }
       }
     },
@@ -6641,14 +6650,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOJZdoykXhp/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom · Furnished",
-          "location": "Torres de Heredia.",
-          "priceLabel": "Price on request / month",
+          "badgeText": "FOR RENT",
           "details": [
             "This apartment is located on the 2nd floor of Tower B, with an excellent forest view. The apartment is delivered fully furnished, and the price includes the HOA fee.",
             "Torres de Heredia offers different amenities such as pools, a BBQ area, green areas, and more, and also has an excellent location."
           ],
-          "badgeText": "FOR RENT"
+          "location": "Torres de Heredia.",
+          "priceLabel": "Price on request / month",
+          "title": "Apartment 1 Bedroom · Furnished"
         }
       }
     },
@@ -6675,11 +6684,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOEiSGhkShu/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom",
+          "badgeText": "FOR SALE",
+          "details": [],
           "location": "Núcleo Sabana, 16th floor with south-facing view, includes everything shown in the video",
           "priceLabel": "$165,000 USD",
-          "details": [],
-          "badgeText": "FOR SALE"
+          "title": "Apartment 1 Bedroom"
         }
       }
     },
@@ -6706,11 +6715,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN6LnQYkcll/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom · with Balcony",
+          "badgeText": "FOR SALE",
+          "details": [],
           "location": "Torres de Heredia",
           "priceLabel": "$850 USD",
-          "details": [],
-          "badgeText": "FOR SALE"
+          "title": "Apartment 1 Bedroom · with Balcony"
         }
       }
     },
@@ -6770,13 +6779,13 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DNlOc90xk-y/",
       "translations": {
         "en": {
-          "title": "Apartment Furnished",
-          "location": "Torres de Heredia",
-          "priceLabel": "Price on request / month",
+          "badgeText": "FOR RENT",
           "details": [
             "Condominium amenities: pool, Jacuzzi, gym, BBQ area, green areas. #viral #viralpost #rent #rental #herediarental"
           ],
-          "badgeText": "FOR RENT"
+          "location": "Torres de Heredia",
+          "priceLabel": "Price on request / month",
+          "title": "Apartment Furnished"
         }
       }
     },
@@ -6806,14 +6815,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DM6JTUZS7H1/",
       "translations": {
         "en": {
-          "title": "Warehouse with Appliances",
-          "location": "Vistas de Robledal",
-          "priceLabel": "$975 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "☎️ 71121318,",
             "Amenities: pool, gym, and rooftop lookout."
           ],
-          "badgeText": "FOR RENT"
+          "location": "Vistas de Robledal",
+          "priceLabel": "$975 USD / month",
+          "title": "Warehouse with Appliances"
         }
       }
     },
@@ -6847,9 +6856,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DM0xHJvSY0j/",
       "translations": {
         "en": {
-          "title": "Warehouse in San Francisco de Heredia – only 800 meters from Oxígeno Mall!",
-          "location": "San Francisco de Heredia – only 800 meters from Oxígeno Mall",
-          "priceLabel": "$256 USD / month",
+          "badgeText": "FOR SALE",
           "details": [
             "Live in a spacious, comfortable house in excellent condition, located in a strategic area very close to downtown Heredia, with easy access to San José and Alajuela. Ideal for families looking for peace and quiet without being far from the city.",
             "Land area: 168 m²",
@@ -6858,7 +6865,9 @@
             "Ground floor with integrated spaces:",
             "Spacious living room"
           ],
-          "badgeText": "FOR SALE"
+          "location": "San Francisco de Heredia – only 800 meters from Oxígeno Mall",
+          "priceLabel": "$256 USD / month",
+          "title": "Warehouse in San Francisco de Heredia – only 800 meters from Oxígeno Mall!"
         }
       }
     },
@@ -6885,11 +6894,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DMyFmrqyFy2/",
       "translations": {
         "en": {
-          "title": "Apartment in Mercedes de Heredia, 500 meters north of the chiropractor, mixed-use zoning",
+          "badgeText": "FOR SALE",
+          "details": [],
           "location": "Mercedes de Heredia, 500 meters north of the chiropractor, mixed-use zoning",
           "priceLabel": "₡105,000",
-          "details": [],
-          "badgeText": "FOR SALE"
+          "title": "Apartment in Mercedes de Heredia, 500 meters north of the chiropractor, mixed-use zoning"
         }
       }
     },
@@ -6923,9 +6932,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtZZvAvxUo/",
       "translations": {
         "en": {
-          "title": "Apartment in Torres de Heredia",
-          "location": "Torres de Heredia",
-          "priceLabel": "$800 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "☎️ 71121318",
             "Pools",
@@ -6934,7 +6941,9 @@
             "Elegant lobby with reception",
             "Gym"
           ],
-          "badgeText": "FOR RENT"
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
+          "title": "Apartment in Torres de Heredia"
         }
       }
     },
@@ -6979,7 +6988,9 @@
             "Green areas",
             "Elegant lobby with receptionist"
           ],
-          "badgeText": "FOR RENT"
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
+          "title": "Apartment 1 Bedroom"
         }
       }
     },
@@ -7013,9 +7024,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMs4UIpxKvs/",
       "translations": {
         "en": {
-          "title": "Apartment Furnished",
-          "location": "Torres de Heredia",
-          "priceLabel": "$1100 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "Pool",
             "Gym",
@@ -7024,7 +7033,9 @@
             "24/7 security",
             "Elegant lobby with reception"
           ],
-          "badgeText": "FOR RENT"
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
+          "title": "Apartment Furnished"
         }
       }
     },
@@ -7173,9 +7184,7 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdHyEZRoRP/",
       "translations": {
         "en": {
-          "title": "Apartment 2 Bedrooms",
-          "location": "Condominio Bellavista, Heredia, Ulloa, floor 17",
-          "priceLabel": "$1000 USD / month",
+          "badgeText": "FOR RENT",
           "details": [
             "2 pools",
             "2 jacuzzis",
@@ -7184,7 +7193,9 @@
             "Multipurpose court",
             "BBQ areas"
           ],
-          "badgeText": "FOR RENT"
+          "location": "Condominio Bellavista, Heredia, Ulloa, floor 17",
+          "priceLabel": "$1000 USD / month",
+          "title": "Apartment 2 Bedrooms"
         }
       }
     },
@@ -7211,11 +7222,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMasBnLRQMa/",
       "translations": {
         "en": {
-          "title": "Apartment 3 Bedrooms · Furnished",
+          "badgeText": "FOR RENT",
+          "details": [],
           "location": "Ciudad Cariari, Heredia, garage for 2 vehicles",
           "priceLabel": "$1400 USD / month",
-          "details": [],
-          "badgeText": "FOR RENT"
+          "title": "Apartment 3 Bedrooms · Furnished"
         }
       }
     },
@@ -7279,11 +7290,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMT-K5Lxxqe/",
       "translations": {
         "en": {
-          "title": "Apartment 2 Bedrooms · Furnished",
+          "badgeText": "FOR RENT",
+          "details": [],
           "location": "Núcleo Sabana Condominium",
           "priceLabel": "$1700 USD / month",
-          "details": [],
-          "badgeText": "FOR RENT"
+          "title": "Apartment 2 Bedrooms · Furnished"
         }
       }
     },
@@ -7310,11 +7321,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMJcBjISKnE/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom · Furnished",
+          "badgeText": "FOR RENT",
+          "details": [],
           "location": "Núcleo Sabana Condominium, on the 16th floor of the new tower",
           "priceLabel": "$1400, USD / month",
-          "details": [],
-          "badgeText": "FOR RENT"
+          "title": "Apartment 1 Bedroom · Furnished"
         }
       }
     },
@@ -7818,16 +7829,19 @@
       "id": "prop-70",
       "category": "venta",
       "status": "disponible",
-      "title": "Casa en la misma propiedad, en VILLA REAL SANTA ANA.",
-      "location": "la misma propiedad, en VILLA REAL SANTA ANA.",
+      "title": "Casa en VILLA REAL SANTA ANA.",
+      "location": "VILLA REAL SANTA ANA.",
       "price": 19,
       "priceLabel": "$1.9 USD",
       "beds": 0,
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.75761-15/483155554_17922693942026180_5453058376412134691_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=sQQxlU3lE8AQ7kNvwHAn7Zb&_nc_oc=AdoyZP0tB-AUJTtGb23d_pRNrNSCNjG6H0-wc2ppA-lcRfedK8036nnblcwtqd5Fgp8&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=xnAZS3EujNdqkMvkSYV4ZA&_nc_ss=7ba8c&oh=00_Af55A5EFb7gAHGy_m9PIAOD8DktgRCEg_ECic5IPRQjiHg&oe=6A13B0B2",
       "details": [
-        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica, con excelentes vistas, rodeado de naturaleza.",
-        "Están construidas en un terreno de 2078m2, cada casa tiene una construcción aproximada de 450m2"
+        "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica",
+        "con excelentes vistas",
+        "rodeado de naturaleza.",
+        "Están construidas en un terreno de 2078m2",
+        "cada casa tiene una construcción aproximada de 450m2"
       ],
       "badge": {
         "text": "SE VENDE",
@@ -7840,14 +7854,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/",
       "translations": {
         "en": {
-          "title": "House in VILLA REAL SANTA ANA.",
-          "location": "VILLA REAL SANTA ANA.",
-          "priceLabel": "$1.9 USD",
+          "badgeText": "FOR SALE",
           "details": [
             "These 2 houses are located in one of the most exclusive condominiums in Costa Rica, with excellent views and surrounded by nature.",
             "They are built on a 2,078 m² lot, and each house has approximately 450 m² of construction."
           ],
-          "badgeText": "FOR SALE"
+          "location": "VILLA REAL SANTA ANA.",
+          "priceLabel": "$1.9 USD",
+          "title": "House in VILLA REAL SANTA ANA."
         }
       }
     },
@@ -7874,11 +7888,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG7Ju8_Oxb7/",
       "translations": {
         "en": {
-          "title": "Property for Rent",
+          "badgeText": "FOR RENT",
+          "details": [],
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "details": [],
-          "badgeText": "FOR RENT"
+          "title": "Property for Rent"
         }
       }
     },
@@ -7905,11 +7919,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG2I_pFusEw/",
       "translations": {
         "en": {
-          "title": "Property for Rent",
+          "badgeText": "FOR RENT",
+          "details": [],
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "details": [],
-          "badgeText": "FOR RENT"
+          "title": "Property for Rent"
         }
       }
     },
