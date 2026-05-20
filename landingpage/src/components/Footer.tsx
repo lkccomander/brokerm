@@ -4,6 +4,8 @@ export interface FooterProps {
   readonly className?: string;
 }
 
+const WHATSAPP_URL = 'https://wa.me/50671121318';
+
 export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
   const { isEnglish, localizePath } = useSiteLanguage();
 
@@ -64,6 +66,22 @@ export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
             href="mailto:mike@brokermikecr.com"
           >
             <span className="material-symbols-outlined text-sm">mail</span>
+          </a>
+          <a
+            aria-label={isEnglish ? 'Contact on WhatsApp' : 'Contactar por WhatsApp'}
+            title={isEnglish ? 'Contact on WhatsApp' : 'Contactar por WhatsApp'}
+            className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-slate-500 hover:text-[#25D366] transition-colors cursor-pointer"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              className="w-4 h-4 fill-current"
+            >
+              <path d="M19.05 4.91A9.82 9.82 0 0 0 12.03 2C6.62 2 2.22 6.4 2.22 11.81c0 1.73.45 3.43 1.3 4.93L2 22l5.42-1.49a9.8 9.8 0 0 0 4.61 1.17h.01c5.4 0 9.8-4.4 9.8-9.81a9.74 9.74 0 0 0-2.79-6.96Zm-7.02 15.11h-.01a8.14 8.14 0 0 1-4.15-1.14l-.3-.18-3.22.89.86-3.14-.2-.32a8.18 8.18 0 0 1-1.25-4.33c0-4.5 3.67-8.16 8.18-8.16a8.1 8.1 0 0 1 5.78 2.4 8.09 8.09 0 0 1 2.38 5.77c0 4.5-3.66 8.17-8.07 8.21Zm4.48-6.1c-.24-.12-1.43-.71-1.65-.79-.22-.08-.38-.12-.54.12-.16.24-.62.79-.76.95-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.41-.54-.42l-.46-.01c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.1 3.61.57.24 1.01.38 1.36.49.57.18 1.09.15 1.5.09.46-.07 1.43-.58 1.63-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z" />
+            </svg>
           </a>
           <a
             aria-label="Instagram"
