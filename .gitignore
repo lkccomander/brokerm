@@ -26,3 +26,5 @@ dist-ssr
 project-brain/
 tools/
 docs/
+mem/
+landingpage/.gitignore
