@@ -1,5 +1,8 @@
+import { useEffect, useMemo, useState } from 'react';
 import { heroContent } from '../data/mockData';
+import { usePublishedCatalog } from '../hooks/usePublishedCatalog';
 import { useSiteLanguage } from '../hooks/useSiteLanguage';
+import { buildBudgetOptions, buildLocationOptions } from '../utils/catalogSearch';
 
 export interface HeroProps {
   readonly className?: string;
@@ -7,6 +10,48 @@ export interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
   const { isEnglish, localizePath } = useSiteLanguage();
+  const { catalogProperties } = usePublishedCatalog();
+  const [selectedCategory, setSelectedCategory] = useState<'alquiler' | 'venta' | 'bodegas'>('alquiler');
+  const locationOptions = useMemo(
+    () => buildLocationOptions(catalogProperties, selectedCategory, isEnglish),
+    [catalogProperties, isEnglish, selectedCategory]
+  );
+  const budgetOptions = useMemo(
+    () => buildBudgetOptions(catalogProperties, selectedCategory, isEnglish),
+    [catalogProperties, isEnglish, selectedCategory]
+  );
+  const [selectedLocation, setSelectedLocation] = useState('todas');
+  const [selectedBudget, setSelectedBudget] = useState('todas');
+
+  useEffect(() => {
+    if (locationOptions.some((option) => option.value === selectedLocation)) {
+      return;
+    }
+
+    setSelectedLocation('todas');
+  }, [locationOptions, selectedLocation]);
+
+  useEffect(() => {
+    if (budgetOptions.some((option) => option.value === selectedBudget)) {
+      return;
+    }
+
+    setSelectedBudget('todas');
+  }, [budgetOptions, selectedBudget]);
+
+  const catalogSearchHref = useMemo(() => {
+    const path = localizePath('/catalogo', '/en/catalog');
+    const params = new URLSearchParams();
+    params.set('tipo', selectedCategory);
+    if (selectedLocation !== 'todas') {
+      params.set('ubicacion', selectedLocation);
+    }
+    if (selectedBudget !== 'todas') {
+      params.set('presupuesto', selectedBudget);
+    }
+    return `${path}?${params.toString()}`;
+  }, [localizePath, selectedBudget, selectedCategory, selectedLocation]);
+
   return (
     <header className={`relative min-h-screen flex items-center pt-20 overflow-hidden ${className}`}>
       <div className="absolute inset-0 z-0">
@@ -30,7 +75,8 @@ export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
                 <div className="relative">
                   <select
                     className="w-full appearance-none bg-transparent text-white font-medium outline-none cursor-pointer pr-8"
-                    defaultValue="alquiler"
+                    value={selectedCategory}
+                    onChange={(event) => setSelectedCategory(event.target.value as 'alquiler' | 'venta' | 'bodegas')}
                     aria-label={isEnglish ? 'Property type' : 'Tipo de propiedad'}
                   >
                     <option value="alquiler" className="text-slate-900">{isEnglish ? 'Rent' : 'Alquiler'}</option>
@@ -45,24 +91,42 @@ export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
                 <div className="relative">
                   <select
                     className="w-full appearance-none bg-transparent text-white font-medium outline-none cursor-pointer pr-8"
-                    defaultValue="heredia"
+                    value={selectedLocation}
+                    onChange={(event) => setSelectedLocation(event.target.value)}
                     aria-label={isEnglish ? 'Location' : 'Ubicación'}
                   >
-                    <option value="heredia" className="text-slate-900">Heredia</option>
-                    <option value="escazu" className="text-slate-900">Escazú</option>
-                    <option value="desamparados" className="text-slate-900">Desamparados</option>
+                    {locationOptions.length ? locationOptions.map((option) => (
+                      <option key={option.value} value={option.value} className="text-slate-900">
+                        {option.label}
+                      </option>
+                    )) : (
+                      <option value="todas" className="text-slate-900">
+                        {isEnglish ? 'All locations' : 'Todas las ubicaciones'}
+                      </option>
+                    )}
                   </select>
                   <span className="material-symbols-outlined pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 text-white text-sm">expand_more</span>
                 </div>
               </div>
-              <div className="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors cursor-pointer group">
+              <div className="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors group">
                 <label className="block text-[10px] font-bold text-white/60 uppercase tracking-widest mb-1">{isEnglish ? 'Budget' : 'Presupuesto'}</label>
-                <div className="flex items-center justify-between">
-                  <span className="text-white font-medium">{isEnglish ? 'From $800 USD or CRC 400k' : 'Desde $800 USD o ₡400 mil'}</span>
-                  <span className="material-symbols-outlined text-white text-sm">payments</span>
+                <div className="relative">
+                  <select
+                    className="w-full appearance-none bg-transparent text-white font-medium outline-none cursor-pointer pr-8"
+                    value={selectedBudget}
+                    onChange={(event) => setSelectedBudget(event.target.value)}
+                    aria-label={isEnglish ? 'Budget' : 'Presupuesto'}
+                  >
+                    {budgetOptions.map((option) => (
+                      <option key={option.value} value={option.value} className="text-slate-900">
+                        {option.label}
+                      </option>
+                    ))}
+                  </select>
+                  <span className="material-symbols-outlined pointer-events-none absolute right-0 top-1/2 -translate-y-1/2 text-white text-sm">payments</span>
                 </div>
               </div>
-              <a href={localizePath('/catalogo', '/en/catalog')} className="cta-gradient text-on-primary rounded-xl font-bold flex items-center justify-center gap-2 hover:brightness-110 transition-all">
+              <a href={catalogSearchHref} className="cta-gradient text-on-primary rounded-xl font-bold flex items-center justify-center gap-2 hover:brightness-110 transition-all">
                 <span className="material-symbols-outlined">search</span>
                 {isEnglish ? 'Explore Now' : 'Explorar Ahora'}
               </a>

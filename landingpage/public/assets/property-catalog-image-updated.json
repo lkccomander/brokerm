@@ -1,13 +1,13 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-05-20T17:00:35Z",
+  "generatedAt": "2026-05-21T17:24:33Z",
   "allProperties": [
     {
       "id": "prop-123",
       "category": "venta",
       "status": "disponible",
       "title": "Casa 3 Habitaciones · 2 Baños",
-      "location": "Ubicación por confirmar",
+      "location": "Condominio Francosta Heredia",
       "price": 365000,
       "priceLabel": "$365,000 USD",
       "beds": 3,
@@ -888,7 +888,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DToAUJmEeVo/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "House 2 Bedrooms · Furnished",
+          "location": "Condominio Blue Cariari",
+          "priceLabel": "$1650 USD / month",
           "details": [
             "Pool",
             "Tennis court",
@@ -897,9 +899,7 @@
             "5-a-side soccer field",
             "24/7 security"
           ],
-          "location": "Condominio Blue Cariari",
-          "priceLabel": "$1650 USD / month",
-          "title": "House 2 Bedrooms · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -933,7 +933,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTS_wCvkY1A/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1000 USD / month",
           "details": [
             "Pool",
             "24/7 security",
@@ -942,9 +944,7 @@
             "BBQ area",
             "Elegant lobby with reception"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1000 USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -978,7 +978,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS6Mr11kbRA/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment in Torres de Heredia",
+          "location": "Torres de Heredia",
+          "priceLabel": "₡430,000 / month",
           "details": [
             "55 m² plus 15 m² of covered parking.",
             "8th floor with sunset view",
@@ -987,9 +989,7 @@
             "Pools",
             "Jacuzzis"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "₡430,000 / month",
-          "title": "Apartment in Torres de Heredia"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1023,7 +1023,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS5L1cSETUR/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$900USD / month",
           "details": [
             "55 m² plus 15 m² of covered parking.",
             "2nd floor with forest view",
@@ -1032,9 +1034,7 @@
             "Pools",
             "Jacuzzis"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$900USD / month",
-          "title": "Apartment Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1068,7 +1068,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS0Ny72EcbO/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
           "details": [
             "Studio type, 40 m² plus 15 m² of covered parking.",
             "6th floor with pool view",
@@ -1077,9 +1079,7 @@
             "Pets are not allowed",
             "Pools"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$800 USD / month",
-          "title": "Apartment Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1088,7 +1088,7 @@
       "category": "bodegas",
       "status": "disponible",
       "title": "BODEGA en Alquiler",
-      "location": "Ubicación por confirmar",
+      "location": "El coco Alajuela",
       "price": 800,
       "priceLabel": "$800 USD / mes",
       "beds": 0,
@@ -1113,7 +1113,7 @@
         "en": {
           "badgeText": "FOR LEASE",
           "details": [
-            "We have 3 warehouses available",
+            "We have 3 warehouses available in Alajuela",
             "Water and electricity services included.",
             "Private place with security and electric gate."
           ],
@@ -1198,7 +1198,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRkwX4dEa0p/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1600 USD / month",
           "details": [
             "Fully furnished, as shown in the photos",
             "2 bedrooms",
@@ -1207,9 +1209,7 @@
             "Laundry room",
             "1 parking space"
           ],
-          "location": "Location to be confirmed",
-          "priceLabel": "$1600 USD / month",
-          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1243,7 +1243,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRQYw6QkTrX/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · 2 Bathrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "2 bathrooms",
             "2 parking spaces",
@@ -1252,9 +1254,7 @@
             "Pool",
             "Gym"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment 1 Bedroom · 2 Bathrooms · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1288,7 +1288,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQ4iuHwEfno/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Al Andalus Condominium, La Guácima, Alajuela",
+          "priceLabel": "$1,150 USD / month",
           "details": [
             "• 3 remodeled bedrooms, each with a closet.",
             "• 2 air-conditioning units.",
@@ -1297,9 +1299,7 @@
             "• Covered terrace with synthetic grass.",
             "• Built-in kitchen."
           ],
-          "location": "Al Andalus Condominium, La Guácima, Alajuela",
-          "priceLabel": "$1,150 USD / month",
-          "title": "House 3 Bedrooms · 2 Bathrooms"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1333,7 +1333,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQcrtTakaQa/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "TORRES DE HEREDIA",
+          "priceLabel": "$900 USD / month",
           "details": [
             "TORRES DE HEREDIA CONDOMINIUM:",
             "POOL",
@@ -1342,9 +1344,7 @@
             "GREEN AREAS",
             "PET FRIENDLY"
           ],
-          "location": "TORRES DE HEREDIA",
-          "priceLabel": "$900 USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1378,7 +1378,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQaQfKQERy3/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Corner Unit",
+          "location": "LAGUNILLA DE HEREDIA, corner unit, SOBRE CALLE PRINCIPAL, EQUIPADO.",
+          "priceLabel": "$6000 USD / month",
           "details": [
             "THE COMMERCIAL SPACE IS SET UP FOR A FOOD BUSINESS, AS SHOWN IN THE PHOTOS.",
             "IT HAS AN APARTMENT ON THE SECOND FLOOR (optional).",
@@ -1387,9 +1389,7 @@
             "THE BUSINESS LICENSE CAN BE LENT FOR 3 MONTHS WHILE THE NEW ONE IS BEING PROCESSED (food).",
             "IT CAN ALSO BE RENTED FOR ANOTHER TYPE OF BUSINESS, AND THE PROPERTY CAN BE DIVIDED."
           ],
-          "location": "LAGUNILLA DE HEREDIA, corner unit, SOBRE CALLE PRINCIPAL, EQUIPADO.",
-          "priceLabel": "$6000 USD / month",
-          "title": "Apartment Corner Unit"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1416,11 +1416,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPpqqKJkbBL/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "House 3 Bedrooms · 2 Bathrooms",
           "location": "Malibu Condominium in San Pablo de Heredia. The house has 2 levels, 3 garage spaces, and on the ground floor there is a spacious service room with a full bathroom, plus a large garden, living room, kitchen, dining room, and laundry room.",
           "priceLabel": "$1800 USD / month",
-          "title": "House 3 Bedrooms · 2 Bathrooms"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1454,7 +1454,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPkPbyHEfa5/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Appliances",
+          "location": "Altamira, first floor",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "San Pablo de Heredia",
             "Appliances included",
@@ -1463,9 +1465,7 @@
             "Recreational and lap pool",
             "Tennis court"
           ],
-          "location": "Altamira, first floor",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Appliances"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1498,7 +1498,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPiI3LmDIYB/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Warehouse with Appliances",
+          "location": "Location to be confirmed",
+          "priceLabel": "$2000 USD / month",
           "details": [
             "13th floor",
             "Parking for 2 vehicles",
@@ -1506,9 +1508,7 @@
             "Incredible view",
             "Appliances included"
           ],
-          "location": "Location to be confirmed",
-          "priceLabel": "$2000 USD / month",
-          "title": "Warehouse with Appliances"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1542,7 +1542,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPIYqjNDKAp/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "House 2 Bedrooms · 2 Bathrooms",
+          "location": "La Guácima, Alajuela, across from Hacienda Los Reyes.",
+          "priceLabel": "₡65,000,000",
           "details": [
             "Located in Los Príncipes Condominium.",
             "2 bedrooms.",
@@ -1551,9 +1553,7 @@
             "Kitchen.",
             "Dining room."
           ],
-          "location": "La Guácima, Alajuela, across from Hacienda Los Reyes.",
-          "priceLabel": "₡65,000,000",
-          "title": "House 2 Bedrooms · 2 Bathrooms"
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -1583,14 +1583,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPASR38kchT/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$900 USD / month",
           "details": [
             "This apartment is located on a floor with views of the pool and beautiful sunsets. The apartment is fully furnished and has A/C in the bedroom.",
             "The condominium has a pool, BBQ area, gym, green areas, and other amenities. It also offers 24/7 security and an elegant lobby with a 24/7 receptionist."
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$900 USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1620,14 +1620,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO9xyeHEY6Q/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "House 3 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "CONhouse",
+          "priceLabel": "$850 USD / month",
           "details": [
             "The apartment is very spacious and includes an entry area, living room, dining room, kitchen, laundry room, balcony, 3 bedrooms, 2 full bathrooms, and a garage for 1 vehicle.",
             "The condominium has green areas, a pool, multipurpose court, basketball court, tennis court, and 24/7 security."
           ],
-          "location": "CONhouse",
-          "priceLabel": "$850 USD / month",
-          "title": "House 3 Bedrooms · 2 Bathrooms · with Balcony"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1654,11 +1654,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO6NIw8ETRf/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "House in Santo Domingo de Heredia, facing a main street, 385 m², mixed-use zoning, 16 meters of frontage.",
           "location": "Santo Domingo de Heredia, facing a main street, 385 m², mixed-use zoning, 16 meters of frontage.",
           "priceLabel": "Price on request",
-          "title": "House in Santo Domingo de Heredia, facing a main street, 385 m², mixed-use zoning, 16 meters of frontage."
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -1685,11 +1685,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOzQrfFEfFl/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "House 3 Bedrooms · 2 Bathrooms",
           "location": "Malibu Condominium in San Pablo de Heredia. The house has 2 levels, 4 garage spaces, and on the ground floor there is a spacious service room with a full bathroom, plus a large garden, living room, kitchen, dining room, and laundry room.",
           "priceLabel": "$270,000 USD",
-          "title": "House 3 Bedrooms · 2 Bathrooms"
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -1723,7 +1723,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOrRlflkRr1/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms",
+          "location": "Torres de Heredia, with 2 levels",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "Torres de Heredia has an excellent location, in front of the Metropolitan Free Zone in Barreal de Heredia (Ulloa), and also offers the following amenities and conveniences:",
             "Pool",
@@ -1732,9 +1734,7 @@
             "Gym",
             "Green areas"
           ],
-          "location": "Torres de Heredia, with 2 levels",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment 2 Bedrooms"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1764,14 +1764,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DObt9CckbVD/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "Condominio Lomas de San Rafael de Escazu",
+          "priceLabel": "$1200 USD / month",
           "details": [
             "The apartment measures 78 m² and has 2 bedrooms, 2 full bathrooms, living room, dining room, kitchen, laundry room, and balcony. It is on the top floor of the tower, the 5th floor, with an incredible view of the Central Valley.",
             "In addition, the condominium has a private entrance and 24/7 security, as well as a BBQ area with a pool and a children's playground."
           ],
-          "location": "Condominio Lomas de San Rafael de Escazu",
-          "priceLabel": "$1200 USD / month",
-          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1801,14 +1801,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOJZdoykXhp/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia.",
+          "priceLabel": "Price on request / month",
           "details": [
             "This apartment is located on the 2nd floor of Tower B, with an excellent forest view. The apartment is delivered fully furnished, and the price includes the HOA fee.",
             "Torres de Heredia offers different amenities such as pools, a BBQ area, green areas, and more, and also has an excellent location."
           ],
-          "location": "Torres de Heredia.",
-          "priceLabel": "Price on request / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1835,11 +1835,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOEiSGhkShu/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "Apartment 1 Bedroom",
           "location": "Núcleo Sabana, 16th floor with south-facing view, includes everything shown in the video",
           "priceLabel": "$165,000 USD",
-          "title": "Apartment 1 Bedroom"
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -1866,11 +1866,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN6LnQYkcll/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "Apartment 1 Bedroom · with Balcony",
           "location": "Torres de Heredia",
           "priceLabel": "$850 USD",
-          "title": "Apartment 1 Bedroom · with Balcony"
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -1897,11 +1897,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN3h26fYtQF/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 1 Bedroom · Furnished",
           "location": "Torres de Heredia",
           "priceLabel": "$1000 USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1930,13 +1930,13 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DNlOc90xk-y/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "Price on request / month",
           "details": [
             "Condominium amenities: pool, Jacuzzi, gym, BBQ area, green areas. #viral #viralpost #rent #rental #herediarental"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "Price on request / month",
-          "title": "Apartment Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -1966,14 +1966,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DM6JTUZS7H1/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Warehouse with Appliances",
+          "location": "Vistas de Robledal",
+          "priceLabel": "$975 USD / month",
           "details": [
             "☎️ 71121318,",
             "Amenities: pool, gym, and rooftop lookout."
           ],
-          "location": "Vistas de Robledal",
-          "priceLabel": "$975 USD / month",
-          "title": "Warehouse with Appliances"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2007,7 +2007,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DM0xHJvSY0j/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "Warehouse in San Francisco de Heredia – only 800 meters from Oxígeno Mall!",
+          "location": "San Francisco de Heredia – only 800 meters from Oxígeno Mall",
+          "priceLabel": "$256 USD / month",
           "details": [
             "Live in a spacious, comfortable house in excellent condition, located in a strategic area very close to downtown Heredia, with easy access to San José and Alajuela. Ideal for families looking for peace and quiet without being far from the city.",
             "Land area: 168 m²",
@@ -2016,9 +2018,7 @@
             "Ground floor with integrated spaces:",
             "Spacious living room"
           ],
-          "location": "San Francisco de Heredia – only 800 meters from Oxígeno Mall",
-          "priceLabel": "$256 USD / month",
-          "title": "Warehouse in San Francisco de Heredia – only 800 meters from Oxígeno Mall!"
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -2045,11 +2045,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DMyFmrqyFy2/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "Apartment in Mercedes de Heredia, 500 meters north of the chiropractor, mixed-use zoning",
           "location": "Mercedes de Heredia, 500 meters north of the chiropractor, mixed-use zoning",
           "priceLabel": "₡105,000",
-          "title": "Apartment in Mercedes de Heredia, 500 meters north of the chiropractor, mixed-use zoning"
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -2083,7 +2083,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtZZvAvxUo/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment in Torres de Heredia",
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
           "details": [
             "☎️ 71121318",
             "Pools",
@@ -2092,9 +2094,7 @@
             "Elegant lobby with reception",
             "Gym"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$800 USD / month",
-          "title": "Apartment in Torres de Heredia"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2128,7 +2128,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtBD6YPMAg/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "Pools",
             "Jacuzzis",
@@ -2137,9 +2139,7 @@
             "Green areas",
             "Elegant lobby with receptionist"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment 1 Bedroom"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2173,7 +2173,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMs4UIpxKvs/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "Pool",
             "Gym",
@@ -2182,9 +2184,7 @@
             "24/7 security",
             "Elegant lobby with reception"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2216,16 +2216,16 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMp9h-XMmX5/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "Apartment 3 Bedrooms",
+          "location": "Residencial Colinas del Viento, in Desamparados de Alajuela",
+          "priceLabel": "$127,500 USD",
           "details": [
             "This apartment measures 78 m² plus a 15 m² parking space.",
             "Inside the Colinas del Viento residential complex, the apartment building is a 3-story building called Amaranto.",
             "These apartments have a small private pool for the building residents.",
             "Cell: 71121318"
           ],
-          "location": "Residencial Colinas del Viento, in Desamparados de Alajuela",
-          "priceLabel": "$127,500 USD",
-          "title": "Apartment 3 Bedrooms"
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -2252,11 +2252,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMjWdJwxy6p/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 1 Bedroom · with Appliances",
           "location": "Torres de Heredia",
           "priceLabel": "$850 USD / month",
-          "title": "Apartment 1 Bedroom · with Appliances"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2289,7 +2289,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdXJ9vRANr/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1400 USD / month",
           "details": [
             "Pool",
             "Gym",
@@ -2297,9 +2299,7 @@
             "BBQ area",
             "Lobby with 24/7 reception"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1400 USD / month",
-          "title": "Apartment 2 Bedrooms · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2333,7 +2333,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdHyEZRoRP/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms",
+          "location": "Condominio Bellavista, Heredia, Ulloa, floor 17",
+          "priceLabel": "$1000 USD / month",
           "details": [
             "2 pools",
             "2 jacuzzis",
@@ -2342,9 +2344,7 @@
             "Multipurpose court",
             "BBQ areas"
           ],
-          "location": "Condominio Bellavista, Heredia, Ulloa, floor 17",
-          "priceLabel": "$1000 USD / month",
-          "title": "Apartment 2 Bedrooms"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2371,11 +2371,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMasBnLRQMa/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 3 Bedrooms · Furnished",
           "location": "Ciudad Cariari, Heredia, garage for 2 vehicles",
           "priceLabel": "$1400 USD / month",
-          "title": "Apartment 3 Bedrooms · Furnished"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2405,14 +2405,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMZM8yEsxKz/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "Warehouse Available",
+          "location": "Location to be confirmed",
+          "priceLabel": "$145,000 USD / month",
           "details": [
             "Beautiful apartment for sale in Bambú 106, Lagunilla de Heredia, with 2 bedrooms, on the 10th floor, parking for 2 vehicles, plus a storage unit.",
             "Term: 8 years"
           ],
-          "location": "Location to be confirmed",
-          "priceLabel": "$145,000 USD / month",
-          "title": "Warehouse Available"
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -2439,11 +2439,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMT-K5Lxxqe/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 2 Bedrooms · Furnished",
           "location": "Núcleo Sabana Condominium",
           "priceLabel": "$1700 USD / month",
-          "title": "Apartment 2 Bedrooms · Furnished"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2470,11 +2470,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMJcBjISKnE/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 1 Bedroom · Furnished",
           "location": "Núcleo Sabana Condominium, on the 16th floor of the new tower",
           "priceLabel": "$1400, USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2501,11 +2501,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMG2VYeSj4A/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2532,11 +2532,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DLnsBQLyK9i/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2563,11 +2563,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKC69TgxsMr/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2594,11 +2594,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKBo-ZauDCG/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2625,11 +2625,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJxRzejyq7q/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2656,11 +2656,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJnWoWhRIjc/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2687,11 +2687,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJMjym_RRlT/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2718,11 +2718,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJCrmh5Sjvc/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2749,11 +2749,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIQMH-dOwUW/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2780,11 +2780,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIP5FX7RRq5/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2811,11 +2811,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIM4MLwShog/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2842,11 +2842,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHtjPJUx8AF/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2873,11 +2873,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHdxLUDx_H9/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2904,11 +2904,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHb2gAcy57i/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2935,11 +2935,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHbu6cvSt-z/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -2966,11 +2966,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHYmBQ1xx8A/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3003,14 +3003,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "House in VILLA REAL SANTA ANA.",
+          "location": "VILLA REAL SANTA ANA.",
+          "priceLabel": "$1.9 USD",
           "details": [
             "These 2 houses are located in one of the most exclusive condominiums in Costa Rica, with excellent views and surrounded by nature.",
             "They are built on a 2,078 m² lot, and each house has approximately 450 m² of construction."
           ],
-          "location": "VILLA REAL SANTA ANA.",
-          "priceLabel": "$1.9 USD",
-          "title": "House in VILLA REAL SANTA ANA."
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -3037,11 +3037,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG7Ju8_Oxb7/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3068,11 +3068,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG2I_pFusEw/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3099,11 +3099,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DEiJ4DNyNar/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3130,11 +3130,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DDVo-q5Rj7s/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3161,11 +3161,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gT5bqRrRz/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3192,11 +3192,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gLC-XRGXg/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3223,11 +3223,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-x7aUExUJ9/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3254,11 +3254,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-WUt0nNH_i/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3285,11 +3285,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EIcC8xslr/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3316,11 +3316,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EG196R6qB/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3347,11 +3347,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8sbUCqy3Dj/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3378,11 +3378,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8GIky8x8Su/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3409,11 +3409,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8E5niURL-E/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3440,11 +3440,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7uZFeaxYXC/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3471,11 +3471,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7cNE8outlx/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3502,11 +3502,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7Nm7rWNkVh/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3533,11 +3533,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7J649MrTPY/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3564,11 +3564,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7J6pQOrm_2/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3595,11 +3595,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C6ph8LSt5Xe/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3626,11 +3626,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C6nMw3-NWau/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3657,11 +3657,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C6h7rVrtFOD/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3688,11 +3688,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/C5FodjHOxew/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3719,11 +3719,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C370fH7LRc6/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3750,11 +3750,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/C3gH0c5P2Hm/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3781,11 +3781,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C2ubrX0uD4B/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3812,11 +3812,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C2OhtZ7uT21/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3843,11 +3843,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C2FsScLxv1z/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3874,11 +3874,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BP9f8OE4J/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3905,11 +3905,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BPmpkOv2U/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3936,11 +3936,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BPFVEuqDF/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3967,11 +3967,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BO5PBOBim/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -3998,11 +3998,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BOur9O_wV/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4029,11 +4029,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CwyBD4bPGTA/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4060,11 +4060,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/Cwm8jqyO-we/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4091,11 +4091,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/CwS0vXERuC7/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "$425,000 USD / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4122,11 +4122,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CwJaZNUoj2U/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4153,11 +4153,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CwJaMbqo-Ys/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4184,11 +4184,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cv3hesxxDJn/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4215,11 +4215,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cv2mY9OMHHy/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4246,11 +4246,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cvgc3JBLmwS/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4277,11 +4277,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CvgbfQuN-fH/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4308,11 +4308,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CuyRrOuMwTW/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4339,11 +4339,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CuyRYJvOB1z/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4370,11 +4370,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cuu4VCMr5kN/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -4401,11 +4401,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CurfCWyAU-g/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     }
@@ -4416,12 +4416,12 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones",
-      "location": "Instagram: \"Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
+      "location": "Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
       "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 3,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/689523869_1506873497742143_8226210004955678695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=igeu741M7wwQ7kNvwFmByVM&_nc_oc=AdordI8w9OpwD4ZdW92BogvCXYpLX00QRbCfHmUfZHh7aZWAB1dqAVcxlMq7SuJcXGU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=uHKESpGwTzZ_qTC3Cn2LNw&_nc_ss=7ba8c&oh=00_Af4MXQt4LU_mvFpFhhd3W6xbsFpRcoNdj0uoiN6MjKZC9w&oe=6A13A474",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/689523869_1506873497742143_8226210004955678695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=qAoUwYJnkVEQ7kNvwEahujA&_nc_oc=AdpR7j6JowjNRvb5Xxm7X-t3KdFKT63xhYOVgjQVwEcgCW8-f3B0QhYcIMC-XkpHZpk&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Gnp3q-r1iflFYkh_fDvdQA&_nc_ss=7b689&oh=00_Af4PJ5mwvkBFJTlnEhzyswNABIA6DCxj9kpP3CO1kz2IHw&oe=6A0ADA74",
       "details": [
         "El apartamento se renta sin muebles.",
         "Este apartamento tiene 3 habitaciones con una medida de 78m2 más un parqueo para 2 vehículos en tándem. Se encuentra en la primera planta.",
@@ -4462,7 +4462,7 @@
       "priceLabel": "$900 USD / mes",
       "beds": 1,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/685800179_1632249311398923_1902920261753698034_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dBWdag9VQTQQ7kNvwEBji8j&_nc_oc=AdrvVcat7kL7i7nOCyLGpHEiq4rMS3ZiUh61TmfOVttD6G3N2teSFdKMXO8hv7gcCXw&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=M1s1qDMR4E0dFz4p1FFznw&_nc_ss=7ba8c&oh=00_Af5W8jtXc3ZFKK8Zk82DCCto9pks2-L6DSN6Fi7ZB2qeyg&oe=6A13ABA6",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/685800179_1632249311398923_1902920261753698034_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6_Fdb9wj4GcQ7kNvwGk6FPU&_nc_oc=AdpNy005suVDzdjvMVptfKeN_t_co_euz3QYfyZxYp037V0FVIp__kHP_yB8PVXr09s&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=-ejH8PDLUXnzPFjilYLazw&_nc_ss=7b689&oh=00_Af4_N6sxejEKprH-BwfZKMHnQ0L0rgHA6fNt26YXcadXuQ&oe=6A0AE1A6",
       "details": [
         "🍀Esquinero",
         "🍀50m2 habitables más 15m2 de parqueo",
@@ -4548,7 +4548,7 @@
       "priceLabel": "$150,000 USD",
       "beds": 2,
       "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670882656_1384799513411551_1887738600767749049_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=AOewrvx3O3IQ7kNvwGVt7I-&_nc_oc=AdocUwZzttaVIo-P3BKMjvlGZotubL9oQdE6yI_kRQXq2A8gGDXDrh6uCA4GyjRh8Dg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=KbnzrnSrYNBc-LoiI4u3Ag&_nc_ss=7ba8c&oh=00_Af5xhosYJgaxl1Ji3z3jf5DeAqlYvcruINRuvcOdY1XBiA&oe=6A13C5DE",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670882656_1384799513411551_1887738600767749049_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UwZrkN-_Mw0Q7kNvwGmoRfn&_nc_oc=AdqQVVWFSqeefPFl4fUHCaH8lHyk70zlpGd9LzNPxK3u7YiBElKTHyIwuCcm0Be59hs&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=nzswihgX-0sU5n_YBUAhrA&_nc_ss=7b689&oh=00_Af5ImVMSG7qEyUb-r1aMaDBYocsj_22uWFHETIlSzZBLCg&oe=6A0AFBDE",
       "details": [
         "71 m2 de apartamento",
         "15 m2 de parqueo",
@@ -4593,7 +4593,7 @@
       "priceLabel": "$950 USD / mes",
       "beds": 1,
       "baths": 1,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=LcHVUEkFbVoQ7kNvwGQ3Sc2&_nc_oc=AdpKy0SzZ_cASXP_uIKldQ7QCAKknRjjFlSybLkcn9NRG_XbdHQfcyNeAS8Vhuyrw3M&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=3HnaLlwkrBVo8i1-_JoMNg&_nc_ss=7ba8c&oh=00_Af5gg0L2Y035Sqvnayzh-sj-hhgDWOeF6WorJdVHu2bbew&oe=6A13BC3E",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670287703_971232158695318_6372869536620563460_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Z7CyvCPE2n4Q7kNvwFnQZ8S&_nc_oc=AdqiCe_bBnmTZDwq_vYPmZgh79hLFynvgQUAI65OZyhebD8VyJqVQbQds_kpnA4Tcq4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=W1ldC9Udf2CXCaYKXz25TA&_nc_ss=7b689&oh=00_Af7fKTlbt-kTPUTxZKoE0feydSTP3xuVL7md6gzJQSG8ag&oe=6A0AF23E",
       "details": [
         "🍀Tipo estudio (1 habitación)",
         "🍀Full línea blanca",
@@ -4614,7 +4614,7 @@
       "translations": {
         "en": {
           "title": "House 1 Bedroom · with Appliances",
-          "location": "Location to be confirmed",
+          "location": "BeCariari (Real Cariari)",
           "priceLabel": "$950 USD",
           "details": [
             "Studio type (1 bedroom)",
@@ -4637,7 +4637,7 @@
       "priceLabel": "Consultar precio / mes",
       "beds": 2,
       "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/661040107_1901204777234351_674432110434194337_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=sOzAv4xjraoQ7kNvwGW24Ic&_nc_oc=Ado40e55Fw4zgQEEK_i2Ke1bCc08T8xp1XfzpVflrvltX62T86A1rM_e2ldOcTBfjnk&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=4442wm3PI3YPc8nPAGwrug&_nc_ss=7b689&oh=00_Af7-xBys1q58hiMEvpILWpZPfKuKdso0J-LxSQxnhXGoGQ&oe=6A06CEA3",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/661040107_1901204777234351_674432110434194337_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=lZW-GUKdTHQQ7kNvwHT2kW2&_nc_oc=AdqYKcB0VZmFPRwZKCOnGTru6hXZhL8CXyYrffwu5V9yz95Z9bsA1gcIBm157_GKqOg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=dO8PRdzj9U0pzzwXvu6xYg&_nc_ss=7ba8c&oh=00_Af4VW83oifKsz0jwxJ-CoiwMSJHbomqAqu8trLMLe1vEhw&oe=6A13C563",
       "details": [
         "2 habitaciones",
         "2 baños",
@@ -4854,7 +4854,7 @@
       "category": "venta",
       "status": "disponible",
       "title": "Casa 3 Habitaciones · 2 Baños",
-      "location": "Ubicación por confirmar",
+      "location": "Condominio Francosta Heredia",
       "price": 365000,
       "priceLabel": "$365,000 USD",
       "beds": 3,
@@ -4943,8 +4943,8 @@
       "id": "prop-122",
       "category": "venta",
       "status": "disponible",
-      "title": "Apartamento en Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-      "location": "Instagram: \"Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+      "title": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+      "location": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
       "price": 75000000,
       "priceLabel": "₡75 000 000",
       "beds": 0,
@@ -4975,7 +4975,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones",
-      "location": "Instagram: \"Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
+      "location": "Se ALQUILA precioso apartamento en Residencial Colinas del Viento",
       "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 3,
@@ -5506,12 +5506,12 @@
       "baths": 0,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/631785649_1996695554589473_1121546415761597153_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6yGlHXduFsUQ7kNvwGhRIXm&_nc_oc=AdpkXD-MwQanPRDkfRoabKMEPYx_cHYP53EKjHSALwimb7pW3aWg6UqHBG_t1ejn-8g&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=o9elqJWXPKyfIHIlXPxqkw&_nc_ss=7b689&oh=00_Af59-kKSpC_u0qKPj_hxgrm4E40_Xc-8ylHcZkPsnLwpNg&oe=6A0AD8BE",
       "details": [
-        "🍀Piso 11",
-        "increíble vista",
+        "🍀Piso 11, increíble vista",
         "🍀Incluye lava-seca",
         "🍀Tiene walk in closet",
         "🍀Esquinero",
-        "🍀Incluye parqueo"
+        "🍀Incluye parqueo",
+        "🍀Seguridad 24/7"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -5735,7 +5735,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DToAUJmEeVo/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "House 2 Bedrooms · Furnished",
+          "location": "Condominio Blue Cariari",
+          "priceLabel": "$1650 USD / month",
           "details": [
             "Pool",
             "Tennis court",
@@ -5744,9 +5746,7 @@
             "5-a-side soccer field",
             "24/7 security"
           ],
-          "location": "Condominio Blue Cariari",
-          "priceLabel": "$1650 USD / month",
-          "title": "House 2 Bedrooms · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -5780,7 +5780,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DTS_wCvkY1A/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1000 USD / month",
           "details": [
             "Pool",
             "24/7 security",
@@ -5789,9 +5791,7 @@
             "BBQ area",
             "Elegant lobby with reception"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1000 USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -5825,7 +5825,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS6Mr11kbRA/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment in Torres de Heredia",
+          "location": "Torres de Heredia",
+          "priceLabel": "₡430,000 / month",
           "details": [
             "55 m² plus 15 m² of covered parking.",
             "8th floor with sunset view",
@@ -5834,9 +5836,7 @@
             "Pools",
             "Jacuzzis"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "₡430,000 / month",
-          "title": "Apartment in Torres de Heredia"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -5870,7 +5870,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS5L1cSETUR/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$900USD / month",
           "details": [
             "55 m² plus 15 m² of covered parking.",
             "2nd floor with forest view",
@@ -5879,9 +5881,7 @@
             "Pools",
             "Jacuzzis"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$900USD / month",
-          "title": "Apartment Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -5915,7 +5915,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DS0Ny72EcbO/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
           "details": [
             "Studio type, 40 m² plus 15 m² of covered parking.",
             "6th floor with pool view",
@@ -5924,9 +5926,7 @@
             "Pets are not allowed",
             "Pools"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$800 USD / month",
-          "title": "Apartment Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -5935,7 +5935,7 @@
       "category": "bodegas",
       "status": "disponible",
       "title": "BODEGA en Alquiler",
-      "location": "Ubicación por confirmar",
+      "location": "El coco Alajuela",
       "price": 800,
       "priceLabel": "$800 USD / mes",
       "beds": 0,
@@ -5960,7 +5960,7 @@
         "en": {
           "badgeText": "FOR LEASE",
           "details": [
-            "We have 3 warehouses available",
+            "We have 3 warehouses available in Alajuela",
             "Water and electricity services included.",
             "Private place with security and electric gate."
           ],
@@ -6045,7 +6045,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRkwX4dEa0p/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1600 USD / month",
           "details": [
             "Fully furnished, as shown in the photos",
             "2 bedrooms",
@@ -6054,9 +6056,7 @@
             "Laundry room",
             "1 parking space"
           ],
-          "location": "Location to be confirmed",
-          "priceLabel": "$1600 USD / month",
-          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6090,7 +6090,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DRQYw6QkTrX/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · 2 Bathrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "2 bathrooms",
             "2 parking spaces",
@@ -6099,9 +6101,7 @@
             "Pool",
             "Gym"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment 1 Bedroom · 2 Bathrooms · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6135,7 +6135,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQ4iuHwEfno/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Al Andalus Condominium, La Guácima, Alajuela",
+          "priceLabel": "$1,150 USD / month",
           "details": [
             "• 3 remodeled bedrooms, each with a closet.",
             "• 2 air-conditioning units.",
@@ -6144,9 +6146,7 @@
             "• Covered terrace with synthetic grass.",
             "• Built-in kitchen."
           ],
-          "location": "Al Andalus Condominium, La Guácima, Alajuela",
-          "priceLabel": "$1,150 USD / month",
-          "title": "House 3 Bedrooms · 2 Bathrooms"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6180,7 +6180,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQcrtTakaQa/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "TORRES DE HEREDIA",
+          "priceLabel": "$900 USD / month",
           "details": [
             "TORRES DE HEREDIA CONDOMINIUM:",
             "POOL",
@@ -6189,9 +6191,7 @@
             "GREEN AREAS",
             "PET FRIENDLY"
           ],
-          "location": "TORRES DE HEREDIA",
-          "priceLabel": "$900 USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6225,7 +6225,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DQaQfKQERy3/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Corner Unit",
+          "location": "LAGUNILLA DE HEREDIA, corner unit, SOBRE CALLE PRINCIPAL, EQUIPADO.",
+          "priceLabel": "$6000 USD / month",
           "details": [
             "THE COMMERCIAL SPACE IS SET UP FOR A FOOD BUSINESS, AS SHOWN IN THE PHOTOS.",
             "IT HAS AN APARTMENT ON THE SECOND FLOOR (optional).",
@@ -6234,9 +6236,7 @@
             "THE BUSINESS LICENSE CAN BE LENT FOR 3 MONTHS WHILE THE NEW ONE IS BEING PROCESSED (food).",
             "IT CAN ALSO BE RENTED FOR ANOTHER TYPE OF BUSINESS, AND THE PROPERTY CAN BE DIVIDED."
           ],
-          "location": "LAGUNILLA DE HEREDIA, corner unit, SOBRE CALLE PRINCIPAL, EQUIPADO.",
-          "priceLabel": "$6000 USD / month",
-          "title": "Apartment Corner Unit"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6263,11 +6263,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPpqqKJkbBL/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "House 3 Bedrooms · 2 Bathrooms",
           "location": "Malibu Condominium in San Pablo de Heredia. The house has 2 levels, 3 garage spaces, and on the ground floor there is a spacious service room with a full bathroom, plus a large garden, living room, kitchen, dining room, and laundry room.",
           "priceLabel": "$1800 USD / month",
-          "title": "House 3 Bedrooms · 2 Bathrooms"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6301,7 +6301,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPkPbyHEfa5/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Appliances",
+          "location": "Altamira, first floor",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "San Pablo de Heredia",
             "Appliances included",
@@ -6310,9 +6312,7 @@
             "Recreational and lap pool",
             "Tennis court"
           ],
-          "location": "Altamira, first floor",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Appliances"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6345,7 +6345,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPiI3LmDIYB/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Warehouse with Appliances",
+          "location": "Location to be confirmed",
+          "priceLabel": "$2000 USD / month",
           "details": [
             "13th floor",
             "Parking for 2 vehicles",
@@ -6353,9 +6355,7 @@
             "Incredible view",
             "Appliances included"
           ],
-          "location": "Location to be confirmed",
-          "priceLabel": "$2000 USD / month",
-          "title": "Warehouse with Appliances"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6389,7 +6389,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPIYqjNDKAp/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "House 2 Bedrooms · 2 Bathrooms",
+          "location": "La Guácima, Alajuela, across from Hacienda Los Reyes.",
+          "priceLabel": "₡65,000,000",
           "details": [
             "Located in Los Príncipes Condominium.",
             "2 bedrooms.",
@@ -6398,9 +6400,7 @@
             "Kitchen.",
             "Dining room."
           ],
-          "location": "La Guácima, Alajuela, across from Hacienda Los Reyes.",
-          "priceLabel": "₡65,000,000",
-          "title": "House 2 Bedrooms · 2 Bathrooms"
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -6430,14 +6430,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DPASR38kchT/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$900 USD / month",
           "details": [
             "This apartment is located on a floor with views of the pool and beautiful sunsets. The apartment is fully furnished and has A/C in the bedroom.",
             "The condominium has a pool, BBQ area, gym, green areas, and other amenities. It also offers 24/7 security and an elegant lobby with a 24/7 receptionist."
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$900 USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6467,14 +6467,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO9xyeHEY6Q/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "House 3 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "CONhouse",
+          "priceLabel": "$850 USD / month",
           "details": [
             "The apartment is very spacious and includes an entry area, living room, dining room, kitchen, laundry room, balcony, 3 bedrooms, 2 full bathrooms, and a garage for 1 vehicle.",
             "The condominium has green areas, a pool, multipurpose court, basketball court, tennis court, and 24/7 security."
           ],
-          "location": "CONhouse",
-          "priceLabel": "$850 USD / month",
-          "title": "House 3 Bedrooms · 2 Bathrooms · with Balcony"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6501,11 +6501,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DO6NIw8ETRf/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "House in Santo Domingo de Heredia, facing a main street, 385 m², mixed-use zoning, 16 meters of frontage.",
           "location": "Santo Domingo de Heredia, facing a main street, 385 m², mixed-use zoning, 16 meters of frontage.",
           "priceLabel": "Price on request",
-          "title": "House in Santo Domingo de Heredia, facing a main street, 385 m², mixed-use zoning, 16 meters of frontage."
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -6532,11 +6532,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOzQrfFEfFl/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "House 3 Bedrooms · 2 Bathrooms",
           "location": "Malibu Condominium in San Pablo de Heredia. The house has 2 levels, 4 garage spaces, and on the ground floor there is a spacious service room with a full bathroom, plus a large garden, living room, kitchen, dining room, and laundry room.",
           "priceLabel": "$270,000 USD",
-          "title": "House 3 Bedrooms · 2 Bathrooms"
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -6570,7 +6570,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOrRlflkRr1/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms",
+          "location": "Torres de Heredia, with 2 levels",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "Torres de Heredia has an excellent location, in front of the Metropolitan Free Zone in Barreal de Heredia (Ulloa), and also offers the following amenities and conveniences:",
             "Pool",
@@ -6579,9 +6581,7 @@
             "Gym",
             "Green areas"
           ],
-          "location": "Torres de Heredia, with 2 levels",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment 2 Bedrooms"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6611,14 +6611,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DObt9CckbVD/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony",
+          "location": "Condominio Lomas de San Rafael de Escazu",
+          "priceLabel": "$1200 USD / month",
           "details": [
             "The apartment measures 78 m² and has 2 bedrooms, 2 full bathrooms, living room, dining room, kitchen, laundry room, and balcony. It is on the top floor of the tower, the 5th floor, with an incredible view of the Central Valley.",
             "In addition, the condominium has a private entrance and 24/7 security, as well as a BBQ area with a pool and a children's playground."
           ],
-          "location": "Condominio Lomas de San Rafael de Escazu",
-          "priceLabel": "$1200 USD / month",
-          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6648,14 +6648,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOJZdoykXhp/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Torres de Heredia.",
+          "priceLabel": "Price on request / month",
           "details": [
             "This apartment is located on the 2nd floor of Tower B, with an excellent forest view. The apartment is delivered fully furnished, and the price includes the HOA fee.",
             "Torres de Heredia offers different amenities such as pools, a BBQ area, green areas, and more, and also has an excellent location."
           ],
-          "location": "Torres de Heredia.",
-          "priceLabel": "Price on request / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6682,11 +6682,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DOEiSGhkShu/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "Apartment 1 Bedroom",
           "location": "Núcleo Sabana, 16th floor with south-facing view, includes everything shown in the video",
           "priceLabel": "$165,000 USD",
-          "title": "Apartment 1 Bedroom"
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -6713,11 +6713,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN6LnQYkcll/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "Apartment 1 Bedroom · with Balcony",
           "location": "Torres de Heredia",
           "priceLabel": "$850 USD",
-          "title": "Apartment 1 Bedroom · with Balcony"
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -6744,11 +6744,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DN3h26fYtQF/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 1 Bedroom · Furnished",
           "location": "Torres de Heredia",
           "priceLabel": "$1000 USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6777,13 +6777,13 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DNlOc90xk-y/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "Price on request / month",
           "details": [
             "Condominium amenities: pool, Jacuzzi, gym, BBQ area, green areas. #viral #viralpost #rent #rental #herediarental"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "Price on request / month",
-          "title": "Apartment Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6813,14 +6813,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DM6JTUZS7H1/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Warehouse with Appliances",
+          "location": "Vistas de Robledal",
+          "priceLabel": "$975 USD / month",
           "details": [
             "☎️ 71121318,",
             "Amenities: pool, gym, and rooftop lookout."
           ],
-          "location": "Vistas de Robledal",
-          "priceLabel": "$975 USD / month",
-          "title": "Warehouse with Appliances"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6854,7 +6854,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DM0xHJvSY0j/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "Warehouse in San Francisco de Heredia – only 800 meters from Oxígeno Mall!",
+          "location": "San Francisco de Heredia – only 800 meters from Oxígeno Mall",
+          "priceLabel": "$256 USD / month",
           "details": [
             "Live in a spacious, comfortable house in excellent condition, located in a strategic area very close to downtown Heredia, with easy access to San José and Alajuela. Ideal for families looking for peace and quiet without being far from the city.",
             "Land area: 168 m²",
@@ -6863,9 +6865,7 @@
             "Ground floor with integrated spaces:",
             "Spacious living room"
           ],
-          "location": "San Francisco de Heredia – only 800 meters from Oxígeno Mall",
-          "priceLabel": "$256 USD / month",
-          "title": "Warehouse in San Francisco de Heredia – only 800 meters from Oxígeno Mall!"
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -6892,11 +6892,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DMyFmrqyFy2/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
-          "details": [],
+          "title": "Apartment in Mercedes de Heredia, 500 meters north of the chiropractor, mixed-use zoning",
           "location": "Mercedes de Heredia, 500 meters north of the chiropractor, mixed-use zoning",
           "priceLabel": "₡105,000",
-          "title": "Apartment in Mercedes de Heredia, 500 meters north of the chiropractor, mixed-use zoning"
+          "details": [],
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -6930,7 +6930,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtZZvAvxUo/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment in Torres de Heredia",
+          "location": "Torres de Heredia",
+          "priceLabel": "$800 USD / month",
           "details": [
             "☎️ 71121318",
             "Pools",
@@ -6939,9 +6941,7 @@
             "Elegant lobby with reception",
             "Gym"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$800 USD / month",
-          "title": "Apartment in Torres de Heredia"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -6975,7 +6975,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMtBD6YPMAg/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 1 Bedroom",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "Pools",
             "Jacuzzis",
@@ -6984,9 +6986,7 @@
             "Green areas",
             "Elegant lobby with receptionist"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment 1 Bedroom"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7020,7 +7020,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMs4UIpxKvs/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1100 USD / month",
           "details": [
             "Pool",
             "Gym",
@@ -7029,9 +7031,7 @@
             "24/7 security",
             "Elegant lobby with reception"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1100 USD / month",
-          "title": "Apartment Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7063,16 +7063,16 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMp9h-XMmX5/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "Apartment 3 Bedrooms",
+          "location": "Residencial Colinas del Viento, in Desamparados de Alajuela",
+          "priceLabel": "$127,500 USD",
           "details": [
             "This apartment measures 78 m² plus a 15 m² parking space.",
             "Inside the Colinas del Viento residential complex, the apartment building is a 3-story building called Amaranto.",
             "These apartments have a small private pool for the building residents.",
             "Cell: 71121318"
           ],
-          "location": "Residencial Colinas del Viento, in Desamparados de Alajuela",
-          "priceLabel": "$127,500 USD",
-          "title": "Apartment 3 Bedrooms"
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -7099,11 +7099,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMjWdJwxy6p/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 1 Bedroom · with Appliances",
           "location": "Torres de Heredia",
           "priceLabel": "$850 USD / month",
-          "title": "Apartment 1 Bedroom · with Appliances"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7136,7 +7136,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdXJ9vRANr/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms · Furnished",
+          "location": "Torres de Heredia",
+          "priceLabel": "$1400 USD / month",
           "details": [
             "Pool",
             "Gym",
@@ -7144,9 +7146,7 @@
             "BBQ area",
             "Lobby with 24/7 reception"
           ],
-          "location": "Torres de Heredia",
-          "priceLabel": "$1400 USD / month",
-          "title": "Apartment 2 Bedrooms · Furnished"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7180,7 +7180,9 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMdHyEZRoRP/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
+          "title": "Apartment 2 Bedrooms",
+          "location": "Condominio Bellavista, Heredia, Ulloa, floor 17",
+          "priceLabel": "$1000 USD / month",
           "details": [
             "2 pools",
             "2 jacuzzis",
@@ -7189,9 +7191,7 @@
             "Multipurpose court",
             "BBQ areas"
           ],
-          "location": "Condominio Bellavista, Heredia, Ulloa, floor 17",
-          "priceLabel": "$1000 USD / month",
-          "title": "Apartment 2 Bedrooms"
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7218,11 +7218,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMasBnLRQMa/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 3 Bedrooms · Furnished",
           "location": "Ciudad Cariari, Heredia, garage for 2 vehicles",
           "priceLabel": "$1400 USD / month",
-          "title": "Apartment 3 Bedrooms · Furnished"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7252,14 +7252,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMZM8yEsxKz/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "Warehouse Available",
+          "location": "Location to be confirmed",
+          "priceLabel": "$145,000 USD / month",
           "details": [
             "Beautiful apartment for sale in Bambú 106, Lagunilla de Heredia, with 2 bedrooms, on the 10th floor, parking for 2 vehicles, plus a storage unit.",
             "Term: 8 years"
           ],
-          "location": "Location to be confirmed",
-          "priceLabel": "$145,000 USD / month",
-          "title": "Warehouse Available"
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -7286,11 +7286,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMT-K5Lxxqe/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 2 Bedrooms · Furnished",
           "location": "Núcleo Sabana Condominium",
           "priceLabel": "$1700 USD / month",
-          "title": "Apartment 2 Bedrooms · Furnished"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7317,11 +7317,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMJcBjISKnE/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Apartment 1 Bedroom · Furnished",
           "location": "Núcleo Sabana Condominium, on the 16th floor of the new tower",
           "priceLabel": "$1400, USD / month",
-          "title": "Apartment 1 Bedroom · Furnished"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7348,11 +7348,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DMG2VYeSj4A/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7379,11 +7379,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DLnsBQLyK9i/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7410,11 +7410,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKC69TgxsMr/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7441,11 +7441,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DKBo-ZauDCG/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7472,11 +7472,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJxRzejyq7q/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7503,11 +7503,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJnWoWhRIjc/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7534,11 +7534,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJMjym_RRlT/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7565,11 +7565,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DJCrmh5Sjvc/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7596,11 +7596,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIQMH-dOwUW/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7627,11 +7627,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIP5FX7RRq5/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7658,11 +7658,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DIM4MLwShog/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7689,11 +7689,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHtjPJUx8AF/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7720,11 +7720,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHdxLUDx_H9/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7751,11 +7751,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHb2gAcy57i/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7782,11 +7782,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHbu6cvSt-z/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7813,11 +7813,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DHYmBQ1xx8A/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7831,7 +7831,7 @@
       "priceLabel": "$1.9 USD",
       "beds": 0,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.75761-15/483155554_17922693942026180_5453058376412134691_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=sQQxlU3lE8AQ7kNvwHAn7Zb&_nc_oc=AdoyZP0tB-AUJTtGb23d_pRNrNSCNjG6H0-wc2ppA-lcRfedK8036nnblcwtqd5Fgp8&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=xnAZS3EujNdqkMvkSYV4ZA&_nc_ss=7ba8c&oh=00_Af55A5EFb7gAHGy_m9PIAOD8DktgRCEg_ECic5IPRQjiHg&oe=6A13B0B2",
+      "image": "https://scontent.cdninstagram.com/v/t51.75761-15/483155554_17922693942026180_5453058376412134691_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=MvlzwubX-4MQ7kNvwEgzo8y&_nc_oc=AdrmHIiNcXR_spWqjkUFtQzVFLDA1uHb2F6Us2UYNF04rDp0guLw-hnmjjX7z2V-XKg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=OZlZfqFdMDPUaHBF0m5Qng&_nc_ss=7b689&oh=00_Af6YQWzMg7EZPfzsXuPEaM0gAbe255pdRZGWzvTYK5qzew&oe=6A0AE6B2",
       "details": [
         "Estás 2 casas se encuentran en uno de los condominios más exclusivos de Costa Rica",
         "con excelentes vistas",
@@ -7850,14 +7850,14 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DHBTML7xtwF/",
       "translations": {
         "en": {
-          "badgeText": "FOR SALE",
+          "title": "House in VILLA REAL SANTA ANA.",
+          "location": "VILLA REAL SANTA ANA.",
+          "priceLabel": "$1.9 USD",
           "details": [
             "These 2 houses are located in one of the most exclusive condominiums in Costa Rica, with excellent views and surrounded by nature.",
             "They are built on a 2,078 m² lot, and each house has approximately 450 m² of construction."
           ],
-          "location": "VILLA REAL SANTA ANA.",
-          "priceLabel": "$1.9 USD",
-          "title": "House in VILLA REAL SANTA ANA."
+          "badgeText": "FOR SALE"
         }
       }
     },
@@ -7884,11 +7884,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG7Ju8_Oxb7/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7915,11 +7915,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DG2I_pFusEw/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7946,11 +7946,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DEiJ4DNyNar/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -7977,11 +7977,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DDVo-q5Rj7s/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8008,11 +8008,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gT5bqRrRz/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8039,11 +8039,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C_gLC-XRGXg/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8070,11 +8070,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-x7aUExUJ9/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8101,11 +8101,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-WUt0nNH_i/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8132,11 +8132,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EIcC8xslr/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8163,11 +8163,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C-EG196R6qB/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8194,11 +8194,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8sbUCqy3Dj/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8225,11 +8225,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8GIky8x8Su/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8256,11 +8256,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C8E5niURL-E/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8287,11 +8287,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7uZFeaxYXC/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8318,11 +8318,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7cNE8outlx/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8349,11 +8349,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7Nm7rWNkVh/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8380,11 +8380,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7J649MrTPY/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8411,11 +8411,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C7J6pQOrm_2/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8442,11 +8442,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C6ph8LSt5Xe/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8473,11 +8473,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C6nMw3-NWau/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8504,11 +8504,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C6h7rVrtFOD/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8535,11 +8535,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/C5FodjHOxew/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8566,11 +8566,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C370fH7LRc6/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8597,11 +8597,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/C3gH0c5P2Hm/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8628,11 +8628,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C2ubrX0uD4B/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8659,11 +8659,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C2OhtZ7uT21/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8690,11 +8690,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C2FsScLxv1z/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8721,11 +8721,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BP9f8OE4J/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8752,11 +8752,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BPmpkOv2U/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8783,11 +8783,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BPFVEuqDF/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8814,11 +8814,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BO5PBOBim/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8845,11 +8845,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/C1BOur9O_wV/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8876,11 +8876,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CwyBD4bPGTA/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8907,11 +8907,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/Cwm8jqyO-we/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8938,11 +8938,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/CwS0vXERuC7/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "$425,000 USD / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -8969,11 +8969,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CwJaZNUoj2U/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -9000,11 +9000,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CwJaMbqo-Ys/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -9018,7 +9018,7 @@
       "priceLabel": "Consultar precio / mes",
       "beds": 0,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/503314854_554919504349571_6909216173659068695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=74ZeWygNf4kQ7kNvwFtw09t&_nc_oc=Adro7opeGZlW106QE-44Q_X2F9AlelbEA43dcMjcv1YnDeV-rFJ0sN0SQupRzv77h_4&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=xclBB27EE__SIsAGdDf16Q&_nc_ss=7ba8c&oh=00_Af4lv9femk5PosOAu0aAfI-quqX0FH_Y4wNnD8pLAzbrzQ&oe=6A13C300",
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/503314854_554919504349571_6909216173659068695_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=XVQ5h_NWeF4Q7kNvwEXfW2P&_nc_oc=AdpfB5khlTg_6HHWKUaf2NQ_lYeXz0T4XcWbJqTbNa0YfNw2Ywm5vM1cJpczIDnF6iE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=YJ7ra9MKAehmiMYuf6U1hQ&_nc_ss=7b689&oh=00_Af5qYP4i6UJABo8taqLC2MWS80SehAsn_D7VReUvh6pFdA&oe=6A0AF900",
       "details": [],
       "badge": {
         "text": "SE ALQUILA",
@@ -9031,11 +9031,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cv3hesxxDJn/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -9062,11 +9062,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cv2mY9OMHHy/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -9093,11 +9093,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cvgc3JBLmwS/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -9124,11 +9124,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CvgbfQuN-fH/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -9155,11 +9155,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CuyRrOuMwTW/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -9186,11 +9186,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CuyRYJvOB1z/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -9217,11 +9217,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/Cuu4VCMr5kN/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     },
@@ -9248,11 +9248,11 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/CurfCWyAU-g/",
       "translations": {
         "en": {
-          "badgeText": "FOR RENT",
-          "details": [],
+          "title": "Property for Rent",
           "location": "Location to be confirmed",
           "priceLabel": "Price on request / month",
-          "title": "Property for Rent"
+          "details": [],
+          "badgeText": "FOR RENT"
         }
       }
     }

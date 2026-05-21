@@ -4,6 +4,7 @@ export interface Property {
   id: string;
   title: string;
   location: string;
+  searchLocationKey?: string;
   category?: 'alquiler' | 'venta' | 'bodegas';
   status?: 'disponible' | 'rentada' | 'vendida';
   featured?: boolean;

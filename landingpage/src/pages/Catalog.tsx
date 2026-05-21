@@ -1,13 +1,30 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import TopNavBar from '../components/TopNavBar';
 import CatalogHeader from '../components/CatalogHeader';
 import CatalogGrid from '../components/CatalogGrid';
 import Footer from '../components/Footer';
 import { usePublishedCatalog } from '../hooks/usePublishedCatalog';
+import { isCatalogCategoryFilter, matchesBudget, matchesSearchLocation } from '../utils/catalogSearch';
 
 export default function Catalog() {
+  const location = useLocation();
   const { catalogProperties } = usePublishedCatalog();
   const [activeFilter, setActiveFilter] = useState<'todas' | 'alquiler' | 'venta' | 'bodegas'>('todas');
+  const selectedLocation = useMemo(() => {
+    const params = new URLSearchParams(location.search);
+    return params.get('ubicacion')?.trim() ?? '';
+  }, [location.search]);
+  const selectedBudget = useMemo(() => {
+    const params = new URLSearchParams(location.search);
+    return params.get('presupuesto')?.trim() ?? '';
+  }, [location.search]);
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const requestedType = params.get('tipo')?.trim() ?? 'todas';
+    setActiveFilter(isCatalogCategoryFilter(requestedType) ? requestedType : 'todas');
+  }, [location.search]);
 
   const counts = useMemo(
     () => ({
@@ -20,12 +37,14 @@ export default function Catalog() {
   );
 
   const filteredProperties = useMemo(() => {
-    if (activeFilter === 'todas') {
-      return catalogProperties;
-    }
+    const categoryFiltered = activeFilter === 'todas'
+      ? catalogProperties
+      : catalogProperties.filter((property) => property.category === activeFilter);
 
-    return catalogProperties.filter((property) => property.category === activeFilter);
-  }, [activeFilter, catalogProperties]);
+    return categoryFiltered.filter(
+      (property) => matchesSearchLocation(property, selectedLocation) && matchesBudget(property, selectedBudget)
+    );
+  }, [activeFilter, catalogProperties, selectedBudget, selectedLocation]);
 
   return (
     <>
