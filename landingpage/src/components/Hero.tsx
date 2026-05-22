@@ -63,13 +63,13 @@ export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
         <div className="absolute inset-0 bg-gradient-to-r from-on-background/80 via-on-background/40 to-transparent"></div>
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-8 w-full">
-        <div className="max-w-2xl">
+        <div className="max-w-5xl">
           <h1 className="font-headline text-5xl md:text-7xl font-extrabold text-white leading-[1.1] tracking-tight mb-8 whitespace-pre-line">
             {isEnglish ? 'Navigate Urban\nReal Estate with\n' : heroContent.title[0].text}
             <span className="text-primary-fixed">{isEnglish ? 'Data & Style' : heroContent.title[1].text}</span>
           </h1>
           <div className="bg-surface-container-lowest/10 glass-effect p-2 rounded-2xl border border-white/20 shadow-2xl">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
+            <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_1.45fr_1.45fr_1.1fr] gap-2">
               <div className="p-3 bg-white/10 rounded-xl hover:bg-white/20 transition-colors group">
                 <label className="block text-[10px] font-bold text-white/60 uppercase tracking-widest mb-2">{isEnglish ? 'Property type' : 'Tipo de propiedad'}</label>
                 <div className="relative">
