@@ -3,6 +3,44 @@
   "generatedAt": "2026-05-22T22:54:35Z",
   "allProperties": [
     {
+      "id": "prop-124",
+      "category": "venta",
+      "status": "disponible",
+      "title": "SE VENDE local comercial (Kiosco) en PLAZA TORRES DE HEREDIA de 28m2",
+      "location": "SE VENDE local comercial (Kiosco) en PLAZA TORRES DE HEREDIA de 28m2",
+      "price": 19990000,
+      "priceLabel": "₡19,990,000",
+      "beds": 0,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/703954679_1510061860620946_648265781015786195_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=X5PVvtAjI5AQ7kNvwFUXDZ7&_nc_oc=AdqdjnBFufboca7vvTlf4k6nPI70YTlyp9EZ5qWZb5owu9SY572Mmwe0kZ4_Pb4qQvA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=VvjZjU90Ju-O3bpyFMdJEw&_nc_ss=7aa8c&oh=00_Af7TlhbGCgMZ60oW2StD_AzXyMe4nHrmPJR8x-lQvM9DEw&oe=6A167708",
+      "details": [
+        "En este centro comercial se encuentra el BCR, Davivienda, bares, restaurantes, mini Market, clínicas para la salud, entre otros comercios.",
+        "Se encuentra ubicado al frente de la zona franca metropolitana en Barreal de Heredia, en la parte de atrás del centro comercial hay un proyecto de vivienda de apartamentos en torre, actualmente hay 2 torres construidas y pronto estará lista la tercera, con más de 400 apartamentos."
+      ],
+      "badge": {
+        "text": "SE VENDE",
+        "variant": "secondary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYnRu0HRTWH/",
+      "translations": {
+        "en": {
+          "title": "Apartment en Instagram: \"SE VENDE local comercial (Kiosco) en PLAZA TORRES DE HEREDIA de 28m2",
+          "location": "Instagram: \"SE VENDE local comercial (Kiosco) en PLAZA TORRES DE HEREDIA de 28m2",
+          "priceLabel": "₡19,990,000",
+          "details": [
+            "En este centro comercial se encuentra el BCR, Davivienda, bares, restaurantes, mini Market, clínicas para la salud, entre otros comercios.",
+            "Se encuentra ubicado al frente de la zona franca metropolitana en Barreal de Heredia, en la parte de atrás del centro comercial hay un proyecto de vivienda de apartments en torre, actualmente hay 2 torres construidas y pronto estará lista la tercera, con más de 400 apartments."
+          ],
+          "badgeText": "FOR SALE"
+        }
+      },
+      "searchLocationKey": "heredia"
+    },
+    {
       "id": "prop-123",
       "category": "venta",
       "status": "disponible",
