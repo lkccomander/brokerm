@@ -26,31 +26,41 @@ export default function Catalog() {
     setActiveFilter(isCatalogCategoryFilter(requestedType) ? requestedType : 'todas');
   }, [location.search]);
 
+  const searchFilteredProperties = useMemo(
+    () =>
+      catalogProperties.filter(
+        (property) => matchesSearchLocation(property, selectedLocation) && matchesBudget(property, selectedBudget)
+      ),
+    [catalogProperties, selectedBudget, selectedLocation]
+  );
+
   const counts = useMemo(
     () => ({
-      todas: catalogProperties.length,
-      alquiler: catalogProperties.filter((property) => property.category === 'alquiler').length,
-      venta: catalogProperties.filter((property) => property.category === 'venta').length,
-      bodegas: catalogProperties.filter((property) => property.category === 'bodegas').length,
+      todas: searchFilteredProperties.length,
+      alquiler: searchFilteredProperties.filter((property) => property.category === 'alquiler').length,
+      venta: searchFilteredProperties.filter((property) => property.category === 'venta').length,
+      bodegas: searchFilteredProperties.filter((property) => property.category === 'bodegas').length,
     }),
-    [catalogProperties]
+    [searchFilteredProperties]
   );
 
   const filteredProperties = useMemo(() => {
     const categoryFiltered = activeFilter === 'todas'
-      ? catalogProperties
-      : catalogProperties.filter((property) => property.category === activeFilter);
+      ? searchFilteredProperties
+      : searchFilteredProperties.filter((property) => property.category === activeFilter);
 
-    return categoryFiltered.filter(
-      (property) => matchesSearchLocation(property, selectedLocation) && matchesBudget(property, selectedBudget)
-    );
-  }, [activeFilter, catalogProperties, selectedBudget, selectedLocation]);
+    return categoryFiltered;
+  }, [activeFilter, searchFilteredProperties]);
+
+  const hasSearchFilters = Boolean(
+    (selectedLocation && selectedLocation !== 'todas') || (selectedBudget && selectedBudget !== 'todas')
+  );
 
   return (
     <>
       <TopNavBar />
       <CatalogHeader activeFilter={activeFilter} counts={counts} onFilterChange={(filter) => setActiveFilter(filter as 'todas' | 'alquiler' | 'venta' | 'bodegas')} />
-      <CatalogGrid properties={filteredProperties} />
+      <CatalogGrid properties={filteredProperties} hasActiveSearchFilters={hasSearchFilters} />
       <Footer />
     </>
   );
