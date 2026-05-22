@@ -202,7 +202,10 @@ export function buildBudgetOptions(
     (property) => property.category === category && property.status === 'disponible' && hasReasonableBudgetPrice(property)
   );
 
-  const options: SearchBudgetOption[] = [{ value: 'todas', label: isEnglish ? 'All budgets' : 'Todos los presupuestos' }];
+  const options: SearchBudgetOption[] = [{
+    value: 'todas',
+    label: `${isEnglish ? 'All budgets' : 'Todos los presupuestos'} (${available.length})`,
+  }];
 
   (['USD', 'CRC'] as const).forEach((currency) => {
     const prices = available
@@ -215,15 +218,18 @@ export function buildBudgetOptions(
     }
 
     BUDGET_THRESHOLDS[category][currency].forEach((threshold) => {
-      if (!prices.some((price) => price <= threshold)) {
+      const matchCount = prices.filter((price) => price <= threshold).length;
+      if (!matchCount) {
         return;
       }
 
       options.push({
         value: `${currency.toLowerCase()}-${threshold}`,
-        label: isEnglish
-          ? `Up to ${formatBudgetAmount(threshold, currency, isEnglish)}`
-          : `Hasta ${formatBudgetAmount(threshold, currency, isEnglish)}`,
+        label: `${
+          isEnglish
+            ? `Up to ${formatBudgetAmount(threshold, currency, isEnglish)}`
+            : `Hasta ${formatBudgetAmount(threshold, currency, isEnglish)}`
+        } (${matchCount})`,
       });
     });
   });
