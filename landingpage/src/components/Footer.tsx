@@ -1,13 +1,21 @@
+import { useLocation } from 'react-router-dom';
 import { useSiteLanguage } from '../hooks/useSiteLanguage';
+import { buildWhatsAppUrl, trackWhatsAppClick } from '../utils/whatsapp';
 
 export interface FooterProps {
   readonly className?: string;
 }
 
-const WHATSAPP_URL = 'https://wa.me/50671121318';
-
 export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
   const { isEnglish, localizePath } = useSiteLanguage();
+  const location = useLocation();
+  const locale = isEnglish ? 'en' : 'es';
+  const pagePath = `${location.pathname}${location.search}${location.hash}`;
+  const whatsappUrl = buildWhatsAppUrl({
+    locale,
+    placement: 'footer',
+    pagePath,
+  });
 
   const handleShare = async () => {
     const shareUrl = window.location.href;
@@ -71,9 +79,16 @@ export const Footer: React.FC<FooterProps> = ({ className = '' }) => {
             aria-label={isEnglish ? 'Contact on WhatsApp' : 'Contactar por WhatsApp'}
             title={isEnglish ? 'Contact on WhatsApp' : 'Contactar por WhatsApp'}
             className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-slate-500 hover:text-[#25D366] transition-colors cursor-pointer"
-            href={WHATSAPP_URL}
+            href={whatsappUrl}
             target="_blank"
             rel="noreferrer"
+            onClick={() => {
+              trackWhatsAppClick({
+                locale,
+                placement: 'footer',
+                pagePath,
+              });
+            }}
           >
             <svg
               aria-hidden="true"
