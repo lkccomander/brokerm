@@ -9,8 +9,8 @@ export function initializeAnalytics() {
 
   analyticsBooted = true;
   window.dataLayer = window.dataLayer || [];
-  window.gtag = function gtag(...args: unknown[]) {
-    window.dataLayer?.push(args);
+  window.gtag = function gtag() {
+    window.dataLayer?.push(arguments);
   };
 
   const existingScript = document.querySelector(`script[data-ga-id="${GA_MEASUREMENT_ID}"]`);
@@ -23,7 +23,7 @@ export function initializeAnalytics() {
   }
 
   window.gtag('js', new Date());
-  window.gtag('config', GA_MEASUREMENT_ID);
+  window.gtag('config', GA_MEASUREMENT_ID, { send_page_view: false });
 }
 
 export function trackEvent(eventName: string, params: Record<string, string | number | boolean | undefined> = {}) {
@@ -35,6 +35,18 @@ export function trackEvent(eventName: string, params: Record<string, string | nu
     Object.entries(params).filter(([, value]) => value !== undefined)
   );
   window.gtag('event', eventName, payload);
+}
+
+export function trackPageView(pagePath: string) {
+  if (!GA_MEASUREMENT_ID || typeof window === 'undefined' || typeof window.gtag !== 'function') {
+    return;
+  }
+
+  window.gtag('event', 'page_view', {
+    page_path: pagePath,
+    page_location: window.location.href,
+    page_title: document.title,
+  });
 }
 
 export function analyticsMeasurementId() {

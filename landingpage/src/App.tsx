@@ -1,14 +1,27 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Catalog from './pages/Catalog';
 import SiteMap from './pages/SiteMap';
 import LegalNotice from './pages/LegalNotice';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import CookiesPolicy from './pages/CookiesPolicy';
+import { trackPageView } from './utils/analytics';
+
+function AnalyticsRouteTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    trackPageView(`${location.pathname}${location.search}${location.hash}`);
+  }, [location.pathname, location.search, location.hash]);
+
+  return null;
+}
 
 function App() {
   return (
     <Router>
+      <AnalyticsRouteTracker />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/catalogo" element={<Catalog />} />
