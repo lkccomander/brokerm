@@ -1,6 +1,6 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-05-22T23:30:02Z",
+  "generatedAt": "2026-06-01T20:08:48Z",
   "allProperties": [
     {
       "id": "prop-124",
@@ -151,7 +151,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYQhrQrR2BJ/",
       "translations": {
         "en": {
@@ -4611,6 +4611,38 @@
       "searchLocationKey": "heredia"
     },
     {
+      "id": "prop-122",
+      "category": "venta",
+      "status": "disponible",
+      "title": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+      "location": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+      "price": 75000000,
+      "priceLabel": "₡75 000 000",
+      "beds": 0,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/690367910_1520394293018512_2759492390870764492_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=A0Lzv58cLv4Q7kNvwG2_35d&_nc_oc=Ado1AzMVl53o2N8yIJlYLqq0JCg0BEH4awOnVtL-y3S9QStjx2BQbKcVlbJ5m5N1Nvo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=a7EYXX1DwLfStkFxr5qXeg&_nc_ss=7ba8c&oh=00_Af7nCY8OcaW8Z9VDUvj0KNG79LMonv8PbV8vDarFApFezw&oe=6A1FD5A4",
+      "details": [],
+      "badge": {
+        "text": "SE VENDE",
+        "variant": "secondary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYQhrQrR2BJ/",
+      "translations": {
+        "en": {
+          "title": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+          "location": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
+          "priceLabel": "₡75000000",
+          "details": [],
+          "badgeText": "FOR SALE"
+        }
+      },
+      "searchLocationKey": "puntarenas"
+    },
+    {
       "id": "prop-119",
       "category": "alquiler",
       "status": "disponible",
@@ -5207,7 +5239,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYQhrQrR2BJ/",
       "translations": {
         "en": {
