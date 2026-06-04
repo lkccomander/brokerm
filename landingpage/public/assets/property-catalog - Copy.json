@@ -3,6 +3,52 @@
   "generatedAt": "2026-06-01T20:08:48Z",
   "allProperties": [
     {
+      "id": "prop-125",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación",
+      "location": "Ubicación por confirmar",
+      "price": 450000,
+      "priceLabel": "₡450,000 / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/711474836_1761485771881699_3780933254975670877_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Ub9wrz9y7WwQ7kNvwGIDqts&_nc_oc=AdqbUnAGsHUPXGc8QcYSEKLxASpsxorY_Xx9crkUWpTE3kt0ldnAKBin2YxKozyxz5k&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=qKIjHlA4Bf1TNXHNRtRsEA&_nc_ss=7a689&oh=00_Af_Dxq6hbrFrW2nYF7HalES6FLpTigtecZsIFFgVj80bCQ&oe=6A27D6DE",
+      "details": [
+        "www.brokermikecr.com",
+        "El apartamento se renta así como lo ve en el video",
+        "🍀Piscina",
+        "🍀Jacuzzi",
+        "🍀Gimnasio",
+        "🍀Áreas verdes"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZAZjXRRyNw/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom",
+          "location": "Location to be confirmed",
+          "priceLabel": "₡450,000 / month",
+          "details": [
+            "Www.brokermikecr.com",
+            "El apartment se renta así como lo ve en el video",
+            "Piscina",
+            "Jacuzzi",
+            "Gimnasio",
+            "Green areas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
+    },
+    {
       "id": "prop-124",
       "category": "venta",
       "status": "disponible",
@@ -4569,6 +4615,52 @@
         }
       },
       "searchLocationKey": "heredia"
+    },
+    {
+      "id": "prop-126",
+      "category": "venta",
+      "status": "disponible",
+      "title": "Apartamento con Balcón",
+      "location": "Ubicación por confirmar",
+      "price": 110000,
+      "priceLabel": "$110,000 USD",
+      "beds": 0,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/716742890_17972053899026180_6447116006819730371_n.jpg?stp=c144.0.432.432a_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=mrmLN4WhOIoQ7kNvwFkKUdO&_nc_oc=AdpTvm-vR2m6ulVvuLcumGeVRILF2cAVkGv_MYLFtlXoNEX_S-m5t3AlAIvkwMxx4JE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=YCbHUZlgQMnj62SiEJrtQA&_nc_ss=7a689&oh=00_Af_Hn3hNITR2WJdDfIMpxlRJ7avtwZJoyM3AV7gQJm1nwQ&oe=6A27C96A",
+      "details": [
+        "✳️Cocina empotrada",
+        "✳️Lavaseca",
+        "✳️Parqueo bajo techo",
+        "✳️Balcón",
+        "✳️Piscina",
+        "✳️Jacuzzi"
+      ],
+      "badge": {
+        "text": "SE VENDE",
+        "variant": "secondary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
+      "translations": {
+        "en": {
+          "title": "Apartment with Balcony",
+          "location": "Location to be confirmed",
+          "priceLabel": "$110,000 USD",
+          "details": [
+            "✳️Cocina empotrada",
+            "✳️Lavaseca",
+            "✳️covered parking",
+            "✳️Balcón",
+            "✳️Piscina",
+            "✳️Jacuzzi"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
     }
   ],
   "featuredProperties": [
@@ -5090,6 +5182,52 @@
     }
   ],
   "catalogProperties": [
+    {
+      "id": "prop-125",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación",
+      "location": "Ubicación por confirmar",
+      "price": 450000,
+      "priceLabel": "₡450,000 / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/711474836_1761485771881699_3780933254975670877_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Ub9wrz9y7WwQ7kNvwGIDqts&_nc_oc=AdqbUnAGsHUPXGc8QcYSEKLxASpsxorY_Xx9crkUWpTE3kt0ldnAKBin2YxKozyxz5k&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=qKIjHlA4Bf1TNXHNRtRsEA&_nc_ss=7a689&oh=00_Af_Dxq6hbrFrW2nYF7HalES6FLpTigtecZsIFFgVj80bCQ&oe=6A27D6DE",
+      "details": [
+        "www.brokermikecr.com",
+        "El apartamento se renta así como lo ve en el video",
+        "🍀Piscina",
+        "🍀Jacuzzi",
+        "🍀Gimnasio",
+        "🍀Áreas verdes"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZAZjXRRyNw/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom",
+          "location": "Location to be confirmed",
+          "priceLabel": "₡450,000 / month",
+          "details": [
+            "Www.brokermikecr.com",
+            "El apartment se renta así como lo ve en el video",
+            "Piscina",
+            "Jacuzzi",
+            "Gimnasio",
+            "Green areas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
+    },
     {
       "id": "prop-124",
       "category": "venta",
@@ -9656,7 +9794,53 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "heredia"
+      "searchLocationKey": "ubicacion-por-confirmar"
+    },
+    {
+      "id": "prop-126",
+      "category": "venta",
+      "status": "disponible",
+      "title": "Apartamento con Balcón",
+      "location": "Ubicación por confirmar",
+      "price": 110000,
+      "priceLabel": "$110,000 USD",
+      "beds": 0,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/716742890_17972053899026180_6447116006819730371_n.jpg?stp=c144.0.432.432a_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=mrmLN4WhOIoQ7kNvwFkKUdO&_nc_oc=AdpTvm-vR2m6ulVvuLcumGeVRILF2cAVkGv_MYLFtlXoNEX_S-m5t3AlAIvkwMxx4JE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=YCbHUZlgQMnj62SiEJrtQA&_nc_ss=7a689&oh=00_Af_Hn3hNITR2WJdDfIMpxlRJ7avtwZJoyM3AV7gQJm1nwQ&oe=6A27C96A",
+      "details": [
+        "✳️Cocina empotrada",
+        "✳️Lavaseca",
+        "✳️Parqueo bajo techo",
+        "✳️Balcón",
+        "✳️Piscina",
+        "✳️Jacuzzi"
+      ],
+      "badge": {
+        "text": "SE VENDE",
+        "variant": "secondary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
+      "translations": {
+        "en": {
+          "title": "Apartment with Balcony",
+          "location": "Location to be confirmed",
+          "priceLabel": "$110,000 USD",
+          "details": [
+            "✳️Cocina empotrada",
+            "✳️Lavaseca",
+            "✳️covered parking",
+            "✳️Balcón",
+            "✳️Piscina",
+            "✳️Jacuzzi"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
     }
   ]
 }
