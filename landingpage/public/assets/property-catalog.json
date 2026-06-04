@@ -28,7 +28,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZAZjXRRyNw/",
       "translations": {
         "en": {
@@ -46,7 +46,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "Heredia"
     },
     {
       "id": "prop-124",
@@ -4642,7 +4642,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
       "translations": {
         "en": {
@@ -4660,7 +4660,7 @@
           "badgeText": "FOR SALE"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "Heredia"
     }
   ],
   "featuredProperties": [
@@ -5208,7 +5208,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZAZjXRRyNw/",
       "translations": {
         "en": {
@@ -5226,7 +5226,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "Heredia"
     },
     {
       "id": "prop-124",
@@ -9822,7 +9822,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": false,
+      "featured": true,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
       "translations": {
         "en": {
@@ -9840,7 +9840,7 @@
           "badgeText": "FOR SALE"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "Heredia"
     }
   ]
 }
