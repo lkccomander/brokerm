@@ -4665,6 +4665,98 @@
   ],
   "featuredProperties": [
     {
+      "id": "prop-125",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación",
+      "location": "Torres de Heredia",
+      "price": 450000,
+      "priceLabel": "₡450,000 / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/711474836_1761485771881699_3780933254975670877_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Ub9wrz9y7WwQ7kNvwGIDqts&_nc_oc=AdqbUnAGsHUPXGc8QcYSEKLxASpsxorY_Xx9crkUWpTE3kt0ldnAKBin2YxKozyxz5k&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=qKIjHlA4Bf1TNXHNRtRsEA&_nc_ss=7a689&oh=00_Af_Dxq6hbrFrW2nYF7HalES6FLpTigtecZsIFFgVj80bCQ&oe=6A27D6DE",
+      "details": [
+        "www.brokermikecr.com",
+        "El apartamento se renta así como lo ve en el video",
+        "🍀Piscina",
+        "🍀Jacuzzi",
+        "🍀Gimnasio",
+        "🍀Áreas verdes"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZAZjXRRyNw/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom",
+          "location": "Location to be confirmed",
+          "priceLabel": "₡450,000 / month",
+          "details": [
+            "Www.brokermikecr.com",
+            "El apartment se renta así como lo ve en el video",
+            "Piscina",
+            "Jacuzzi",
+            "Gimnasio",
+            "Green areas"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "Heredia"
+    },
+   {
+      "id": "prop-126",
+      "category": "venta",
+      "status": "disponible",
+      "title": "Apartamento con Balcón",
+      "location": "Torres de Heredia (Khaya ruta 1)",
+      "price": 110000,
+      "priceLabel": "$110,000 USD",
+      "beds": 0,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/716742890_17972053899026180_6447116006819730371_n.jpg?stp=c144.0.432.432a_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=mrmLN4WhOIoQ7kNvwFkKUdO&_nc_oc=AdpTvm-vR2m6ulVvuLcumGeVRILF2cAVkGv_MYLFtlXoNEX_S-m5t3AlAIvkwMxx4JE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=YCbHUZlgQMnj62SiEJrtQA&_nc_ss=7a689&oh=00_Af_Hn3hNITR2WJdDfIMpxlRJ7avtwZJoyM3AV7gQJm1nwQ&oe=6A27C96A",
+      "details": [
+        "✳️Cocina empotrada",
+        "✳️Lavaseca",
+        "✳️Parqueo bajo techo",
+        "✳️Balcón",
+        "✳️Piscina",
+        "✳️Jacuzzi"
+      ],
+      "badge": {
+        "text": "SE VENDE",
+        "variant": "secondary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
+      "translations": {
+        "en": {
+          "title": "Apartment with Balcony",
+          "location": "Torres de Heredia (Khaya ruta 1)",
+          "priceLabel": "$110,000 USD",
+          "details": [
+            "✳️Cocina empotrada",
+            "✳️Lavaseca",
+            "✳️covered parking",
+            "✳️Balcón",
+            "✳️Piscina",
+            "✳️Jacuzzi"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      },
+      "searchLocationKey": "Heredia"
+    },
+    {
       "id": "prop-124",
       "category": "venta",
       "status": "disponible",
@@ -4860,52 +4952,6 @@
             "It also has ample parking at the back of the shopping center."
           ],
           "badgeText": "FOR RENT"
-        }
-      },
-      "searchLocationKey": "heredia"
-    },
-    {
-      "id": "prop-117",
-      "category": "venta",
-      "status": "disponible",
-      "title": "Apartamento 2 Habitaciones · 2 Baños · con Línea Blanca",
-      "location": "Torres de Heredia (KHAYA RUTA 1)",
-      "price": 150000,
-      "priceLabel": "$150,000 USD",
-      "beds": 2,
-      "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670882656_1384799513411551_1887738600767749049_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=AOewrvx3O3IQ7kNvwGVt7I-&_nc_oc=AdocUwZzttaVIo-P3BKMjvlGZotubL9oQdE6yI_kRQXq2A8gGDXDrh6uCA4GyjRh8Dg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=soK1LOncb7HBFcz8A9RvzA&_nc_ss=7ba8c&oh=00_Af7o6IrqI19A7tBK1TQOu12xgpVwfGPmkS2f70YJL_dr-Q&oe=6A1668DE",
-      "details": [
-        "71 m2 de apartamento",
-        "15 m2 de parqueo",
-        "Incluye línea blanca",
-        "Apartamento esquinero de 2 habitaciones, 2 baños, 2 balcones, cuarto de pilas, está ubicado en el piso 5 de la torre B, con vista al bosque, se da con linea blanca. El apartamento esta en excelentes condiciones de uso.",
-        "Además el precio incluye un parqueo que se encuentra en primer piso bajo techo.",
-        "Amenidades: Piscina, Area de BBQ, Parque para mascotas, Gimnasio, Áreas verdes, parqueos para visitas, seguridad 24/7 con recepcionista de documentos."
-      ],
-      "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
-      },
-      "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
-      "inquirySource": "catalogo",
-      "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXcewDSkbtG/",
-      "translations": {
-        "en": {
-          "title": "House 2 Bedrooms · 2 Bathrooms · with Appliances",
-          "location": "Torres de Heredia (KHAYA RUTA 1)",
-          "priceLabel": "$150,000 USD",
-          "details": [
-            "71 m² apartment",
-            "15 m² parking space",
-            "Appliances included",
-            "Corner apartment with 2 bedrooms, 2 bathrooms, 2 balconies, and a laundry room. It is located on the 5th floor of Tower B, has a forest view, and comes with appliances. The apartment is in excellent condition.",
-            "The price also includes a covered parking space on the first floor.",
-            "Amenities: pool, BBQ area, dog park, gym, green areas, visitor parking, and 24/7 security with document reception."
-          ],
-          "badgeText": "FOR SALE"
         }
       },
       "searchLocationKey": "heredia"
@@ -5213,7 +5259,7 @@
       "translations": {
         "en": {
           "title": "Apartment 1 Bedroom",
-          "location": "Location to be confirmed",
+          "location": "Torres de Heredia",
           "priceLabel": "₡450,000 / month",
           "details": [
             "Www.brokermikecr.com",
