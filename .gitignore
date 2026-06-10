@@ -17,6 +17,7 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
+AGENTS.md
 .DS_Store
 *.suo
 *.ntvs*
@@ -27,4 +28,5 @@ project-brain/
 tools/
 docs/
 mem/
+graphify-out/
 landingpage/.gitignore
