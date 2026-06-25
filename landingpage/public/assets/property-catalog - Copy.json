@@ -3,6 +3,172 @@
   "generatedAt": "2026-06-01T20:08:48Z",
   "allProperties": [
     {
+      "id": "prop-127",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación",
+      "location": "Ubicación por confirmar",
+      "price": 1200,
+      "priceLabel": "$1200 USD / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/727602940_17974228638026180_5762583216518063806_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=AThPhSe0eT0Q7kNvwGg4WBE&_nc_oc=AdrF6sJn65v7XECviRoobDeLxGJvdP6y3IGEEYbmHZzRc2wGkq1fm31mZI55AKSxtKo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=v1RPdyv5rN7UMoRgMJJTng&_nc_ss=7a689&oh=00_Af9lo7lukrHxkpdsjV7jS0_F5ymWIqNEQu7C4QIbArOWEA&oe=6A4302BE",
+      "details": [
+        "Este apartamento se encuentra en una propiedad privada con mucha naturaleza, con tan solo 6 propiedades, esta propiedad cuenta con piscina, area de BBQ y cancha de tenis."
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZ0wB1yxnR3/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1200 USD / month",
+          "details": [
+            "Este apartment se encuentra en una propiedad privada con mucha naturaleza, con tan solo 6 propiedades, esta propiedad cuenta con piscina, BBQ area y cancha de tenis."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
+    },
+    {
+      "id": "prop-128",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 3 Habitaciones",
+      "location": "Ubicación por confirmar",
+      "price": 1800,
+      "priceLabel": "$1800 USD / mes",
+      "beds": 3,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/726432429_900398946420939_4936969876395155953_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=K5BeELoWmUYQ7kNvwGBnxnp&_nc_oc=Adp7_uf_Jl-E3_-3PAvy3MliwdYZvAxRIbMCfMFyCU6f6Bhp2uluq6Pa9CYve9sRrBA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Yo17nVRuZregamOutj5XRQ&_nc_ss=7a689&oh=00_Af-uJq1wVcVUeJc4bQQmLnt_f71tpz2IPVYTdKUYhl-dIw&oe=6A42E4F1",
+      "details": [
+        "Este apartamento se encuentra en una propiedad privada con mucha naturaleza, con tan solo 6 propiedades, esta propiedad cuenta con piscina, area de BBQ y cancha de tenis.",
+        "Para sacar cita al 71121318"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZqtjf5RrZ3/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1800 USD / month",
+          "details": [
+            "Este apartment se encuentra en una propiedad privada con mucha naturaleza, con tan solo 6 propiedades, esta propiedad cuenta con piscina, BBQ area y cancha de tenis.",
+            "Para sacar cita al 71121318"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
+    },
+    {
+      "id": "prop-129",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 2 Habitaciones · Esquinero",
+      "location": "Condominio Bellavista",
+      "price": 1100,
+      "priceLabel": "$1100 USD / mes",
+      "beds": 2,
+      "baths": 0,
+      "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/719770886_2309587559782135_1355827062981637128_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=MzkxNTI2OTE4ODgxMzgxNTE5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=sQpKH7JX9csQ7kNvwG7a7Rj&_nc_oc=Ado5YCWsKQZ2aKZ0UsQ5Gk6VpE1mIVJD605dlG98lqLHbPwZEeL_JBEg-DSh_v2DnYE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=4Aa6h-T9P3AqcqlCEaQbqw&_nc_ss=7a22e&oh=00_Af_qsYwV5qbTPO9urORyHpP8SxNaw24K8QXSWBdirCd1Rg&oe=6A2F9F4E",
+      "details": [
+        "2 piscinas",
+        "2 jacuzzis",
+        "2 salas de cine",
+        "2 gimnasios",
+        "Sala de juegos",
+        "Area de BBQ"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZV1JVPR32W/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · Corner Unit",
+          "location": "Condominio Bellavista",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "2 piscinas",
+            "2 jacuzzis",
+            "2 salas de cine",
+            "2 gimnasios",
+            "Sala de juegos",
+            "BBQ area"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "heredia"
+    },
+    {
+      "id": "prop-130",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación · Amoblado",
+      "location": "condominio Núcleo Sábana",
+      "price": 550000,
+      "priceLabel": "₡550,000 / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/719171788_1538197437862774_5112506632559951663_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=MzkxNTI0NTk4MjAxNDg2NDg4Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=8CZjDzS6WeMQ7kNvwESUyZ0&_nc_oc=AdqoXWas2TGw2gxlaYs8XlQ_0P5i2qxL5O-jPpnZlN1R_NjiYfSQ1vQV8vTPpUxJoC0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=4Aa6h-T9P3AqcqlCEaQbqw&_nc_ss=7a22e&oh=00_Af8-5DdKkEJ0uVQ5RubG-MHcO33vnE7hpXWXO84ri4bNuQ&oe=6A2FA1F8",
+      "details": [
+        "🍀Piscinas",
+        "🍀Gimnasio completo",
+        "🍀Baño sauna",
+        "🍀Cancha multiuso",
+        "🍀Áreas de BBQ en las azoteas",
+        "🍀Áreas de juego, mesa de pool, 🍀PS5"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZVv3oORX3y/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Condominio Núcleo Sábana",
+          "priceLabel": "₡550,000 / month",
+          "details": [
+            "Piscinas",
+            "Gimnasio completo",
+            "Bathroom sauna",
+            "Cancha multiuso",
+            "Áreas de BBQ en las azoteas",
+            "Áreas de juego, mesa de pool, PS5"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "san-jose"
+    },
+    {
       "id": "prop-125",
       "category": "alquiler",
       "status": "disponible",
@@ -430,7 +596,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "heredia"
+      "searchLocationKey": "Heredia"
     },
     {
       "id": "prop-1",
@@ -5225,9 +5391,221 @@
         }
       },
       "searchLocationKey": "santa-ana"
+    },
+    {
+      "id": "prop-126",
+      "category": "venta",
+      "status": "disponible",
+      "title": "Apartamento con Balcón",
+      "location": "Ubicación por confirmar",
+      "price": 110000,
+      "priceLabel": "$110,000 USD",
+      "beds": 0,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/716742890_17972053899026180_6447116006819730371_n.jpg?stp=c144.0.432.432a_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=mrmLN4WhOIoQ7kNvwFkKUdO&_nc_oc=AdpTvm-vR2m6ulVvuLcumGeVRILF2cAVkGv_MYLFtlXoNEX_S-m5t3AlAIvkwMxx4JE&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=YCbHUZlgQMnj62SiEJrtQA&_nc_ss=7a689&oh=00_Af_Hn3hNITR2WJdDfIMpxlRJ7avtwZJoyM3AV7gQJm1nwQ&oe=6A27C96A",
+      "details": [
+        "✳️Cocina empotrada",
+        "✳️Lavaseca",
+        "✳️Parqueo bajo techo",
+        "✳️Balcón",
+        "✳️Piscina",
+        "✳️Jacuzzi"
+      ],
+      "badge": {
+        "text": "SE VENDE",
+        "variant": "secondary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
+      "translations": {
+        "en": {
+          "title": "Apartment with Balcony",
+          "location": "Location to be confirmed",
+          "priceLabel": "$110,000 USD",
+          "details": [
+            "✳️Cocina empotrada",
+            "✳️Lavaseca",
+            "✳️covered parking",
+            "✳️Balcón",
+            "✳️Piscina",
+            "✳️Jacuzzi"
+          ],
+          "badgeText": "FOR SALE"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
     }
   ],
   "catalogProperties": [
+    {
+      "id": "prop-127",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación",
+      "location": "Ubicación por confirmar",
+      "price": 1200,
+      "priceLabel": "$1200 USD / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/727602940_17974228638026180_5762583216518063806_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=AThPhSe0eT0Q7kNvwGg4WBE&_nc_oc=AdrF6sJn65v7XECviRoobDeLxGJvdP6y3IGEEYbmHZzRc2wGkq1fm31mZI55AKSxtKo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=v1RPdyv5rN7UMoRgMJJTng&_nc_ss=7a689&oh=00_Af9lo7lukrHxkpdsjV7jS0_F5ymWIqNEQu7C4QIbArOWEA&oe=6A4302BE",
+      "details": [
+        "Este apartamento se encuentra en una propiedad privada con mucha naturaleza, con tan solo 6 propiedades, esta propiedad cuenta con piscina, area de BBQ y cancha de tenis."
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZ0wB1yxnR3/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1200 USD / month",
+          "details": [
+            "Este apartment se encuentra en una propiedad privada con mucha naturaleza, con tan solo 6 propiedades, esta propiedad cuenta con piscina, BBQ area y cancha de tenis."
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
+    },
+    {
+      "id": "prop-128",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 3 Habitaciones",
+      "location": "Ubicación por confirmar",
+      "price": 1800,
+      "priceLabel": "$1800 USD / mes",
+      "beds": 3,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/726432429_900398946420939_4936969876395155953_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=K5BeELoWmUYQ7kNvwGBnxnp&_nc_oc=Adp7_uf_Jl-E3_-3PAvy3MliwdYZvAxRIbMCfMFyCU6f6Bhp2uluq6Pa9CYve9sRrBA&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=Yo17nVRuZregamOutj5XRQ&_nc_ss=7a689&oh=00_Af-uJq1wVcVUeJc4bQQmLnt_f71tpz2IPVYTdKUYhl-dIw&oe=6A42E4F1",
+      "details": [
+        "Este apartamento se encuentra en una propiedad privada con mucha naturaleza, con tan solo 6 propiedades, esta propiedad cuenta con piscina, area de BBQ y cancha de tenis.",
+        "Para sacar cita al 71121318"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZqtjf5RrZ3/",
+      "translations": {
+        "en": {
+          "title": "Apartment 3 Bedrooms",
+          "location": "Location to be confirmed",
+          "priceLabel": "$1800 USD / month",
+          "details": [
+            "Este apartment se encuentra en una propiedad privada con mucha naturaleza, con tan solo 6 propiedades, esta propiedad cuenta con piscina, BBQ area y cancha de tenis.",
+            "Para sacar cita al 71121318"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
+    },
+    {
+      "id": "prop-129",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 2 Habitaciones · Esquinero",
+      "location": "Condominio Bellavista",
+      "price": 1100,
+      "priceLabel": "$1100 USD / mes",
+      "beds": 2,
+      "baths": 0,
+      "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/719770886_2309587559782135_1355827062981637128_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=MzkxNTI2OTE4ODgxMzgxNTE5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=sQpKH7JX9csQ7kNvwG7a7Rj&_nc_oc=Ado5YCWsKQZ2aKZ0UsQ5Gk6VpE1mIVJD605dlG98lqLHbPwZEeL_JBEg-DSh_v2DnYE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=4Aa6h-T9P3AqcqlCEaQbqw&_nc_ss=7a22e&oh=00_Af_qsYwV5qbTPO9urORyHpP8SxNaw24K8QXSWBdirCd1Rg&oe=6A2F9F4E",
+      "details": [
+        "2 piscinas",
+        "2 jacuzzis",
+        "2 salas de cine",
+        "2 gimnasios",
+        "Sala de juegos",
+        "Area de BBQ"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZV1JVPR32W/",
+      "translations": {
+        "en": {
+          "title": "Apartment 2 Bedrooms · Corner Unit",
+          "location": "Condominio Bellavista",
+          "priceLabel": "$1100 USD / month",
+          "details": [
+            "2 piscinas",
+            "2 jacuzzis",
+            "2 salas de cine",
+            "2 gimnasios",
+            "Sala de juegos",
+            "BBQ area"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "heredia"
+    },
+    {
+      "id": "prop-130",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación · Amoblado",
+      "location": "condominio Núcleo Sábana",
+      "price": 550000,
+      "priceLabel": "₡550,000 / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://instagram.fsyq8-1.fna.fbcdn.net/v/t51.71878-15/719171788_1538197437862774_5112506632559951663_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=MzkxNTI0NTk4MjAxNDg2NDg4Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=8CZjDzS6WeMQ7kNvwESUyZ0&_nc_oc=AdqoXWas2TGw2gxlaYs8XlQ_0P5i2qxL5O-jPpnZlN1R_NjiYfSQ1vQV8vTPpUxJoC0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyq8-1.fna&_nc_gid=4Aa6h-T9P3AqcqlCEaQbqw&_nc_ss=7a22e&oh=00_Af8-5DdKkEJ0uVQ5RubG-MHcO33vnE7hpXWXO84ri4bNuQ&oe=6A2FA1F8",
+      "details": [
+        "🍀Piscinas",
+        "🍀Gimnasio completo",
+        "🍀Baño sauna",
+        "🍀Cancha multiuso",
+        "🍀Áreas de BBQ en las azoteas",
+        "🍀Áreas de juego, mesa de pool, 🍀PS5"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZVv3oORX3y/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "Condominio Núcleo Sábana",
+          "priceLabel": "₡550,000 / month",
+          "details": [
+            "Piscinas",
+            "Gimnasio completo",
+            "Bathroom sauna",
+            "Cancha multiuso",
+            "Áreas de BBQ en las azoteas",
+            "Áreas de juego, mesa de pool, PS5"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "san-jose"
+    },
     {
       "id": "prop-125",
       "category": "alquiler",
