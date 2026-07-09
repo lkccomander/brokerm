@@ -1,13 +1,31 @@
 const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID?.trim() ?? '';
+const UMAMI_WEBSITE_ID = import.meta.env.VITE_UMAMI_WEBSITE_ID?.trim() ?? '';
+const UMAMI_SRC = import.meta.env.VITE_UMAMI_SRC?.trim() ?? '';
 
 let analyticsBooted = false;
 
 export function initializeAnalytics() {
-  if (!GA_MEASUREMENT_ID || analyticsBooted || typeof window === 'undefined' || typeof document === 'undefined') {
+  if (analyticsBooted || typeof window === 'undefined' || typeof document === 'undefined') {
     return;
   }
 
   analyticsBooted = true;
+
+  if (UMAMI_WEBSITE_ID && UMAMI_SRC) {
+    const existingUmamiScript = document.querySelector(`script[data-website-id="${UMAMI_WEBSITE_ID}"]`);
+    if (!existingUmamiScript) {
+      const script = document.createElement('script');
+      script.defer = true;
+      script.src = UMAMI_SRC;
+      script.dataset.websiteId = UMAMI_WEBSITE_ID;
+      document.head.appendChild(script);
+    }
+  }
+
+  if (!GA_MEASUREMENT_ID) {
+    return;
+  }
+
   window.dataLayer = window.dataLayer || [];
   window.gtag = function gtag() {
     window.dataLayer?.push(arguments);
@@ -27,14 +45,21 @@ export function initializeAnalytics() {
 }
 
 export function trackEvent(eventName: string, params: Record<string, string | number | boolean | undefined> = {}) {
-  if (!GA_MEASUREMENT_ID || typeof window === 'undefined' || typeof window.gtag !== 'function') {
+  if (typeof window === 'undefined') {
     return;
   }
 
   const payload = Object.fromEntries(
     Object.entries(params).filter(([, value]) => value !== undefined)
   );
-  window.gtag('event', eventName, payload);
+
+  if (GA_MEASUREMENT_ID && typeof window.gtag === 'function') {
+    window.gtag('event', eventName, payload);
+  }
+
+  if (typeof window.umami?.track === 'function') {
+    window.umami.track(eventName, payload);
+  }
 }
 
 export function trackPageView(pagePath: string) {
@@ -51,4 +76,8 @@ export function trackPageView(pagePath: string) {
 
 export function analyticsMeasurementId() {
   return GA_MEASUREMENT_ID;
+}
+
+export function umamiWebsiteId() {
+  return UMAMI_WEBSITE_ID;
 }
