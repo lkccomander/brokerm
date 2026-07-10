@@ -1,7 +1,131 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-07-09T22:16:06Z",
+  "generatedAt": "2026-07-10T00:57:41Z",
   "allProperties": [
+    {
+      "id": "prop-131",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación · Amoblado",
+      "location": "Instagram: \"SE ALQUILA",
+      "price": 1000,
+      "priceLabel": "$1000 USD / mes",
+      "beds": 1,
+      "baths": 0,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/741705108_17976732669026180_3619623752770490037_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=r0gLhPfQyG0Q7kNvwGMJH2j&_nc_oc=AdpLRGY8UW_g0WKLCdGtIscNteONYIAiHNaKV8z7DYdrOsrxxuMUh6ME8xm2wFBSlXo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=AdTR-ywhjptcskT9zVwZ0A&_nc_ss=7aa8c&oh=00_AQCCjIcmIVLAeux2PpjMt3n0rcHza19XLR9YNAjP8F3WMA&oe=6A55EE81",
+      "details": [
+        "🍀piscina",
+        "🍀jacuzzi",
+        "🍀área de BBQ",
+        "🍀áreas verdes",
+        "🍀gimnasio",
+        "🍀lounge"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DaitdQ4vFT4/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "SE ALQUILA",
+          "priceLabel": "$1000 USD / month",
+          "details": [
+            "Piscina",
+            "Jacuzzi",
+            "BBQ area",
+            "Green areas",
+            "Gimnasio",
+            "Lounge"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "instagram-se-alquila"
+    },
+    {
+      "id": "prop-132",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Casa 3 Habitaciones · 2 Baños",
+      "location": "Instagram: \"SE ALQUILA",
+      "price": 0,
+      "priceLabel": "Consultar precio / mes",
+      "beds": 3,
+      "baths": 2,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/740953859_17976726795026180_5266369802038323283_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oNW6NQrjdGYQ7kNvwFoLrwJ&_nc_oc=Ado1wgCLG8LvXmfdY_70GBg78C98OIdXc5FbtB83t6Tk87LvIx7yiAZmhIc2-5pY2IY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=oDUD0nOD_mRapLHDGjGCRA&_nc_ss=7aa8c&oh=00_AQDHmSo-klhZwt6mD6bHN0ioshg4aFqL2l6i_8cKgu5u6w&oe=6A560E8B",
+      "details": [],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DaimeUkMAbf/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Instagram: \"SE ALQUILA",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "instagram-se-alquila"
+    },
+    {
+      "id": "prop-133",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación · con Línea Blanca",
+      "location": "Ubicación por confirmar",
+      "price": 950,
+      "priceLabel": "$950 USD / mes",
+      "beds": 1,
+      "baths": 1,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/741168810_17976617214026180_8202516565967757825_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ehMOhzPuMesQ7kNvwG1MAxo&_nc_oc=Adr3-HxUuo24Z5oCWNJz3HN5Azq46L07SMGRIFsInaKdSWB_lj0TeTTEvGSmBZfoVRY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=KajBrn42c9mXKM8LA7tvRg&_nc_ss=7aa8c&oh=00_AQDzYmCfbo3mO4Ij54pbne4SPrs4lRbFEbpcpcp_5vQlHQ&oe=6A55EED8",
+      "details": [
+        "🍀1 habitación",
+        "🍀1 baño",
+        "🍀Cocina, sala, comedor, cuarto de pilas, áreas de almacenaje, Aire Acondicionado en la habitación principal.",
+        "🍀Precio incluye un parqueo.",
+        "🍀Piscina",
+        "🍀Jacuzzi"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DagW9FfR8Xm/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "location": "Location to be confirmed",
+          "priceLabel": "$950 USD / month",
+          "details": [
+            "1 bedroom",
+            "1 bathroom",
+            "Cocina, sala, comedor, laundry room, áreas de almacenaje, Aire Acondicionado en la bedroom principal.",
+            "Precio incluye un parqueo.",
+            "Piscina",
+            "Jacuzzi"
+          ],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "ubicacion-por-confirmar"
+    },
     {
       "id": "prop-127",
       "category": "alquiler",
@@ -194,7 +318,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZAZjXRRyNw/",
       "translations": {
         "en": {
@@ -236,7 +360,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYnRu0HRTWH/",
       "translations": {
         "en": {
@@ -363,7 +487,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYQhrQrR2BJ/",
       "translations": {
         "en": {
@@ -507,52 +631,6 @@
       "searchLocationKey": "heredia"
     },
     {
-      "id": "prop-117",
-      "category": "venta",
-      "status": "disponible",
-      "title": "Apartamento 2 Habitaciones · 2 Baños · con Línea Blanca",
-      "location": "Torres de Heredia (KHAYA RUTA 1)",
-      "price": 150000,
-      "priceLabel": "$150,000 USD",
-      "beds": 2,
-      "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670882656_1384799513411551_1887738600767749049_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=AOewrvx3O3IQ7kNvwGVt7I-&_nc_oc=AdocUwZzttaVIo-P3BKMjvlGZotubL9oQdE6yI_kRQXq2A8gGDXDrh6uCA4GyjRh8Dg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=_zcZrwQqmHWfsy3XzI2zrA&_nc_ss=7ba8c&oh=00_Af5GwcEloUaTeK5QgN8_QoYoC8lHGztvJzPjo4gYFG4LQA&oe=6A15175E",
-      "details": [
-        "71 m2 de apartamento",
-        "15 m2 de parqueo",
-        "Incluye línea blanca",
-        "Apartamento esquinero de 2 habitaciones, 2 baños, 2 balcones, cuarto de pilas, está ubicado en el piso 5 de la torre B, con vista al bosque, se da con linea blanca. El apartamento esta en excelentes condiciones de uso.",
-        "Además el precio incluye un parqueo que se encuentra en primer piso bajo techo.",
-        "Amenidades: Piscina, Area de BBQ, Parque para mascotas, Gimnasio, Áreas verdes, parqueos para visitas, seguridad 24/7 con recepcionista de documentos."
-      ],
-      "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
-      },
-      "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
-      "inquirySource": "catalogo",
-      "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXcewDSkbtG/",
-      "translations": {
-        "en": {
-          "title": "House 2 Bedrooms · 2 Bathrooms · with Appliances",
-          "location": "Torres de Heredia (KHAYA RUTA 1)",
-          "priceLabel": "$150,000 USD",
-          "details": [
-            "71 m² apartment",
-            "15 m² parking space",
-            "Appliances included",
-            "Corner apartment with 2 bedrooms, 2 bathrooms, 2 balconies, and a laundry room. It is located on the 5th floor of Tower B, has a forest view, and comes with appliances. The apartment is in excellent condition.",
-            "The price also includes a covered parking space on the first floor.",
-            "Amenities: pool, BBQ area, dog park, gym, green areas, visitor parking, and 24/7 security with document reception."
-          ],
-          "badgeText": "FOR SALE"
-        }
-      },
-      "searchLocationKey": "heredia"
-    },
-    {
       "id": "prop-118",
       "category": "alquiler",
       "status": "disponible",
@@ -596,7 +674,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-1",
@@ -649,7 +727,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Ubicación por confirmar",
+      "location": "Torres de Heredia",
       "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 1,
@@ -670,7 +748,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/",
       "translations": {
         "en": {
@@ -688,7 +766,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-3",
@@ -716,7 +794,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWPMLXwkR4J/",
       "translations": {
         "en": {
@@ -871,7 +949,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Casa 2 Habitaciones",
-      "location": "Ubicación por confirmar",
+      "location": "San Juan de Dios, Desamparados",
       "price": 400000,
       "priceLabel": "₡400,000 / mes",
       "beds": 2,
@@ -897,7 +975,7 @@
       "translations": {
         "en": {
           "title": "House 2 Bedrooms",
-          "location": "Location to be confirmed",
+          "location": "San Juan de Dios, Desamparados",
           "priceLabel": "₡400,000 / month",
           "details": [
             "Garage for 2 vehicles",
@@ -910,7 +988,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "desamparados"
     },
     {
       "id": "prop-8",
@@ -1795,7 +1873,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "San-Jose"
+      "searchLocationKey": "san-jose"
     },
     {
       "id": "prop-28",
@@ -2723,7 +2801,7 @@
           "badgeText": "FOR SALE"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-52",
@@ -4808,7 +4886,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
       "translations": {
         "en": {
@@ -4826,28 +4904,28 @@
           "badgeText": "FOR SALE"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "ubicacion-por-confirmar"
     }
   ],
   "featuredProperties": [
     {
-      "id": "prop-125",
+      "id": "prop-131",
       "category": "alquiler",
       "status": "disponible",
-      "title": "Apartamento 1 Habitación",
-      "location": "Torres de Heredia",
-      "price": 450000,
-      "priceLabel": "₡450,000 / mes",
+      "title": "Apartamento 1 Habitación · Amoblado",
+      "location": "Instagram: \"SE ALQUILA",
+      "price": 1000,
+      "priceLabel": "$1000 USD / mes",
       "beds": 1,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/711474836_1761485771881699_3780933254975670877_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=XlIMwp0RTEoQ7kNvwF4WJ9l&_nc_oc=AdpBqiGGaU9B4uTq4ckENgXjMQgF8yEjPob_flhtLL_0-kLfwjw1cFa6vTBySim2LAU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=jZ2JD-FR_hcYsUnEsRNlEA&_nc_ss=7b689&oh=00_AQCk5BiXHJyInnRCddXcBp-8gD_7nzMxz7BJEBoRSBRMFg&oe=6A55FB5E",
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/741705108_17976732669026180_3619623752770490037_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=r0gLhPfQyG0Q7kNvwGMJH2j&_nc_oc=AdpLRGY8UW_g0WKLCdGtIscNteONYIAiHNaKV8z7DYdrOsrxxuMUh6ME8xm2wFBSlXo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=AdTR-ywhjptcskT9zVwZ0A&_nc_ss=7aa8c&oh=00_AQCCjIcmIVLAeux2PpjMt3n0rcHza19XLR9YNAjP8F3WMA&oe=6A55EE81",
       "details": [
-        "www.brokermikecr.com",
-        "El apartamento se renta así como lo ve en el video",
-        "🍀Piscina",
-        "🍀Jacuzzi",
-        "🍀Gimnasio",
-        "🍀Áreas verdes"
+        "🍀piscina",
+        "🍀jacuzzi",
+        "🍀área de BBQ",
+        "🍀áreas verdes",
+        "🍀gimnasio",
+        "🍀lounge"
       ],
       "badge": {
         "text": "SE ALQUILA",
@@ -4857,140 +4935,56 @@
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZAZjXRRyNw/",
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DaitdQ4vFT4/",
       "translations": {
         "en": {
-          "title": "Apartment 1 Bedroom",
-          "location": "Torres de Heredia",
-          "priceLabel": "₡450,000 / month",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "SE ALQUILA",
+          "priceLabel": "$1000 USD / month",
           "details": [
-            "Www.brokermikecr.com",
-            "El apartment se renta así como lo ve en el video",
             "Piscina",
             "Jacuzzi",
+            "BBQ area",
+            "Green areas",
             "Gimnasio",
-            "Green areas"
+            "Lounge"
           ],
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "instagram-se-alquila"
     },
     {
-      "id": "prop-126",
-      "category": "venta",
+      "id": "prop-132",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Apartamento con Balcón",
-      "location": "Torres de Heredia (Khaya ruta 1)",
-      "price": 110000,
-      "priceLabel": "$110,000 USD",
-      "beds": 0,
-      "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/716742890_17972053899026180_6447116006819730371_n.jpg?stp=c144.0.432.432a_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vJKmiEmxCgIQ7kNvwGLLL-o&_nc_oc=Adrk4xEAkFjFS_gptWOQSt6WObCDL4nR6yvJaxDi6kgj3mtrMz0LGaQGLcy-iBbyKks&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=48SYjYl-OKW8s4auInwHUQ&_nc_ss=7b689&oh=00_AQCSqxO5szvcMjdc9DsszxcXmuNOvc2z5jwto0TvYFWx1g&oe=6A55EDEA",
-      "details": [
-        "✳️Cocina empotrada",
-        "✳️Lavaseca",
-        "✳️Parqueo bajo techo",
-        "✳️Balcón",
-        "✳️Piscina",
-        "✳️Jacuzzi"
-      ],
-      "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
-      },
-      "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
-      "inquirySource": "catalogo",
-      "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
-      "translations": {
-        "en": {
-          "title": "Apartment with Balcony",
-          "location": "Torres de Heredia (Khaya ruta 1)",
-          "priceLabel": "$110,000 USD",
-          "details": [
-            "✳️Cocina empotrada",
-            "✳️Lavaseca",
-            "✳️covered parking",
-            "✳️Balcón",
-            "✳️Piscina",
-            "✳️Jacuzzi"
-          ],
-          "badgeText": "FOR SALE"
-        }
-      },
-      "searchLocationKey": "Heredia"
-    },
-    {
-      "id": "prop-124",
-      "category": "venta",
-      "status": "disponible",
-      "title": "SE VENDE local comercial (Kiosco) en PLAZA TORRES DE HEREDIA de 28m2",
-      "location": "SE VENDE local comercial (Kiosco) en PLAZA TORRES DE HEREDIA de 28m2",
-      "price": 19990000,
-      "priceLabel": "₡19,990,000",
-      "beds": 0,
-      "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/703954679_1510061860620946_648265781015786195_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=85Nzx7i0kjIQ7kNvwH40RSu&_nc_oc=AdqxH_Y_zj4DyuXUYGlYzdGgl89tcDniaepLBk1rXQZmAiHe5w82RJ-5U5gP2ImScuo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=fvc-vLJ1tM_ecBF1R1Zo2w&_nc_ss=7b689&oh=00_AQAQPoQmqpOaMusVXiQbuHA3get1t8M5BPVI-f46sgbxCw&oe=6A55F748",
-      "details": [
-        "En este centro comercial se encuentra el BCR, Davivienda, bares, restaurantes, mini Market, clínicas para la salud, entre otros comercios.",
-        "Se encuentra ubicado al frente de la zona franca metropolitana en Barreal de Heredia, en la parte de atrás del centro comercial hay un proyecto de vivienda de apartamentos en torre, actualmente hay 2 torres construidas y pronto estará lista la tercera, con más de 400 apartamentos."
-      ],
-      "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
-      },
-      "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
-      "inquirySource": "catalogo",
-      "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYnRu0HRTWH/",
-      "translations": {
-        "en": {
-          "title": "SE VENDE local comercial (Kiosco) en PLAZA TORRES DE HEREDIA de 28m2",
-          "location": "SE VENDE local comercial (Kiosco) en PLAZA TORRES DE HEREDIA de 28m2",
-          "priceLabel": "₡19,990,000",
-          "details": [
-            "En este centro comercial se encuentra el BCR, Davivienda, bares, restaurantes, mini Market, clínicas para la salud, entre otros comercios.",
-            "Se encuentra ubicado al frente de la zona franca metropolitana en Barreal de Heredia, en la parte de atrás del centro comercial hay un proyecto de vivienda de apartments en torre, actualmente hay 2 torres construidas y pronto estará lista la tercera, con más de 400 apartments."
-          ],
-          "badgeText": "FOR SALE"
-        }
-      },
-      "searchLocationKey": "heredia"
-    },
-    {
-      "id": "prop-122",
-      "category": "venta",
-      "status": "disponible",
-      "title": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-      "location": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-      "price": 75000000,
-      "priceLabel": "₡75 000 000",
-      "beds": 0,
-      "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/690367910_1520394293018512_2759492390870764492_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wNchFVCfkmkQ7kNvwFd5Mjv&_nc_oc=AdpnupEWE7SsB_DaRq1pXoK4l3iEwPohblrdapx85xo_o1d4aRkIOk5BvIs8-7vxyjc&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=pVNMaBjOSY_XzSqSIPPn2w&_nc_ss=7b689&oh=00_AQAxcWpphh2RovFP4jHVjYSsqPQbNb4CddKo1OVfcFnQzw&oe=6A55E324",
+      "title": "Casa 3 Habitaciones · 2 Baños",
+      "location": "Instagram: \"SE ALQUILA",
+      "price": 0,
+      "priceLabel": "Consultar precio / mes",
+      "beds": 3,
+      "baths": 2,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/740953859_17976726795026180_5266369802038323283_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oNW6NQrjdGYQ7kNvwFoLrwJ&_nc_oc=Ado1wgCLG8LvXmfdY_70GBg78C98OIdXc5FbtB83t6Tk87LvIx7yiAZmhIc2-5pY2IY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=oDUD0nOD_mRapLHDGjGCRA&_nc_ss=7aa8c&oh=00_AQDHmSo-klhZwt6mD6bHN0ioshg4aFqL2l6i_8cKgu5u6w&oe=6A560E8B",
       "details": [],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYQhrQrR2BJ/",
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DaimeUkMAbf/",
       "translations": {
         "en": {
-          "title": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-          "location": "Se Vende propiedad en el centro de Puntarenas, uso de suelo comercial, 340m2, con 12, 5m de frente.",
-          "priceLabel": "₡75000000",
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Instagram: \"SE ALQUILA",
+          "priceLabel": "Price on request / month",
           "details": [],
-          "badgeText": "FOR SALE"
+          "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "puntarenas"
+      "searchLocationKey": "instagram-se-alquila"
     },
     {
       "id": "prop-119",
@@ -5078,7 +5072,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-116",
@@ -5153,7 +5147,7 @@
       "translations": {
         "en": {
           "title": "House 1 Bedroom · with Appliances",
-          "location": "BeCariari (Real Cariari)",
+          "location": "Location to be confirmed",
           "priceLabel": "$950 USD",
           "details": [
             "Studio type (1 bedroom)",
@@ -5162,148 +5156,11 @@
             "Pool view",
             "1.5 bathrooms",
             "Walk-in closet"
-          ]
+          ],
+          "badgeText": "FOR RENT"
         }
       },
       "searchLocationKey": "heredia"
-    },
-    {
-      "id": "prop-1",
-      "category": "alquiler",
-      "status": "disponible",
-      "title": "Apartamento 2 Habitaciones · 2 Baños · con Balcón",
-      "location": "Torres de Heredia, (Khaya ruta 1)",
-      "price": 0,
-      "priceLabel": "Consultar precio / mes",
-      "beds": 2,
-      "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/661040107_1901204777234351_674432110434194337_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=bUl75iHTuqUQ7kNvwHNlt0t&_nc_oc=AdocKNftUAmNI_Ghm15H5YIxH9YgKeIxBVdx_SLmDD5-k5-I1K0adb8WuYUTuzefRvU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=_RsgpFI8pNpeluzHXaLxLA&_nc_ss=7b689&oh=00_AQBUvhjOj4-C6dobadQn40H6w2Fm4eBybxkK22riVGpjxw&oe=6A55E8A3",
-      "details": [
-        "2 habitaciones",
-        "2 baños",
-        "2 balcones",
-        "Esquinero",
-        "Calentador de agua",
-        "Puertas de vidrio corredizas"
-      ],
-      "badge": {
-        "text": "SE ALQUILA",
-        "variant": "primary"
-      },
-      "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
-      "inquirySource": "catalogo",
-      "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWo1hUmkTjs/",
-      "translations": {
-        "en": {
-          "badgeText": "FOR RENT",
-          "details": [
-            "2 bedrooms",
-            "2 bathrooms",
-            "2 balcones",
-            "Corner unit",
-            "Water heater",
-            "Sliding glass doors"
-          ],
-          "location": "Torres de Heredia, (Khaya ruta 1)",
-          "priceLabel": "Price on request / month",
-          "title": "Apartment 2 Bedrooms · 2 Bathrooms · with Balcony"
-        }
-      },
-      "searchLocationKey": "Heredia"
-    },
-    {
-      "id": "prop-2",
-      "category": "alquiler",
-      "status": "disponible",
-      "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Ubicación por confirmar",
-      "price": 900,
-      "priceLabel": "$900 USD / mes",
-      "beds": 1,
-      "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/659138863_1486192659595719_7420859786082071621_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=MfzwUvuBaZ8Q7kNvwH7N-2Y&_nc_oc=AdovvDa8LUoyn_U5CZ11AtP0EOIf66pylOUZClvYUxZMIV45ulTxHRVp4u5WigK66yI&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=a4XDfARgbbGuTKzHwFAM8w&_nc_ss=7b689&oh=00_AQDjkemACGBQv-uVZKUy1Ln_2LyBgboN53FnUrr-GyMZOw&oe=6A55EE29",
-      "details": [
-        "El apartamento se renta así como lo ve en las fotografías.",
-        "Piscina",
-        "Jacuzzi",
-        "Gimnasio",
-        "Áreas verdes",
-        "Área de BBQ"
-      ],
-      "badge": {
-        "text": "SE ALQUILA",
-        "variant": "primary"
-      },
-      "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
-      "inquirySource": "catalogo",
-      "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/",
-      "translations": {
-        "en": {
-          "title": "Apartment 1 Bedroom · with Appliances",
-          "location": "Torres de Heredia",
-          "priceLabel": "$900 USD / month",
-          "details": [
-            "The apartment is rented as shown in the photos.",
-            "Pool",
-            "Jacuzzi",
-            "Gym",
-            "Green areas",
-            "BBQ area"
-          ],
-          "badgeText": "FOR RENT"
-        }
-      },
-      "searchLocationKey": "ubicacion-por-confirmar"
-    },
-    {
-      "id": "prop-3",
-      "category": "alquiler",
-      "status": "disponible",
-      "title": "Apartamento 2 Habitaciones · 2 Baños · Amoblado",
-      "location": "Torres de la Colina, Escazu",
-      "price": 1600,
-      "priceLabel": "$1600USD / mes",
-      "beds": 2,
-      "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/657429945_904029125962389_5604823339628021054_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yJUb0qHkEKsQ7kNvwFZSbFq&_nc_oc=AdrEdGUO9Qu6Tr2ThAh89UOxP4c2HhDF-2t05Qnd-7vm5oxPBVVM2mVzU8bjmYTIqwY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=M0s-FHctWDeg-d7rr4GehQ&_nc_ss=7b689&oh=00_AQAESDIU5oEgpCJiZdlazk2tqc77kgldCOkAzkJMyFedSQ&oe=6A55EA8D",
-      "details": [
-        "Piso 6 con increíble vista a la ciudad",
-        "2 habitaciones",
-        "2 baños",
-        "1 parqueo bajo techo",
-        "Full amoblado",
-        "Seguridad 24/7"
-      ],
-      "badge": {
-        "text": "SE ALQUILA",
-        "variant": "primary"
-      },
-      "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
-      "inquirySource": "catalogo",
-      "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWPMLXwkR4J/",
-      "translations": {
-        "en": {
-          "title": "Apartment 2 Bedrooms · 2 Bathrooms · Furnished",
-          "location": "Torres de la Colina, Escazu",
-          "priceLabel": "$1600USD / month",
-          "details": [
-            "6th floor with an incredible city view",
-            "2 bedrooms",
-            "2 bathrooms",
-            "1 covered parking space",
-            "Fully furnished",
-            "24/7 security"
-          ],
-          "badgeText": "FOR RENT"
-        }
-      },
-      "searchLocationKey": "escazu"
     },
     {
       "id": "prop-4",
@@ -5391,55 +5248,133 @@
         }
       },
       "searchLocationKey": "santa-ana"
-    },
+    }
+  ],
+  "catalogProperties": [
     {
-      "id": "prop-126",
-      "category": "venta",
+      "id": "prop-131",
+      "category": "alquiler",
       "status": "disponible",
-      "title": "Apartamento con Balcón",
-      "location": "Ubicación por confirmar",
-      "price": 110000,
-      "priceLabel": "$110,000 USD",
-      "beds": 0,
+      "title": "Apartamento 1 Habitación · Amoblado",
+      "location": "Instagram: \"SE ALQUILA",
+      "price": 1000,
+      "priceLabel": "$1000 USD / mes",
+      "beds": 1,
       "baths": 0,
-      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/716742890_17972053899026180_6447116006819730371_n.jpg?stp=c144.0.432.432a_dst-jpg_e35_s640x640_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vJKmiEmxCgIQ7kNvwGLLL-o&_nc_oc=Adrk4xEAkFjFS_gptWOQSt6WObCDL4nR6yvJaxDi6kgj3mtrMz0LGaQGLcy-iBbyKks&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=48SYjYl-OKW8s4auInwHUQ&_nc_ss=7b689&oh=00_AQCSqxO5szvcMjdc9DsszxcXmuNOvc2z5jwto0TvYFWx1g&oe=6A55EDEA",
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/741705108_17976732669026180_3619623752770490037_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=r0gLhPfQyG0Q7kNvwGMJH2j&_nc_oc=AdpLRGY8UW_g0WKLCdGtIscNteONYIAiHNaKV8z7DYdrOsrxxuMUh6ME8xm2wFBSlXo&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=AdTR-ywhjptcskT9zVwZ0A&_nc_ss=7aa8c&oh=00_AQCCjIcmIVLAeux2PpjMt3n0rcHza19XLR9YNAjP8F3WMA&oe=6A55EE81",
       "details": [
-        "✳️Cocina empotrada",
-        "✳️Lavaseca",
-        "✳️Parqueo bajo techo",
-        "✳️Balcón",
-        "✳️Piscina",
-        "✳️Jacuzzi"
+        "🍀piscina",
+        "🍀jacuzzi",
+        "🍀área de BBQ",
+        "🍀áreas verdes",
+        "🍀gimnasio",
+        "🍀lounge"
       ],
       "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
+        "text": "SE ALQUILA",
+        "variant": "primary"
       },
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
       "featured": true,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DaitdQ4vFT4/",
       "translations": {
         "en": {
-          "title": "Apartment with Balcony",
-          "location": "Location to be confirmed",
-          "priceLabel": "$110,000 USD",
+          "title": "Apartment 1 Bedroom · Furnished",
+          "location": "SE ALQUILA",
+          "priceLabel": "$1000 USD / month",
           "details": [
-            "✳️Cocina empotrada",
-            "✳️Lavaseca",
-            "✳️covered parking",
-            "✳️Balcón",
-            "✳️Piscina",
-            "✳️Jacuzzi"
+            "Piscina",
+            "Jacuzzi",
+            "BBQ area",
+            "Green areas",
+            "Gimnasio",
+            "Lounge"
           ],
-          "badgeText": "FOR SALE"
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "instagram-se-alquila"
+    },
+    {
+      "id": "prop-132",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Casa 3 Habitaciones · 2 Baños",
+      "location": "Instagram: \"SE ALQUILA",
+      "price": 0,
+      "priceLabel": "Consultar precio / mes",
+      "beds": 3,
+      "baths": 2,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/740953859_17976726795026180_5266369802038323283_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oNW6NQrjdGYQ7kNvwFoLrwJ&_nc_oc=Ado1wgCLG8LvXmfdY_70GBg78C98OIdXc5FbtB83t6Tk87LvIx7yiAZmhIc2-5pY2IY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=oDUD0nOD_mRapLHDGjGCRA&_nc_ss=7aa8c&oh=00_AQDHmSo-klhZwt6mD6bHN0ioshg4aFqL2l6i_8cKgu5u6w&oe=6A560E8B",
+      "details": [],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": true,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DaimeUkMAbf/",
+      "translations": {
+        "en": {
+          "title": "House 3 Bedrooms · 2 Bathrooms",
+          "location": "Instagram: \"SE ALQUILA",
+          "priceLabel": "Price on request / month",
+          "details": [],
+          "badgeText": "FOR RENT"
+        }
+      },
+      "searchLocationKey": "instagram-se-alquila"
+    },
+    {
+      "id": "prop-133",
+      "category": "alquiler",
+      "status": "disponible",
+      "title": "Apartamento 1 Habitación · con Línea Blanca",
+      "location": "Ubicación por confirmar",
+      "price": 950,
+      "priceLabel": "$950 USD / mes",
+      "beds": 1,
+      "baths": 1,
+      "image": "https://scontent.cdninstagram.com/v/t51.82787-15/741168810_17976617214026180_8202516565967757825_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ehMOhzPuMesQ7kNvwG1MAxo&_nc_oc=Adr3-HxUuo24Z5oCWNJz3HN5Azq46L07SMGRIFsInaKdSWB_lj0TeTTEvGSmBZfoVRY&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=KajBrn42c9mXKM8LA7tvRg&_nc_ss=7aa8c&oh=00_AQDzYmCfbo3mO4Ij54pbne4SPrs4lRbFEbpcpcp_5vQlHQ&oe=6A55EED8",
+      "details": [
+        "🍀1 habitación",
+        "🍀1 baño",
+        "🍀Cocina, sala, comedor, cuarto de pilas, áreas de almacenaje, Aire Acondicionado en la habitación principal.",
+        "🍀Precio incluye un parqueo.",
+        "🍀Piscina",
+        "🍀Jacuzzi"
+      ],
+      "badge": {
+        "text": "SE ALQUILA",
+        "variant": "primary"
+      },
+      "contactPhone": "7112 1318",
+      "inquiryEnabled": true,
+      "inquirySource": "catalogo",
+      "featured": false,
+      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DagW9FfR8Xm/",
+      "translations": {
+        "en": {
+          "title": "Apartment 1 Bedroom · with Línea Blanca",
+          "location": "Location to be confirmed",
+          "priceLabel": "$950 USD / month",
+          "details": [
+            "1 bedroom",
+            "1 bathroom",
+            "Cocina, sala, comedor, laundry room, áreas de almacenaje, Aire Acondicionado en la bedroom principal.",
+            "Precio incluye un parqueo.",
+            "Piscina",
+            "Jacuzzi"
+          ],
+          "badgeText": "FOR RENT"
         }
       },
       "searchLocationKey": "ubicacion-por-confirmar"
-    }
-  ],
-  "catalogProperties": [
+    },
     {
       "id": "prop-127",
       "category": "alquiler",
@@ -5632,7 +5567,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DZAZjXRRyNw/",
       "translations": {
         "en": {
@@ -5674,7 +5609,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYnRu0HRTWH/",
       "translations": {
         "en": {
@@ -5780,7 +5715,7 @@
           "badgeText": "FOR SALE"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-122",
@@ -5801,7 +5736,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DYQhrQrR2BJ/",
       "translations": {
         "en": {
@@ -5945,52 +5880,6 @@
       "searchLocationKey": "heredia"
     },
     {
-      "id": "prop-117",
-      "category": "venta",
-      "status": "disponible",
-      "title": "Apartamento 2 Habitaciones · 2 Baños · con Línea Blanca",
-      "location": "Torres de Heredia (KHAYA RUTA 1)",
-      "price": 150000,
-      "priceLabel": "$150,000 USD",
-      "beds": 2,
-      "baths": 2,
-      "image": "https://scontent.cdninstagram.com/v/t51.71878-15/670882656_1384799513411551_1887738600767749049_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=AOewrvx3O3IQ7kNvwGVt7I-&_nc_oc=AdocUwZzttaVIo-P3BKMjvlGZotubL9oQdE6yI_kRQXq2A8gGDXDrh6uCA4GyjRh8Dg&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=_zcZrwQqmHWfsy3XzI2zrA&_nc_ss=7ba8c&oh=00_Af5GwcEloUaTeK5QgN8_QoYoC8lHGztvJzPjo4gYFG4LQA&oe=6A15175E",
-      "details": [
-        "71 m2 de apartamento",
-        "15 m2 de parqueo",
-        "Incluye línea blanca",
-        "Apartamento esquinero de 2 habitaciones, 2 baños, 2 balcones, cuarto de pilas, está ubicado en el piso 5 de la torre B, con vista al bosque, se da con linea blanca. El apartamento esta en excelentes condiciones de uso.",
-        "Además el precio incluye un parqueo que se encuentra en primer piso bajo techo.",
-        "Amenidades: Piscina, Area de BBQ, Parque para mascotas, Gimnasio, Áreas verdes, parqueos para visitas, seguridad 24/7 con recepcionista de documentos."
-      ],
-      "badge": {
-        "text": "SE VENDE",
-        "variant": "secondary"
-      },
-      "contactPhone": "7112 1318",
-      "inquiryEnabled": true,
-      "inquirySource": "catalogo",
-      "featured": false,
-      "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DXcewDSkbtG/",
-      "translations": {
-        "en": {
-          "title": "House 2 Bedrooms · 2 Bathrooms · with Appliances",
-          "location": "Torres de Heredia (KHAYA RUTA 1)",
-          "priceLabel": "$150,000 USD",
-          "details": [
-            "71 m² apartment",
-            "15 m² parking space",
-            "Appliances included",
-            "Corner apartment with 2 bedrooms, 2 bathrooms, 2 balconies, and a laundry room. It is located on the 5th floor of Tower B, has a forest view, and comes with appliances. The apartment is in excellent condition.",
-            "The price also includes a covered parking space on the first floor.",
-            "Amenities: pool, BBQ area, dog park, gym, green areas, visitor parking, and 24/7 security with document reception."
-          ],
-          "badgeText": "FOR SALE"
-        }
-      },
-      "searchLocationKey": "heredia"
-    },
-    {
       "id": "prop-118",
       "category": "alquiler",
       "status": "disponible",
@@ -6034,7 +5923,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-1",
@@ -6043,7 +5932,7 @@
       "title": "Apartamento 2 Habitaciones · 2 Baños · con Balcón",
       "location": "Torres de Heredia, (Khaya ruta 1)",
       "price": 500000,
-      "priceLabel": "500000",
+      "priceLabel": "Consultar precio / mes",
       "beds": 2,
       "baths": 2,
       "image": "https://scontent.cdninstagram.com/v/t51.71878-15/661040107_1901204777234351_674432110434194337_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=bUl75iHTuqUQ7kNvwHNlt0t&_nc_oc=AdocKNftUAmNI_Ghm15H5YIxH9YgKeIxBVdx_SLmDD5-k5-I1K0adb8WuYUTuzefRvU&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=_RsgpFI8pNpeluzHXaLxLA&_nc_ss=7b689&oh=00_AQBUvhjOj4-C6dobadQn40H6w2Fm4eBybxkK22riVGpjxw&oe=6A55E8A3",
@@ -6087,7 +5976,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Ubicación por confirmar",
+      "location": "Torres de Heredia",
       "price": 900,
       "priceLabel": "$900 USD / mes",
       "beds": 1,
@@ -6108,7 +5997,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWm7RNlkQj8/",
       "translations": {
         "en": {
@@ -6126,7 +6015,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-3",
@@ -6154,7 +6043,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DWPMLXwkR4J/",
       "translations": {
         "en": {
@@ -6264,7 +6153,7 @@
           "badgeText": "FOR SALE"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-6",
@@ -6309,7 +6198,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Casa 2 Habitaciones",
-      "location": "Ubicación por confirmar",
+      "location": "San Juan de Dios, Desamparados",
       "price": 400000,
       "priceLabel": "₡400,000 / mes",
       "beds": 2,
@@ -6335,7 +6224,7 @@
       "translations": {
         "en": {
           "title": "House 2 Bedrooms",
-          "location": "Location to be confirmed",
+          "location": "San Juan de Dios, Desamparados",
           "priceLabel": "₡400,000 / month",
           "details": [
             "Garage for 2 vehicles",
@@ -6348,7 +6237,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "desamparados"
     },
     {
       "id": "prop-8",
@@ -6824,15 +6713,15 @@
       "sourceUrl": "https://www.instagram.com/brokermike.cr/reel/DSdg67NkTn9/",
       "translations": {
         "en": {
-          "badgeText": "FOR LEASE",
+          "title": "Warehouse Available",
+          "location": "El coco Alajuela",
+          "priceLabel": "$800 USD / month",
           "details": [
             "We have 3 warehouses available in Alajuela",
             "Water and electricity services included.",
             "Private place with security and electric gate."
           ],
-          "location": "Location to be confirmed",
-          "priceLabel": "$800 USD / month",
-          "title": "Warehouse Available"
+          "badgeText": "FOR LEASE"
         }
       },
       "searchLocationKey": "alajuela"
@@ -8161,7 +8050,7 @@
           "badgeText": "FOR SALE"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-52",
@@ -10186,7 +10075,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-115",
@@ -10218,7 +10107,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-126",
@@ -10246,7 +10135,7 @@
       "contactPhone": "7112 1318",
       "inquiryEnabled": true,
       "inquirySource": "catalogo",
-      "featured": true,
+      "featured": false,
       "sourceUrl": "https://www.instagram.com/brokermike.cr/p/DZIcRzokfyJ/",
       "translations": {
         "en": {
