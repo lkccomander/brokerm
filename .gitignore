@@ -30,3 +30,4 @@ docs/
 mem/
 graphify-out/
 landingpage/.gitignore
+.superpowers/
