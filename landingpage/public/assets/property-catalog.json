@@ -1,13 +1,13 @@
 {
   "source": "social-thumbnailer-drafts",
-  "generatedAt": "2026-07-13T01:46:31Z",
+  "generatedAt": "2026-07-13T02:14:24Z",
   "allProperties": [
     {
       "id": "prop-131",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · Amoblado",
-      "location": "Instagram: \"SE ALQUILA",
+      "location": "Torres de Heredia",
       "price": 1000,
       "priceLabel": "$1000 USD / mes",
       "beds": 1,
@@ -46,14 +46,14 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "instagram-se-alquila"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-132",
       "category": "alquiler",
       "status": "disponible",
       "title": "Casa 3 Habitaciones · 2 Baños",
-      "location": "Instagram: \"SE ALQUILA",
+      "location": "Sabana Sur",
       "price": 0,
       "priceLabel": "Consultar precio / mes",
       "beds": 3,
@@ -78,14 +78,14 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "instagram-se-alquila"
+      "searchLocationKey": "san-jose"
     },
     {
       "id": "prop-133",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Ubicación por confirmar",
+      "location": "Torres de Heredia (Khaya Ruta 1)",
       "price": 950,
       "priceLabel": "$950 USD / mes",
       "beds": 1,
@@ -124,14 +124,14 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-127",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación",
-      "location": "Ubicación por confirmar",
+      "location": "Salitral de Santa Ana",
       "price": 1200,
       "priceLabel": "$1200 USD / mes",
       "beds": 1,
@@ -160,14 +160,14 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "santa-ana"
     },
     {
       "id": "prop-128",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones",
-      "location": "Ubicación por confirmar",
+      "location": "Salitral de Santa Ana",
       "price": 1800,
       "priceLabel": "$1800 USD / mes",
       "beds": 3,
@@ -198,7 +198,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "santa-ana"
     },
     {
       "id": "prop-129",
@@ -297,7 +297,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación",
-      "location": "Ubicación por confirmar",
+      "location": "Torres de Heredia",
       "price": 450000,
       "priceLabel": "₡450,000 / mes",
       "beds": 1,
@@ -336,7 +336,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-124",
@@ -4913,7 +4913,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · Amoblado",
-      "location": "Instagram: \"SE ALQUILA",
+      "location": "Torres de Heredia",
       "price": 1000,
       "priceLabel": "$1000 USD / mes",
       "beds": 1,
@@ -4952,14 +4952,14 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "instagram-se-alquila"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-132",
       "category": "alquiler",
       "status": "disponible",
       "title": "Casa 3 Habitaciones · 2 Baños",
-      "location": "Instagram: \"SE ALQUILA",
+      "location": "Sabana Sur",
       "price": 0,
       "priceLabel": "Consultar precio / mes",
       "beds": 3,
@@ -4984,7 +4984,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "instagram-se-alquila"
+      "searchLocationKey": "san-jose"
     },
     {
       "id": "prop-119",
@@ -5256,7 +5256,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · Amoblado",
-      "location": "Instagram: \"SE ALQUILA",
+      "location": "Torres de Heredia",
       "price": 1000,
       "priceLabel": "$1000 USD / mes",
       "beds": 1,
@@ -5295,14 +5295,14 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "instagram-se-alquila"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-132",
       "category": "alquiler",
       "status": "disponible",
       "title": "Casa 3 Habitaciones · 2 Baños",
-      "location": "Instagram: \"SE ALQUILA",
+      "location": "Sabana Sur",
       "price": 0,
       "priceLabel": "Consultar precio / mes",
       "beds": 3,
@@ -5327,14 +5327,14 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "instagram-se-alquila"
+      "searchLocationKey": "san-jose"
     },
     {
       "id": "prop-133",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación · con Línea Blanca",
-      "location": "Ubicación por confirmar",
+      "location": "Torres de Heredia (Khaya Ruta 1)",
       "price": 950,
       "priceLabel": "$950 USD / mes",
       "beds": 1,
@@ -5373,14 +5373,14 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-127",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación",
-      "location": "Ubicación por confirmar",
+      "location": "Salitral de Santa Ana",
       "price": 1200,
       "priceLabel": "$1200 USD / mes",
       "beds": 1,
@@ -5409,14 +5409,14 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "santa-ana"
     },
     {
       "id": "prop-128",
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 3 Habitaciones",
-      "location": "Ubicación por confirmar",
+      "location": "Salitral de Santa Ana",
       "price": 1800,
       "priceLabel": "$1800 USD / mes",
       "beds": 3,
@@ -5447,7 +5447,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "ubicacion-por-confirmar"
+      "searchLocationKey": "santa-ana"
     },
     {
       "id": "prop-129",
@@ -5546,7 +5546,7 @@
       "category": "alquiler",
       "status": "disponible",
       "title": "Apartamento 1 Habitación",
-      "location": "Ubicación por confirmar",
+      "location": "Torres de Heredia",
       "price": 450000,
       "priceLabel": "₡450,000 / mes",
       "beds": 1,
@@ -5585,7 +5585,7 @@
           "badgeText": "FOR RENT"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "heredia"
     },
     {
       "id": "prop-124",
@@ -6714,7 +6714,7 @@
       "translations": {
         "en": {
           "title": "Warehouse Available",
-          "location": "El coco Alajuela",
+          "location": "Location to be confirmed",
           "priceLabel": "$800 USD / month",
           "details": [
             "We have 3 warehouses available in Alajuela",
@@ -10153,7 +10153,7 @@
           "badgeText": "FOR SALE"
         }
       },
-      "searchLocationKey": "Heredia"
+      "searchLocationKey": "ubicacion-por-confirmar"
     }
   ]
 }
