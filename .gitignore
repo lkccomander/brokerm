@@ -31,3 +31,5 @@ mem/
 graphify-out/
 landingpage/.gitignore
 .superpowers/
+# Local clone of the upstream Inngest repository (not part of this project)
+/Inngest/
