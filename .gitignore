@@ -33,3 +33,9 @@ landingpage/.gitignore
 .superpowers/
 # Local clone of the upstream Inngest repository (not part of this project)
 /Inngest/
+
+# Local Instagram catalog refresh automation
+/refresh-instagram-catalog.ps1
+/register-instagram-catalog-refresh-task.ps1
+/run-scheduled-instagram-catalog-refresh.ps1
+/INSTAGRAM_REFRESH_RUNBOOK.md
