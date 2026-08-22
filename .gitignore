@@ -36,6 +36,7 @@ landingpage/.gitignore
 
 # Local Instagram catalog refresh automation
 /refresh-instagram-catalog.ps1
+/refresh-instagram-catalog-images-only.ps1
 /register-instagram-catalog-refresh-task.ps1
 /run-scheduled-instagram-catalog-refresh.ps1
 /INSTAGRAM_REFRESH_RUNBOOK.md
