@@ -40,3 +40,4 @@ landingpage/.gitignore
 /register-instagram-catalog-refresh-task.ps1
 /run-scheduled-instagram-catalog-refresh.ps1
 /INSTAGRAM_REFRESH_RUNBOOK.md
+/stitch.txt
