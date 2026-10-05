@@ -1,24 +1,12 @@
 $ErrorActionPreference = "Stop"
 
-$projectRoot = "C:\Projects\brokermike"
-$appPath = Join-Path $projectRoot "tools\instagram-thumbnailer\app.py"
-$venvPython = Join-Path $projectRoot "tools\instagram-thumbnailer\.venv\Scripts\python.exe"
+$appDir = Join-Path $PSScriptRoot "tools\instagram-thumbnailer"
+$appPath = Join-Path $appDir "app.py"
+$venvPython = Join-Path $appDir ".venv\Scripts\python.exe"
 
-Set-Location $projectRoot
-
-if (Test-Path $venvPython) {
-    & $venvPython $appPath
-    exit $LASTEXITCODE
+if (-not (Test-Path -LiteralPath $venvPython -PathType Leaf)) {
+    throw "No se encontro la .venv de la herramienta. Cree el entorno con: py -m venv '$appDir\.venv'. Luego ejecute: & '$venvPython' -m pip install -r '$appDir\requirements.txt'; & '$venvPython' -m playwright install chromium."
 }
 
-if (Get-Command py -ErrorAction SilentlyContinue) {
-    & py $appPath
-    exit $LASTEXITCODE
-}
-
-if (Get-Command python -ErrorAction SilentlyContinue) {
-    & python $appPath
-    exit $LASTEXITCODE
-}
-
-throw "No se encontro Python. Revise la .venv o su instalacion de Python en Windows."
+& $venvPython $appPath @args
+exit $LASTEXITCODE
