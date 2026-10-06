@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { heroContent } from '../data/mockData';
 import { usePublishedCatalog } from '../hooks/usePublishedCatalog';
 import { useSiteLanguage } from '../hooks/useSiteLanguage';
@@ -10,6 +10,28 @@ export interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
   const { isEnglish, localizePath } = useSiteLanguage();
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
+
+  useEffect(() => {
+    const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const syncPlayback = () => {
+      const video = videoRef.current;
+      if (!video) return;
+      if (motionPreference.matches) {
+        video.pause();
+      } else {
+        void video.play().catch(() => {
+          // Keep the poster visible when the browser blocks autoplay.
+        });
+      }
+    };
+
+    syncPlayback();
+    motionPreference.addEventListener('change', syncPlayback);
+    return () => motionPreference.removeEventListener('change', syncPlayback);
+  }, []);
+
   const { catalogProperties } = usePublishedCatalog();
   const [selectedCategory, setSelectedCategory] = useState<'alquiler' | 'venta' | 'bodegas'>('alquiler');
   const locationOptions = useMemo(
@@ -54,12 +76,27 @@ export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
 
   return (
     <header className={`relative min-h-screen flex items-center pt-20 overflow-hidden ${className}`}>
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 pointer-events-none" aria-hidden="true">
         <img
-          className="w-full h-full object-cover"
-          alt="ultra-modern luxury villa"
+          className="absolute inset-0 w-full h-full object-cover"
+          alt=""
           src={heroContent.image}
         />
+        <video
+          ref={videoRef}
+          className="absolute inset-0 w-full h-full object-cover"
+          autoPlay
+          muted
+          playsInline
+          preload="metadata"
+          poster={heroContent.image}
+          onPlay={() => setIsVideoPlaying(true)}
+          onPause={() => setIsVideoPlaying(false)}
+          onEnded={() => setIsVideoPlaying(false)}
+          onError={(event) => { event.currentTarget.hidden = true; }}
+        >
+          <source src="/videos/escazu-santa-ana-dusk.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-r from-on-background/80 via-on-background/40 to-transparent"></div>
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-8 w-full">
@@ -134,6 +171,22 @@ export const Hero: React.FC<HeroProps> = ({ className = '' }) => {
           </div>
         </div>
       </div>
+      <button
+        type="button"
+        className="absolute bottom-6 right-6 z-20 flex items-center gap-2 rounded-full border border-white/30 bg-black/40 px-4 py-2 text-sm text-white backdrop-blur-sm hover:bg-black/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+        onClick={() => {
+          const video = videoRef.current;
+          if (!video) return;
+          if (video.paused) {
+            void video.play().catch(() => {});
+          } else {
+            video.pause();
+          }
+        }}
+      >
+        <span className="material-symbols-outlined" aria-hidden="true">{isVideoPlaying ? 'pause' : 'play_arrow'}</span>
+        {isVideoPlaying ? (isEnglish ? 'Pause video' : 'Pausar video') : (isEnglish ? 'Play video' : 'Reproducir video')}
+      </button>
     </header>
   );
 };
